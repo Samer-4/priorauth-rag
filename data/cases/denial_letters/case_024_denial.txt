@@ -1,0 +1,78 @@
+# BLUECROSS BLUESHIELD OF ILLINOIS
+
+**Utilization Management Division**
+300 East Randolph Street | Chicago, IL 60601
+Phone: 1-800-892-2803 | Fax: 1-800-267-1526
+TTY/TDD: 1-800-742-4737
+www.bcbsil.com
+
+---
+
+**DATE:** January 15, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-0084471
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**Prior Authorization — Pharmacy Benefit**
+
+---
+
+**MEMBER INFORMATION**
+
+| | |
+|---|---|
+| **Patient Name:** | Nicole B. Harrington |
+| **Member ID / MRN:** | MRN-100257 |
+| **Date of Birth:** | On File |
+| **Plan Name:** | BlueCross BlueShield of Illinois PPO |
+| **Group Number:** | On File |
+
+---
+
+**PRESCRIBING PHYSICIAN INFORMATION**
+
+| | |
+|---|---|
+| **Prescribing Physician:** | Dr. Marcus Feldman, MD |
+| **Specialty:** | Family Medicine |
+| **NPI:** | 1750392468 |
+
+---
+
+**DRUG REQUESTED**
+
+| | |
+|---|---|
+| **Medication:** | Semaglutide 2.4 mg/dose subcutaneous injection (Wegovy®) |
+| **Requested Quantity:** | 4 pens per 28 days |
+| **Requested Duration:** | 12 months |
+| **Diagnosis Codes:** | E66.01 (Morbid obesity due to excess calories); M17.11 (Primary osteoarthritis, right knee); R73.09 (Prediabetes) |
+
+---
+
+## NOTICE OF DENIAL
+
+BlueCross BlueShield of Illinois has completed its review of the prior authorization request submitted on **January 10, 2025** by Dr. Marcus Feldman, MD (NPI: 1750392468) on behalf of member **Nicole B. Harrington (MRN-100257)**. After careful clinical review of all submitted documentation, the request for **semaglutide 2.4 mg (Wegovy®)** is **DENIED** for the following reason:
+
+> **Denial Classification: Alternative Covered Medication Available — Step Therapy Requirement Not Met**
+
+---
+
+## POLICY BASIS AND CLINICAL RATIONALE
+
+This determination is based on **BlueCross BlueShield of Illinois Clinical Policy Bulletin 0580: Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists and Combination Agents for Weight Management**, effective date **April 1, 2024**, and the applicable **Pharmacy Benefit Management Step Therapy Protocol ST-PH-112**, as incorporated into the member's benefit plan agreement (Benefit Plan Document, Section 7, Paragraph 4).
+
+**Clinical Review Summary:**
+
+The submitted clinical documentation for **Nicole B. Harrington (MRN-100257)** indicates the following:
+
+- Age 44, female
+- Body Mass Index (BMI): 36 kg/m²
+- Diagnosed conditions: obesity (E66.01), right knee osteoarthritis (M17.11), prediabetes (R73.09)
+- No documented prior trial of an alternative covered weight-management pharmacotherapy within the preceding 12 months
+
+Pursuant to **Clinical Policy Bulletin 0580, Section III.B (Step Therapy Requirements)**, authorization for **semaglutide 2.4 mg (Wegovy®)** requires documented evidence that the member has completed an adequate trial of **at least one (1) formulary-preferred covered weight-management agent**, defined as a minimum of **twelve (12) consecutive weeks** at a therapeutic dose, with documentation of inadequate clinical response (defined as less than 3% total body weight reduction) or clinically significant intolerance or contraindication.
+
+The documentation submitted does not demonstrate that **Nicole B. Harrington (MRN-100257)** has completed an adequate trial of the following covered, formulary-preferred alternative(s) prior to initiating therapy with semaglutide 2.4 mg (Wegovy®):
+
+| Preferred Agent

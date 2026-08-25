@@ -1,0 +1,12 @@
+{
+  "case_id": "case_019",
+  "patient_name": "Barbara N. Fitzgerald",
+  "patient_mrn": "MRN-100252",
+  "payer": "Cigna",
+  "drug": "tirzepatide (Zepbound)",
+  "denial_reason": "not_medically_necessary",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_019_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_019_note.txt"
+}

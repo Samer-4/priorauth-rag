@@ -1,0 +1,12 @@
+{
+  "case_id": "case_024",
+  "patient_name": "Nicole B. Harrington",
+  "patient_mrn": "MRN-100257",
+  "payer": "BlueCross BlueShield",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "alternative_covered",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_024_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_024_note.txt"
+}

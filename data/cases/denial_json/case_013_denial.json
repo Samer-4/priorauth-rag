@@ -1,0 +1,12 @@
+{
+  "case_id": "case_013",
+  "patient_name": "Emily J. Kowalski",
+  "patient_mrn": "MRN-100246",
+  "payer": "Cigna",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "non_formulary",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_013_denial.txt",
+  "format": "portal_message",
+  "note_file": "case_013_note.txt"
+}

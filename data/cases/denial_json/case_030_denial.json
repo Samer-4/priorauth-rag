@@ -1,0 +1,12 @@
+{
+  "case_id": "case_030",
+  "patient_name": "Tiffany S. Okonkwo",
+  "patient_mrn": "MRN-100263",
+  "payer": "BlueCross BlueShield",
+  "drug": "tirzepatide (Zepbound)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_030_denial.txt",
+  "format": "portal_message",
+  "note_file": "case_030_note.txt"
+}

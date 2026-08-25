@@ -1,0 +1,83 @@
+---
+
+# CIGNA HEALTHCARE
+**Utilization Management Division**
+900 Cottage Grove Road
+Bloomfield, CT 06002
+**Phone:** 1-800-244-6224 | **Fax:** 1-860-226-2206
+**www.cigna.com**
+
+---
+
+**DATE:** June 17, 2025
+**REFERENCE NUMBER:** UM-2025-06-PA-8841073
+**DETERMINATION TYPE:** Prior Authorization — **ADVERSE BENEFIT DETERMINATION (DENIAL)**
+
+---
+
+**TO:**
+Dr. Christine Poulos, MD
+Gastroenterology
+NPI: 1520639487
+
+**RE: PATIENT INFORMATION**
+**Patient Name:** Marcus A. Thompson
+**Member ID / MRN:** MRN-100244
+**Date of Birth:** [DOB on file]
+**Plan Name:** Cigna Connect 3000 — Commercial Group Plan
+**Group Number:** [Group Number on file]
+
+---
+
+## NOTICE OF ADVERSE BENEFIT DETERMINATION
+
+Dear Dr. Poulos,
+
+Cigna Healthcare has completed a review of the prior authorization request submitted on behalf of your patient, **Marcus A. Thompson (MRN-100244)**, for the medication identified below. After careful clinical review, Cigna has made the following determination:
+
+> **AUTHORIZATION STATUS: DENIED — NOT MEDICALLY NECESSARY AS SUBMITTED / OFF-LABEL USE NOT SUPPORTED**
+
+---
+
+### MEDICATION REQUESTED
+
+| Field | Detail |
+|---|---|
+| **Drug Name** | Semaglutide (Ozempic® 0.5 mg/1 mg/2 mg subcutaneous injection) |
+| **Manufacturer** | Novo Nordisk |
+| **Requested Indication (as submitted)** | Treatment of non-alcoholic fatty liver disease (NAFLD) |
+| **Requested Duration** | 12 months |
+| **Route of Administration** | Subcutaneous injection, weekly |
+| **HCPCS/NDC** | NDC 0169-4137-15 |
+
+---
+
+### CLINICAL INFORMATION REVIEWED
+
+Cigna's Utilization Management clinical team reviewed the following documentation submitted in connection with this request:
+
+- Prior authorization request form dated June 13, 2025
+- Prescribing physician attestation submitted by Dr. Christine Poulos, MD (NPI: 1520639487)
+- Clinical notes indicating patient age 38, male
+- Documented BMI: **29.0 kg/m²** (classified as **overweight**, not obese per CDC and NIH criteria)
+- Diagnosis of **non-alcoholic fatty liver disease (NAFLD)**, ICD-10-CM: **K76.0**
+- No documentation of concurrent diagnosis of Type 2 Diabetes Mellitus (ICD-10: E11.xx)
+- No documentation of established cardiovascular disease
+- No documentation of prior trial and failure of lifestyle modification programs, hepatology-directed therapies, or other pharmacologic interventions for NAFLD
+
+---
+
+### BASIS FOR DENIAL
+
+#### 1. Off-Label Use — Not a Cigna-Covered Indication for This Agent
+
+Ozempic® (semaglutide injection) is approved by the U.S. Food and Drug Administration (FDA) for the following indications only:
+
+- **Adjunct to diet and exercise to improve glycemic control in adults with Type 2 Diabetes Mellitus**
+- **Reduction of risk of major adverse cardiovascular events (MACE) in adults with Type 2 Diabetes Mellitus and established cardiovascular disease**
+
+The submitted request seeks authorization for semaglutide (Ozempic®) for the treatment of **non-alcoholic fatty liver disease (NAFLD)** in a patient **without a confirmed diagnosis of Type 2 Diabetes Mellitus**. This constitutes use of the medication for an indication that is **not approved by the FDA** for this specific agent and formulation and is therefore considered **off-label**.
+
+Cigna's coverage policies do not provide benefits for off-label drug use unless the use is supported by sufficient clinical evidence published in peer-reviewed compendia or literature, and the use is consistent with Cigna's applicable Clinical Policy Bulletins. Based on current evidence review, this use does not meet that standard.
+
+> **Note:** Oz

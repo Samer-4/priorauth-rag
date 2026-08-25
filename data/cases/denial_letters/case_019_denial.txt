@@ -1,0 +1,66 @@
+---
+
+# CIGNA HEALTHCARE
+**Utilization Management Division**
+900 Cottage Grove Road
+Bloomfield, CT 06002
+Phone: 1-800-244-6224 | Fax: 1-860-226-2345
+www.cigna.com
+
+---
+
+**DATE:** June 17, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-0061742
+
+**RE: Notice of Adverse Benefit Determination – Prior Authorization Denial**
+
+---
+
+**MEMBER INFORMATION**
+**Patient Name:** Barbara N. Fitzgerald
+**Member ID / MRN:** MRN-100252
+**Date of Birth:** On file
+**Plan Name:** Cigna Connect 3000 – Employer Sponsored Group Health Plan
+
+**PRESCRIBING PHYSICIAN INFORMATION**
+**Physician Name:** Dr. Hassan Qureshi, MD – Cardiology
+**NPI:** 1573820946
+**Fax on File:** On file
+
+---
+
+## DRUG REQUESTED
+**Medication:** Tirzepatide injection (Zepbound) 2.5 mg/0.5 mL subcutaneous auto-pen
+**Requested Quantity:** 4 auto-pens (28-day supply)
+**Requested Start Date:** June 10, 2025
+**Diagnosis Codes Submitted:** E66.09 (Morbid obesity due to excess calories), E78.5 (Hyperlipidemia, unspecified), I25.10 (Atherosclerotic heart disease of native coronary artery)
+
+---
+
+## DETERMINATION: **NOT APPROVED – NOT MEDICALLY NECESSARY**
+
+Cigna has completed its review of the prior authorization request submitted on behalf of **Barbara N. Fitzgerald (MRN-100252)** for **tirzepatide (Zepbound)**. After careful clinical review of the submitted documentation and application of applicable coverage criteria, Cigna has determined that this request **does not meet the criteria for medical necessity** as defined under the applicable plan benefit and Cigna Clinical Policy Bulletin.
+
+---
+
+## POLICY BASIS
+
+This determination was made pursuant to:
+
+**Cigna Clinical Policy Bulletin No. 0580**
+*Weight Management Medications and Obesity Pharmacotherapy*
+Effective Date: January 1, 2025 | Last Reviewed: March 15, 2025
+
+This policy governs coverage of GLP-1 receptor agonists and GIP/GLP-1 dual agonists, including tirzepatide (Zepbound), when prescribed for chronic weight management. Coverage under CPB 0580 requires satisfaction of **all** applicable criteria as outlined in Section III.B (Tirzepatide – Zepbound), including but not limited to:
+
+- Documentation of a Body Mass Index (BMI) ≥ 30 kg/m², **OR** BMI ≥ 27 kg/m² with at least one qualifying weight-related comorbidity as enumerated in the policy; **AND**
+- Documentation that the member has participated in and demonstrated an inadequate response to a **structured, supervised behavioral weight management program** (minimum 6 months duration) encompassing dietary counseling, physical activity intervention, and behavioral modification strategies, administered or supervised by a qualified healthcare professional; **AND**
+- Documentation that **at least one prior FDA-approved weight loss pharmacotherapy agent** (e.g., orlistat, phentermine-topiramate, bupropion-naltrexone) has been trialed at therapeutic doses for a minimum of 12 weeks and has resulted in less than 5% total body weight loss, or has been discontinued due to documented intolerance or contraindication; **AND**
+- The medication is prescribed or co-managed by, or in documented consultation with, a physician specializing in **endocrinology, obesity medicine, or internal medicine/primary care** with documented expertise in obesity pharmacotherapy. Prescriptions originating solely from subspecialty practices not primarily engaged in obesity management (including cardiology) must include documentation of coordination with a qualifying provider.
+
+---
+
+## CLINICAL RATIONALE FOR DENIAL
+
+Upon review of the submitted clinical documentation provided by **Dr. Hassan Qureshi, MD (NPI: 1573820946)**, Cigna's clinical reviewer determined the following deficiencies relative to the criteria established in **CPB 0580, Section III.

@@ -1,0 +1,12 @@
+{
+  "case_id": "case_021",
+  "patient_name": "Kevin R. Sullivan",
+  "patient_mrn": "MRN-100254",
+  "payer": "Aetna",
+  "drug": "semaglutide (Ozempic)",
+  "denial_reason": "off_label",
+  "appeal_tier": "no_viable_appeal",
+  "filename": "case_021_denial.txt",
+  "format": "portal_message",
+  "note_file": "case_021_note.txt"
+}

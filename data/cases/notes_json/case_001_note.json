@@ -1,0 +1,22 @@
+{
+  "case_id": "case_001",
+  "patient_name": "Jennifer L. Caldwell",
+  "patient_mrn": "MRN-100234",
+  "payer": "Aetna",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_001_note.txt",
+  "note_type": "progress_note",
+  "denial_file": "case_001_denial.txt",
+  "patient_age": 45,
+  "patient_bmi": 38,
+  "diagnoses": [
+    "E11.9",
+    "E66.01"
+  ],
+  "comorbidities": [
+    "type 2 diabetes",
+    "hypertension"
+  ]
+}

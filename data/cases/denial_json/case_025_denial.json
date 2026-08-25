@@ -1,0 +1,12 @@
+{
+  "case_id": "case_025",
+  "patient_name": "Antonio V. Russo",
+  "patient_mrn": "MRN-100258",
+  "payer": "Cigna",
+  "drug": "liraglutide (Saxenda)",
+  "denial_reason": "quantity_limit_exceeded",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_025_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_025_note.txt"
+}

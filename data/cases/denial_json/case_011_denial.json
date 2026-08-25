@@ -1,0 +1,12 @@
+{
+  "case_id": "case_011",
+  "patient_name": "Marcus A. Thompson",
+  "patient_mrn": "MRN-100244",
+  "payer": "Cigna",
+  "drug": "semaglutide (Ozempic)",
+  "denial_reason": "off_label",
+  "appeal_tier": "no_viable_appeal",
+  "filename": "case_011_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_011_note.txt"
+}

@@ -1,0 +1,61 @@
+---
+
+# CIGNA HEALTH AND LIFE INSURANCE COMPANY
+**Utilization Management Division**
+900 Cottage Grove Road | Bloomfield, CT 06002
+**Phone:** 1-800-244-6224 | **Fax:** 1-860-226-2748
+**TTY/TDD:** 1-800-855-2880 | **www.cigna.com**
+
+---
+
+**DATE:** June 16, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-0047821
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION – PRIOR AUTHORIZATION DENIAL**
+
+---
+
+## MEMBER AND CLAIM INFORMATION
+
+| | |
+|---|---|
+| **Member Name:** | Antonio V. Russo |
+| **Member ID / MRN:** | MRN-100258 |
+| **Date of Birth:** | On File |
+| **Plan Name:** | Cigna Open Access Plus (OAP) |
+| **Requesting Provider:** | Dr. Ingrid Halvorsen, MD (Internal Medicine) |
+| **Provider NPI:** | 1602849371 |
+| **Drug Requested:** | Liraglutide 3 mg/0.5 mL injection (Saxenda®) |
+| **Requested Quantity:** | 5 pens (18 mg/3 mL each) per 30-day supply |
+| **Date Request Received:** | June 12, 2025 |
+| **Date of Determination:** | June 16, 2025 |
+
+---
+
+## DETERMINATION
+
+**THIS REQUEST HAS BEEN DENIED.**
+
+Cigna Health and Life Insurance Company has completed its review of the prior authorization request submitted on behalf of **Antonio V. Russo (MRN-100258)** for **liraglutide 3 mg injection (Saxenda®)**, as prescribed by **Dr. Ingrid Halvorsen, MD, NPI 1602849371**.
+
+After review of the submitted clinical information and applicable coverage policies, this request is **denied as not covered** for the quantity requested. The quantity of medication requested **exceeds the allowable quantity limit** established under Cigna's applicable clinical coverage policy.
+
+---
+
+## POLICY BASIS FOR DENIAL
+
+This determination is based on the following:
+
+**Clinical Policy Bulletin: CPB-0580 – Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists for Weight Management and Type 2 Diabetes Mellitus**
+*(Effective Date: January 1, 2025 | Last Reviewed: March 15, 2025)*
+
+**Applicable Benefit Provision:** Member's pharmacy benefit plan document, Section 7.4 – Quantity and Duration Limits for Specialty Medications.
+
+Under **CPB-0580** and the member's plan formulary, liraglutide 3 mg (Saxenda®) is subject to a **quantity limit of 3 pens (18 mg/3 mL each) per 30-day supply**, consistent with the FDA-approved dosing titration schedule during the initiation phase. The prescribing provider has requested **5 pens per 30-day supply**, which exceeds the plan-allowed quantity limit by **2 pens (40% above the approved limit)**.
+
+The quantity limit established by Cigna for liraglutide 3 mg (Saxenda®) is based on the following clinical rationale:
+
+1. **FDA-Approved Dosing Titration Schedule:** Per the Saxenda® prescribing information (NDA 206321), liraglutide for chronic weight management is initiated at 0.6 mg subcutaneous injection once daily during Week 1, with weekly dose escalations of 0.6 mg until a maintenance dose of 3.0 mg once daily is reached by Week 5. The quantity limit of 3 pens per 30-day fill is consistent with the maximum consumption rate achievable under the approved titration schedule and maintenance dosing for a 30-day period.
+
+2. **Clinical Documentation Submitted:** The clinical information submitted for **Antonio V. Russo (MRN-100258)** reflects a 39-year-old male with a documented BMI of 40 kg/m² (morbid/Class III obesity) and

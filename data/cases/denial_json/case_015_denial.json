@@ -1,0 +1,12 @@
+{
+  "case_id": "case_015",
+  "patient_name": "Sofia E. Alvarez",
+  "patient_mrn": "MRN-100248",
+  "payer": "Aetna",
+  "drug": "liraglutide (Saxenda)",
+  "denial_reason": "plan_exclusion_weight_loss",
+  "appeal_tier": "no_viable_appeal",
+  "filename": "case_015_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_015_note.txt"
+}

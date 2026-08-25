@@ -1,0 +1,12 @@
+{
+  "case_id": "case_002",
+  "patient_name": "Robert M. Okafor",
+  "patient_mrn": "MRN-100235",
+  "payer": "UnitedHealthcare",
+  "drug": "tirzepatide (Zepbound)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_002_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_002_note.txt"
+}

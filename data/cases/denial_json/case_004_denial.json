@@ -1,0 +1,12 @@
+{
+  "case_id": "case_004",
+  "patient_name": "David K. Nguyen",
+  "patient_mrn": "MRN-100237",
+  "payer": "BlueCross BlueShield",
+  "drug": "liraglutide (Saxenda)",
+  "denial_reason": "off_label",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_004_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_004_note.txt"
+}

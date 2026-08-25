@@ -1,0 +1,72 @@
+---
+
+# AETNA
+**Aetna Life Insurance Company**
+151 Farmington Avenue
+Hartford, CT 06156
+Member Services: 1-800-872-3862
+Provider Services: 1-800-859-4357
+Fax: 1-860-754-2631
+
+---
+
+**DATE:** June 16, 2025
+
+**REFERENCE NUMBER:** AU-2025-06-NEX-881047
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**Prior Authorization Request — DENIAL**
+
+---
+
+**MEMBER INFORMATION**
+**Member Name:** Sofia E. Alvarez
+**Member ID / MRN:** MRN-100248
+**Date of Birth:** [DOB on file]
+**Plan Name:** Aetna Choice POS II
+
+**PRESCRIBING PROVIDER INFORMATION**
+**Physician:** Dr. Rebecca Stein, MD — Bariatric Medicine
+**NPI:** 1659083241
+**Practice Address:** [Address on file]
+
+---
+
+**RE: Prior Authorization Denial — Liraglutide 3.0 mg/mL Injection (Saxenda)**
+**Requested Quantity:** 1 pen (18 mg/3 mL), Qty 5 pens/30-day supply
+**Diagnosis Codes Submitted:** E66.01 (Morbid obesity due to excess calories), G47.33 (Obstructive sleep apnea)
+**HCPCS/NDC:** NDC 0169-4333-15
+
+---
+
+## DETERMINATION
+
+After review of the prior authorization request submitted on **June 12, 2025**, Aetna Life Insurance Company has made a determination to **DENY** coverage for liraglutide 3.0 mg (Saxenda) for member **Sofia E. Alvarez (MRN-100248)**.
+
+This determination was made by a licensed clinical reviewer on behalf of Aetna's Pharmacy Management and Utilization Management programs.
+
+---
+
+## BASIS FOR DENIAL
+
+**Reason for Denial: Benefit Plan Exclusion — Weight Loss/Obesity Agents**
+
+Coverage for liraglutide 3.0 mg (Saxenda) is **denied** because the member's current benefit plan **explicitly excludes coverage for prescription drugs prescribed primarily for the purpose of weight loss or the treatment of obesity**, regardless of clinical indication, BMI, or the presence of obesity-related comorbidities.
+
+This determination is made pursuant to:
+
+> **Aetna Clinical Policy Bulletin No. 0580** — *Obesity: Medical and Surgical Treatments* (Effective Date: January 1, 2025; most recent review: March 15, 2025), which governs coverage criteria for pharmacological interventions for weight management.
+
+> **Member Evidence of Coverage (EOC), Section 7.4 — Exclusions and Limitations:** *"Benefits are not available for drugs, devices, or programs used for the purpose of weight loss, including but not limited to anorectic agents, lipase inhibitors, GLP-1 receptor agonists prescribed for obesity management, and any medication whose primary indication as submitted is the reduction of body weight."*
+
+Liraglutide 3.0 mg (Saxenda) is an FDA-approved glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to a reduced-calorie diet and increased physical activity for chronic weight management. The authorization request for **Sofia E. Alvarez (MRN-100248)** was submitted with a primary diagnosis of **morbid obesity (E66.01)**, confirming that the primary therapeutic intent of this prescription falls within the scope of the plan's exclusionary language.
+
+Clinical information reviewed in connection with this request includes:
+- Member age: 36 years
+- BMI: 42 kg/m²
+- Documented diagnosis of morbid obesity (E66.01)
+- Documented diagnosis of obstructive sleep apnea (G47.33)
+- Prescribing provider: Dr. Rebecca Stein, MD, Bariatric Medicine (NPI 1659083241)
+- Clinical notes submitted with request dated June 11, 2025
+
+While Aetna acknowledges the clinical documentation submitted by Dr. Rebecca Stein, MD (NPI 1659083

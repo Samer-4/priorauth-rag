@@ -1,0 +1,12 @@
+{
+  "case_id": "case_014",
+  "patient_name": "Carl D. Whitfield",
+  "patient_mrn": "MRN-100247",
+  "payer": "UnitedHealthcare",
+  "drug": "semaglutide (Ozempic)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_014_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_014_note.txt"
+}

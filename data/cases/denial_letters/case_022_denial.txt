@@ -1,0 +1,81 @@
+---
+
+**KAISER PERMANENTE**
+Kaiser Foundation Health Plan, Inc.
+Utilization Management Department
+One Kaiser Plaza
+Oakland, CA 94612
+
+**Phone:** 1-800-464-4000
+**Fax:** 1-855-291-0612
+**Utilization Management Fax:** 1-877-524-8696
+
+---
+
+**DATE:** June 13, 2025
+
+**Reference Number:** UM-2025-PA-0847391
+
+**RE: Notice of Adverse Benefit Determination — Prior Authorization Denial**
+
+---
+
+**MEMBER INFORMATION**
+**Patient Name:** Gloria P. Mendoza
+**Member ID / MRN:** MRN-100255
+**Date of Birth:** On file
+**Plan:** Kaiser Permanente
+
+**REQUESTING PROVIDER INFORMATION**
+**Prescribing Physician:** Dr. Timothy Rourke, MD — Internal Medicine
+**NPI:** 1596047283
+**Facility / Practice:** Kaiser Permanente Medical Offices
+
+---
+
+### MEDICATION REQUESTED
+
+**Drug Name:** Semaglutide (Wegovy®) 0.25 mg/dose subcutaneous injection, titration pack
+**Drug Class:** Glucagon-Like Peptide-1 (GLP-1) Receptor Agonist
+**Requested Indication:** Chronic weight management in adult patient with obesity
+**HCPCS/NDC:** J3490 / 00169-4850-11
+**Request Type:** Initial Prior Authorization
+
+---
+
+### DETERMINATION
+
+**☒ DENIED — NOT AUTHORIZED**
+
+Kaiser Foundation Health Plan has completed its review of the above-referenced prior authorization request. Based on the clinical information submitted and applicable coverage criteria, this request is **denied** as not medically necessary at this time under the terms of the member's benefit plan.
+
+This determination was made by a **board-certified physician reviewer** with clinical expertise in internal medicine and endocrinology.
+
+---
+
+### BASIS FOR DENIAL
+
+**Applicable Clinical Policy:** Kaiser Permanente Clinical Policy Bulletin No. **CPB-0580**: *Pharmacologic Management of Obesity in Adult Members — GLP-1 Receptor Agonists and Anti-Obesity Agents*
+**Effective Date of Policy:** January 1, 2025
+**Review Criteria Applied:** Step Therapy Protocol — Anti-Obesity Pharmacotherapy, Tier 2 Agent Requirements
+
+---
+
+### CLINICAL RATIONALE
+
+Kaiser Permanente's Clinical Policy Bulletin CPB-0580 requires that members meet specific step therapy criteria prior to authorization of **Tier 2 anti-obesity agents**, which include semaglutide (Wegovy®). These criteria exist to ensure that clinically appropriate, evidence-supported, and cost-effective treatment options are utilized prior to escalation to higher-tier pharmacotherapy.
+
+Based on the clinical documentation submitted by Dr. Timothy Rourke, MD (NPI: 1596047283), the following information was noted for member Gloria P. Mendoza (MRN-100255):
+
+- **Age:** 50 years
+- **Sex:** Female
+- **BMI:** 39 kg/m² (Class II Obesity)
+- **Comorbid conditions documented:** Essential hypertension, hyperlipidemia
+- **Diagnosis code(s) submitted:** E66.09 (Morbid obesity due to excess calories), I10 (Essential hypertension), E78.5 (Hyperlipidemia, unspecified)
+
+The submitted documentation **does not demonstrate** completion of the following required step therapy elements as outlined in CPB-0580, Section IV.B:
+
+1. **Step 1 — Structured Lifestyle Intervention:** Documentation does not confirm a minimum of **six (6) consecutive months** of a supervised, structured behavioral weight management program, including dietary counseling and increased physical activity, as delivered by a qualified provider or recognized program (e.g., Kaiser Permanente Healthy Weight Management Program or equivalent). While participation in lifestyle counseling is referenced, documentation does not demonstrate a formal, sustained program of the duration required under policy criteria.
+
+2. **Step 2 — Tier 1 Pharmacotherapy Trial:** Documentation does not confirm an adequate trial of at least one (1) **Tier 1 anti-obesity pharmacotherapy** agent. Under CPB-0580, Tier 1 agents include:
+   -

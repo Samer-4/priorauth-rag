@@ -1,0 +1,12 @@
+{
+  "case_id": "case_009",
+  "patient_name": "Thomas B. Jackson",
+  "patient_mrn": "MRN-100242",
+  "payer": "Humana",
+  "drug": "liraglutide (Saxenda)",
+  "denial_reason": "not_medically_necessary",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_009_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_009_note.txt"
+}

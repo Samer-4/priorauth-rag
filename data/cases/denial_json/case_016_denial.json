@@ -1,0 +1,12 @@
+{
+  "case_id": "case_016",
+  "patient_name": "Walter H. Simmons",
+  "patient_mrn": "MRN-100249",
+  "payer": "Humana",
+  "drug": "tirzepatide (Mounjaro)",
+  "denial_reason": "not_medically_necessary",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_016_denial.txt",
+  "format": "fax_partial",
+  "note_file": "case_016_note.txt"
+}

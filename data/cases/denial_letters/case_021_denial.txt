@@ -1,0 +1,28 @@
+---
+
+**📋 Authorization Update — Action May Be Required**
+**Case Reference:** PA-2024-883471
+**Member:** Kevin R. Sullivan | **ID:** MRN-100254
+
+---
+
+**Status: ⛔ DENIED**
+
+**Medication Requested:** Semaglutide (Ozempic) 0.5mg weekly injection
+**Requested by:** Dr. Leonard Achebe, MD — Gastroenterology | NPI 1420685379
+
+---
+
+**Why was this denied?**
+
+Ozempic (semaglutide) is FDA-approved for type 2 diabetes management, but your provider submitted this request for non-alcoholic fatty liver disease (NAFLD), which is not a covered indication under your plan's clinical policy. While your record reflects a prediabetes diagnosis, the primary clinical justification documented by Dr. Achebe does not meet criteria for diabetic pharmacotherapy at this time. A GLP-1 receptor agonist approved for weight management (such as Wegovy) may be reviewable under a separate authorization request.
+
+---
+
+**Next Steps:**
+👉 [View Full Clinical Criteria & Submit Appeal](https://member.aetna.com/appeals/PA-2024-883471)
+
+Appeals must be submitted within **180 days** of this notice. Your provider may also request a Peer-to-Peer review by calling **1-800-AETNA-MD**.
+
+---
+*Notification generated: 2024-11-14*

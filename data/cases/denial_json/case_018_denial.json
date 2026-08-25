@@ -1,0 +1,12 @@
+{
+  "case_id": "case_018",
+  "patient_name": "Derek O. Boateng",
+  "patient_mrn": "MRN-100251",
+  "payer": "Anthem",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "quantity_limit_exceeded",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_018_denial.txt",
+  "format": "portal_message",
+  "note_file": "case_018_note.txt"
+}

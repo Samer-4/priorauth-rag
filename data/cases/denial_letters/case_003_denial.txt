@@ -1,0 +1,71 @@
+---
+
+**CIGNA HEALTHCARE**
+400 North Brand Boulevard, Suite 500
+Glendale, CA 91203
+Member Services: 1-800-244-6224
+Provider Services: 1-800-88-Cigna (1-800-882-4462)
+Fax: 1-860-226-2214
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**— PRIOR AUTHORIZATION DENIAL —**
+
+---
+
+**Date:** July 14, 2025
+**Reference Number:** PA-2025-07-881453-CA
+**Determination Type:** Initial Denial — Insufficient Documentation
+
+---
+
+**MEMBER INFORMATION**
+
+> **Member Name:** Maria T. Reyes
+> **Member ID / MRN:** MRN-100236
+> **Date of Birth:** [on file]
+> **Plan Name:** Cigna Connect 3000 (Commercial)
+> **Group Number:** GRP-4471209
+
+---
+
+**REQUESTING PROVIDER INFORMATION**
+
+> **Prescribing Physician:** Dr. Priya Nandakumar, MD
+> **Specialty:** Family Medicine
+> **NPI:** 1685720349
+> **Fax on File:** [on file]
+
+---
+
+**DRUG REQUESTED**
+
+> **Medication:** Semaglutide injection 0.5 mg/dose (Ozempic®)
+> **Requested Dosage:** 0.25 mg subcutaneous injection once weekly, titrating to 0.5 mg
+> **Requested Duration:** 12 months
+> **Indication Stated on Request:** Obesity / Prediabetes (BMI 33)
+
+---
+
+**DETERMINATION**
+
+After review by a Cigna clinical reviewer, the prior authorization request for **semaglutide (Ozempic®)** for member **Maria T. Reyes (MRN-100236)** has been **DENIED**. This determination is effective as of the date of this letter.
+
+This denial is issued pursuant to **Cigna Clinical Policy Bulletin No. CPB-0580 — Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists**, Revision Date: January 1, 2025, and in accordance with your plan's Pharmacy Benefit Management guidelines as incorporated in the Member Certificate of Coverage.
+
+---
+
+**BASIS FOR DENIAL: INSUFFICIENT DOCUMENTATION**
+
+The request for semaglutide (Ozempic®) has been denied because the clinical documentation submitted does not meet the required criteria established under CPB-0580 for approval of this medication at this time. Specifically, the following deficiencies were identified:
+
+**1. Indication Not Supported for Requested Agent**
+
+Semaglutide (Ozempic®) is FDA-approved and covered under this plan's pharmacy benefit as a **second-line or adjunctive agent for the treatment of Type 2 Diabetes Mellitus (T2DM)** in adults with inadequate glycemic control. The submitted documentation indicates a diagnosis of **prediabetes (ICD-10: R73.09)** and **obesity (ICD-10: E66.09)**, with a reported BMI of 33 kg/m². **A confirmed diagnosis of Type 2 Diabetes Mellitus has not been established** in the submitted clinical record.
+
+Per CPB-0580, Section III.A, coverage of Ozempic® requires documentation of a confirmed T2DM diagnosis, defined as one or more of the following: (a) fasting plasma glucose ≥ 126 mg/dL on two separate occasions; (b) hemoglobin A1c ≥ 6.5% on two separate occasions; or (c) two-hour plasma glucose ≥ 200 mg/dL during an oral glucose tolerance test. The submitted records include a single HbA1c value of 6.1%, which falls within the prediabetes range and does not satisfy diagnostic criteria for T2DM.
+
+**2. Absence of Required Step Therapy Documentation**
+
+CPB-0580, Section III.A.2 requires documentation that the member has had an adequate trial of **at least one first-line oral antidiabetic agent** (e.g., metformin) for a minimum of **90 days

@@ -1,0 +1,67 @@
+# UnitedHealthcare
+**UnitedHealthcare Insurance Company**
+3100 AMS Boulevard | Green Bay, WI 54313
+Member Services: 1-866-892-5890 | Provider Services: 1-866-574-6088
+Fax: 1-866-412-0087 | www.uhcprovider.com
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**PRIOR AUTHORIZATION DENIAL**
+
+---
+
+**Date:** June 17, 2025
+**Reference Number:** PA-2025-06-UHC-884421
+**UHC Plan:** UnitedHealthcare Choice Plus
+
+---
+
+**MEMBER INFORMATION**
+**Member Name:** Robert M. Okafor
+**Member ID / MRN:** MRN-100235
+**Date of Birth:** On File
+**Plan Name:** UnitedHealthcare Choice Plus
+
+**PRESCRIBING PROVIDER INFORMATION**
+**Prescribing Physician:** Dr. Andrew Kim, MD — Endocrinology
+**NPI:** 1922048173
+**Fax:** On File
+
+---
+
+## RE: Notice of Adverse Benefit Determination — Prior Authorization Denial
+
+Dear Robert M. Okafor and Dr. Andrew Kim, MD,
+
+UnitedHealthcare has completed its review of the prior authorization request submitted on behalf of **Robert M. Okafor (MRN-100235)** for the following medication:
+
+> **Drug Requested:** Tirzepatide (Zepbound) 2.5 mg subcutaneous injection, weekly
+> **Requested Indication:** Chronic weight management / Obesity (ICD-10: E66.01)
+> **Authorization Request Date:** June 10, 2025
+
+After careful clinical review, UnitedHealthcare has determined that the requested service **does not meet criteria for coverage** under the applicable benefit plan at this time. This request is therefore **DENIED** as **Not Medically Necessary** as defined by the member's benefit plan.
+
+---
+
+## CLINICAL POLICY CITATION
+
+This determination was made in accordance with:
+
+- **UnitedHealthcare Clinical Policy Bulletin No. CPB-0580.00:** *Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists and Glucose-Dependent Insulinotropic Polypeptide (GIP)/GLP-1 Receptor Agonists for Obesity and Weight Management* (Effective: January 1, 2025; Reviewed: April 2025)
+- **UnitedHealthcare Coverage Determination Guideline CDG-2024.WM.017:** *Weight Management Pharmacotherapy — Step Therapy and Documentation Requirements*
+- Member's applicable **Certificate of Coverage (COC)** — Medical Necessity Definition, Section 7, Paragraph 4
+
+---
+
+## REASON FOR DENIAL
+
+UnitedHealthcare's clinical review team, including a licensed physician reviewer board-certified in Internal Medicine, has evaluated the submitted clinical documentation and determined that the request for **tirzepatide (Zepbound)** does not meet the plan's medical necessity criteria for the following reasons:
+
+**1. Incomplete Step Therapy Requirements**
+
+Pursuant to Clinical Policy Bulletin CPB-0580.00, coverage of tirzepatide (Zepbound) for chronic weight management requires documented evidence of an adequate trial and failure of, contraindication to, or intolerance of **at least one prior FDA-approved weight management pharmacotherapy agent** from a different drug class (e.g., phentermine/topiramate [Qsymia], naltrexone/bupropion [Contrave], or orlistat). The clinical documentation submitted does not demonstrate that the member has completed a step therapy trial of a clinically appropriate first-line weight management agent at adequate dosing for a minimum of **twelve (12) consecutive weeks**.
+
+**2. Insufficient Documentation of Qualifying Comorbid Conditions Directly Attributed to Obesity**
+
+While the submitted records confirm a current **BMI of 35 kg/m²** and a diagnosis of **hypertension (ICD-10: I10)**, the clinical documentation does not include sufficient evidence establishing that the member's hypertension is inadequately controlled despite ongoing antihypertensive therapy, nor does it demonstrate that the patient's weight is a direct and primary contributing factor to an obesity-

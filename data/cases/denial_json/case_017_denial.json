@@ -1,0 +1,12 @@
+{
+  "case_id": "case_017",
+  "patient_name": "Dorothy A. Kline",
+  "patient_mrn": "MRN-100250",
+  "payer": "BlueCross BlueShield",
+  "drug": "semaglutide (Rybelsus)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "weak_appeal",
+  "filename": "case_017_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_017_note.txt"
+}

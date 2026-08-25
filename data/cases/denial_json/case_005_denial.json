@@ -1,0 +1,12 @@
+{
+  "case_id": "case_005",
+  "patient_name": "Ashley R. Patel",
+  "patient_mrn": "MRN-100238",
+  "payer": "Humana",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "alternative_covered",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_005_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_005_note.txt"
+}

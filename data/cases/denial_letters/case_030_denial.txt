@@ -1,0 +1,32 @@
+---
+
+**🔔 Authorization Update — Action May Be Required**
+
+**Subject:** Prior Authorization Decision: Zepbound (tirzepatide)
+**Reference / Case #:** PA-2024-TO-88341
+**Member:** Tiffany S. Okonkwo | **Member ID:** MRN-100263
+**Requested by:** Dr. Adam Kowalczyk, MD (NPI 1529476380)
+
+---
+
+**STATUS: ⛔ DENIED**
+
+**Decision Date:** December 13, 2024
+**Denial Reason:** Step Therapy Requirements Not Met
+
+---
+
+Your plan requires that certain medications be tried before Zepbound (tirzepatide) can be covered. Our records do not show documentation of an adequate trial of a preferred first-line weight management medication (such as orlistat or phentermine/topiramate) prior to this request. Until step therapy requirements are satisfied, this medication is not covered under your current benefit plan.
+
+---
+
+**Next Steps:**
+- 📄 [View Full Denial & Coverage Criteria](#)
+- 📝 [Submit an Appeal or Exception Request](#)
+- 📞 Contact Member Services: **1-800-521-2227**
+
+Your provider may also submit a **clinical exception** if medical necessity documentation supports bypassing step therapy.
+
+*Case managed through BlueCross BlueShield Utilization Management. Reference PA-2024-TO-88341.*
+
+---

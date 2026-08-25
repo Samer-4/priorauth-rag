@@ -1,0 +1,80 @@
+---
+
+# UnitedHealthcare
+**UnitedHealthcare Insurance Company**
+185 Asylum Street | Hartford, CT 06103
+Member Services: 1-866-801-4409 | Provider Services: 1-800-842-3585
+Fax: 1-866-889-8054 | uhcprovider.com
+
+---
+
+**DATE:** January 15, 2025
+
+**REFERENCE NUMBER:** PA-2025-0115-887342
+
+**RE: Notice of Adverse Benefit Determination — Prior Authorization Denial**
+
+---
+
+**MEMBER INFORMATION**
+**Patient Name:** Patricia L. Davis
+**Member ID / MRN:** MRN-100243
+**Date of Birth:** On file
+**Plan Name:** UnitedHealthcare Choice Plus
+
+**PRESCRIBING PROVIDER INFORMATION**
+**Physician:** Omar Haddad, MD — Endocrinology
+**NPI:** 1845067293
+**Fax:** On file
+
+---
+
+Dear Dr. Haddad and Patricia L. Davis,
+
+UnitedHealthcare has completed its review of the prior authorization request submitted for the medication identified below. After careful review of the submitted clinical documentation and applicable coverage criteria, we have made the following determination:
+
+> **THE REQUEST FOR PRIOR AUTHORIZATION HAS BEEN DENIED.**
+
+---
+
+## MEDICATION REQUESTED
+
+| Field | Detail |
+|---|---|
+| **Drug Name** | Tirzepatide (Zepbound) 2.5 mg/0.5 mL subcutaneous injection |
+| **Requested Indication** | Chronic weight management in the setting of Type 2 diabetes mellitus and obesity |
+| **Authorization Type** | Initial Request |
+| **HCPCS/NDC** | NDC: 0002-1590-80 |
+| **Quantity / Days Supply** | 4 pens / 28 days |
+
+---
+
+## BASIS FOR DENIAL
+
+**Denial Reason:** Not Medically Necessary as Requested — **Alternative Covered Drug Available**
+
+This request does not meet the criteria established under:
+
+- **UnitedHealthcare Clinical Policy Bulletin No. 0580** — *Obesity and Weight Management Pharmacotherapy*, effective October 1, 2024
+- **UnitedHealthcare Commercial Pharmacy Benefit Drug Policy: GLP-1 and GIP/GLP-1 Receptor Agonists for Weight Management and Type 2 Diabetes Mellitus*, Policy Number: PBD-GLP1-2024.3, effective July 1, 2024
+- **UnitedHealthcare Medical and Drug Policy: Step Therapy Protocol for Incretin-Based Therapies**, Policy Reference: ST-INC-2024.11
+
+---
+
+## CLINICAL RATIONALE
+
+Upon review of the clinical documentation submitted with this prior authorization request, UnitedHealthcare has determined that **tirzepatide (Zepbound)** is **not approvable at this time** because one or more **clinically appropriate, preferred, and covered alternatives** are available under the member's current pharmacy benefit plan that have not yet been trialed, failed, or documented as contraindicated for this member.
+
+**Summary of member's clinical profile as submitted:**
+
+- **Age:** 44 years
+- **Sex:** Female
+- **BMI:** 40 kg/m² (Class III Obesity)
+- **Documented diagnoses:** Type 2 diabetes mellitus (E11.9), essential hypertension (I10), obesity (E66.01)
+- **HbA1c:** Not provided in submitted documentation
+
+**Basis for denial under CPB 0580 and Step Therapy Protocol ST-INC-2024.11:**
+
+Tirzepatide (Zepbound) is indicated for chronic weight management in adults with an initial BMI ≥30 kg/m² or ≥27 kg/m² with at least one weight-related comorbidity. While the member meets the clinical threshold criteria for BMI and the presence of qualifying comorbidities, **coverage of Zepbound requires documented trial and inadequate response, intolerance, or contraindication to at least one (1) preferred step therapy agent** at an adequate dose and duration prior to authorization of this non-preferred agent.
+
+The member's current pharmacy benefit plan designates the following agents as **Preferred

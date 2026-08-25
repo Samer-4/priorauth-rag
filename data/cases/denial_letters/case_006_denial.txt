@@ -1,0 +1,33 @@
+---
+
+**🔔 New Update on Your Prior Authorization Request**
+**Case Reference: PA-2024-887341**
+
+---
+
+**Medication:** Tirzepatide (Zepbound) 2.5 mg weekly injection
+**Requested by:** Dr. Michael Ferraro, MD — Endocrinology (NPI 1957403812)
+**Member:** Sandra K. Williams | MRN-100239
+**Decision Date:** November 14, 2024
+
+---
+
+**Status: ❌ DENIED — Step Therapy Requirements Not Met**
+
+---
+
+Our review found that your plan requires trying at least one covered first-line weight management medication (such as orlistat or phentermine/topiramate) before Zepbound can be approved. Records submitted by Dr. Ferraro's office do not show a documented trial of a required step therapy medication. Zepbound may be reconsidered once a qualifying trial has been completed and documented.
+
+---
+
+**What You Can Do Next:**
+
+- 📄 [View Full Coverage Decision & Clinical Criteria](#)
+- 🔁 [Submit an Appeal or Exception Request](#)
+- 📞 Call Member Services: **1-800-CIGNA-24**
+
+Appeals must be submitted within **180 days** of this notice.
+
+*Logged in as: Sandra K. Williams | MRN-100239*
+
+---

@@ -1,0 +1,75 @@
+---
+
+# HUMANA INC.
+**Humana Clinical Coverage and Utilization Management**
+500 West Main Street | Louisville, Kentucky 40202
+**Phone:** 1-800-457-4708 | **Fax:** 1-800-949-2961
+**TTY/TDD:** 711 | **www.humana.com**
+
+---
+
+**DATE:** June 17, 2025
+
+**REFERENCE NUMBER:** HUM-UM-2025-06-PA-8841073
+
+**DETERMINATION TYPE:** Prior Authorization — **DENIAL (Not Medically Necessary / Off-Label Use)**
+
+---
+
+## NOTICE OF ADVERSE BENEFIT DETERMINATION
+
+---
+
+**MEMBER INFORMATION**
+
+| | |
+|---|---|
+| **Member Name:** | Harold G. Weinstein |
+| **Member ID / MRN:** | MRN-100262 |
+| **Date of Birth:** | On File |
+| **Plan:** | Humana Medicare Advantage / Commercial (as applicable) |
+
+---
+
+**REQUESTING PROVIDER INFORMATION**
+
+| | |
+|---|---|
+| **Prescribing Physician:** | Dr. Sylvia Marchetti, MD — Cardiology |
+| **NPI:** | 1815394027 |
+| **Date of Request Received:** | June 13, 2025 |
+| **Date of Determination:** | June 17, 2025 |
+
+---
+
+**DRUG REQUESTED:**
+Semaglutide Injection 2.4 mg/week (Wegovy®, Novo Nordisk)
+
+**REQUESTED INDICATION (as stated on authorization request):**
+Weight management and cardiovascular risk reduction in a 71-year-old male with coronary artery disease, overweight classification (BMI 29 kg/m²), and hyperlipidemia.
+
+**AUTHORIZATION DECISION: DENIED**
+
+---
+
+## I. DETERMINATION
+
+Humana has completed its review of the prior authorization request submitted on behalf of **Harold G. Weinstein (MRN-100262)** for semaglutide 2.4 mg subcutaneous injection weekly (Wegovy®). After a thorough clinical review of the submitted documentation, and in accordance with applicable Humana clinical coverage policy, this request is **denied**. The requested drug, as prescribed for this member under the stated clinical circumstances, does not meet Humana's criteria for coverage as set forth below.
+
+---
+
+## II. BASIS FOR DENIAL
+
+**Primary Denial Reason: Off-Label Use / Failure to Meet Coverage Criteria Under Clinical Policy Bulletin CPB-0580**
+
+This determination is made pursuant to **Humana Clinical Policy Bulletin CPB-0580: Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists and Dual GIP/GLP-1 Agonists for Weight Management and Glycemic Control**, effective January 1, 2025, and last revised March 14, 2025.
+
+Under CPB-0580, coverage of semaglutide 2.4 mg (Wegovy®) for chronic weight management requires that **all** of the following criteria be satisfied:
+
+1. The member has a documented Body Mass Index (BMI) of **≥ 30 kg/m²**; **OR** a BMI of **≥ 27 kg/m²** in the presence of at least one weight-related comorbidity (e.g., type 2 diabetes mellitus, hypertension, obstructive sleep apnea, or dyslipidemia managed as a direct sequela of excess weight);
+
+2. The member has documented failure of a structured, comprehensive weight management program (i.e., dietary modification, behavioral counseling, and increased physical activity) of **at least six (6) consecutive months** duration, with supporting documentation submitted;
+
+3. Semaglutide 2.4 mg is prescribed and monitored by, or in documented coordination with, a physician trained in obesity medicine, endocrinology, or a related specialty with expertise in weight management; and
+
+4. The requested use falls within the **FDA-approved labeling** for semaglutide 2.4 mg (Wegovy®), or compelling peer-reviewed clinical evidence supports coverage of an off-label application under Humana's Off-Label Drug Use policy

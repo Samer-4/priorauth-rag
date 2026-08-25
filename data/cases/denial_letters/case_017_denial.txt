@@ -1,0 +1,68 @@
+---
+
+# BLUECROSS BLUESHIELD
+**Utilization Management Division**
+225 North Michigan Avenue, Suite 1200
+Chicago, Illinois 60601
+Phone: (800) 892-2803 | Fax: (312) 653-5901
+www.bcbsil.com
+
+---
+
+**DATE:** June 16, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-8834712
+
+**NOTICE TYPE:** Prior Authorization — **ADVERSE DETERMINATION (DENIAL)**
+
+---
+
+**MEMBER INFORMATION**
+**Patient Name:** Dorothy A. Kline
+**Member ID / MRN:** MRN-100250
+**Date of Birth:** [DOB on file]
+**Plan Name:** BlueCross BlueShield PPO Select
+
+**PRESCRIBING PHYSICIAN**
+**Physician Name:** Steven Barlow, MD — Internal Medicine
+**NPI:** 1738405926
+**Practice Address:** [Address on file]
+
+---
+
+**DRUG REQUESTED:** Semaglutide 3 mg oral tablet (Rybelsus®)
+**Requested Quantity:** 30 tablets / 30-day supply
+**Diagnosis Codes:** E11.9 (Type 2 diabetes mellitus without complications); E66.09 (Other obesity); M17.11–M17.12 (Primary osteoarthritis, knee, bilateral)
+**Authorization Request Date:** June 12, 2025
+
+---
+
+## ADVERSE DETERMINATION: DENIAL
+
+Dear Dr. Barlow and Ms. Dorothy A. Kline,
+
+BlueCross BlueShield has completed its review of the prior authorization request submitted on June 12, 2025, for **semaglutide oral tablets (Rybelsus®)** on behalf of member **Dorothy A. Kline (MRN-100250)**. After careful review of the submitted clinical documentation and applicable coverage criteria, BlueCross BlueShield has determined that this request does **not meet the criteria for approval** at this time.
+
+**THIS IS A DENIAL BASED ON FAILURE TO COMPLETE REQUIRED STEP THERAPY.**
+
+---
+
+### POLICY BASIS
+
+This determination was made in accordance with:
+
+- **BlueCross BlueShield Clinical Policy Bulletin No. 0580** — *Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists: Coverage and Step Therapy Requirements* (Effective Date: January 1, 2025; most recently reviewed October 2024)
+- **BlueCross BlueShield Pharmacy Benefit Management Drug Coverage Policy — Tier Exception and Step Therapy Protocol, Section 4.3: Antidiabetic Agents — GLP-1 Agonists and GLP-1/GIP Combinations**
+- Member's applicable Certificate of Coverage, Schedule of Benefits — Prescription Drug Benefit, Formulary Year 2025
+
+---
+
+### CLINICAL RATIONALE FOR DENIAL
+
+The submitted documentation for member Dorothy A. Kline (MRN-100250), a 63-year-old female presenting with a current BMI of 31 kg/m² and a diagnosis of Type 2 diabetes mellitus (E11.9), was reviewed in its entirety. BlueCross BlueShield acknowledges the member's comorbid conditions, including bilateral knee osteoarthritis, and recognizes that modest weight reduction may provide symptomatic benefit. However, the clinical information on file does not satisfy the mandatory step therapy requirements that must be fulfilled prior to authorization of a **Tier 3 GLP-1 receptor agonist** such as semaglutide oral tablets (Rybelsus®).
+
+Pursuant to **Clinical Policy Bulletin 0580, Section III.B**, authorization of a GLP-1 receptor agonist for a member with Type 2 diabetes mellitus requires documented evidence of **all of the following** prior to approval:
+
+1. **Step 1 — Metformin Therapy:** Documentation that the member has been prescribed and has maintained an adequate therapeutic trial of **metformin** (minimum 1,500 mg/day unless contraindicated or not tolerated) for a period of **at least ninety (90) consecutive days**, with documented suboptimal glycemic control (HbA1c ≥ 7.0%) despite adherence.
+
+2. **Step 

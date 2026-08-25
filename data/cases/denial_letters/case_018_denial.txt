@@ -1,0 +1,29 @@
+---
+
+**🔔 Action Required: Prior Authorization Decision**
+**Case Reference:** PA-2024-8847712
+**Member:** Derek O. Boateng | MRN-100251
+**Prescriber:** Dr. Monica Reyes-Chan, MD | NPI 1264097385
+
+---
+
+**Status: ⛔ DENIED**
+**Drug Requested:** Semaglutide 2.4mg (Wegovy)
+**Denial Reason:** Quantity Limit Exceeded
+
+---
+
+Your request for Wegovy has been denied because the dose and/or supply submitted exceeds the quantity limit allowed under your current plan benefit. Our records indicate that the prescribed quantity surpasses the approved threshold for this medication tier during the requested fill period. Please note that this decision is not based on medical necessity — your prescriber may resubmit with a quantity that falls within plan limits.
+
+---
+
+**Next Steps:**
+- 📄 [View Full Denial & Coverage Details](#)
+- 📝 [Submit an Appeal or Exception Request](#)
+- 📞 Call Member Services: **1-800-331-1476** (TTY: 711)
+
+Appeals must be submitted within **60 days** of this notice.
+
+*Posted to your account: your plan's coverage criteria are available at anthem.com/druglist*
+
+---

@@ -1,0 +1,73 @@
+---
+
+**HUMANA**
+Humana Inc. | 500 West Main Street | Louisville, KY 40202
+Member Services: 1-800-448-6262 | Provider Services: 1-800-626-2741
+Fax: 1-800-893-0118 | humana.com
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**Prior Authorization Denial — Pharmacy Benefit**
+
+---
+
+**Date:** June 16, 2025
+**Reference Number:** PA-2025-06-4471823
+**Clinical Policy Bulletin:** CPB-HUM-0580 (Anti-Obesity Agents / GLP-1 Receptor Agonists for Chronic Weight Management) — Effective January 1, 2025
+
+---
+
+**Member Information**
+**Member Name:** Ashley R. Patel
+**Member ID / MRN:** MRN-100238
+**Date of Birth:** [on file]
+**Plan Name:** Humana Commercial Health Plan
+
+**Prescribing Physician:** Dr. Karen Ostrowski, MD
+**Specialty:** Family Medicine
+**NPI:** 1233649087
+
+---
+
+**Medication Requested:**
+Semaglutide 2.4 mg/dose subcutaneous injection (Wegovy®), weekly
+Requested Quantity: 4 prefilled pens (28-day supply)
+Requested Start Date: June 10, 2025
+
+---
+
+## DETERMINATION: **NOT APPROVED — ALTERNATIVE COVERED DRUG AVAILABLE**
+
+---
+
+Dear Dr. Ostrowski and Ms. Ashley R. Patel,
+
+Humana has completed its clinical review of the prior authorization request submitted on **June 10, 2025**, for **semaglutide 2.4 mg/dose injection (Wegovy®)** on behalf of member **Ashley R. Patel (MRN-100238)**. After careful review of the submitted clinical documentation and applicable coverage criteria, Humana has determined that this request **does not meet the criteria for approval** at this time.
+
+This determination was made by a licensed clinical pharmacist and reviewed by a Humana Medical Director who is a physician licensed in the applicable state.
+
+---
+
+### CLINICAL INFORMATION REVIEWED
+
+Humana reviewed the following documentation submitted with this prior authorization request:
+
+- Member age: 41 years
+- Sex: Female
+- Documented Body Mass Index (BMI): 37 kg/m²
+- Documented comorbidities: Polycystic Ovary Syndrome (PCOS); Obesity (ICD-10: E66.09)
+- Current and prior medications: As submitted by prescribing provider
+- Relevant laboratory values: As submitted
+
+---
+
+### BASIS FOR DENIAL
+
+**Reason for Denial:** An alternative covered drug is available that is clinically appropriate for this member's condition and is covered under the member's current pharmacy benefit plan without the additional requirements applicable to the requested medication.
+
+Pursuant to **Humana Clinical Policy Bulletin CPB-HUM-0580 — Chronic Weight Management: GLP-1 Receptor Agonists and Anti-Obesity Pharmacotherapy**, coverage of **semaglutide 2.4 mg/dose (Wegovy®)** requires demonstration that the member has trialed and had an inadequate response to, or is clinically contraindicated to, at least **one preferred formulary agent** indicated for chronic weight management.
+
+A review of available pharmacy claims data and submitted clinical records for member **Ashley R. Patel (MRN-100238)** does not reflect a documented, adequate trial of **orlistat (Xenical®/Alli®)** or **phentermine/topiramate extended-release (Qsymia®)**, both of which appear on the member's current formulary as **Tier 2 (Preferred Brand) and Tier 3 (Non-Preferred Brand)** alternatives, respectively, for the management of obesity in adult patients with a BMI of ≥30 kg/m² or ≥27 kg/m² with at least one weight-related comorbidity.
+
+Additionally, the submitted documentation does not include evidence that **semaglutide 2.4 mg/dose (Wegovy®)** is medically necessary over available covered alternatives based on this member's current clinical profile. While

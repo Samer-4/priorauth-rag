@@ -1,0 +1,70 @@
+---
+
+# AETNA BETTER HEALTH
+## Utilization Management — Prior Authorization Determination
+
+**Aetna Life Insurance Company**
+151 Farmington Avenue
+Hartford, CT 06156
+
+**Member Services:** 1-800-872-3862
+**Utilization Management Fax:** 1-860-754-2702
+**TTY/TDD:** 711
+
+---
+
+**DATE:** January 14, 2025
+
+**REFERENCE NUMBER:** AUTH-2025-UM-884431
+
+**DETERMINATION TYPE:** Prior Authorization — **DENIAL**
+
+---
+
+### MEMBER AND REQUEST INFORMATION
+
+| | |
+|---|---|
+| **Member Name:** | Rachel M. Chen |
+| **Member ID / MRN:** | MRN-100241 |
+| **Date of Birth:** | On file |
+| **Plan Name:** | Aetna PPO — Employer-Sponsored Group Health Benefit Plan |
+| **Requesting Provider:** | Dr. Natalie Brooks, MD — Family Medicine |
+| **Provider NPI:** | 1774920568 |
+| **Drug Requested:** | Tirzepatide injection (Zepbound) 2.5 mg subcutaneous weekly — Starter Dose |
+| **Requested Service Date:** | January 10, 2025 |
+| **Date of Determination:** | January 14, 2025 |
+
+---
+
+## NOTICE OF ADVERSE BENEFIT DETERMINATION
+
+Dear Rachel M. Chen,
+
+This letter is to inform you that Aetna Life Insurance Company has completed its review of the prior authorization request submitted by **Dr. Natalie Brooks, MD (NPI: 1774920568)** for **tirzepatide (Zepbound)** on your behalf. After careful review of the submitted clinical information and applicable coverage criteria, Aetna has made the following determination:
+
+> **THE REQUEST FOR TIRZEPATIDE (ZEPBOUND) HAS BEEN DENIED.**
+
+This determination is effective as of **January 14, 2025**, and applies to the requested course of treatment as described above.
+
+---
+
+## BASIS FOR DENIAL
+
+**Reason for Denial:** Insufficient Documentation to Support Medical Necessity
+
+This request does not meet the criteria outlined in **Aetna Clinical Policy Bulletin No. 0580 — Obesity, Weight Management, and Anti-Obesity Drug Therapy (Revised: October 1, 2024)**, as well as the applicable provisions of your **Employer-Sponsored Group Health Benefit Plan's Prescription Drug Benefit Schedule (Specialty Tier — GLP-1/GIP Receptor Agonist Medications)**.
+
+Tirzepatide (Zepbound) is a dual glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1) receptor agonist indicated as an adjunct to a reduced-calorie diet and increased physical activity for chronic weight management. Coverage under Clinical Policy Bulletin 0580 requires that **all** of the following documentation criteria be satisfied at the time of the prior authorization request:
+
+---
+
+### SPECIFIC DOCUMENTATION DEFICIENCIES
+
+Upon review of the clinical information submitted with this request, Aetna has identified the following insufficient or missing documentation:
+
+**1. Absence of Documented Prior Conventional Weight Loss Therapy**
+Clinical Policy Bulletin 0580, Section IV.A.3 requires documentation demonstrating that the member has attempted and had an inadequate response to at least **one (1) structured, medically supervised weight loss program** lasting a minimum of **six (6) consecutive months** within the past **24 months**. This program must include dietary modification, behavioral counseling, and increased physical activity, and must be documented in the medical record with visit notes, provider attestation, or program completion records. The submitted documentation does not contain records demonstrating participation in or completion of a qualifying structured weight loss program, nor does it include provider attestation that such a program was attempted and unsuccessful.
+
+**2. Insufficient Laboratory Documentation to Establish Comorbidity Profile**
+The request references diagnoses of polycystic ovary syndrome (PCOS) and insulin resistance as qualifying comorbidities under CPB 0580, Section IV.A.4. However, the submitted clinical record does not include **current laboratory values** (within the preceding **12 months**) necessary to substantiate and characterize these conditions, including

@@ -1,0 +1,72 @@
+# UnitedHealthcare
+**UnitedHealthcare Insurance Company**
+1 UnitedHealth Group Center | Minnetonka, MN 55343
+Member Services: 1-866-801-4409 | Provider Services: 1-888-887-7734
+Fax: 1-866-412-0234 | www.uhcprovider.com
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**— PRIOR AUTHORIZATION DENIAL —**
+
+---
+
+**Date:** July 14, 2025
+**Reference Number:** PA-2025-0714-38847201
+**UHC Group/Plan ID:** UHC-COMM-GRP-004418
+
+---
+
+**Member Information:**
+**Member Name:** Brandon T. Ellison
+**Member ID / MRN:** MRN-100260
+**Date of Birth:** On File
+**Plan Name:** UnitedHealthcare Choice Plus — Commercial Employer Sponsored Plan
+
+**Requesting Provider:**
+**Prescribing Physician:** Dr. Yolanda Pierce, MD — Bariatric Medicine
+**NPI:** 1275839406
+**Practice/Facility:** On File
+
+---
+
+## RE: Notice of Adverse Benefit Determination — Prior Authorization Denial
+
+Dear Brandon T. Ellison and Dr. Yolanda Pierce, MD,
+
+UnitedHealthcare Insurance Company has completed its review of the prior authorization request submitted on behalf of the above-referenced member for the prescription drug identified below. After careful review of the submitted clinical documentation, the member's benefit plan, and applicable clinical coverage criteria, **UnitedHealthcare has determined that the requested medication is NOT COVERED** under the member's current benefit plan.
+
+---
+
+## Drug Requested
+
+| Field | Detail |
+|---|---|
+| **Medication** | Tirzepatide (Zepbound™) injection |
+| **Requested Strength** | 5 mg/0.5 mL subcutaneous injection, weekly |
+| **Intended Indication** | Chronic weight management — morbid obesity (ICD-10: E66.01) with comorbidities including obstructive sleep apnea (ICD-10: G47.33) and non-alcoholic fatty liver disease (ICD-10: K76.0) |
+| **Authorization Request Date** | July 10, 2025 |
+| **Determination Date** | July 14, 2025 |
+
+---
+
+## Determination: DENIED
+
+**Primary Reason for Denial:**
+**Plan Benefit Exclusion — Weight Loss/Weight Management Medications**
+
+This determination is a **benefit exclusion denial**. This is not a medical necessity determination. UnitedHealthcare does not question the clinical appropriateness of the requested therapy as prescribed by Dr. Pierce. The denial is based solely on the terms and limitations of the member's employer-sponsored benefit plan.
+
+---
+
+## Policy and Benefit Plan Citation
+
+The member's benefit plan — **UnitedHealthcare Choice Plus, Group Benefit Plan Document effective January 1, 2025** — contains an explicit exclusion for prescription medications prescribed primarily or substantially for the purpose of weight loss or weight management, regardless of the presence of related comorbid conditions.
+
+**Applicable Clinical Policy Bulletin:** UnitedHealthcare **Clinical Policy Bulletin No. 0580 — Weight Loss/Obesity Agents**, effective January 1, 2025 (supersedes prior version dated July 1, 2024).
+
+**Relevant Plan Exclusion Language (Summary Plan Description, Section 7.4 — Prescription Drug Exclusions):**
+
+> *"Benefits are not available for prescription drugs, biological products, or over-the-counter agents prescribed for, or primarily intended for, the purpose of weight reduction, weight loss maintenance, appetite suppression, or obesity management, including but not limited to glucagon-like peptide-1 (GLP-1) receptor agonists and dual GIP/GLP-1 receptor agonists when prescribed for weight management indications, regardless of Body Mass Index (BMI) classification or the presence of associated comorbid conditions, unless such agents are otherwise specifically listed as a covered benefit under the member's prescription drug formulary and benefit schedule."*
+
+Tirzepatide (Zepbound™) — the formulation of tirzepatide approved by the U.S. Food and Drug Administration (FDA) specifically for chronic weight management

@@ -1,0 +1,12 @@
+{
+  "case_id": "case_026",
+  "patient_name": "Margaret E. O'Rourke",
+  "patient_mrn": "MRN-100259",
+  "payer": "Aetna",
+  "drug": "semaglutide (Rybelsus)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_026_denial.txt",
+  "format": "fax_partial",
+  "note_file": "case_026_note.txt"
+}

@@ -1,0 +1,68 @@
+# HUMANA INSURANCE COMPANY
+
+**Utilization Management Division**
+500 West Main Street | Louisville, KY 40202
+Phone: 1-800-444-9137 | Fax: 1-800-381-7587
+TTY: 711 | www.humana.com
+
+---
+
+**DATE:** June 13, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-0061342
+
+**RE: Notice of Adverse Benefit Determination – Prior Authorization Denial**
+
+---
+
+**MEMBER INFORMATION**
+**Member Name:** Thomas B. Jackson
+**Member ID / MRN:** MRN-100242
+**Date of Birth:** On file
+**Plan Name:** Humana Gold Plus / Commercial Medical Plan
+
+**PRESCRIBING PHYSICIAN**
+**Physician Name:** Dr. Gregory Alston, MD – Internal Medicine
+**NPI:** 1361780924
+
+---
+
+## DRUG REQUESTED
+
+**Medication:** Liraglutide 3.0 mg/day injection (Saxenda®)
+**Requested Duration:** 12 months
+**Requested Quantity:** 1 pen (18 mg/3 mL) per fill, as directed
+
+---
+
+## DETERMINATION
+
+**☒ DENIED – NOT MEDICALLY NECESSARY**
+
+Humana has completed its review of the prior authorization request for liraglutide (Saxenda®) submitted on behalf of **Thomas B. Jackson (MRN-100242)**. After careful review of the submitted clinical documentation and applicable coverage criteria, Humana has determined that this request **does not meet the criteria for medical necessity** as defined under the applicable plan benefit and Humana clinical policy guidelines. This service is **not covered** under current plan benefits for the reasons described below.
+
+---
+
+## POLICY BASIS FOR DENIAL
+
+This determination was made in accordance with:
+
+- **Humana Clinical Policy Bulletin (CPB) No. 0580 – Pharmacologic Management of Obesity and Overweight**, effective date January 1, 2025 (last reviewed March 15, 2025)
+- **Humana Pharmacy Coverage and Limitations File – Tier Exception and Step Therapy Protocol, Section 4.3: GLP-1 Receptor Agonists for Weight Management**
+- Member's applicable Evidence of Coverage (EOC) document, Section 5.4: Prescription Drug Coverage – Coverage Limitations and Exclusions
+
+Pursuant to CPB No. 0580, liraglutide 3.0 mg (Saxenda®) is considered medically necessary for chronic weight management **only** when **all** of the following criteria are met:
+
+1. The member has an initial Body Mass Index (BMI) **≥ 30 kg/m²**, OR a BMI **≥ 27 kg/m²** in the presence of at least one weight-related comorbidity (e.g., type 2 diabetes mellitus, hypertension, dyslipidemia, obstructive sleep apnea); **AND**
+2. The member has documented participation in a **structured, comprehensive behavioral modification and lifestyle intervention program** of at least **six (6) consecutive months** duration within the 24 months prior to the request, with documented evidence of goals, attendance, and outcomes (e.g., dietary counseling, physical activity guidance, behavioral therapy); **AND**
+3. The member has demonstrated **insufficient weight loss response** (defined as less than 5% total body weight reduction) during the above qualifying behavioral intervention period; **AND**
+4. The prescribing physician has documented that **pharmacologic therapy is appropriate** in the context of the member's overall medical profile, including a review of potential contraindications, drug interactions, and comorbid conditions; **AND**
+5. No clinically significant contraindications exist, including but not limited to a personal or family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2).
+
+---
+
+## CLINICAL RATIONALE FOR DENIAL
+
+Humana's licensed clinical reviewer, a board-certified physician, conducted a full review of the prior authorization request and all submitted supporting documentation on behalf of **Thomas B. Jackson (MRN-100242)**. The denial is based on the following specific clinical findings:
+
+**1. Insufficient Documentation of Structured Behavioral Intervention (Criterion #2 Not

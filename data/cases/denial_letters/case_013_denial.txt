@@ -1,0 +1,27 @@
+---
+
+**🔔 New Message from Cigna | Prior Authorization Update**
+
+**Subject:** Prior Auth Decision – Wegovy (semaglutide)
+**Reference / Case #:** PA-2024-MRN100246-0847
+**Member:** Emily J. Kowalski | **Member ID:** MRN-100246
+**Requested by:** Dr. Anita Desai, MD | NPI 1316248790
+**Date:** 10/14/2024
+
+---
+
+**Status: ⛔ DENIED – Non-Formulary**
+
+Wegovy (semaglutide 2.4 mg) is not covered under your current Cigna benefit plan as it is not included on your plan's approved drug formulary. While we received clinical documentation from Dr. Desai supporting your diagnosis, your plan does not provide benefits for this medication at this time. A covered formulary alternative may be available — please contact your care team to discuss options.
+
+---
+
+**Next Steps:**
+- 📄 [View Full Denial & Clinical Criteria →](#)
+- ⚖️ [Submit a Formulary Exception or Appeal →](#)
+- 📞 Questions? Call Member Services: **1-800-CIGNA-24**
+
+Appeals must be submitted within **180 days** of this notice.
+
+---
+*Cigna Member Portal | Secure Message | Do not reply via email*

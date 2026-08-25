@@ -1,0 +1,79 @@
+---
+
+# AETNA BETTER HEALTH
+## Utilization Management Department
+1425 Union Meeting Road | Blue Bell, PA 19422
+**Phone:** 1-800-537-9384 | **Fax:** 1-866-455-8650
+**TTY/TDD:** 711
+
+---
+
+**DATE:** June 17, 2025
+
+**REFERENCE NUMBER:** UM-2025-PA-0061742-TX
+
+**CASE TYPE:** Prior Authorization — Pharmacy Benefit — **DENIAL**
+
+---
+
+## NOTICE OF ADVERSE BENEFIT DETERMINATION
+
+---
+
+**TO:** Dr. Brian Fenwick, MD
+Family Medicine
+NPI: 1093857462
+
+**RE:**
+**Member Name:** Linda S. Martinez
+**Member ID / MRN:** MRN-100245
+**Date of Birth:** On file
+**Plan Type:** Aetna Commercial PPO
+**Group Number:** On file
+
+---
+
+### DRUG REQUESTED
+
+| Field | Detail |
+|---|---|
+| **Medication** | Tirzepatide injection (Zepbound) 2.5 mg/0.5 mL subcutaneous, weekly |
+| **Requested Quantity** | 4 pens per 28-day supply |
+| **Requested Duration** | 12 months |
+| **Diagnosis (ICD-10)** | E66.01 – Morbid (severe) obesity due to excess calories; G47.33 – Obstructive sleep apnea; I10 – Essential (primary) hypertension |
+| **Date Request Received** | June 12, 2025 |
+| **Determination Date** | June 17, 2025 |
+
+---
+
+### DETERMINATION
+
+**THIS REQUEST HAS BEEN DENIED.**
+
+Aetna has completed its review of the prior authorization request submitted on behalf of **Linda S. Martinez (MRN-100245)** for **tirzepatide (Zepbound)**. Based on our review of the submitted clinical information and applicable Aetna clinical policy, this request does **not meet the criteria for coverage** at this time.
+
+This determination was made by a licensed Aetna Medical Director, Board Certified in Internal Medicine.
+
+---
+
+### POLICY BASIS FOR DENIAL
+
+This determination is based upon **Aetna Clinical Policy Bulletin No. 0580: Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists and Glucose-Dependent Insulinotropic Polypeptide (GIP)/GLP-1 Receptor Agonists for Weight Management**, effective January 1, 2025 (hereinafter "CPB 0580"), as well as the member's applicable plan documents and Evidence of Coverage.
+
+Under CPB 0580, Section III(B)(2) — *Criteria for Approval of Tirzepatide (Zepbound) for Chronic Weight Management* — coverage of tirzepatide requires that the following conditions be met:
+
+> *"The member must have documented, clinically supervised trials of at least two (2) formulary-preferred, lower-tier pharmacologic weight management agents, each trialed for a minimum of twelve (12) consecutive weeks at therapeutic doses, with documented inadequate response (defined as less than 5% total body weight loss) or documented intolerance precluding continued use, prior to consideration of tirzepatide."*
+
+Additionally, CPB 0580, Section III(B)(1) requires:
+
+> *"The member must have documentation of a structured, supervised lifestyle modification program (behavioral counseling, dietary intervention, and physical activity guidance) of no less than six (6) months duration within the twenty-four (24) months preceding the authorization request."*
+
+---
+
+### CLINICAL RATIONALE
+
+Aetna's Utilization Management team reviewed all clinical documentation submitted in support of this prior authorization request, including referral notes and the prescribing physician's clinical summary dated June 10, 2025. Based on this review, the following deficiencies were identified:
+
+**1. Step Therapy Requirements Not Satisfied — Prerequisite Pharmacotherapy Not Documented**
+
+The submitted clinical record does not contain documentation of an adequate trial of **at least two (2) formulary-preferred weight management medications** prior to the request for tirzepatide. Aetna's current Commercial formulary identifies the following

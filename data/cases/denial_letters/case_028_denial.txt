@@ -1,0 +1,89 @@
+---
+
+**ANTHEM BLUE CROSS BLUE SHIELD**
+Utilization Management Division
+220 Virginia Avenue
+Indianapolis, IN 46204
+Phone: 1-800-676-2583 | Fax: 1-855-831-6019
+AnthemBCBS.com
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**— PRIOR AUTHORIZATION DENIAL —**
+
+---
+
+**Date:** June 17, 2025
+**Reference Number:** AUTH-2025-0617-84412
+**Determination Type:** Initial Denial — Non-Covered / Alternative Available
+
+---
+
+**MEMBER INFORMATION**
+
+| | |
+|---|---|
+| **Member Name:** | Denise W. Abernathy |
+| **Member ID / MRN:** | MRN-100261 |
+| **Date of Birth:** | [On File] |
+| **Plan Name:** | Anthem Blue Cross Blue Shield Commercial PPO |
+| **Group Number:** | [On File] |
+
+---
+
+**PRESCRIBING PROVIDER INFORMATION**
+
+| | |
+|---|---|
+| **Physician Name:** | Dr. Raj Venkataraman, MD |
+| **Specialty:** | Endocrinology |
+| **NPI:** | 1468025793 |
+| **Date Request Received:** | June 13, 2025 |
+| **Date of Determination:** | June 17, 2025 |
+
+---
+
+**DRUG REQUESTED**
+
+**Semaglutide (Ozempic®) 0.5 mg/0.5 mL subcutaneous injection**
+Requested Indication: Type 2 Diabetes Mellitus with Obesity (BMI 32)
+Requested Duration: 12 months
+
+---
+
+**DETERMINATION: DENIED**
+**Denial Reason: Covered Alternative(s) Available**
+
+---
+
+**TO:** Dr. Raj Venkataraman, MD
+**RE:** Prior Authorization Request for Denise W. Abernathy (MRN-100261)
+
+Dear Dr. Venkataraman,
+
+Anthem Blue Cross Blue Shield has completed its review of the prior authorization request submitted on behalf of your patient, **Denise W. Abernathy (MRN-100261)**, for **semaglutide (Ozempic®)**. After careful clinical review of the submitted documentation, Anthem has made an **adverse benefit determination** and the request is hereby **DENIED** based on the criteria set forth below.
+
+This determination was made by a licensed physician reviewer with relevant specialty expertise in accordance with Anthem's utilization management guidelines.
+
+---
+
+**POLICY BASIS**
+
+This determination was made pursuant to:
+
+- **Anthem Clinical Policy Bulletin (CPB) No. 0580**: *Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists for the Treatment of Type 2 Diabetes Mellitus and Obesity — Step Therapy and Coverage Criteria*, effective January 1, 2025 (revised March 15, 2025).
+- **Anthem Pharmacy Medical Benefit Coverage Policy — Formulary Tier Management, Section 4.2**: *Preferred Diabetic Agents and Step Therapy Protocol*.
+- Member's applicable Evidence of Coverage (EOC), Section 7: *Prescription Drug Coverage and Prior Authorization Requirements*.
+
+---
+
+**CLINICAL RATIONALE FOR DENIAL**
+
+Anthem's Utilization Management clinical reviewer has evaluated the prior authorization request for semaglutide (Ozempic®) for **Denise W. Abernathy**, a 57-year-old female with a diagnosis of **Type 2 Diabetes Mellitus (ICD-10: E11.9)** and **Obesity, BMI 32.0 (ICD-10: E66.09)**.
+
+The submitted clinical documentation was reviewed and the following findings support this denial:
+
+**1. Step Therapy Requirements Not Met**
+
+Pursuant to Clinical Policy Bulletin 0580, Section III.B, coverage of a non-preferred GLP-1 receptor agonist requires documented trial, adequate use, and failure of, or medical contraindication to, **at least one (1) preferred formulary GLP-1 receptor agonist** prior to authorization of a non-preferred agent. The member's current plan formul

@@ -1,0 +1,12 @@
+{
+  "case_id": "case_029",
+  "patient_name": "Harold G. Weinstein",
+  "patient_mrn": "MRN-100262",
+  "payer": "Humana",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "off_label",
+  "appeal_tier": "no_viable_appeal",
+  "filename": "case_029_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_029_note.txt"
+}

@@ -1,0 +1,65 @@
+---
+
+# UnitedHealthcare
+**UnitedHealthcare Insurance Company**
+185 Asylum Street | Hartford, CT 06103
+Member Services: 1-866-892-5890 | Provider Services: 1-800-922-8778
+Fax: 1-866-545-7628 | uhcprovider.com
+
+---
+
+**NOTICE OF ADVERSE BENEFIT DETERMINATION**
+**Prior Authorization Denial — Not Medically Necessary as Requested (Step Therapy Not Satisfied)**
+
+---
+
+**Date:** June 13, 2025
+**Reference Number:** PA-2025-06-UHC-4482917
+**Plan Type:** UnitedHealthcare Choice Plus (Commercial)
+
+---
+
+**Member Information**
+**Member Name:** Carl D. Whitfield
+**Member ID / MRN:** MRN-100247
+**Date of Birth:** [DOB on file]
+**Date of Request:** June 9, 2025
+**Date of Determination:** June 13, 2025
+
+**Requesting Provider Information**
+**Prescribing Physician:** Paul Iverson, MD — Internal Medicine
+**NPI:** 1487326509
+**Practice Address:** [Address on file]
+
+---
+
+**Drug Requested:** Semaglutide injection 0.5 mg/1 mL (Ozempic®), subcutaneous, once weekly
+**Requested Quantity:** 1 pen (2 mL) per 28 days
+**Diagnosis Codes:** E11.65 (Type 2 diabetes mellitus with hyperglycemia); I10 (Essential hypertension); E78.5 (Hyperlipidemia, unspecified)
+**ICD-10 Primary Indication:** Glycemic management in Type 2 Diabetes Mellitus
+
+---
+
+## DETERMINATION: **DENIED**
+
+UnitedHealthcare has reviewed the prior authorization request submitted on behalf of **Carl D. Whitfield (MRN-100247)** for **semaglutide (Ozempic®)** as prescribed by **Dr. Paul Iverson, MD (NPI: 1487326509)**. After clinical review of the submitted documentation, UnitedHealthcare has determined that this request does **not meet the criteria for coverage** under the applicable Clinical Policy Bulletin at this time.
+
+**This is not a determination that the requested medication is contraindicated or clinically inappropriate in all circumstances. This denial is based solely on the member's failure to complete required step therapy prior to authorization of the requested agent.**
+
+---
+
+## CLINICAL POLICY CITATION
+
+This determination was made in accordance with:
+
+**UnitedHealthcare Clinical Policy Bulletin (CPB) No. 0580 — Glucagon-Like Peptide-1 (GLP-1) Receptor Agonists and Glucose-Dependent Insulinotropic Polypeptide (GIP)/GLP-1 Receptor Agonists**, effective January 1, 2025, and the **UnitedHealthcare Commercial Formulary Step Therapy Protocol — Antidiabetic Agents, Tier 3 (Preferred Specialty)**, as adopted under the applicable plan document.
+
+Additionally, this determination references **UnitedHealthcare Pharmacy Medical Necessity Guideline: Antidiabetic Agents — Injectable Non-Insulin Therapies (Policy ID: CS-PHARM-0023.16)**, current as of March 1, 2025.
+
+---
+
+## CLINICAL RATIONALE FOR DENIAL
+
+The submitted clinical documentation for **Carl D. Whitfield (MRN-100247)**, a 58-year-old male with a body mass index (BMI) of 34 kg/m², and documented diagnoses of Type 2 diabetes mellitus with hyperglycemia, hypertension, and hyperlipidemia, has been reviewed by a UnitedHealthcare clinical reviewer.
+
+Under **CPB 0580** and the applicable plan's step therapy protocol, coverage of a **GLP-1 receptor agonist**, including semaglutide (Ozempic®), as a non-insulin injectable antidiabetic agent requires demonstrated trial, adequate use, and either documented therapeutic failure, intolerance, or contraindication to **one or more preferred step therapy agents** prior to advancement to a GLP-1 receptor 

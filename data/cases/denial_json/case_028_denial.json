@@ -1,0 +1,12 @@
+{
+  "case_id": "case_028",
+  "patient_name": "Denise W. Abernathy",
+  "patient_mrn": "MRN-100261",
+  "payer": "Anthem",
+  "drug": "semaglutide (Ozempic)",
+  "denial_reason": "alternative_covered",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_028_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_028_note.txt"
+}

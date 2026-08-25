@@ -1,0 +1,48 @@
+# PRIMARY CARE PROGRESS NOTE
+
+---
+
+**PATIENT:** Jennifer L. Caldwell
+**MRN:** MRN-100234
+**DATE OF SERVICE:** 2025-07-14
+**PROVIDER:** Dr. Susan Ramirez, MD — Internal Medicine
+**NPI:** 1740291856
+**CLINIC:** Internal Medicine Associates
+**VISIT TYPE:** Office Visit — Established Patient / Prior Authorization Appeal Documentation
+
+---
+
+## CHIEF COMPLAINT
+
+Follow-up for obesity management and type 2 diabetes mellitus; documentation of step therapy completion in support of appeal for semaglutide (Wegovy) prior authorization denied by Aetna.
+
+---
+
+## SUBJECTIVE
+
+Ms. Jennifer L. Caldwell is a 45-year-old female with a well-established history of Class II obesity (BMI 38 kg/m²), type 2 diabetes mellitus (E11.9), and hypertension who presents today to establish comprehensive documentation supporting her appeal following Aetna's denial of semaglutide (Wegovy) 2.4 mg subcutaneous weekly on the basis of step therapy not completed. I have been managing Ms. Caldwell's obesity and related metabolic comorbidities for the past three years and wish to detail at length the extensive prior treatment history that has been undertaken before arriving at this pharmacologic request.
+
+**History of Obesity and Prior Conservative Interventions:**
+
+Ms. Caldwell was first counseled on structured weight management in **January 2022**, at which time her weight was 228 lbs (BMI 36.8 kg/m²). She was referred at that time to a registered dietitian (RD), Ms. Patricia Howe, RD, at our affiliated nutrition clinic, for medically supervised dietary intervention. She completed **six months of structured dietary counseling (January 2022 – June 2022)**, attending sessions twice monthly. Her dietary program consisted of a caloric deficit target of 500–750 kcal/day below estimated total daily energy expenditure, with macronutrient targets consistent with ADA guidance for patients with type 2 diabetes (45–50% carbohydrate, emphasis on low glycemic index foods, <10% saturated fat). Despite full adherence per RD notes, Ms. Caldwell achieved only a 4 lb weight reduction over this period (ending weight 224 lbs), which was insufficient to achieve meaningful metabolic benefit.
+
+She was concurrently enrolled in a **structured exercise program** beginning **February 2022**, consisting of supervised aerobic conditioning three times per week through our partnered physical therapy and wellness center (Lakeside Wellness Center, authorization #LW-2022-0214). This program continued through **August 2022 (six months)**. Despite compliance, she reported inability to sustain high-intensity activity secondary to bilateral knee osteoarthritis and exertional fatigue, and achieved no further sustained weight reduction beyond the initial dietary phase.
+
+**Step Therapy — Pharmacologic Interventions:**
+
+Given failure of supervised lifestyle intervention alone, pharmacologic weight management therapy was initiated in the fall of 2022. The following agents were trialed in sequential order:
+
+**1. Metformin (extended-release) — for weight-associated glycemic benefit**
+- **Dose:** 500 mg orally daily, titrated to 2000 mg orally daily over 4 weeks
+- **Duration:** **September 2022 – March 2023 (6 months)**
+- **Outcome / Reason for Inadequate Response:** Metformin was initiated primarily for glycemic control (A1C 7.8% at initiation) and has modest weight-neutral to mild weight-loss benefit. After six months, A1C improved modestly to 7.2%; however, weight remained essentially unchanged at 225 lbs (BMI 36.9 kg/m²). Metformin was continued as background diabetes therapy but was not adequate as a weight management agent. Patient tolerated medication without GI side effects at final dose.
+
+**2. Phentermine/Topiramate (Qsymia) — FDA-approved weight management agent**
+- **Dose:** Initiated at phentermine 3.75 mg / topiramate 23 mg orally daily × 2 weeks, titrated to phentermine 7.5 mg / topiramate 46 mg orally daily
+- **Duration:** **April 2023 – September 2023 (6 months)**
+- **Outcome / Reason for Discontinuation:** Patient reported progressive cognitive side effects including word-finding difficulty and impaired concentration beginning approximately 6–8 weeks into therapy at the 7.5/46 mg dose. These symptoms were functionally impairing, affecting her performance at her administrative management position. Topiramate-related cognitive adverse effects are a well-documented class effect. Dose reduction back to 3.75/23 mg resulted in minimal weight loss benefit (total weight change: −3 lbs over 6 months; ending weight 222 lbs). Therapy was discontinued in **September 2023** due to inadequate efficacy at the tolerated dose and unacceptable cognitive adverse effects at therapeutic dosing. A1C at that time: 7.4%.
+
+**3. Bupropion/Naltrexone (Contrave) — FDA-approved weight management agent**
+- **Dose:** Initiated per standard titration: Week 1: one tablet (naltrexone 8 mg / bupropion 90 mg) in AM; Week 2: one tablet BID; Week 3: two tablets AM / one tablet PM; Week 4 and beyond: two tablets BID (maintenance dose: naltrexone 32 mg / bupropion 360 mg daily)
+- **Duration:** **November 2023 – April 2024 (6 months)**
+- **Outcome / Reason for Discontinuation:** Ms. Caldwell achieved full titration by week 4. However, she developed persistent nausea (grade 2) and insomnia that did not resolve after the initial 4-week acclimation period. More significantly, she reported elevation in blood pressure readings at home (systolic readings 150–162 mmHg), which is a recognized adverse effect of bupropion component and of particular concern given her underlying hypertension, which had been previously well-controlled on amlodipine 5 mg daily. Repeat in-office blood pressure confirmed readings of 158/94 mmHg and 155/92 mmHg on two separate measurements

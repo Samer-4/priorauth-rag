@@ -1,0 +1,12 @@
+{
+  "case_id": "case_022",
+  "patient_name": "Gloria P. Mendoza",
+  "patient_mrn": "MRN-100255",
+  "payer": "Kaiser Permanente",
+  "drug": "semaglutide (Wegovy)",
+  "denial_reason": "step_therapy_not_completed",
+  "appeal_tier": "strong_appeal",
+  "filename": "case_022_denial.txt",
+  "format": "formal_letter",
+  "note_file": "case_022_note.txt"
+}
