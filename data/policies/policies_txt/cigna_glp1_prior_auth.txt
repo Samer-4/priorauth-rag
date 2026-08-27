@@ -1,0 +1,1817 @@
+ 
+Page 1 of 33 - Cigna National Formulary Coverage  - Policy: 
+Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+PRIOR AUTHORIZATION POLICY 
+ 
+POLICY: 
+Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization 
+Policy 
+• 
+Foundayo™ (orforglipron tablets – Eli Lilly) 
+• 
+Saxenda® (liraglutide subcutaneous injection – Novo Nordisk, 
+generic) 
+• 
+Wegovy® (semaglutide tablets and subcutaneous injection – Novo 
+Nordisk) 
+• 
+Wegovy® HD (semaglutide subcutaneous injection – NovoNordisk) 
+• 
+Zepbound® (tirzepatide subcutaneous injection [KwikPens, pens, 
+and vials] − Eli Lilly) 
+ 
+REVIEW DATE: 07/09/2025; selected revision 08/27/2025, 09/10/2025, 
+12/03/2025, 12/30/2025, 02/25/2026, 04/02/2026, and 
+04/15/2026 
+ 
+ 
+INSTRUCTIONS FOR USE 
+THE FOLLOWING COVERAGE POLICY APPLIES TO HEALTH BENEFIT PLANS ADMINISTERED BY CIGNA COMPANIES. CERTAIN CIGNA 
+COMPANIES AND/OR LINES OF BUSINESS ONLY PROVIDE UTILIZATION REVIEW SERVICES TO CLIENTS AND DO NOT MAKE COVERAGE 
+DETERMINATIONS. REFERENCES TO STANDARD BENEFIT PLAN LANGUAGE AND COVERAGE DETERMINATIONS DO NOT APPLY TO THOSE 
+CLIENTS. COVERAGE POLICIES ARE INTENDED TO PROVIDE GUIDANCE IN INTERPRETING CERTAIN STANDARD BENEFIT PLANS 
+ADMINISTERED BY CIGNA COMPANIES. PLEASE NOTE, THE TERMS OF A CUSTOMER’S PARTICULAR BENEFIT PLAN DOCUMENT [GROUP 
+SERVICE AGREEMENT, EVIDENCE OF COVERAGE, CERTIFICATE OF COVERAGE, SUMMARY PLAN DESCRIPTION (SPD) OR SIMILAR PLAN 
+DOCUMENT] MAY DIFFER SIGNIFICANTLY FROM THE STANDARD BENEFIT PLANS UPON WHICH THESE COVERAGE POLICIES ARE BASED. FOR 
+EXAMPLE, A CUSTOMER’S BENEFIT PLAN DOCUMENT MAY CONTAIN A SPECIFIC EXCLUSION RELATED TO A TOPIC ADDRESSED IN A COVERAGE 
+POLICY. IN THE EVENT OF A CONFLICT, A CUSTOMER’S BENEFIT PLAN DOCUMENT ALWAYS SUPERSEDES THE INFORMATION IN THE 
+COVERAGE POLICIES. IN THE ABSENCE OF A CONTROLLING FEDERAL OR STATE COVERAGE MANDATE, BENEFITS ARE ULTIMATELY 
+DETERMINED BY THE TERMS OF THE APPLICABLE BENEFIT PLAN DOCUMENT. COVERAGE DETERMINATIONS IN EACH SPECIFIC INSTANCE 
+REQUIRE CONSIDERATION OF 1) THE TERMS OF THE APPLICABLE BENEFIT PLAN DOCUMENT IN EFFECT ON THE DATE OF SERVICE; 2) ANY 
+APPLICABLE LAWS/REGULATIONS; 3) ANY RELEVANT COLLATERAL SOURCE MATERIALS INCLUDING COVERAGE POLICIES AND; 4) THE 
+SPECIFIC FACTS OF THE PARTICULAR SITUATION. EACH COVERAGE REQUEST SHOULD BE REVIEWED ON ITS OWN MERITS. MEDICAL 
+DIRECTORS ARE EXPECTED TO EXERCISE CLINICAL JUDGMENT WHERE APPROPRIATE AND HAVE DISCRETION IN MAKING INDIVIDUAL 
+COVERAGE DETERMINATIONS. WHERE COVERAGE FOR CARE OR SERVICES DOES NOT DEPEND ON SPECIFIC CIRCUMSTANCES, 
+REIMBURSEMENT WILL ONLY BE PROVIDED IF A REQUESTED SERVICE(S) IS SUBMITTED IN ACCORDANCE WITH THE RELEVANT CRITERIA 
+OUTLINED IN THE APPLICABLE COVERAGE POLICY, INCLUDING COVERED DIAGNOSIS AND/OR PROCEDURE CODE(S). REIMBURSEMENT IS 
+NOT ALLOWED FOR SERVICES WHEN BILLED FOR CONDITIONS OR DIAGNOSES THAT ARE NOT COVERED UNDER THIS COVERAGE POLICY 
+(SEE “CODING INFORMATION” BELOW). WHEN BILLING, PROVIDERS MUST USE THE MOST APPROPRIATE CODES AS OF THE EFFECTIVE 
+DATE OF THE SUBMISSION. CLAIMS SUBMITTED FOR SERVICES THAT ARE NOT ACCOMPANIED BY COVERED CODE(S) UNDER THE APPLICABLE 
+COVERAGE POLICY WILL BE DENIED AS NOT COVERED. COVERAGE POLICIES RELATE EXCLUSIVELY TO THE ADMINISTRATION OF HEALTH 
+BENEFIT PLANS. COVERAGE POLICIES ARE NOT RECOMMENDATIONS FOR TREATMENT AND SHOULD NEVER BE USED AS TREATMENT 
+GUIDELINES. IN CERTAIN MARKETS, DELEGATED VENDOR GUIDELINES MAY BE USED TO SUPPORT MEDICAL NECESSITY AND OTHER 
+COVERAGE DETERMINATIONS. 
+ 
+CIGNA NATIONAL FORMULARY COVERAGE:  
+ 
+OVERVIEW 
+Foundayo, Liraglutide (Saxenda, generic), Wegovy, and Zepbound are glucagon-like 
+peptide-1 (GLP-1) receptor agonists; Zepbound is also a glucose-dependent 
+insulinotropic polypeptide (GIP) receptor agonist.1,2,4,25 
+ 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Foundayo, Liraglutide, Wegovy injection, Wegovy tablet, and Zepbound are 
+indicated in combination with a reduced-calorie diet and increased physical 
+activity:1,2,4,25 
+• 
+To reduce excess body weight and maintain weight reduction long 
+term in: 
+o Foundayo, Liraglutide, Wegovy injection, Wegovy tablet, and 
+Zepbound:  Adults with overweight in the presence of at least one 
+weight-related comorbid condition.1,2,4,6,25 
+o Foundayo, Liraglutide, Wegovy injection, Wegovy tablet, and 
+Zepbound:  Adults with obesity.1,4,25 
+o Liraglutide:  Pediatric patients ≥ 12 years of age and ≥ 60 kg with 
+obesity.2 
+o Wegovy injection:  Pediatric patients ≥ 12 years of age with obesity.1,7 
+ 
+Wegovy HD injection is intended for weight reduction in adults who tolerate 
+Wegovy 2.4 mg injection for ≥ 4 weeks and require additional weight reduction.1 
+ 
+Wegovy injection and Wegovy tablet are indicated in combination with a 
+reduced-calorie diet and increased physical activity:1 
+• 
+To reduce the risk of major adverse cardiovascular (CV) events 
+(MACE) [CV death, non-fatal myocardial infarction {MI}, or non-fatal stroke] 
+in adults with established CV disease and either obesity or overweight.1,5 
+ 
+Wegovy injection is indicated in combination with a reduced-calorie diet and 
+increased physical activity:1 
+• 
+For the treatment of non-cirrhotic metabolic dysfunction-associated 
+steatohepatitis (MASH), formerly known as non-alcoholic steatohepatitis 
+(NASH), with moderate to advanced liver fibrosis (consistent with stages F2 
+to F3 fibrosis) in adults.1,19,20 
+ 
+Zepbound is indicated in combination with a reduced-calorie diet and increased 
+physical activity:4 
+• 
+To treat moderate to severe obstructive sleep apnea (OSA) in adults 
+with obesity. 
+ 
+Dosing 
+In the prescribing information for Foundayo, the recommended starting dose is 0.8 
+mg orally once daily (QD).25  After ≥ 30 days on the 0.8 mg dose, increase the dose 
+to 2.5 mg QD.  After ≥ 30 days on the 2.5 mg dose, increase the dose to 5.5 mg 
+QD.  The dose may be increased to the next dose level (9 mg, 14.5 mg, or 17.2 mg 
+QD) after ≥ 30 days on the current dose based on treatment response and 
+tolerability.  The maximum dose is 17.2 mg QD (reached on Day 151). 
+ 
+In the prescribing information for Wegovy injection, a recommended dose 
+escalation schedule of 16 weeks is outlined (the 2.4 mg dose would be reached at 
+the start of Week 17).1  Consider the treatment response and tolerability when 
+selecting the maintenance dose.  For weight loss in an adult who tolerates 2.4 mg 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+SC QW for ≥ 4 weeks and additional weight reduction is clinically indicated, the 
+dose may be increased to a maximum of 7.2 mg SC QW (Wegovy HD). 
+ 
+In the prescribing information for Wegovy tablet, a recommended dose escalation 
+schedule of 90 days is outlined (the 25 mg dose would be reached at the start of 
+Day 91).1  If a patient does not tolerate a dose during dose escalation, consider 
+delaying dose escalation.  For CV risk reduction and weight reduction, the 
+maintenance dose of Wegovy tablet is 25 mg orally QD.  If the patient does not 
+tolerate the 25 mg QD maintenance dosage, consider switching to Wegovy SC 
+injection 1.7 mg QW.  If additional weight reduction is needed in patients with type 
+2 diabetes mellitus treated with Wegovy 25 mg tablet, consider switching to 
+Wegovy 1.7 mg SC injection QW and follow the recommended dosage escalation for 
+Wegovy SC injection. 
+ 
+Adults taking Wegovy 2.4 mg SC injection for CV risk reduction or weight reduction 
+may switch to Wegovy 25 mg tablets.1  One week after discontinuing Wegovy 2.4 
+mg SC injection, initiate 25 mg of Wegovy tablets orally QD.  A patient may switch 
+from Wegovy 25 mg tablets to Wegovy SC injection.  The day after discontinuing 
+Wegovy 25 mg tablets QD, initiate Wegovy 2.4 mg SC injection QW. 
+ 
+In the prescribing information for liraglutide, a recommended dose escalation 
+schedule of 4 weeks is outlined.2  If a patient does not tolerate an increased dose 
+during dose escalation, consider delaying dose escalation for approximately one 
+additional week.  For adults, the prescribing information states to evaluate the 
+change in body weight 16 weeks after initiating liraglutide and discontinue 
+liraglutide if the patient has not lost ≥ 4% of baseline body weight, since it is 
+unlikely the patient will achieve and sustain clinically meaningful weight loss with 
+continued treatment.  For pediatric patients, evaluate the change in body mass 
+index (BMI) after 12 weeks on the maintenance dose; if the patient has not had a 
+reduction in BMI of ≥ 1% from baseline, discontinue liraglutide as it is unlikely the 
+patient will achieve and sustain clinically meaningful weight loss with continued 
+treatment. 
+ 
+In the prescribing information for Zepbound, the recommended starting dose is 2.5 
+mg SC QW.4  The 2.5 mg dose is for treatment initiation and is not intended for 
+chronic weight management.  The maximum dose is 15 mg QW.  The 5 mg, 10 mg, 
+and 15 mg maintenance doses are reached at Week 4, Week 12, and Week 20, 
+respectively. 
+ 
+None of the GLP-1 or GLP-1/GIP agonists are recommended for coadministration 
+with other GLP-1 or GLP-1/GIP agonists.1,2,4,25 
+ 
+Clinical Efficacy 
+Secondary Prevention of MACE 
+SELECT was a randomized, double-blind, placebo-controlled, event-driven study 
+that assessed Wegovy injection vs. placebo, when added to standard of care, for 
+the secondary prevention of CV events in adults ≥ 45 years of age with BMI ≥ 27 
+kg/m2 and established CV disease without diabetes (n = 17,604).5  Established CV 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+disease was defined as one of the following:  prior MI, prior stroke (ischemic or 
+hemorrhagic), and/or symptomatic peripheral arterial disease (as evidenced by 
+intermittent claudication with ankle-brachial index < 0.85, peripheral arterial 
+revascularization procedure, or amputation due to atherosclerotic disease).  The 
+primary efficacy endpoint was a composite of death from CV causes, non-fatal MI, 
+or non-fatal stroke. 
+ 
+Results.  Patients were followed for a mean of 39.8 months.5  The trial achieved its 
+primary endpoint, demonstrating a statistically significant and superior reduction in 
+MACE for Wegovy injection vs. placebo.  A primary endpoint event occurred in 6.5% 
+vs. 8.0% of patients in the Wegovy injection vs. placebo groups, respectively 
+(hazard ratio 0.80; 95% confidence interval:  0.72, 0.90; P < 0.001). 
+ 
+MASH 
+The ESSENCE trial (Part 1 n = 800), a two-part, ongoing. Phase III, multicenter, 
+double-blind, parallel-group trial randomized adults with MASH and stage F2 to F3 
+fibrosis to Wegovy injection or placebo, both in addition to standard of care 
+(optimization of treatment for type 2 diabetes, dyslipidemia, and CV risk 
+management).19,20  Results from Part 1 have been published.  Eligible patients were 
+≥ 18 years of age with histological presence of steatohepatitis with stage F2 to F3 
+fibrosis from a baseline liver biopsy.  Patients with an average alcohol consumption 
+of ≥ 20 grams/day for women or ≥ 30 grams/day for men or alcohol dependence 
+were excluded.  Rezdiffra™ (resmetirom tablets) was not approved at the time the 
+trial commenced; therefore, no patients were taking Rezdiffra in Part 1 of this trial.  
+Concomitant use of any other GLP-1 or GLP-1/GIP agonist was not allowed.  The 
+two primary histologic endpoints were:  1) Resolution of steatohepatitis and no 
+worsening of liver fibrosis; and 2) Improvement in liver fibrosis and no worsening of 
+steatohepatitis.  In Part 2 of the trial, the primary endpoint will be cirrhosis-free 
+survival at Week 240 (ongoing).  Overall, 56% of patients had type 2 diabetes.  The 
+mean BMI was 34.6 kg/m2.  Most patients fulfilled four (27.8%) or five (43.3%) of 
+five metabolic dysfunction-associated metabolic liver disease (MASLD) 
+cardiometabolic criteria (i.e., BMI ≥ 25 kg/m2 [≥ 23 kg/m2 Asia] or waist 
+circumference > 94 cm [male] or > 80 cm [female] or ethnicity adjusted 
+equivalent; fasting serum glucose ≥ 100 mg/dL or 2-hour post-prandial glucose ≥ 
+140 mg/dL or type 2 diabetes or treatment for type 2 diabetes; blood pressure ≥ 
+130/85 mmHg or specific antihypertensive drug treatment; plasma high-density 
+lipoprotein cholesterol ≤ 40 mg/dL [male] and ≤ 50 mg/dL [female] or lipid-
+lowering treatment).  Most patients had stage F3 fibrosis (68.8%); 31.3% of 
+patients had stage F2 fibrosis. 
+ 
+Results.  At the interim analysis (the first 800 patients enrolled in the trial), the 
+between-group differences for both primary endpoints were significant for Wegovy 
+injection vs. placebo.20  Wegovy injection demonstrated a significant improvement 
+in liver fibrosis with no worsening of steatohepatitis, as well as resolution of 
+steatohepatitis with no worsening of liver fibrosis.  Confirmatory secondary 
+endpoints also generally favored Wegovy injection (e.g., resolution of 
+steatohepatitis with improvement in liver fibrosis, weight change).  Part 2 of the 
+trial is ongoing and expected to read out in 2029. 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+ 
+OSA 
+The SURMOUNT-OSA (n = 469) trials were two 52-week, Phase III, multicenter, 
+double-blind, randomized trials that evaluated the efficacy and safety of maximally 
+tolerated Zepbound (10 mg or 15 mg QW) in adults with obesity (without diabetes) 
+and moderate to severe OSA.9  Two patient populations were included.  In Trial 1, 
+patients were unable or unwilling to use positive airway pressure (PAP) therapy, 
+and in Trial 2, patients had been using PAP therapy for ≥ 3 months at the time of 
+screening and planned to continue PAP therapy during the trial.  All patients had a 
+diagnosis of moderate to severe OSA with an apnea-hypopnea index (AHI) ≥ 15 
+events/hour as diagnosed with polysomnography, home sleep apnea test, or other 
+methods that met local guidelines prior to Visit 1.  Patients had a BMI of ≥ 30 
+kg/m2 (≥ 27 kg/m2 in Japan) despite the history of at least one self-reported 
+unsuccessful dietary effort to lose weight.  Patients with a diagnosis of central or 
+mixed sleep apnea with the percentage of mixed or central apneas/hypopneas ≥ 
+50%,  and Cheyne Stokes respiration were excluded.  In Trial 1, the mean BMI was 
+39.1 kg/m2 and the mean AHI was 51.5 events/hour.  Most patients had severe 
+OSA (63%).  In Trial 2, the mean BMI was 38.7 kg/m2 and the mean AHI was 49.5 
+events/hour.  Most patients had severe OSA (68%).  The primary endpoint was the 
+superiority of Zepbound vs. placebo for the change in the AHI from baseline.9  
+Several key secondary endpoints were assessed. 
+ 
+Results.  In both trials, Zepbound was superior to placebo for the primary 
+endpoint.  In Trial 1, the change in AHI at Week 52 with Zepbound was superior to 
+placebo (-25.3 events/hour vs. -5.3 events/hour, respectively; estimated treatment 
+difference of -20.0 events/hour; P < 0.001).9  In Trial 2, the change in AHI at Week 
+52 with Zepbound was superior to placebo (-29.3 events/hour vs. -5.5 events/hour, 
+respectively; estimated treatment difference -23.8 events/hour; P < 0.001).  
+Additionally, patients in both trials who received Zepbound had significant 
+reductions in sleep apnea-specific hypoxic burden.  The proportion of patients with 
+a reduction in the AHI of ≥ 50% at Week 52 and the proportion of patients with an 
+AHI of < 5 events/hour or an AHI of 5 to 14 events/hour and an ESS of ≤ 10 at 
+Week 52 also favored Zepbound.  Patients receiving Zepbound in both trials had 
+significant reductions in body weight. 
+ 
+Guidelines 
+Foundayo, Wegovy HD injection, and Wegovy tablet have not been addressed in 
+guidelines. 
+ 
+Weight Management 
+Adult 
+The American Academy of Clinical Endocrinology (AACE) Consensus Statement:  
+Algorithm for the Evaluation and Treatment of Adults with Obesity/Adiposity-Based 
+Chronic Disease (ABCD) [2025 update] places an emphasis on a complication-
+centric, person-centered care model.23  BMI is appropriate to screen for 
+ABCD/obesity and is used to classify individuals into categories of overweight (BMI 
+≥ 25.0 to ≤ 29.9 kg/m2), Class I obesity (BMI ≥ 30.0 to ≤ 34.9 kg/m2), Class II 
+obesity (BMI ≥ 35.0 to ≤ 39.9 kg/m2), or Class III obesity (BMI ≥ 40 kg/m2).  
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Pharmacotherapy, in adjunct to lifestyle modification, is indicated to prevent, 
+improve, or reverse obesity-related complications and diseases; not solely to 
+reduce BMI.  The choice of pharmacotherapy is based on obesity-related 
+comorbidities.  The degree of weight reduction with a given medication can serve as 
+a guide toward improvement of various comorbidities.  Response to pharmacologic 
+therapy to therapy should be assessed after 3 months on a therapeutic dose.  If 
+treatment has not resulted in ≥ 5% weight loss, longer-term efficacy will not likely 
+be sufficient; a change in therapeutic approach is recommended.  Individuals with 
+weight reduction ≥ 5% should continue with their current treatment.  Patients who 
+achieve ≥ 15% weight loss (noted to be the percent weight loss observed on 
+average with Wegovy injection and Zepbound) will have achieved a response to 
+therapy that predictably prevents or improves a wide range of obesity-related 
+comorbidities. 
+ 
+The American Diabetes Association Professional Practice Committee for Obesity 
+(2026) Standards of Care in Overweight and Obesity prioritize obesity 
+pharmacotherapy that is most likely to achieve and maintain intended treatment 
+goals.24  The treatment goal should be individualized based on the severity of 
+obesity, obesity-related complications and diseases, and individual needs.  A 
+sustained weight reduction of ≥ 5% from baseline may achieve some clinically 
+meaningful health benefits, while a sustained weight reduction of ≥ 10% is 
+recommended to manage many obesity-related diseases or complications.  In some 
+cases, ≥ 15% weight reduction may be indicated to achieve greater therapeutic 
+benefit.  Zepbound and Wegovy injection (listed in order of relative benefit) are 
+recognized as agents with high efficacy (> 10% weight loss).  Medications should 
+be continued after reaching treatment goals to maintain health benefits.  When 
+there is an inadequate response to therapy, dose escalation to the maximum dose 
+is recommended.  If the maximum dose has been reached and the response is 
+inadequate, switching to an alternative medication, adding intensive lifestyle 
+therapy, combining medications, or referring for metabolic surgery is 
+recommended.  Patients who achieve early weight reduction (usually ≥ 5% after 3 
+months) should continue medication long term. 
+ 
+Pediatric 
+Guidelines from the American Academy of Pediatrics on evaluation and treatment of 
+children and adolescents with obesity (2023) note that pediatricians and other 
+primary healthcare providers should offer adolescents ≥ 12 years of age with 
+obesity (BMI ≥ 95th percentile) weight loss pharmacotherapy, according to 
+medication indications, risks, and benefits, as an adjunct to health behavior and 
+lifestyle treatment.7 
+ 
+MASH 
+The American Association for the Study of Liver Diseases (AASLD) Practice 
+Guidance on the Clinical Management of non-alcoholic fatty liver disease (2023) 
+was updated in October 2024 to address the approval of Rezdiffra and in November 
+2025 to address approval of Wegovy for MASH.21,22  Best practices in the 
+management of MASH include comprehensive lifestyle modification (nutrition, 
+exercise, behavioral modification), and optimal control of comorbid metabolic 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+conditions.21  MASH can only be definitively diagnosed by histologic exam (biopsy); 
+however, in practice, patient selection is based on evidence of steatosis and fibrosis 
+as determined by non-invasive tests in patients with cardiometabolic risk factors 
+without other causes of steatosis, notably, alcohol consumption of > 20 g/day for 
+women and > 30 g/day for men.  Specifically, fibrosis can be estimated using 
+imaging and/or blood-based non-invasive tests with reasonable to high accuracy.22  
+There are no FDA-approved non-invasive tests to diagnose MASH with stage F2 to 
+F3 fibrosis or to monitor the response to pharmacotherapy.21  Although liver biopsy 
+is not typically recommended for fibrosis staging in current clinical practice, 
+histologic exam remains the gold standard to quantify fibrosis if performed 
+previously (historical biopsy obtained reasonably recently, e.g., within 3 years).21  
+Since non-invasive tests are more readily available than liver biopsy, it is 
+recommended that more current data (e.g., within 6 to 12 months) be utilized to 
+determine patients who are appropriate candidates for treatment.  Three non-
+invasive tests are supported in the 2025 guidance: vibration-controlled transient 
+elastography (VCTE), magnetic resonance elastography (MRE), and the blood-based 
+biomarker Enhanced Liver Fibrosis™ (ELF) score.22  For the blood-based ELF score, 
+a cutoff of 9.2 provides optimal sensitivity and specificity for detecting ≥ F2 fibrosis.  
+To guide the selection of appropriate candidates for treatment with MASH therapy, 
+the ELF score range of 9.2 to 10.5 is recommended.  In the ESSENCE trial, this 
+range identified approximately 50% of patients with F2 or F3 fibrosis.  While the 
+range serves as guidance, in those with values outside of the upper range, 
+exclusion of cirrhosis and portal hypertension should be considered using another 
+non-invasive test such as VCTE or MRE.  Wegovy is not indicated in patients with 
+cirrhotic (F4) MASH. 
+ 
+Sleep Apnea 
+The American Academy of Sleep Medicine (2017) recommends that diagnostic 
+testing for OSA be performed in combination with a comprehensive sleep 
+evaluation.10  Polysomnography is the gold standard test for the diagnosis of OSA in 
+adults in whom there is concern for OSA based on the sleep evaluation.  In some 
+cases, and within the appropriate context, the use of home sleep apnea test as the 
+initial sleep study may be acceptable, however, polysomnography should be used 
+when home sleep apnea test results do not provide satisfactory posttest probability 
+of confirming or ruling out OSA. 
+ 
+Available treatment guidelines for OSA do not specifically mention the GLP-1 
+agonists.  The American Thoracic Society clinical practice guideline on the role of 
+weight management in the treatment with adults with OSA (2018) recommends 
+that patients with OSA who are overweight or obese (BMI ≥ 25 kg/m2) participate 
+in comprehensive lifestyle intervention that includes a reduced calorie diet, 
+exercise/increased physical activity, and behavioral counseling.11  For patients with 
+OSA and a BMI ≥ 27 kg/m2 who have not had an improvement in weight despite a 
+comprehensive weight-loss lifestyle program, and have no contraindications (no 
+active CV disease), evaluation for anti-obesity medication is suggested.  The 
+weight-loss goal in patients with overweight or obesity with OSA should be ≥ 7% to 
+10% of total body weight.  The AACE Consensus Statement:  Algorithm for the 
+Evaluation and Treatment of Adults with Obesity/ABCD (2025 update) recommends 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+a weight loss target of 7% to 10% in patients with OSA and ABCD/obesity; > 10% 
+weight loss is noted to results in additional benefit.23 
+ 
+Clinical success in OSA has been described by several publications.  The American 
+Academy of Sleep Medicine (2019) cites a clinically significant threshold of ≥ 15 
+events/hour (on AHI)12 and a clinical practice guideline for the treatment of OSA 
+and snoring with oral appliance therapy (2015) from the American Academy of 
+Sleep Medicine and American Academy of Dental Sleep Medicine13 notes that 
+treatment success is usually defined as a reduction in the AHI to a specific level 
+(e.g., post-treatment AHI < 5 events/hour, or a > 50% reduction in AHI).  Of note, 
+a meta-analysis on the impact of weight reduction on AHI reported that weight 
+reduction in patients with obesity and OSA was associated with improvements in 
+the severity of OSA.  A BMI reduction of 20% was associated with an AHI reduction 
+of 57%; further weight reduction beyond 20% in BMI was associated with a smaller 
+effect on AHI.14 
+ 
+ 
+POLICY STATEMENT 
+Prior Authorization is recommended for prescription benefit coverage of Foundayo, 
+liraglutide (Saxenda, generic), Wegovy injection, Wegovy HD injection, Wegovy 
+tablet, and Zepbound.  Other glucagon-like peptide-1 agonists that do not carry an 
+FDA-approved indication for weight loss are not targeted in this policy.  In the 
+clinical criteria, as appropriate, an asterisk (*) is noted next to the specified gender.  
+In this context, the specified gender is defined as follows:  males are defined as 
+individuals with the biological traits of a male, regardless of the individual’s gender 
+identity or gender expression; females are defined as individuals with the biological 
+traits of a female, regardless of the individual’s gender identity or gender 
+expression.  Because of the specialized skills required for evaluation and diagnosis 
+of patients treated with Wegovy injection/Wegovy HD injection for metabolic 
+dysfunction-associated steatohepatitis (MASH)/non-alcoholic steatohepatitis (NASH) 
+as well as the monitoring required for adverse events and long-term efficacy, 
+approval requires Wegovy injection/Wegovy HD injection for MASH/NASH to be 
+prescribed by or in consultation with a physician who specializes in the condition 
+being treated.  All approvals are provided for the duration noted below.  In cases 
+where the approval is authorized in months, 1 month is equal to 30 days. 
+ 
+Documentation:  Documentation is required for use of Wegovy injection/Wegovy 
+HD injection for MASH/NASH as noted in the criteria as [documentation 
+required].  Documentation may include, but is not limited to, chart notes, 
+laboratory results, medical test results, claims records, prescription receipts, and/or 
+other information.  All documentation must include patient-specific identifying 
+information. 
+ 
+ 
+ 
+ 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+I. 
+Liraglutide (Saxenda, generic) is(are) covered as medically 
+necessary when the following criteria is(are) met for FDA-approved 
+indication(s) or other uses with supportive evidence (if applicable): 
+FDA-Approved Indications 
+ 
+1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the 
+duration noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 
+year if the patient meets ALL of the following (i, ii, iii, and iv): 
+Note:  For a patient who has not completed 4 months of initial therapy, refer 
+to Initial Therapy criteria above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient meets ONE of the following (a or b):  
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iii. Patient has lost ≥ 4% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration 
+noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 12 years of age and < 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. At baseline, patient had a BMI ≥ 95th percentile for age and sex; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 
+year if the patient meets ALL of the following (i, ii, iii, and iv): 
+Note:  For a patient who has not completed 4 months of initial therapy, refer 
+to Initial Therapy criteria above. 
+i. Patient is ≥ 12 years of age and < 18 years of age; AND 
+ii. At baseline, patient had a BMI ≥ 95th percentile for age and sex; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iii. Patient has had a reduction in BMI of ≥ 1% from baseline; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+ 
+II. 
+Foundayo is(are) covered as medically necessary when the following 
+criteria is(are) met for FDA-approved indication(s) or other uses with 
+supportive evidence (if applicable): 
+FDA-Approved Indication 
+ 
+1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the 
+duration noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving Foundayo.  Approve for 1 year if the patient 
+meets ALL of the following (i, ii, iii, and iv): 
+Note:  For a patient who has not completed 8 months of initial therapy, refer 
+to Initial Therapy criteria above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iii. Patient has lost ≥ 5% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+III. 
+Wegovy injection and Wegovy HD injection is(are) covered as 
+medically necessary when the following criteria is(are) met for FDA-
+approved indication(s) or other uses with supportive evidence (if 
+applicable): 
+FDA-Approved Indications 
+ 
+1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the 
+duration noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or 
+Wegovy tablet.  Approve for 1 year if the patient meets ALL of the following 
+(i, ii, iii, and iv): 
+Note:  For a patient who has not completed 8 months of initial therapy with 
+Wegovy injection, Wegovy HD injection, and/or Wegovy tablet, refer to Initial 
+Therapy criteria above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iii. Patient has lost ≥ 5% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration 
+noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 12 years of age and < 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. At baseline, patient had a BMI ≥ 95th percentile for age and sex; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or 
+Wegovy tablet.  Approve for 1 year if the patient meets ALL of the following 
+(i, ii, iii, and iv): 
+Note:  For a patient who has not completed 7 months of initial therapy with 
+Wegovy injection, Wegovy HD injection, and/or Wegovy tablet, refer to Initial 
+Therapy criteria above. 
+i. Patient is ≥ 12 years of age and < 18 years of age; AND 
+ii. At baseline, patient had a BMI ≥ 95th percentile for age and sex; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iii. Patient has had a reduction in BMI of ≥ 1% from baseline; AND 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+3. Major Adverse Cardiovascular Event(s) Risk Reduction in a Patient with 
+Established Cardiovascular Disease with Overweight or Obesity.  Approve 
+for 1 year if the patient meets ALL of the following (A, B, C, D, and E): 
+A) Patient is ≥ 18 years of age; AND 
+B) At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+C) Patient meets ONE of the following (i, ii, or iii): 
+i. Patient has had a prior myocardial infarction; OR 
+ii. Patient has had a prior stroke; OR 
+Note:  This does not include a transient ischemic attack (TIA). 
+iii. Patient has a history of symptomatic peripheral arterial disease as 
+evidenced by ONE of the following [a, b, or c]: 
+a) Intermittent claudication with ankle-brachial index < 0.85; OR 
+b) Peripheral arterial revascularization procedure; OR 
+c) Amputation due to atherosclerotic disease; AND 
+D) According to the prescriber, the medication will be used in combination with 
+optimized pharmacotherapy for established cardiovascular disease; AND 
+E) The medication will be used concomitantly with behavioral modification and a 
+reduced-calorie diet. 
+ 
+4. Metabolic Dysfunction-Associated Steatohepatitis (MASH)/Non-
+Alcoholic Steatohepatitis (NASH).  Approve for 1 year if the patient meets 
+the ONE of the following (A or B): 
+A) Initial Therapy:  Approve if the patient meets ALL of the following (i, ii, iii, iv, 
+v, vi, vi, and vii): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient does not have cirrhosis (F4); AND 
+iii. Patient has stage F2 or F3 fibrosis prior to initiating treatment with 
+Rezdiffra, Wegovy injection, Wegovy HD injection, or Wegovy tablet 
+[documentation required] identified by ONE of the following (a, b, c, or 
+d): 
+a) Liver biopsy performed within the 3 years preceding treatment with 
+Rezdiffra, Wegovy injection, Wegovy HD injection, or Wegovy tablet 
+[documentation required]; OR 
+b) Vibration-controlled transient elastography (VCTE) performed within 
+the 6 months preceding treatment with Rezdiffra, Wegovy injection, 
+Wegovy HD injection, or Wegovy tablet [documentation required]; 
+OR 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+c) Magnetic resonance elastography (MRE) performed within the 6 
+months preceding treatment with Rezdiffra, Wegovy injection, Wegovy 
+HD injection, or Wegovy tablet [documentation required]; OR 
+d) Enhanced Liver Fibrosis™ (ELF) test performed within the 6 months 
+preceding treatment with Rezdiffra, Wegovy injection, Wegovy HD 
+injection, or Wegovy tablet [documentation required] with a score 
+of ≥ 9.2 to ≤ 10.5 [documentation required]; AND 
+iv. According to the prescriber, the patient has ONE or more of the following 
+metabolic risk factors that are managed according to standard of care (a, 
+b, c, d, e):  
+a) Central obesity; 
+b) Hypertriglyceridemia; 
+c) Reduced high-density lipoprotein cholesterol; 
+d) Hypertension;  
+e) Elevated fasting plasma glucose indicative of diabetes or pre-diabetes; 
+AND 
+v. According to the prescriber, patient meets ONE of the following (a or b): 
+a) Female* patient: Alcohol consumption is < 20 grams/day; OR 
+Note:  One standard drink (or one alcoholic drink equivalent) contains 
+roughly 14 grams of pure alcohol, which is found in 12 ounces of 
+regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits. 
+b) Male* patient:  Alcohol consumption < 30 grams/day; AND 
+Note:  One standard drink (or one alcoholic drink equivalent) contains 
+roughly 14 grams of pure alcohol, which is found in 12 ounces of 
+regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits. 
+vi. The medication will be used in combination with appropriate diet and 
+exercise therapy; AND 
+vii. 
+The medication is prescribed by or in consultation with an 
+endocrinologist, gastroenterologist, or hepatologist; OR 
+B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or 
+Wegovy tablet:  Approve if the patient meets ALL of the following (i, ii, iii, iv, 
+v, and vi): 
+Note:  For a patient who has received < 1 year of therapy with Wegovy 
+injection, Wegovy HD injection, and/or Wegovy tablet or who is restarting 
+therapy, refer to Initial Therapy criteria above. 
+i. Patient has completed ≥ 1 year of therapy with Wegovy injection, Wegovy 
+HD injection, and/or Wegovy tablet AND according to the prescriber, the 
+patient has not had worsening of fibrosis or MASH/NASH; AND 
+Note:  This applies to a patient starting their second (or more) year of 
+therapy with Wegovy injection, Wegovy HD injection, and/or Wegovy 
+tablet (i.e., the patient has already completed 1 year or more of therapy 
+with Wegovy injection and/or tablet). 
+ii. According to the prescriber, patient does not have cirrhosis (F4); AND 
+iii. According to the prescriber, metabolic risk factors are managed according 
+to standard of care; AND 
+iv. According to the prescriber, patient meets ONE of the following (a or b): 
+a) Female* patient:  Alcohol consumption is < 20 grams/day; OR 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Note:  One standard drink (or one alcoholic drink equivalent) contains 
+roughly 14 grams of pure alcohol, which is found in 12 ounces of 
+regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits. 
+b) Male* patient:  Alcohol consumption < 30 grams/day; AND 
+Note:  One standard drink (or one alcoholic drink equivalent) contains 
+roughly 14 grams of pure alcohol, which is found in 12 ounces of 
+regular beer, 5 ounces of wine, or 1.5 ounces of distilled spirits. 
+v. The medication will be used in combination with appropriate diet and 
+exercise therapy; AND 
+vi. The medication is prescribed by or in consultation with an endocrinologist, 
+gastroenterologist, or hepatologist. 
+ 
+*Refer to the Policy Statement 
+ 
+IV. 
+Wegovy tablet is(are) covered as medically necessary when the 
+following criteria is(are) met for FDA-approved indication(s) or other 
+uses with supportive evidence (if applicable): 
+FDA-Approved Indications 
+ 
+1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the 
+duration noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+c) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving Wegovy tablet, Wegovy injection, or Wegovy 
+HD injection.  Approve for 1 year if the patient meets ALL of the following (i, 
+ii, iii, and iv): 
+Note:  For a patient who has not completed 8 months of initial therapy with 
+Wegovy tablet and/or Wegovy injection, refer to Initial Therapy criteria 
+above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iii. Patient has lost ≥ 5% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+2. Major Adverse Cardiovascular Event(s) Risk Reduction in a Patient with 
+Established Cardiovascular Disease with Overweight or Obesity.  Approve 
+for 1 year if the patient meets ALL of the following (A, B, C, D, and E): 
+A) Patient is ≥ 18 years of age; AND 
+B) At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+C) Patient meets ONE of the following (i, ii, or iii): 
+i. Patient has had a prior myocardial infarction; OR 
+ii. Patient has had a prior stroke; OR 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Note:  This does not include a transient ischemic attack (TIA). 
+iii. Patient has a history of symptomatic peripheral arterial disease as 
+evidenced by ONE of the following [a, b, or c]: 
+a) Intermittent claudication with ankle-brachial index < 0.85; OR 
+b) Peripheral arterial revascularization procedure; OR 
+c) Amputation due to atherosclerotic disease; AND 
+D) According to the prescriber, the medication will be used in combination with 
+optimized pharmacotherapy for established cardiovascular disease; AND 
+E) The medication will be used concomitantly with behavioral modification and a 
+reduced-calorie diet. 
+ 
+ 
+V. 
+Zepbound is(are) covered as medically necessary when the following 
+criteria is(are) met for FDA-approved indication(s) or other uses with 
+supportive evidence (if applicable): 
+ 
+FDA-Approved Indications 
+ 
+1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the 
+duration noted if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the 
+following (i, ii, iii, and iv): 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient has engaged in a trial of behavioral modification and dietary 
+restriction for at least 3 months; AND 
+iii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+B) Patient is Currently Receiving Zepbound.  Approve for 1 year if the patient 
+meets ALL of the following (i, ii, iii, and iv): 
+Note:  For a patient who has not completed 8 months of initial therapy, refer 
+to Initial Therapy criteria above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. Patient meets ONE of the following (a or b): 
+a) At baseline, patient had a BMI ≥ 30 kg/m2; OR 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) Patient meets BOTH of the following [(1) and (2)]: 
+(1) 
+At baseline, patient had a BMI ≥ 27 kg/m2; AND 
+(2) 
+At baseline, patient had, or patient currently has, at least ONE 
+of the following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular 
+disease, knee osteoarthritis, asthma, chronic obstructive pulmonary 
+disease, metabolic dysfunction-associated steatotic liver 
+disease/non-alcoholic fatty liver disease, polycystic ovarian 
+syndrome, or coronary artery disease; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+iii. Patient has lost ≥ 5% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+2. Obstructive Sleep Apnea, Moderate to Severe, in a Patient with Obesity.  
+Approve for 1 year if the patient meets ONE of the following (A or B): 
+A) Initial Therapy.  Approve if the patient meets ALL of the following (i, ii, iii, iv, 
+and v): 
+i. Patient is ≥ 18 years of age; AND 
+ii. At baseline, patient had a BMI ≥ 30 kg/m2; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iii. Patient has had a sleep study that shows BOTH of the following (a and b): 
+a) Patient has been diagnosed with moderate to severe obstructive sleep 
+apnea; AND 
+b) Patient has an apnea-hypopnea index ≥ 15 events per hour; AND 
+Note: A diagnosis of moderate obstructive sleep apnea is an apnea-
+hypopnea index of ≥ 15 events per hour and a diagnosis of severe 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+sleep apnea is an apnea-hypopnea index ≥ 30 events per hour.  The 
+apnea-hypopnea index is the number of apneas and hypopneas during 
+1 hour of sleep. 
+iv. The patient does NOT meet either of the following (a or b): 
+Note:  A patient who has one or more of the following 
+conditions/diagnoses below is not approved. 
+a) Central sleep apnea; OR 
+b) Cheyne Stokes respiration; AND 
+v. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet; OR 
+B) Patient is Currently Receiving Zepbound.  Approve if the patient meets ALL of 
+the following (i, ii, iii, and iv): 
+Note:  For a patient who has not completed 1 year of initial therapy, refer to 
+Initial Therapy criteria above. 
+i. Patient is ≥ 18 years of age; AND 
+ii. At baseline, patient had a BMI ≥ 30 kg/m2; AND  
+Note:  This refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-
+dependent insulinotropic polypeptide (GIP) receptor agonist (e.g., 
+Zepbound). 
+iii. Patient has completed ≥ 1 year of therapy with Zepbound AND the 
+patient meets BOTH of the following (a and b):  
+a) Patient has lost ≥ 10% of baseline body weight; AND 
+Note:  This refers to baseline prior to any glucagon-like peptide-1 
+(GLP-1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor agonist 
+(e.g., Zepbound). 
+b) According to the prescriber, patient has stability in obstructive sleep 
+apnea signs or symptoms; AND 
+Note:  Examples of signs or symptoms of obstructive sleep apnea 
+include but are not limited to snoring, excessive daytime sleepiness, 
+fatigue. 
+iv. The medication will be used concomitantly with behavioral modification 
+and a reduced-calorie diet. 
+ 
+ 
+CONDITIONS NOT COVERED 
+  
+• 
+Foundayo (orforglipron tablets – Eli Lilly) 
+• 
+Saxenda (liraglutide subcutaneous injection – Novo Nordisk, generic) 
+• 
+Wegovy (semaglutide tablets and subcutaneous injection – Novo 
+Nordisk) 
+• 
+Wegovy HD (semaglutide subcutaneous injection – NovoNordisk) 
+• 
+Zepbound (tirzepatide subcutaneous injection [KwikPens, pens, and 
+vials] - Eli Lilly) 
+is(are) considered not medically necessary for ANY other use(s) including 
+the following (this list may not be all inclusive; criteria will be updated as 
+new published data are available): 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+ 
+ 
+1. Concomitant Use with Glucagon-Like Peptide-1 (GLP-1) Agonists or 
+GLP-1/ Glucose-Dependent Insulinotropic Polypeptide (GIP) Agonists.  
+The GLP-1 agonists and the GLP-1/GIP agonist should not be combined with 
+each other or with any other GLP-1 agonists or GLP-1/GIP agonist.1,2,4,25  There 
+are other GLP-1 agonist and GLP-1/GIP agonist products not included in this 
+policy that are FDA-approved for type 2 diabetes, and not for chronic weight 
+management.  Note:  Examples of other GLP-1 agonists include but are not 
+limited to, exenatide subcutaneous (SC) injection, Ozempic (semaglutide tablets 
+and SC injection), Rybelsus (semaglutide tablets), Trulicity (dulaglutide SC 
+injection), and liraglutide SC injection (Victoza, generic).  An example of a GLP-
+1/GIP agonist is Mounjaro (tirzepatide SC injection). 
+ 
+ 
+ 
+REFERENCES 
+1. Wegovy® tablet and subcutaneous injection [prescribing information].  Plainsboro, NJ:  Novo 
+Nordisk; March 2026. 
+2. Saxenda® subcutaneous injection [prescribing information].  Plainsboro, NJ:  Novo Nordisk; May 
+2025. 
+3. Hampl SE, Hassink SG, Skinner AC, et al.  Clinical Practice Guideline for the Evaluation and 
+Treatment of Children and Adolescents with Obesity.  Pediatrics.  2023;151(2):e2022060640. 
+4. Zepbound® subcutaneous injection [prescribing information].  Indianapolis, IN:  Eli Lilly; April 
+2025. 
+5. Lincoff AM, Brown-Frandsen K, Colhoun HM, et al; for the SELECT Trial Investigators.  
+Semaglutide and cardiovascular outcomes in obesity without diabetes.  N Engl J Med.  
+2023;389(24):2221-2232 
+6. Lingvay I, Brown-Frandson K, Colhoun HM et al.  Semaglutide for cardiovascular event reduction 
+in people with overweight or obesity:  SELECT study baseline characteristics.  Obesity.  
+2023;31(1):111-122. 
+7. Wilding JPH, Batterham RL, Calanna S, et al; STEP 1 Study Group.  Once-weekly semaglutide in 
+adults with overweight or obesity.  N Engl J Med.  2021;384(11):989. 
+8. Weghuber D, Barrett T, Barrientos-Pérez M, et al; STEP TEENS Investigators.  Once-weekly 
+semaglutide in adolescents with obesity.  N Engl J Med.   2022;387(24):2245-2257. 
+9. Malhorta A, Grunstein RR, Fietze I, et al; for the SURMOUNT-OSA Investigators.  Tirzepatide for 
+the treatment of obstructive sleep apnea and obesity.  N Engl J Med.  2024;391(13):1193-1205.  
+10. Kapur VK, Auckley DH, Chowdhuri S, et al.  Clinical practice guideline for diagnostic testing for 
+adult obstructive sleep apnea:  an American Academy of Sleep Medicine clinical practice guideline.  
+J Clin Sleep Med.  2017;13(3):479-504. 
+11. Hudgel DW, Patel SR, Ahasic AM, et al; on behalf of the American Thoracic Society Assembly on 
+Sleep and Respiratory Neurology.  The role of weight management in the treatment of adult 
+obstructive sleep apnea.  Am J Respir Crit Care Med.  2018;198(6):e70-e87. 
+12. Ramar K, Dort LC, Katz SG et al.  Clinical practice guideline for the treatment of obstructive sleep 
+apnea and snoring with oral appliance therapy:  an update for 2015.  An American Academy of 
+Sleep Medicine and American Academy of Dental Sleep Medicine Clinical Practice Guideline.  J Clin 
+Sleep Med.  2015;11(7):773-827. 
+13. Patil SP, Ayappa IA, Caples SM, et al.  Treatment of adult obstructive sleep apnea with positive 
+airway pressure:  An American Academy of Sleem Medicine Systematic Review, Meta-analysis, and 
+GRADE Assessment.  J Clin Sleep Med.  2019;15(2):301-334. 
+14. Malhorta A, Heilman CR, Banerjee, et al.  Weight reduction and the impact on apnea-hypopnea 
+index:  a systematic meta-analysis.  Sleep Medicine.  2023;121:26-31. 
+15. Jasterboff AM, Aronne LJ, Ahmad NN, et al; for the SURMOUNT-1 Investigators.  Tirzepatide once 
+weekly for the treatment of obesity.  N Engl J Med.  2022;3387(3):205-216. 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+16. Garvey TW, Frias JP, Jasterboff, et al; for the SURMOUNT-2 Investigators.  Tirzepatide once 
+weekly for the treatment of obesity in people with type 2 diabetes (SURMOUNT-2):  a double-
+blind, randomized, multicenter, placebo-controlled, phase 3 trial.  Lancet.  2023;402(10402):613-
+6262. 
+17. Wadden TA, Chao AM, Machineni, et al.  Tirzepatide after intensive lifestyle intervention in adults 
+with overweight or obesity:  The SURMOUNT-3 phase 3 trial.  Nature Med.  2023;29(11):2909-
+2918. 
+18. Wadden TA, Hollander P, Klein S, et al; on behalf of the NN8022-1923 Investigators.  Weight 
+maintenance and additional weight loss with liraglutide after low-calorie-diet-induced weight loss:  
+The SCALE Maintenance randomized study.  Int J Obes.  2013;37:1443-1451. 
+19. Newsome PN, Sanyal AJ, Engerbretsen KA, et al.  Semaglutide 2.4 mg in participants with 
+metabolic dysfunction-associated steatohepatitis:  baseline characteristics and design of the phase 
+3 ESSENCE trial.  Aliment Pharmacol Ther.  2024;60(11-12):1525-1533. 
+20. Sanyal AJ, Newsome PN, Kliers I, et al.  Phase 3 trial of semaglutide in metabolic dysfunction-
+associated steatohepatitis.  N Engl J Med.  2025;392(21):2089-2099. 
+21. Chen VL, Morgan TR, Rotman Y, et al.  Resmetirom therapy for metabolic dysfunction-associated 
+steatotic liver disease:  October 2024 updates to AASLD Practice Guidance.  Hepatology.  
+2025;81(1):312-320. 
+22. Bansal MB, Patton H, Morgan TR, et al.  Semaglutide therapy for metabolic dysfunction-associated 
+steatohepatitis:  November 2025 updates to AASLD practice guidance.  Hepatology.  2025 Nov 7.  
+[Online ahead of print]. 
+23. Nadolsky K, Garvey WT, Agarwal M, et al.  American Association of Clinical Endocrinology 
+consensus statement:  algorithm for the evaluation and treatment of adults with obesity/adiposity-
+based chronic disease — 2025 Update.  Endocrine Practice.  2025;31:1351–1394. 
+24. American Diabetes Association Professional Practice Committee for Obesity.  Pharmacologic 
+treatment of obesity in adults:  Standards of care in overweight and obesity.  DOCM Care.  13 Jan 
+2026 [Online ahead of print]. 
+25. Foundayo™ tablets [prescribing information].  Indianapolis, IN:  Eli Lilly; April 2026. 
+ 
+HISTORY 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Annual 
+Revision 
+No criteria changes. 
+07/12/2023 
+Selected 
+revision 
+Wegovy 
+Weight Loss, Adult:  Continuation criteria were updated to reflect 
+the new approved maintenance dose of Wegovy (1.7 mg once 
+weekly) in adults.  The continuation criterion that approves 
+continuation of Wegovy for 1 year, was modified to approve if the 
+patient is able to tolerate a Wegovy maintenance dose of 1.7 mg 
+once weekly or 2.4 mg once weekly.  The continuation criterion that 
+approves continuation of Wegovy for up to 5 months, was modified 
+to approve if according to the prescriber, the patient is continuing to 
+titrate the Wegovy dose to a target of 1.7 mg weekly or 2.4 mg once 
+weekly.  Other conditions of coverage still apply for continued 
+approval of Wegovy. 
+07/26/2023 
+Selected 
+revision 
+Wegovy and Saxenda 
+Weight Loss, Adult:  In the initial therapy criteria, the requirement 
+for a current BMI ≥ 30 kg/m2 or ≥ 27 kg/m2 and at least one of the 
+following weight-related comorbidities:  hypertension, type 2 
+diabetes, dyslipidemia, obstructive sleep apnea, or cardiovascular 
+disease was modified to require that at baseline (prior to the 
+initiation of the requested agent), the patient had a BMI ≥ 30 kg/m2 
+or ≥ 27 kg/m2 and at least one of the following weight-related 
+comorbidities:  hypertension, type 2 diabetes, dyslipidemia, 
+obstructive sleep apnea, or cardiovascular disease.  Weight Loss, 
+Pediatric:  In the initial therapy criteria, the requirement for a 
+current BMI ≥ 95th percentile for age and sex was modified to 
+09/13/2023 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+require that at baseline (prior to the initiation of the requested 
+agent), patient had a BMI ≥ 95th percentile for age and sex. 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+revision 
+Zepbound was added to the policy.  New criteria were created for 
+this product.  Initial approval is for 8 months, continuation approval 
+is for 1 year (up to 4 months if still titrating). 
+Saxenda 
+Weight Loss, Adult:  Initial Therapy:  Baseline body mass index 
+(BMI) criteria were modified to remove the requirement that the BMI 
+is prior to initiation of Saxenda.  A note was added that baseline 
+refers to baseline prior to any glucagon-like peptide-1 (GLP-1) 
+agonist (e.g., Saxenda, Wegovy) or GLP-1/glucose-dependent 
+insulinotropic polypeptide (GIP) receptor agonist (e.g., Zepbound).  
+Patient is Continuing Therapy with Saxenda:  Baseline BMI criteria 
+were modified to remove the requirement that the BMI is prior to 
+initiation of Saxenda.  A note was added that baseline refers to 
+baseline prior to any glucagon-like peptide-1 (GLP-1) agonist (e.g., 
+Saxenda, Wegovy) or GLP-1/glucose-dependent insulinotropic 
+polypeptide (GIP) receptor agonist (e.g., Zepbound).  The criterion 
+that a patient has lost ≥ 4% of baseline weight was modified to 
+remove the requirement that baseline body weight was prior to 
+initiation of Saxenda.  A note was added that baseline refers to 
+baseline prior to any glucagon-like peptide-1 (GLP-1) agonist (e.g., 
+Saxenda, Wegovy) or GLP-1/glucose-dependent insulinotropic 
+polypeptide (GIP) receptor agonist (e.g., Zepbound).  Weight Loss, 
+Pediatric:  Initial Therapy:  The baseline BMI criterion was modified 
+to remove the requirement that the BMI is prior to initiation of 
+Saxenda.  A note was added that baseline refers to baseline prior to 
+any glucagon-like peptide-1 (GLP-1) agonist (e.g., Saxenda, 
+Wegovy) or GLP-1/glucose-dependent insulinotropic polypeptide 
+(GIP) receptor agonist (e.g., Zepbound).  Patient is Continuing 
+Therapy with Saxenda:  The baseline BMI criterion was modified to 
+remove the requirement that the BMI is prior to initiation of 
+Saxenda.  A note was added that baseline refers to baseline prior to 
+any glucagon-like peptide-1 (GLP-1) agonist (e.g., Saxenda, 
+Wegovy) or GLP-1/glucose-dependent insulinotropic polypeptide 
+(GIP) receptor agonist (e.g., Zepbound).  The criterion that a patient 
+has lost ≥ 1% of baseline weight was modified to remove the 
+requirement that baseline body weight was prior to initiation of 
+Saxenda.  A note was added that baseline refers to baseline prior to 
+any glucagon-like peptide-1 (GLP-1) agonist (e.g., Saxenda, 
+Wegovy) or GLP-1/glucose-dependent insulinotropic polypeptide 
+(GIP) receptor agonist (e.g., Zepbound). 
+Wegovy 
+Weight Loss, Adult:  Initial Therapy:  Baseline BMI criteria were 
+modified to remove the requirement that the BMI is prior to initiation 
+of Wegovy.  A note was added that baseline refers to baseline prior 
+to any glucagon-like peptide-1 (GLP-1) agonist (e.g., Saxenda, 
+Wegovy) or GLP-1/glucose-dependent insulinotropic polypeptide 
+(GIP) receptor agonist (e.g., Zepbound).  Patient is Continuing 
+Therapy with Wegovy:  Baseline BMI criteria were modified to 
+remove the requirement that the BMI is prior to initiation of Wegovy.  
+A note was added that baseline refers to baseline prior to any 
+glucagon-like peptide-1 (GLP-1) agonist (e.g., Saxenda, Wegovy) or 
+GLP-1/glucose-dependent insulinotropic polypeptide (GIP) receptor 
+11/15/2023 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+agonist (e.g., Zepbound).  The criterion that a patient has lost ≥ 5% 
+of baseline weight was modified to remove the requirement that 
+baseline body weight was prior to initiation of Wegovy.  A note was 
+added that baseline refers to baseline prior to any glucagon-like 
+peptide-1 (GLP-1) agonist (e.g., Saxenda, Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor 
+agonist (e.g., Zepbound).  Weight Loss, Pediatric:  Initial 
+Therapy:  The baseline BMI criterion was modified to remove the 
+requirement that the BMI is prior to initiation of Wegovy.  A note was 
+added that baseline refers to baseline prior to any glucagon-like 
+peptide-1 (GLP-1) agonist (e.g., Saxenda, Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor 
+agonist (e.g., Zepbound). 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Weight Loss, Adult:  Patient is Continuing Therapy with Wegovy:  
+The baseline BMI criterion was modified to remove the requirement 
+that the BMI is prior to initiation of Wegovy.  A note was added that 
+baseline refers to baseline prior to any glucagon-like peptide-1 (GLP-
+1) agonist (e.g., Saxenda, Wegovy) or GLP-1/glucose-dependent 
+insulinotropic polypeptide (GIP) receptor agonist (e.g., Zepbound).  
+The criterion that a patient has lost ≥ 1% of baseline weight was 
+modified to remove the requirement that baseline body weight was 
+prior to initiation of Wegovy.   
+Conditions Not Covered 
+   
+Concomitant Use with other Glucagon-Like Peptide-1 (GLP-1) 
+Agonists or GLP-1/Glucose-Dependent Insulinotropic 
+Polypeptide (GIP) Receptor Agonists.  GLP-1/GIP receptor 
+agonists were added to this condition not recommended for 
+approval.    
+11/15/2023 
+ 
+Selected 
+Revision 
+Saxenda, Wegovy, and Zepbound 
+Weight Loss, Adult:  Initial Therapy and Patient is Continuing on 
+Therapy:  The criterion for a patient with a BMI ≥ 27 kg/m2 and at 
+least one of the following weight-related comorbidities:  
+hypertension, type 2 diabetes, dyslipidemia, obstructive sleep apnea, 
+or cardiovascular disease was modified to expand the list of 
+comorbid conditions to include knee osteoarthritis, asthma, chronic 
+obstructive pulmonary disease, non-alcoholic fatty liver disease, 
+polycystic ovarian syndrome, or coronary artery disease. 
+01/31/2024 
+DEU Revision 
+The revised and new indication for Wegovy was added to the 
+overview of the document. 
+03/25/2024 
+Selected 
+Revision 
+Wegovy 
+Major Adverse Cardiovascular Event(s) Risk Reduction in a 
+Patient with Established Cardiovascular Disease who is Either 
+Obese or Overweight.  A new condition of coverage was added to 
+FDA-approved indications for Wegovy. 
+04/03/2024 
+Selected 
+Revision 
+Saxenda, Wegovy, and Zepbound 
+Weight Loss, Adult:  Initial Therapy and Patient is Continuing on 
+Therapy:  Metabolic-dysfunction associated steatotic liver disease 
+(new nomenclature for non-alcoholic fatty liver disease) was added 
+to the list of one of the weight-related comorbidities for a patient 
+with a BMI ≥ 27 kg/m2.  Additionally, for the one or more weight-
+05/08/2024 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+related comorbidity, the criterion was modified to state that the 
+comorbidity is at baseline or current. 
+Annual 
+Revision 
+No criteria changes. 
+Concomitant Use with Glucagon-Like Peptide-1 (GLP-1) 
+Agonists or GLP-1/ Glucose-Dependent Insulinotropic 
+Polypeptide (GIP) Agonists.  This condition not recommended for 
+approval was reworded.  Previously, the condition read “Concomitant 
+Use with Other Glucagon-Like Peptide-1 (GLP-1) Agonists or GLP-
+1/Glucose Dependent Insulinotropic Polypeptide (GIP) Receptor 
+Agonists. 
+07/17/2024 
+DEU Revision 
+10/24/2024:  Updated Zepbound indication added to overview. 
+-- 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Saxenda 
+Weight Loss, Adult.  Patient is Continuing on Therapy with 
+Saxenda:  Criterion that required the patient was able to tolerate the 
+Saxenda maintenance dose of 3 mg once daily was removed.  
+Weight Loss, Pediatric.  Patient is Continuing on Therapy with 
+Saxenda:  Criterion that required the patient was able to tolerate the 
+Saxenda maintenance dose of 2.4 mg once daily or 3 mg once daily 
+was removed. 
+ 
+Wegovy 
+Weight Loss, Adult.  Patient is Continuing on Therapy with 
+Wegovy:  Criteria related to dosing were removed.  Specifically, the 
+criteria that required the patient was able to tolerate the Wegovy 
+maintenance dose of 1.7 mg once weekly or 2.4 mg once weekly OR 
+if the patient had received < 12 consecutive months of Wegovy and 
+was continuing to titrate the Wegovy dose to a target of 1.7 mg once 
+weekly or 2.4 mg once weekly, according to the prescriber, was 
+removed.  The approval duration was changed to 1 year for a patient 
+continuing on therapy with Wegovy; previously the approval duration 
+was 1 year if the patient was able to tolerate the Wegovy 
+maintenance dose of 1.7 mg once weekly or 2.4 mg once weekly and 
+up to 5 months if the patient was continuing to titrate to the Wegovy 
+target dose of 1.7 mg or 2.4 mg once weekly.  Weight Loss, 
+Pediatric.  Patient is Continuing on Therapy with Wegovy:  Criteria 
+related to dosing were removed.  Specifically, the criteria that 
+required the patient was able to tolerate the Wegovy maintenance 
+dose of 1.7 mg once weekly or 2.4 mg once weekly OR if the patient 
+had received < 12 consecutive months of Wegovy and was 
+continuing to titrate the Wegovy dose to a target of 1.7 mg once 
+weekly or 2.4 mg once weekly, according to the prescriber, was 
+removed.  The approval duration was changed to 1 year for a patient 
+continuing on therapy with Wegovy; previously the approval duration 
+was 1 year if the patient was able to tolerate the Wegovy 
+maintenance dose of 1.7 mg once weekly or 2.4 mg once weekly and 
+up to 5 months if the patient was continuing to titrate to the Wegovy 
+target dose of 1.7 mg or 2.4 mg once weekly.  Major Adverse 
+Cardiovascular Event(s) Risk Reduction in a Patient with 
+Established Cardiovascular Disease who is Either Obese or 
+Overweight.  Initial Therapy.  The criterion requiring that the 
+patient has a BMI ≥ 27 kg/m2 was clarified to state that the patient 
+has a “current” BMI ≥ 27 kg/m2.  Patient is Continuing Therapy with 
+01/08/2025 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Wegovy:  The criterion that required the patient was able to tolerate 
+the Wegovy maintenance dose of 1.7 mg once weekly or 2.4 mg 
+once weekly was removed. 
+ 
+Zepbound 
+Weight Loss, Adult.  Patient is Continuing Therapy with Zepbound:  
+Criteria related to dosing were removed.  Specifically, the criteria 
+that required the patient was able to tolerate the Zepbound 
+maintenance dose of 5 mg, 10 mg, or 15 mg once weekly OR if the 
+patient had received < 12 consecutive months of Zepbound and was 
+continuing to titrate the Zepbound dose to a target of 10 mg once 
+weekly or 15 mg once weekly, according to the prescriber, was 
+removed.  The approval duration was changed to 1 year for a patient 
+continuing on therapy with Zepbound; previously the approval 
+duration was 1 year if the patient was able to tolerate the Zepbound 
+maintenance dose of 5 mg, 10 mg, or 15 mg once weekly and up to 
+4 months if the patient was continuing to titrate to the Zepbound 
+target dose of 10 mg or 15 mg once weekly.  Obstructive Sleep 
+Apnea, Moderate to Severe, in a Patient with Obesity.  A new 
+FDA-approved indication was added to the Policy. 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Wegovy: 
+Major Adverse Cardiovascular Event(s) Risk Reduction in a 
+Patient with Established Cardiovascular Disease who is Either 
+Obese or Overweight.  Initial Therapy.  For the requirement that a 
+patient has had a prior stroke, a note was added to clarify that this 
+does not include a transient ischemic attack (TIA). 
+ 
+Zepbound: 
+Obstructive Sleep Apnea, Moderate to Severe, in a Patient 
+with Obesity.  Initial Therapy.  The requirement that a patient had 
+a sleep study was modified to remove the timeframe that the sleep 
+study was within the past 1 year.  A patient is still required to have a 
+sleep study. 
+ 
+Conditions Not Covered 
+ : 
+Concomitant Use with Other Medications FDA-Approved for 
+Weight Loss.  This condition not recommended for approval was 
+clarified to state that concomitant use with other medications FDA-
+approved for weight loss is not recommended.  Previously, the 
+requirement did not specify medications were “FDA-approved” for 
+weight loss.  The note with examples of weight loss medications was 
+updated to reflect product availability for medications FDA-approved 
+for weight loss. 
+ 
+Concomitant Use with Glucagon-Like Peptide-1 (GLP-1) 
+Agonists or GLP-1/ Glucose-Dependent Insulinotropic 
+Polypeptide (GIP) Agonists.  The note was updated to reflect 
+availability for other GLP-1 or GLP-1/GIP agonists. 
+05/28/2025 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Annual 
+Revision 
+Saxenda: 
+Weight Loss in an Adult with Overweight or Obesity.  This 
+condition of approval was modified to add “with overweight or 
+obesity”.  Weight Loss in a Pediatric Patient with Obesity.  This 
+condition of approval was modified to add “with obesity”. 
+ 
+Wegovy: 
+Weight Loss in an Adult with Overweight or Obesity.  This 
+condition of approval was modified to add “with overweight or 
+obesity”.  Weight Loss in a Pediatric Patient with Obesity.  This 
+condition of approval was modified to add “with obesity”.  Major 
+Adverse Cardiovascular Event(s) Risk Reduction in a Patient 
+with Established Cardiovascular Disease in a Patient with 
+Overweight or Obesity.  This condition of approval was re-worded 
+from “in an overweight or obese patient” to “in a patient with 
+overweight or obesity”. 
+ 
+Zepbound: 
+Weight Loss in an Adult with Overweight or Obesity.  This 
+condition of approval was modified to add “with overweight or 
+obesity”. 
+07/09/2025 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Policy Statement:  The following was added to the Policy 
+Statement:  In clinical criteria, as appropriate, an asterisk (*) is 
+noted next to the specified gender.  In this context, the specified 
+gender is defined as follows:  males are defined as individuals with 
+the biological traits of a male, regardless of the individual’s gender 
+identity or gender expression; females are defined as individuals 
+with the biological traits of a female, regardless of the individual’s 
+gender identity or gender expression.  Because of the specialized 
+skills required for evaluation and diagnosis of patients treated with 
+Wegovy for (MASH)/non-alcoholic steatohepatitis (NASH) as well as 
+the monitoring required for adverse events and long-term efficacy, 
+approval requires Wegovy for MASH/NASH to be prescribed by or in 
+consultation with a physician who specializes in the condition being 
+treated. 
+ 
+Documentation:  A requirement for documentation was added for 
+the use of Wegovy for metabolic dysfunction-associated 
+steatohepatitis MASH/NASH.  Documentation may include, but is not 
+limited to, chart notes, laboratory results, medical test results, 
+claims records, prescription receipts, and/or other information.  All 
+documentation must include patient-specific identifying information. 
+ 
+Wegovy:  
+Metabolic Dysfunction-Associated Steatohepatitis 
+(MASH)/Non-Alcoholic Steatohepatitis (NASH).  A new 
+condition of approval was added to FDA-Approved Indications. 
+ 
+Conditions Not Covered: 
+Concomitant Use with Other Medications FDA-Approved for 
+Weight Loss.  This condition not recommended for approval was 
+removed. 
+08/27/2025 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+Selected 
+Revision 
+Liraglutide, generic to Saxenda, was added to the policy. 
+Policy Statement:  The Policy Statement was updated as follows to 
+address the availability of liraglutide, generic to Saxenda:  Prior 
+Authorization is recommended for prescription benefit coverage of 
+liraglutide (Saxenda, generic), Wegovy, and Zepbound.  Of note, this 
+policy targets liraglutide (Saxenda, generic), Wegovy, and Zepbound; 
+other glucagon-like peptide-1 agonists that do not carry an FDA-
+approved indication for weight loss are not targeted in this policy. 
+ 
+Liraglutide (Saxenda, generic), Wegovy, and Zepbound: 
+Weight Loss in an Adult with Overweight or Obesity:  Initial 
+Therapy and Patient is Continuing on Therapy:  The notes that define 
+baseline were updated to include liraglutide, generic to Saxenda. 
+ 
+Liraglutide (Saxenda, generic) and Wegovy: 
+Weight Loss in a Pediatric Patient with Obesity:  Initial Therapy 
+and Patient is Continuing on Therapy:  The notes that define baseline 
+were updated to include liraglutide, generic to Saxenda. 
+09/10/2025 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Wegovy: 
+Metabolic Dysfunction-Associated Steatohepatitis 
+(MASH)/Non-Alcoholic Steatohepatitis (NASH).  Initial 
+Therapy.  The requirement that the patient does not have cirrhosis 
+was clarified that the patient does not have cirrhosis “(F4)”.  Criteria 
+for the diagnosis of MASH/NASH were updated such that the patient 
+must have documentation of stage F2 or F3 fibrosis prior to initiating 
+treatment with Rezdiffra or Wegovy confirmed by ONE of the 
+following:  Liver biopsy performed within 3 years preceding 
+treatment with Rezdiffra or Wegovy [documentation required], 
+vibration-controlled elastography (VCTE) performed within 6 months 
+preceding treatment with Rezdiffra or Wegovy [documentation 
+required], magnetic resonance imaging (MRE) performed within 6 
+months preceding treatment with Rezdiffra or Wegovy 
+[documentation required], or Enhanced Liver Fibrosis (ELF) test 
+performed within 6 months preceding treatment with Rezdiffra or 
+Wegovy [documentation required] with a score of ≥ 9.2 to ≤ 10.5 
+[documentation required].   Previously, the diagnosis of 
+MASH/NASH was confirmed by a either a liver biopsy within 3 years 
+preceding treatment with Wegovy [documentation required] that 
+showed a non-alcoholic fatty liver disease activity score of ≥ 4 with a 
+score of ≥ 1 in steatosis, ballooning, and lobular inflammation 
+[documentation required] OR an imaging exam (i.e., 
+elastography, computed tomography, or magnetic resonance 
+imaging) performed within 6 months preceding treatment with 
+Wegovy [documentation required].  The separate criterion that 
+the patient have stage F2 or F3 fibrosis [documentation required] 
+was removed (this is part of the updated criterion outlined above; 
+patients must still have documentation of F2 or F3 fibrosis).  
+Reference to prior to initiating therapy throughout criteria were 
+updated to include Rezdiffra( i.e., prior to initiating treatment with 
+Rezdiffra or Wegovy); previously only Wegovy.  Patient is Currently 
+Receiving Wegovy.  The criterion requiring that according to the 
+prescriber the patient has not progressed to stage F4 (cirrhosis) was 
+12/03/2025 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+modified to state, according to the prescriber, patient does not have 
+cirrhosis (F4). 
+ 
+Zepbound: 
+Obstructive Sleep Apnea, Moderate to Severe, in a Patient 
+with Obesity.  Initial Therapy.  The criterion excluding coverage of 
+a patient with central sleep apneas was modified to remove the 
+additional requirement that the percent of central apneas/hypopneas 
+is ≥ 50%. 
+Selected 
+Revision 
+Wegovy tablet was added to the policy; new criteria were created. 
+ 
+Wegovy injection: 
+Major Adverse Cardiovascular Event(s) Risk Reduction in a 
+Patient with Established Cardiovascular Disease who is Either 
+Obese or Overweight.  Patient is Currently Receiving Wegovy 
+injection.  The note that baseline body mass index refers to baseline 
+prior to Wegovy injection was updated to also include Wegovy tablet. 
+12/30/2025 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision  
+Wegovy injection: 
+Weight Loss in an Adult with Overweight or Obesity and 
+Weight Loss in a Pediatric Patient with Obesity.  Wegovy tablet 
+was added to the following:  Patient is Currently Receiving Wegovy 
+injection or Wegovy tablet.  The following note was updated to 
+include Wegovy injection and Wegovy tablet:  For a patient who has 
+not completed 7 months of initial therapy with Wegovy injection 
+and/or Wegovy tablet, refer to Initial Therapy criteria above.  Major 
+Adverse Cardiovascular Event(s) Risk Reduction in a Patient 
+with Established Cardiovascular Disease with Overweight or 
+Obesity.  Initial Therapy and Patient is Currently Receiving Wegovy 
+injection criteria were combined (previously each a 1-year approval); 
+the approval duration is 1 year  The requirement that the patient has 
+a current body mass index (BMI) of ≥ 27 kg/m2 (previously for Initial 
+Therapy, only) was revised that at baseline, the patient had a BMI ≥ 
+27 kg/m2.  The note defining baseline BMI was revised to state that 
+baseline refers to baseline prior to any glucagon-like peptide-1 (GLP-
+1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor 
+agonist (e.g., Zepbound) [previously, baseline was defined as prior 
+to Wegovy injection or Wegovy tablet for Patient is Currently 
+Receiving Wegovy injection or Wegovy tablet].  Metabolic 
+Dysfunction-Associated Steatohepatitis (MASH)/Non-
+Alcoholic Steatohepatitis (NASH).  Initial Therapy.  Reference to 
+Wegovy was updated to specify Wegovy injection throughout.  
+Wegovy tablet was added to the requirements related to 
+identification of stage F2 or F3 fibrosis prior to initiating treatment 
+with Rezdiffra, Wegovy injection, or Wegovy tablet [documentation 
+required].  Wegovy tablet was added to the following:  Patient is 
+Currently Receiving Wegovy injection or Wegovy tablet.  The 
+following note was updated to include Wegovy injection and Wegovy 
+tablet:  For a patient who has received < 1 year of therapy with 
+Wegovy injection and/or Wegovy tablet, or who is restating therapy, 
+refer to Initial Therapy.  For the following requirement (and the 
+associated note), reference to Wegovy was updated to specify 
+Wegovy injection and to add Wegovy tablet:  Patient has completed 
+≥ 1 year of therapy with Wegovy injection and/or Wegovy tablet 
+AND according to the prescriber, the patient has not had worsening 
+of fibrosis or MASH/NASH. 
+ 
+Wegovy tablet: 
+Weight Loss in an Adult with Overweight or Obesity.  Initial 
+Therapy.  The approval duration was changed to 7 months 
+(previously 6 months).  Wegovy injection was added to Patient is 
+Currently Receiving Wegovy tablet or Wegovy injection.  The 
+following note was updated to include Wegovy injection and Wegovy 
+tablet, and to reflect the 7-month initial approval duration:  For a 
+patient who has not completed 7 months of initial therapy with 
+Wegovy injection and/or Wegovy tablet, refer to Initial Therapy 
+criteria above.  Major Adverse Cardiovascular Event(s) Risk 
+Reduction in a Patient with Established Cardiovascular 
+Disease with Overweight or Obesity.  The same changes were 
+made as described for Wegovy injection; refer to Wegovy injection 
+Major Adverse Cardiovascular Event(s) Risk Reduction in a Patient 
+02/25/2026 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+with Established Cardiovascular Disease with Overweight or Obesity, 
+above. 
+ 
+Zepbound: 
+Obstructive Sleep Apnea, Moderate to Severe, in a Patient 
+with Obesity.  Initial Therapy.  The requirement that the patient 
+has a current BMI ≥ 30 kg/m2 was revised that at baseline, patient 
+had a BMI ≥ 30 kg/m2.  A note defining baseline BMI was added that 
+baseline refers to baseline prior to any glucagon-like peptide-1 (GLP-
+1) agonist (e.g., liraglutide [Saxenda, generic], Wegovy) or GLP-
+1/glucose-dependent insulinotropic polypeptide (GIP) receptor 
+agonist (e.g., Zepbound).  Patient is Currently Receiving Zepbound.  
+The notes that define baseline were updated that baseline refers to 
+baseline prior to any glucagon-like peptide-1 (GLP-1) agonist (e.g., 
+liraglutide [Saxenda, generic], Wegovy) or GLP-1/glucose-dependent 
+insulinotropic polypeptide (GIP) receptor agonist (e.g., Zepbound); 
+previously, baseline was defined as prior to Zepbound. 
+ 
+HISTORY (CONTINUED) 
+Type of 
+Revision 
+Summary of Changes 
+Review 
+Date 
+Selected 
+Revision 
+Foundayo was added to the Policy; new criteria were created. 
+Policy Statement:  Foundayo was added to the list of products to 
+which the Policy applies. 
+04/02/2026 
+Selected 
+Revision 
+Wegovy HD injection was added to the policy; approval criteria are 
+the same as for Wegovy injection. 
+Policy Statement:  Wegovy HD injection was added to the Policy 
+Statement.  The statement was also updated to reflect the 
+availability of Wegovy tablet and Wegovy injection. 
+Documentation:  Wegovy HD injection was added to the 
+documentation statement. 
+ 
+Foundayo 
+Weight Loss in an Adult with Overweight or Obesity:  The 
+initial approval was changed to 8 months.  The corresponding Note 
+04/15/2026 
+33 Pages  - Cigna National Formulary Coverage  - Policy:Weight Loss – Glucagon-Like Peptide-1 Agonists Prior 
+Authorization Policy 
+ 
+for a patient currently receiving Foundayo was updated to reflect the 
+change to initial approval. 
+ 
+Wegovy injection 
+Wegovy HD injection was added to the criteria as previously applied 
+to Wegovy injection.  In addition, the following changes were made 
+to the Wegovy injection criteria previously in place.  Weight Loss in 
+an Adult with Overweight or Obesity:  The initial approval was 
+changed to 8 months.  The corresponding Note for a patient 
+currently receiving Wegovy tablet or Wegovy injection was updated 
+to reflect the change to initial approval.  Wegovy HD injection was 
+added to the requirements and corresponding Note that apply to a 
+patient who is currently receiving Wegovy injection or Wegovy 
+tablet. 
+Weight Loss in a Pediatric Patient with Obesity:  The initial 
+approval was changed to 8 months.  The corresponding Note for a 
+patient currently receiving Wegovy tablet or Wegovy injection was 
+updated to reflect the change to initial approval.  Wegovy HD 
+injection was added to the requirements and corresponding Note 
+that apply to a patient who is currently receiving Wegovy injection or 
+Wegovy tablet.  Metabolic Dysfunction-Associated 
+Steatohepatitis (MASH)/Non-Alcoholic Steatohepatitis 
+(NASH):  For initial therapy, Wegovy HD injection was added to the 
+requirements related to identification of stage F2 or F3 fibrosis prior 
+to initiating treatment with Rezdiffra, Wegovy injection, or Wegovy 
+tablet [documentation required].  Wegovy HD injection was 
+added to the requirements and corresponding Note that apply to a 
+patient who is currently receiving Wegovy injection or Wegovy 
+tablet. 
+ 
+Wegovy tablet 
+Weight Loss in an Adult with Overweight or Obesity:  The 
+initial approval was changed to 8 months.  The corresponding Note 
+for a patient currently receiving Wegovy tablet or Wegovy injection 
+was updated to reflect the change to initial approval.  Wegovy HD 
+injection was added to the requirements and corresponding Note 
+that apply to a patient who is currently receiving Wegovy injection or 
+Wegovy tablet. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+"Cigna Companies" refers to operating subsidiaries of The Cigna Group. All products and services are 
+provided exclusively by or through such operating subsidiaries, including Cigna Health and Life Insurance 
+Company, Connecticut General Life Insurance Company, Evernorth Behavioral Health, Inc., Cigna Health 
+Management, Inc., and HMO or service company subsidiaries of The Cigna Group.© 2026 The Cigna 
+Group. 
+ 
