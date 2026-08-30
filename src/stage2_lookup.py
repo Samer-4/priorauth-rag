@@ -14,12 +14,12 @@ class Criterion(BaseModel):
     requirement: str
     policy_reference: str | None = None
 
-def extract_criteria(policy_text: str, denial_info: DenialInfo) -> Criterion:
+def extract_criteria(policy_text: str, denial_info: DenialInfo) -> list[Criterion]:
     resp = client.messages.parse(
         model = "claude-sonnet-5",
         max_tokens = 3000,
-        messages = [{"role": "user", "content": f"Take the input text: {policy_text}, {denial_info} and extract the necessary fields required as per Criterion model. For criterion_name: return a short category or name. For requirement: return the specific requirement or condition that is relevant to the denial. For policy_reference: return any cited policy reference if available, otherwise return None. Only return requirements explicitly supported by the supplied policy text. Do not infer or invent missing requirements."}],
-        output_format = Criterion,
+        messages = [{"role": "user", "content": f"""Policy text: {policy_text} Denial information: {denial_info} Extract all coverage criteria from the supplied policy that apply to this specific prior authorization request. Return each applicable criterion as a separate Criterion object. For criterion_name: - Return a short descriptive name for the criterion. For requirement: - Return the specific policy requirement or condition that must be satisfied. For policy_reference: - Return the relevant policy section or reference if available. - Otherwise return None. Only include criteria explicitly supported by the supplied policy text. Use the denial information only to identify the relevant drug, indication, request type, and policy pathway. Do not infer, invent, or add requirements that are not present in the policy. Do not determine whether the patient satisfies the criteria. """}],
+        output_format = list[Criterion],
     )
     return resp.parsed_output
 
