@@ -1,0 +1,85 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            June 22, 2026
+Authorization Reference:   AUTH-AET-2026-000658
+Review Tracking ID:        UM-RX-2026-06-0658
+
+Member Name:               Jayden T. Moreau
+Member ID:                 MEM-AET-129
+Medical Record Number:     MRN-200129
+Date of Birth:             11/30/2013
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Sunita R. Balakrishnan, MD — Pediatric Endocrinology
+Practice:                  Fielding Children's Specialty Center
+Provider ID:               PRV-SYN-1466
+Request Received:          June 15, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Parent or Guardian of Jayden T. Moreau:
+
+We have completed our review of the prior authorization request submitted on your child's
+behalf.
+
+  Drug requested:          Saxenda (liraglutide) injection
+  Requested dosing:        0.6 mg subcutaneously once daily, titrated per prescribing
+                           information
+  Requested indication:    Chronic weight management, pediatric
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+For a pediatric Saxenda request, coverage requires a documented body weight above 60 kg. The
+records submitted document a body weight of 58.1 kg.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," COVERAGE CRITERIA — Chronic Weight
+Management (Pediatric) – Saxenda and Wegovy ONLY.
+
+Where the request is for Saxenda, that section requires that all of the listed criteria are met,
+including that "The patient has a body weight above 60 kg [ACTION REQUIRED: Documentation is
+required for approval.]" and that the patient has a baseline body mass index corresponding to 30
+kg/m² or greater for adults by international cut-off points based on the Cole Criteria.
+
+Materials reviewed:
+  1. Prior authorization request form received June 15, 2026
+  2. Pediatric endocrinology note dated June 8, 2026, Fielding Children's Specialty Center
+  3. Nutrition and family programme records, Fielding Children's Specialty Center
+
+We confirm from the submitted records that the patient is 12 years of age, that he participated
+in a comprehensive weight management programme with continuing follow-up from November 2025
+through May 2026, and that the prescriber has documented a baseline body mass index
+corresponding to an adult value of 30 kg/m² or greater by international cut-off points. Those
+criteria are met and are not the reason for this decision.
+
+The submitted records document weights of 59.4 kg on December 8, 2025, 58.5 kg on March 9, 2026
+and 58.1 kg on June 8, 2026. No recorded weight in the submitted record is above 60 kg. The
+weight criterion for a pediatric Saxenda request is therefore not met.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including the prescribing provider acting on the
+patient's behalf, may request reconsideration of this determination in accordance with the
+appeal provisions of the benefit plan, and may submit additional clinical documentation with
+that request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to this plan,
+contact Member Services using the information on the member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

@@ -1,0 +1,221 @@
+{
+  "case_id": "case_012",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Saxenda (liraglutide) injection",
+    "drug_detail": "0.6 mg subcutaneous once daily, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+    "case_types": [
+      "partial_evidence",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-06-08",
+      "request_date": "2026-06-15",
+      "denial_date": "2026-06-22",
+      "note_type": "pediatric_endocrinology_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The pediatric pathway splits by drug: Saxenda carries a body-weight criterion in kilograms that Wegovy does not. Three of the four applicable criteria are met, including the Cole-criteria BMI criterion that would be the natural focus of attention. The one that fails is a plain weight threshold in different units from every other measurement in the case."
+  },
+  "patient": {
+    "name": "Jayden T. Moreau",
+    "mrn": "MRN-200129",
+    "member_id": "MEM-AET-129",
+    "age": 12,
+    "dob": "2013-11-30",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "R06.83 snoring"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 28.7,
+      "weight_lb": 128,
+      "weight_kg": 58.1,
+      "height_in": 56,
+      "bmi_history": [
+        { "date": "2025-12-08", "weight_lb": 131, "weight_kg": 59.4, "bmi": 29.4 },
+        { "date": "2026-03-09", "weight_lb": 129, "weight_kg": 58.5, "bmi": 28.9 },
+        { "date": "2026-06-08", "weight_lb": 128, "weight_kg": 58.1, "bmi": 28.7 }
+      ],
+      "a1c_percent": 5.4
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Sunita R. Balakrishnan, MD",
+    "specialty": "Pediatric Endocrinology",
+    "practice": "Fielding Children's Specialty Center",
+    "provider_id": "PRV-SYN-1466"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Saxenda (liraglutide) injection",
+    "denial_reason": "pediatric_saxenda_body_weight_below_60_kg",
+    "denial_reason_text": "A pediatric Saxenda request requires a documented body weight above 60 kg; the records document 58.1 kg.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+    "cited_requirement_text": "The patient has a body weight above 60 kg",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-06-15",
+      "Pediatric endocrinology note dated 2026-06-08",
+      "Fielding Children's Specialty Center programme records"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "pediatric_saxenda_body_weight_above_60_kg",
+        "requirement": "For a Saxenda request, the patient has a body weight above 60 kg, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+        "policy_support_text": "The patient has a body weight above 60 kg",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "pediatric_saxenda_cole_criteria_bmi",
+        "requirement": "For a Saxenda request, baseline BMI corresponding to 30 kg/m2 or greater for adults by international cut-off points based on the Cole Criteria, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+        "policy_support_text": "baseline body mass index (BMI) corresponding to 30 kg/m2 or greater for adults by international cut-off points based on the Cole Criteria",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "pediatric_age_12_to_17",
+        "requirement": "Patient is 12 to 17 years of age.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+        "policy_support_text": "The patient is 12 to 17 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "pediatric_comprehensive_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The pediatric pathway applies different criteria depending on the drug. The 60 kg body-weight criterion and the Cole-criteria BMI criterion attach to Saxenda. A Wegovy request instead requires a baseline BMI in the 95th percentile or greater standardized for age and sex, with no weight criterion.",
+      "The adult BMI 35 threshold does not apply to a pediatric request.",
+      "The policy's Limitations of Use note that the safety and effectiveness of Saxenda in pediatric patients with type 2 diabetes have not been established. The patient does not have type 2 diabetes, so this does not arise."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-06-08 note and the programme records were submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "pediatric_saxenda_body_weight_above_60_kg",
+        "evidence_present": false,
+        "evidence_text": "Recorded weights are 131 lb (59.4 kg) on 12/08/2025, 129 lb (58.5 kg) on 03/09/2026 and 128 lb (58.1 kg) on 06/08/2026. The note states expressly that body weight has remained below 60 kg at every recorded measurement in this episode and that there is no earlier recorded weight above 60 kg in the chart.",
+        "evidence_location": "OBJECTIVE section, growth and weight record",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "pediatric_saxenda_cole_criteria_bmi",
+        "evidence_present": true,
+        "evidence_text": "The prescriber documents that the current BMI of 28.7 kg/m2 corresponds to an adult BMI of 30 kg/m2 or greater for a boy of his age by the Cole criteria.",
+        "evidence_location": "OBJECTIVE section, paragraph following the growth record; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "pediatric_age_12_to_17",
+        "evidence_present": true,
+        "evidence_text": "DOB 11/30/2013; age 12 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "pediatric_comprehensive_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "Seven dated family-based programme contacts from 11/17/2025 through 05/25/2026, a span of 189 days, covering eating pattern goals, behavioural sessions and an activity goal met through an after-school football club.",
+        "evidence_location": "FAMILY-BASED WEIGHT MANAGEMENT PROGRAMME",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No recorded weight above 60 kg exists anywhere in the chart for this patient. The note states this affirmatively, so it is a documented absence rather than a gap in the submission.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "pediatric_saxenda_body_weight_above_60_kg",
+        "status": "not_satisfied",
+        "reason": "Highest recorded weight in the episode is 59.4 kg and the current weight is 58.1 kg. The policy requires a weight above 60 kg for a pediatric Saxenda request."
+      },
+      {
+        "criterion_name": "pediatric_saxenda_cole_criteria_bmi",
+        "status": "satisfied",
+        "reason": "The prescriber documents the Cole-criteria adult equivalent as 30 kg/m2 or greater, and the policy requires that documentation rather than a percentile calculation by the payer."
+      },
+      {
+        "criterion_name": "pediatric_age_12_to_17",
+        "status": "satisfied",
+        "reason": "Age 12."
+      },
+      {
+        "criterion_name": "pediatric_comprehensive_program_6_months",
+        "status": "satisfied",
+        "reason": "Seven dated contacts spanning 189 days with continuing follow-up, covering diet, behaviour and physical activity, before any drug therapy."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "Three of the four applicable criteria are satisfied: age, the six-month programme, and the Cole-criteria BMI documentation.",
+      "The denial accurately states the weight criterion and accurately reports the recorded weights.",
+      "The programme was completed in full with documented adherence."
+    ],
+    "unsupported_claims": [
+      "That any recorded body weight in this episode is above 60 kg.",
+      "That the Cole-criteria BMI documentation can substitute for the separate body-weight criterion.",
+      "That the adult pathway's criteria are available to a 12-year-old."
+    ],
+    "correct_next_step": "Advise that the record does not support overturning the denial. The 60 kg criterion is a plain threshold and the patient is 58.1 kg. Worth raising with the prescriber: the pediatric pathway for Wegovy has no body-weight criterion and instead requires a baseline BMI in the 95th percentile or greater standardized for age and sex, so a request for that drug would be assessed against different criteria."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Recorded body weight on June 8, 2026 was 128 pounds, 58.1 kilograms, at a height of 4 feet 8 inches.",
+      "Recorded weights in the episode are 59.4, 58.5 and 58.1 kilograms.",
+      "Documented BMI on June 8, 2026 was 28.7 kg/m2.",
+      "The prescriber documents that this BMI corresponds to an adult BMI of 30 kg/m2 or greater by Cole criteria.",
+      "The patient was 12 years of age at the time of the request.",
+      "Seven dated programme contacts are documented from November 17, 2025 through May 25, 2026.",
+      "The patient has used no prescription weight-loss medication and has no GLP-1 receptor agonist exposure."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The patient's body weight is above 60 kilograms.",
+      "The patient previously weighed more than 60 kilograms.",
+      "The Cole-criteria BMI documentation satisfies the body-weight criterion.",
+      "The patient has obstructive sleep apnea.",
+      "The patient has type 2 diabetes.",
+      "The adult chronic weight management criteria apply to this request.",
+      "The patient's BMI of 28.7 satisfies a 30 kg/m2 threshold directly."
+    ]
+  },
+  "files": {
+    "denial": "case_012_denial.txt",
+    "note": "case_012_note.txt"
+  }
+}

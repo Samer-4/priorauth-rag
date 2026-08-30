@@ -1,0 +1,228 @@
+{
+  "case_id": "case_018",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg/0.5 mL subcutaneous once weekly, starting dose with titration",
+    "request_type": "initial_authorization",
+    "policy_pathway": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy",
+    "case_types": [
+      "policy_mismatch"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-04-13",
+      "request_date": "2026-04-20",
+      "denial_date": "2026-04-27",
+      "note_type": "family_medicine_progress_note",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "A second policy-mismatch case, deliberately built on a different payer and a different pair of named agents from case 007, so that a pipeline cannot learn a single surface pattern. The denial's economic rationale — cheaper agents first — is the kind of reasoning that sounds like policy, and the member genuinely has no prior pharmacotherapy, so the evidence check cannot rescue the case."
+  },
+  "patient": {
+    "name": "Kofi A. Mensah",
+    "mrn": "MRN-200195",
+    "member_id": "MEM-CIG-195",
+    "age": 47,
+    "dob": "1979-02-21",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.33 BMI 33.0-33.9, adult",
+      "I10 essential hypertension",
+      "R06.83 snoring"
+    ],
+    "comorbidities": [
+      "essential hypertension"
+    ],
+    "relevant_measurements": {
+      "bmi": 33.2,
+      "weight_lb": 225,
+      "height_in": 69,
+      "bmi_history": [
+        { "date": "2026-01-05", "weight_lb": 231, "bmi": 34.1 },
+        { "date": "2026-04-13", "weight_lb": 225, "bmi": 33.2 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Lorna E. Petrakis, MD",
+    "specialty": "Family Medicine",
+    "practice": "Thornbury Family Medicine",
+    "provider_id": "PRV-SYN-2027"
+  },
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "step_therapy_not_satisfied",
+    "denial_reason_text": "Coverage requires documented trial and inadequate response to orlistat and phentermine before a GLP-1 receptor agonist is approved; neither trial is documented.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" III. Wegovy injection and Wegovy HD injection, 1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy",
+    "cited_requirement_text": "documented trial and inadequate response to two lower-cost anti-obesity agents, orlistat and phentermine, before a GLP-1 agent is approved",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "requirement_not_in_policy",
+      "denial_asserts": "documented trial and inadequate response to orlistat and phentermine before a GLP-1 receptor agonist",
+      "policy_actually_requires_text": null,
+      "explanation": "No step-therapy requirement of any kind exists in this document. See policy_mismatch_detail.absence_proof_terms."
+    },
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-04-20",
+      "Family medicine office note dated 2026-04-13",
+      "Dietitian summary dated 04/2026"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": false,
+    "criterion_applies": false,
+    "criteria": [],
+    "policy_mismatch_detail": {
+      "claimed_requirement": "Documented trial and inadequate response to orlistat and phentermine before a GLP-1 receptor agonist is approved.",
+      "why_not_grounded": "This policy contains no step-therapy requirement, no preferred-agent hierarchy and no requirement to trial any other weight-loss product first. The adult Wegovy initial-therapy pathway has four criteria: age 18 or older, a three-month trial of behavioral modification and dietary restriction, a BMI route, and concomitant behavioral modification with a reduced-calorie diet. Neither orlistat nor phentermine is named anywhere in the document; the policy covers only Foundayo, liraglutide, Wegovy injection, Wegovy HD, Wegovy tablet and Zepbound.",
+      "nearest_related_policy_language": "The GLP-1 agonists and the GLP-1/GIP agonist should not be combined with each other or with any other GLP-1 agonists or GLP-1/GIP agonist.",
+      "nearest_related_policy_reference": "CONDITIONS NOT COVERED — 1. Concomitant Use with GLP-1 Agonists or GLP-1/GIP Agonists",
+      "additional_distractor_language": [
+        "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months"
+      ],
+      "additional_distractor_note": "The only trial requirement in the policy is a trial of behavioral modification and dietary restriction — a lifestyle trial, not a drug trial. The word 'trial' is the surface feature most likely to be matched to the denial's claim, and the member satisfies it.",
+      "distractor_warning": "Correct Stage 2 behavior is to report that the asserted step-therapy requirement cannot be grounded in this policy. It must not be mapped onto the three-month behavioral and dietary trial criterion, nor onto the Conditions Not Covered section, which addresses combining agents rather than sequencing them.",
+      "cross_payer_confusion_risk": "Neither aetna_glp1_weight_management.txt nor uhc_weight_loss_prior_auth.txt contains a step-therapy requirement either. The UnitedHealthcare document does name phentermine and orlistat, but as products it covers under the same program, not as prerequisites.",
+      "absence_proof_terms": [
+        "step therapy",
+        "step-therapy",
+        "orlistat",
+        "phentermine",
+        "metformin",
+        "contrave"
+      ],
+      "absence_proof_note": "None of these terms occurs anywhere in the authoritative Cigna document."
+    },
+    "criteria_actually_applicable_and_met": [
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "met": true
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "met": true
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(a)",
+        "policy_support_text": "At baseline, patient had a BMI >= 30 kg/m2",
+        "met": true
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "requirement": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iv",
+        "policy_support_text": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet",
+        "met": true
+      }
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "Everything was submitted and reviewed. The payer's factual account is accurate, including its correct observation that no anti-obesity pharmacotherapy has been used.",
+    "expected_evidence": [
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "evidence_present": true,
+        "evidence_text": "Dietitian consultation 01/05/2026 with a 1,900 kcal/day target and food diary, reviews on 02/09/2026 and 03/16/2026, continuing to 04/13/2026 without interruption — 98 days to the note and 105 days to the request.",
+        "evidence_location": "WEIGHT MANAGEMENT section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 9 in with 231 lb (BMI 34.1) on 01/05/2026 marked as the baseline at the start of the dietary programme, and 225 lb (BMI 33.2) on 04/13/2026. No prior GLP-1 exposure, so the January value is the policy baseline.",
+        "evidence_location": "OBJECTIVE section; MEDICATION HISTORY",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 02/21/1979; age 47 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "evidence_present": true,
+        "evidence_text": "Plan item 1 states he will continue the dietitian's plan and the circuit class alongside the medication.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "claimed_step_therapy_trial",
+        "evidence_present": false,
+        "evidence_text": "The medication history records no prescription weight-loss medication at any time, and the subjective section lists by name the agents he has not taken, including orlistat and phentermine. The member genuinely has not trialled them. The requirement is nonetheless absent from the policy.",
+        "evidence_location": "SUBJECTIVE; MEDICATION HISTORY",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No trial of any anti-obesity pharmacotherapy exists. A documented absence rather than an omission, and not material because the requirement is not in the policy.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "criterion_not_found",
+    "per_criterion": []
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "policy_mismatch",
+    "expected_position": "policy_mismatch",
+    "supported_claims": [
+      "The step-therapy requirement the denial relies on does not appear in the coverage policy the denial itself cites.",
+      "The Wegovy adult initial-therapy pathway in that policy has four criteria and none concerns prior pharmacotherapy.",
+      "The only trial requirement in the policy is a trial of behavioral modification and dietary restriction, which the member has completed.",
+      "On the criteria the policy does contain, the record supports authorization."
+    ],
+    "unsupported_claims": [
+      "That the member trialled orlistat or phentermine.",
+      "That the member has a documented contraindication to either agent.",
+      "That a step-therapy requirement exists in this policy and was merely misapplied."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the requirement applied is not found in the cited policy. Quote the four criteria the Wegovy initial-therapy pathway does contain and the record evidence for each. Do not seek a step-therapy exception, which would concede that the requirement exists."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "A dietitian consultation on January 5, 2026 set a 1,900 kcal/day target and started a food diary.",
+      "Dietitian reviews are documented on February 9, 2026 and March 16, 2026, with the programme continuing to April 13, 2026.",
+      "Documented BMI on April 13, 2026 was 33.2 kg/m2, with height 5 feet 9 inches and weight 225 pounds.",
+      "The baseline weight on January 5, 2026 was 231 pounds, a BMI of 34.1 kg/m2.",
+      "The member was 47 years of age at the time of the request.",
+      "The member has used no prescription weight-loss medication at any time and has no GLP-1 receptor agonist exposure.",
+      "The cited Cigna policy contains no step-therapy requirement."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member trialled orlistat.",
+      "The member trialled phentermine.",
+      "The member has a contraindication or intolerance to orlistat or phentermine.",
+      "Cigna's policy requires a trial of a lower-cost anti-obesity agent before a GLP-1 receptor agonist.",
+      "The three-month behavioral and dietary trial criterion is a drug-trial requirement.",
+      "The member has obstructive sleep apnea.",
+      "The member has type 2 diabetes."
+    ]
+  },
+  "files": {
+    "denial": "case_018_denial.txt",
+    "note": "case_018_note.txt"
+  }
+}

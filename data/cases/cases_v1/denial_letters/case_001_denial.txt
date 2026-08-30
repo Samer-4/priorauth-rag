@@ -1,0 +1,95 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            June 11, 2026
+Authorization Reference:   AUTH-AET-2026-000141
+Review Tracking ID:        UM-RX-2026-06-0141
+
+Member Name:               Denise R. Okafor
+Member ID:                 MEM-AET-014
+Medical Record Number:     MRN-200014
+Date of Birth:             03/19/1974
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Alonzo T. Whitfield, DO — Family Medicine
+Practice:                  Cedar Ridge Family Health
+Provider ID:               PRV-SYN-0142
+Request Received:          June 4, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Ms. Okafor:
+
+We completed our review of the prior authorization request submitted on your behalf.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        0.25 mg subcutaneously once weekly, titrated per prescribing
+                           information
+  Requested indication:    Chronic weight management
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved. Coverage of Wegovy under this pharmacy benefit requires that
+specific clinical criteria be met, and the information submitted does not establish that all
+of those criteria have been met.
+
+This is not a determination that Wegovy is inappropriate for you. It is a determination that
+the documentation we received does not show that one of the coverage requirements has been
+satisfied.
+
+
+REASON FOR DENIAL
+
+The submitted documentation does not establish participation in a comprehensive weight
+management program — one encouraging behavioral modification, a reduced calorie diet, and
+increased physical activity, with continuing follow-up — for at least 6 months prior to
+beginning drug therapy.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," COVERAGE CRITERIA — Chronic Weight
+Management (Adult).
+
+Under that section, authorization for an adult chronic weight management request requires that
+all listed criteria be met, including that the patient "has participated in a comprehensive
+weight management program that encourages behavioral modification, reduced calorie diet, and
+increased physical activity with continuing follow-up for at least 6 months prior to using drug
+therapy." The policy also states that documentation is required for approval.
+
+Materials reviewed for this determination consisted of:
+
+  1. Prior authorization request form completed by Dr. Whitfield, received June 4, 2026
+  2. A one-page office visit summary dated June 1, 2026
+
+The request form records a height of 5 feet 5 inches, a weight of 219 pounds, and a body mass
+index of 36.4 kg/m². This meets the policy's baseline BMI requirement of 35 kg/m² or greater,
+which is therefore not in dispute. The member's age is likewise not in dispute.
+
+Neither submitted document identifies a weight management program, names a program provider,
+or records dates of participation or follow-up contacts. The June 1, 2026 visit summary states
+only that the member has "been working on diet and exercise." Without dates or a record of
+continuing follow-up, we are unable to determine that participation of at least 6 months
+occurred prior to the requested start of drug therapy. On that basis the request is denied.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative — including your prescribing provider acting on your
+behalf — may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan. You may submit additional clinical documentation with your
+request. Records that would be relevant to this determination include dated notes from a
+dietitian, nutrition counselor, behavioral health provider, or weight management program
+documenting the dates and content of your participation and follow-up.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

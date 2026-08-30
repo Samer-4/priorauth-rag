@@ -1,0 +1,68 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    06/15/2026
+Case Reference:          AUTH-CIG-2026-000622
+Member:                  Imani S. Broussard
+Member ID:               MEM-CIG-151
+Patient Record Number:   MRN-200151
+Date of Birth:           03/25/1990
+Request Received:        06/08/2026
+Prescriber:              Marcus O. Delacroix-Byrne, MD, Family Medicine
+Prescriber Reference:    PRV-SYN-1685
+
+
+REQUEST REVIEWED
+
+  Medication:            Wegovy (semaglutide) injection
+  Strength requested:    2.4 mg/0.75 mL, once weekly
+  Indication submitted:  Weight loss in an adult with obesity, continuation of therapy
+  Review type:           Continuation
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Continuation of coverage requires documentation that the patient has lost at least 5 percent of
+baseline body weight. The submission did not include documentation of weight loss.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section III. Wegovy injection and Wegovy HD injection,
+1. Weight Loss in an Adult with Overweight or Obesity, B) Patient is Currently Receiving Wegovy
+injection, Wegovy HD injection, or Wegovy tablet.
+
+That section requires all of the listed criteria, including that "Patient has lost ≥ 5% of
+baseline body weight," where baseline refers to baseline prior to any GLP-1 agonist or GLP-1/GIP
+receptor agonist.
+
+Records reviewed: continuation request form dated 06/08/2026.
+
+The continuation request form was submitted without any accompanying clinical documentation. The
+form records the member's current weight but no baseline weight and no percentage reduction. On
+the material submitted we cannot confirm that the response criterion is met.
+
+Approval may be reconsidered on submission of clinical records documenting the baseline weight
+and the current weight, or the percentage reduction.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

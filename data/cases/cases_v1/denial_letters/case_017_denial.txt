@@ -1,0 +1,72 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    06/08/2026
+Case Reference:          AUTH-CIG-2026-000617
+Member:                  Siobhan M. Delacroix
+Member ID:               MEM-CIG-184
+Patient Record Number:   MRN-200184
+Date of Birth:           06/08/1994
+Request Received:        06/01/2026
+Prescriber:              Anneliese K. Fontaine, MD, Obstetrics and Gynecology
+Prescriber Reference:    PRV-SYN-1911
+
+
+REQUEST REVIEWED
+
+  Medication:            Wegovy (semaglutide) injection
+  Strength requested:    0.25 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Weight loss in an adult with overweight
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+The member's baseline body mass index is below 30 kg/m². Coverage at a body mass index of 27
+kg/m² or greater requires at least one weight-related comorbidity from the list in the policy.
+No qualifying comorbidity was identified in the submitted records.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section III. Wegovy injection and Wegovy HD injection,
+1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy.
+
+That section requires the patient to meet one of two body mass index routes: a baseline BMI of 30
+kg/m² or greater, or a baseline BMI of 27 kg/m² or greater together with at least one of the
+weight-related comorbidities the policy lists.
+
+Records reviewed: prior authorization request form dated 06/01/2026; obstetrics and gynecology
+office note dated 05/25/2026, Caldermill Women's Health.
+
+The submitted records document a height of 5 feet 6 inches and weights between 174 and 179
+pounds, giving body mass index values between 28.1 and 28.9 kg/m². The first route is therefore
+unavailable. Age and the three-month behavioral and dietary trial are satisfied and are not at
+issue.
+
+The submitted note is a lengthy gynaecological consultation addressing several matters. Our
+reviewer identified anaemia, migraine, acne, anxiety and plantar fasciitis. None of these appears
+on the policy's list of weight-related comorbidities. On that basis the second route is not
+established and the request is denied.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

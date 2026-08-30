@@ -1,0 +1,126 @@
+CALDERMILL WOMEN'S HEALTH
+Obstetrics and Gynecology — Office Visit Note
+
+Patient:            Delacroix, Siobhan M.
+MRN:                MRN-200184
+DOB:                06/08/1994     Age: 31     Sex: Female
+Date of service:    05/25/2026
+Clinician:          Anneliese K. Fontaine, MD (PRV-SYN-1911)
+Visit type:         Established patient, multi-issue review
+
+
+REASON FOR VISIT
+Several things: heavy periods, coil check, acne, and she wants to talk about weight.
+
+
+SUBJECTIVE
+
+Menstrual history. Cycles have always been irregular, between 38 and 70 days, with three to
+five bleeds a year since her teens. When she does bleed it is heavy, six to seven days, flooding
+on days two and three, and she has been anaemic on and off because of it. Last haemoglobin 11.4.
+
+Hirsutism. She shaves her chin and neck twice weekly and finds this the most distressing symptom.
+Onset in her late teens, gradually progressive. Ferriman-Gallwey score today is 11.
+
+Acne. Persistent along the jawline and upper back. She has tried topical benzoyl peroxide and a
+retinoid without much benefit and asks about oral options.
+
+Her polycystic ovary syndrome was diagnosed here in 2019 on Rotterdam criteria: oligomenorrhoea,
+clinical hyperandrogenism with a raised free androgen index, and polycystic morphology on pelvic
+ultrasound. Testosterone at diagnosis was 2.9 nmol/L with SHBG 21. She has been managed with the
+levonorgestrel intrauterine system and lifestyle advice since.
+
+Migraine with aura, roughly monthly, managed with rizatriptan. Noted because it is why she is not
+on a combined oral contraceptive.
+
+Anxiety, longstanding, managed without medication through a workplace programme.
+
+Plantar fasciitis, left foot, six months, improving with orthotics and stretches.
+
+Weight. This is her main agenda item today. She has been working with our dietitian since
+January and has kept it up. She started at 179 pounds and is 174 today. She would like
+pharmacological help. She has read that these medications also help the hormonal side of PCOS
+and asks whether that is true; I explained the evidence is about weight and metabolic parameters
+rather than a direct hormonal effect.
+
+Pregnancy plans: none in the next two years; intrauterine system in situ.
+
+No tobacco. Alcohol occasional. Works in graphic design.
+
+
+WEIGHT MANAGEMENT
+
+  01/19/2026   Dietitian consultation, Ms. Solange Ferreira, RD. Calorie target 1,500 kcal/day;
+               food logging started; walking and strength goals set.
+  03/23/2026   Dietitian review. Logging consistent; strength sessions twice weekly.
+  05/25/2026   Today. Continuing the plan without a break since January.
+
+
+CURRENT MEDICATIONS
+
+  levonorgestrel intrauterine system (in situ since 2023)
+  rizatriptan 10 mg PO PRN
+  ferrous fumarate 210 mg PO daily
+  adapalene 0.1% topical nightly
+  orthotic insoles
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 112/70    HR 68    Temp 98.2 F
+Height:  5 ft 6 in (66 in)
+Weight:  174 lb
+BMI:     28.1 kg/m²
+
+Weights on file:
+  01/19/2026   179 lb   (BMI 28.9)
+  03/23/2026   176 lb   (BMI 28.4)
+  05/25/2026   174 lb   (BMI 28.1)
+
+Exam: Terminal hair on chin, upper lip and lower abdomen; Ferriman-Gallwey 11. Inflammatory acne
+along jawline and upper back. Abdomen soft, non-tender. Bimanual examination unremarkable;
+intrauterine system threads visible. No acanthosis nigricans.
+
+Laboratory (05/11/2026):
+  Hemoglobin            11.4 g/dL
+  Ferritin              18 ng/mL
+  Hemoglobin A1c        5.5 %
+  Fasting glucose       94 mg/dL
+  Total testosterone    2.7 nmol/L
+  SHBG                  23 nmol/L
+  TSH                   1.7 mIU/L
+  Prolactin             308 mIU/L
+
+
+ASSESSMENT
+
+1. Polycystic ovary syndrome (E28.2), diagnosed 2019 on Rotterdam criteria, with ongoing
+   oligomenorrhoea and clinical and biochemical hyperandrogenism.
+2. Overweight (E66.3), BMI 28.1 kg/m² (Z68.28), with a modest response to dietary and activity
+   intervention sustained since January.
+3. Iron deficiency anaemia (D50.9) secondary to heavy menstrual bleeding, on replacement.
+4. Migraine with aura (G43.109) — combined hormonal contraception contraindicated.
+5. Acne vulgaris (L70.0), moderate, inadequately controlled on topical therapy.
+6. Anxiety (F41.9), managed non-pharmacologically.
+7. Plantar fasciitis (M72.2), left, improving.
+
+
+PLAN
+
+1. Weight. Prior authorization to be submitted for semaglutide (Wegovy) 0.25 mg weekly with label
+   titration. She will continue Ms. Ferreira's plan and the strength sessions alongside any
+   medication. Pre-pregnancy counselling given; intrauterine system remains in place.
+2. Polycystic ovary syndrome. Continue intrauterine system for endometrial protection and cycle
+   control. Weight reduction discussed as first-line for the androgenic features.
+3. Anaemia. Continue ferrous fumarate; recheck haemoglobin and ferritin in 3 months.
+4. Acne. Trial of oral lymecycline for 12 weeks alongside adapalene.
+5. Migraine. Continue rizatriptan; no oestrogen-containing contraception.
+6. Foot. Continue orthotics and stretches; podiatry review if not resolved by August.
+
+Return in 3 months.
+
+
+Anneliese K. Fontaine, MD
+Signed 05/25/2026

@@ -1,0 +1,213 @@
+{
+  "case_id": "case_022",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "straightforward",
+      "strong_appeal"
+    ],
+    "difficulty": "easy",
+    "episode": {
+      "note_date": "2026-06-08",
+      "request_date": "2026-06-15",
+      "denial_date": "2026-06-22",
+      "note_type": "internal_medicine_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": false
+    },
+    "design_note": "The UnitedHealthcare control case. The BMI is comfortably above the threshold, stated plainly, and the note predates the request. The denial is a bare documentation-not-submitted determination with no clinical records attached at all."
+  },
+  "patient": {
+    "name": "Delphine A. Rutherford",
+    "mrn": "MRN-200239",
+    "member_id": "MEM-UHC-239",
+    "age": 39,
+    "dob": "1987-01-19",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 34.8,
+      "weight_lb": 203,
+      "height_in": 64,
+      "bmi_history": [
+        { "date": "2026-03-16", "weight_lb": 207, "bmi": 35.5 },
+        { "date": "2026-06-08", "weight_lb": 203, "bmi": 34.8 }
+      ],
+      "a1c_percent": 5.5
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Everett M. Oyelowo, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Riverbend Internal Medicine",
+    "provider_id": "PRV-SYN-2461"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "bmi_not_documented_in_submission",
+    "denial_reason_text": "The submitted materials do not document a body mass index; the request form was submitted with the height, weight and BMI fields blank and no clinical records attached.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization",
+    "cited_requirement_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-06-15, submitted without clinical records"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "requirement": "Body Mass Index of 30 kg/m2 or greater.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "age_requirement",
+        "requirement": "Patient is 12 years of age or older for Wegovy injection.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(1)",
+        "policy_support_text": "Patient is ≥ 12 years of age (for Qsymia, Saxenda, Wegovy injection and Xenical)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification. No minimum duration is stated.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Section 3, the North Dakota Fully Insured EHB variant with its BMI 40 threshold, does not apply. The plan is a commercial employer group plan in Ohio and the denial cites Section 2."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "existing_but_not_submitted",
+    "evidence_timing_note": "The 2026-06-08 note predates the 2026-06-15 request but was not attached to it. The payer reviewed the form alone.",
+    "expected_evidence": [
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 4 in, weight 203 lb, BMI 34.8 kg/m2 on 06/08/2026, with 207 lb (BMI 35.5) recorded on 03/16/2026. Repeated in the assessment with the Z68.34 code.",
+        "evidence_location": "OBJECTIVE section; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "covered_indication",
+        "evidence_present": true,
+        "evidence_text": "Assessment item 1 is obesity and the plan requests semaglutide for weight management.",
+        "evidence_location": "ASSESSMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "age_requirement",
+        "evidence_present": true,
+        "evidence_text": "DOB 01/19/1987; age 39 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Sweetened drinks stopped and a home-cooking target set from 03/16/2026; a workplace walking group three times weekly from 04/2026, both maintained. Plan item 1 states the medication is to be used as an adjunct to those changes.",
+        "evidence_location": "SUBJECTIVE; WEIGHT MANAGEMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 34.8 kg/m2 documented with height and weight, above the 30 kg/m2 threshold."
+      },
+      {
+        "criterion_name": "covered_indication",
+        "status": "satisfied",
+        "reason": "The request is for weight loss."
+      },
+      {
+        "criterion_name": "age_requirement",
+        "status": "satisfied",
+        "reason": "Age 39, above the 12-year threshold applicable to Wegovy injection."
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietary changes and a walking group are documented and continue alongside the drug. The policy sets no minimum duration."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The clinical record documents a BMI of 34.8 kg/m2, above the 30 kg/m2 threshold.",
+      "The record existed before the request and was simply not attached, so it is properly considered on reconsideration.",
+      "The remaining criteria — covered indication, age, and use as an adjunct to lifestyle modification — are all satisfied on the same record."
+    ],
+    "unsupported_claims": [
+      "That the payer applied the wrong criterion; the denial states it correctly and the failure was in the submission.",
+      "That the member has a weight-related comorbidity, which is not needed at this BMI."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on June 8, 2026 was 34.8 kg/m2, with height 5 feet 4 inches and weight 203 pounds.",
+      "A weight of 207 pounds, a BMI of 35.5 kg/m2, was recorded on March 16, 2026.",
+      "The member stopped sweetened drinks and set a home-cooking target from March 16, 2026.",
+      "The member has attended a workplace walking group three times weekly since April 2026.",
+      "The member was 39 years of age at the time of the request.",
+      "The member has used no prescription weight-loss medication and has no GLP-1 receptor agonist exposure."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has type 2 diabetes, hypertension, dyslipidemia or sleep apnea.",
+      "The member completed a six-month supervised weight management program.",
+      "The member completed a three-month behavioural and dietary trial as a policy requirement.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "The North Dakota Essential Health Benefits criteria apply to this member.",
+      "The member has lost 5 percent of baseline body weight."
+    ]
+  },
+  "files": {
+    "denial": "case_022_denial.txt",
+    "note": "case_022_note.txt"
+  }
+}

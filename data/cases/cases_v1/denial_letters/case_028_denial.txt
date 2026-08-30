@@ -1,0 +1,84 @@
+UnitedHealthcare
+Prior Authorization Determination — Pharmacy Benefit
+
+Date of determination:   May 4, 2026
+Authorization number:    AUTH-UHC-2026-000276
+Member:                  Marlene K. Thorsvik
+Member ID:               MEM-UHC-ND-305
+Patient identifier:      MRN-200305
+Date of birth:           09/24/1979
+Plan:                    North Dakota Fully Insured Essential Health Benefits — Individual
+                         market plan
+Prescriber:              Halldor J. Sigurdsson, MD — Internal Medicine
+Prescriber ID:           PRV-SYN-3028
+Date request received:   April 27, 2026
+
+
+ADVERSE DETERMINATION — COVERAGE NOT AUTHORIZED
+
+
+Dear Ms. Thorsvik,
+
+We have completed our review of the prior authorization request submitted for you.
+
+  Drug requested:        Wegovy (semaglutide) injection
+  Dose requested:        0.25 mg subcutaneously weekly, titrated per labeling
+  Indication submitted:  Weight loss
+  Type of review:        Initial authorization
+
+
+DETERMINATION
+
+Coverage is not authorized.
+
+
+BASIS FOR DETERMINATION
+
+Your plan is a North Dakota fully insured Essential Health Benefits individual market plan. The
+coverage criteria that apply to that plan require a body mass index of 40 kg/m² or greater. Your
+documented body mass index is 36.3 kg/m².
+
+
+CLINICAL REVIEW SUMMARY
+
+Coverage program applied: UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior
+Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage
+(Program Number 2026 P 1114-20, effective 5/1/2026), Section 3, Coverage Criteria for North
+Dakota Fully Insured EHB (Small Group and Individual) Plans, A. Initial Authorization.
+
+Your plan falls within Section 3. Where Section 3 applies, it governs in place of the general
+criteria at Section 2.
+
+Section 3 requires one of the following: a "Body Mass Index (BMI) ≥ 40 kg/m2 or for pediatric
+patients a BMI > 120% of 95th percentile"; or that Wegovy injection is being requested for the
+treatment of metabolic dysfunction-associated steatohepatitis.
+
+Documentation reviewed:
+  - Prior authorization request form received April 27, 2026
+  - Internal medicine office note dated April 20, 2026, Red River Internal Medicine, Fargo,
+    North Dakota
+
+The submitted note documents a height of 5 feet 5 inches and weights of 223 pounds on January 26,
+2026 and 218 pounds on April 20, 2026, giving body mass index values of 37.1 and 36.3 kg/m².
+Neither reaches 40 kg/m². The request is for weight loss and not for metabolic
+dysfunction-associated steatohepatitis, so the alternative route in Section 3 is not available.
+
+The indication, the age requirement and use as an adjunct to lifestyle modification are all
+satisfied under Section 3 and are not at issue.
+
+We note that the body mass index threshold in the general criteria at Section 2 is 30 kg/m². That
+section does not apply to this plan.
+
+
+RECONSIDERATION AND APPEAL
+
+You, or your prescriber acting as your authorized representative, may request an appeal of this
+determination under the terms of your benefit plan. You may submit additional information in
+support of the request.
+
+For the appeal procedures and timeframes that apply to your plan, or for questions about this
+notice, please contact the number for Member Services printed on your health plan ID card.
+
+
+UnitedHealthcare Pharmacy Prior Authorization
+Determination made by a licensed clinical reviewer

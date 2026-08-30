@@ -1,0 +1,279 @@
+{
+  "case_id": "case_006",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY; with Chronic Weight Management (Adult) assessed as an alternative",
+    "case_types": [
+      "multiple_criteria",
+      "distractor_heavy",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-01-26",
+      "request_date": "2026-02-02",
+      "denial_date": "2026-02-09",
+      "note_type": "cardiology_followup_consultation",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Two pathways, both closed, for different reasons. The cardiovascular pathway fits the member's clinical picture almost perfectly and is closed by a single exclusion criterion. The weight-management pathway is open to anyone but is closed by the BMI 35 floor. A system that checks only one pathway, or that treats the strong cardiovascular indication as sufficient, gets this wrong."
+  },
+  "patient": {
+    "name": "Harold J. Winterbourne",
+    "mrn": "MRN-200063",
+    "member_id": "MEM-AET-063",
+    "age": 63,
+    "dob": "1962-02-14",
+    "sex": "male",
+    "diagnoses": [
+      "I25.10 atherosclerotic heart disease of native coronary artery without angina pectoris",
+      "I25.2 old myocardial infarction",
+      "E11.9 type 2 diabetes mellitus without complications",
+      "E66.9 obesity, unspecified",
+      "Z68.31 BMI 31.0-31.9, adult",
+      "G47.33 obstructive sleep apnea",
+      "M10.9 gout, unspecified",
+      "Z87.891 personal history of nicotine dependence"
+    ],
+    "comorbidities": [
+      "coronary artery disease with prior myocardial infarction",
+      "type 2 diabetes mellitus",
+      "obstructive sleep apnea",
+      "gout"
+    ],
+    "relevant_measurements": {
+      "bmi": 31.7,
+      "weight_lb": 215,
+      "height_in": 69,
+      "bmi_history": [
+        { "date": "2025-07-14", "weight_lb": 221, "bmi": 32.6 },
+        { "date": "2025-10-20", "weight_lb": 218, "bmi": 32.2 },
+        { "date": "2026-01-26", "weight_lb": 215, "bmi": 31.7 }
+      ],
+      "a1c_percent": 7.1
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Nadine C. Osei-Tutu, MD",
+    "specialty": "Cardiology",
+    "practice": "Lakeshore Cardiovascular Institute",
+    "provider_id": "PRV-SYN-0841"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "cardiovascular_pathway_excluded_by_type_2_diabetes_and_bmi_below_threshold_on_weight_pathway",
+    "denial_reason_text": "The cardiovascular risk-reduction criteria exclude members with type 2 diabetes, which the records document. The alternative chronic weight management pathway requires a BMI of at least 35 kg/m2, which the records do not document.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY; and COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient does NOT have type 2 diabetes",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-02-02",
+      "Cardiology office note dated 2026-01-26",
+      "Laboratory results dated 2026-01-12"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "requirement": "The patient does not have type 2 diabetes.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient does NOT have type 2 diabetes",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "requirement": "Established cardiovascular disease with a history of one of: previous MI, previous stroke, symptomatic PAD, or prior revascularization.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "previous MI; previous stroke; symptomatic peripheral arterial disease (PAD)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 27 kg/m2.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 27",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "requirement": "Patient is currently receiving guideline-directed management and therapy for cardiovascular disease, or has a clinical reason not to be.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient is currently receiving guideline-directed management and therapy (GDMT) for cardiovascular disease",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_baseline_bmi_35_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 35 kg/m2, with documentation. Assessed because the member sought coverage and the weight-management pathway is the only alternative route in this policy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_comprehensive_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The BMI 27 threshold belongs to the cardiovascular pathway only. It cannot be borrowed into the weight-management pathway, which requires 35.",
+      "The six-month program criterion belongs to the weight-management pathway only. It is not part of the cardiovascular pathway.",
+      "The policy carries a note that Ozempic is indicated for cardiovascular risk reduction in adults with type 2 diabetes and established cardiovascular disease. That note is guidance about an alternative product, not a criterion of this policy, and Ozempic is not covered by this document."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-01-26 note and the 2026-01-12 labs were submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "evidence_present": false,
+        "evidence_text": "The record documents type 2 diabetes diagnosed 2019, A1c 7.1 percent on 01/12/2026, treated with metformin 1000 mg twice daily and empagliflozin 10 mg daily. The exclusion is triggered.",
+        "evidence_location": "HISTORY OF PRESENT ILLNESS, diabetes paragraph; CURRENT MEDICATIONS; laboratory results; ASSESSMENT item 2",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "evidence_present": true,
+        "evidence_text": "Inferior ST-elevation myocardial infarction in 03/2024 treated with primary PCI and a drug-eluting stent to the right coronary artery.",
+        "evidence_location": "HISTORY OF PRESENT ILLNESS; TREATMENT AND PREVENTION HISTORY",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 9 in, weight 215 lb, BMI 31.7 kg/m2; highest recorded 221 lb, BMI 32.6.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "evidence_present": true,
+        "evidence_text": "Aspirin, ticagrelor, atorvastatin 80 mg, metoprolol succinate and lisinopril, described in the plan as full guideline-directed medical therapy continued unchanged.",
+        "evidence_location": "CURRENT MEDICATIONS; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_baseline_bmi_35_or_greater",
+        "evidence_present": false,
+        "evidence_text": "The highest BMI anywhere in the record is 32.6 kg/m2 on 07/14/2025. No value approaches 35.",
+        "evidence_location": "OBJECTIVE section, weights on file",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_comprehensive_program_6_months",
+        "evidence_present": false,
+        "evidence_text": "The note states there has been no structured weight management or nutrition programme at any point and no dietitian referral until one was placed on the day of the visit, unscheduled. Cardiac rehabilitation in 2024 was a cardiac programme, not a weight management programme.",
+        "evidence_location": "TREATMENT AND PREVENTION HISTORY; PLAN item 3",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No documentation could make the cardiovascular pathway available while type 2 diabetes is present; the exclusion is categorical rather than evidentiary.",
+        "material_to_outcome": true
+      },
+      {
+        "description": "No recorded weight produces a BMI at or above 35 kg/m2.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "status": "not_satisfied",
+        "reason": "Type 2 diabetes is documented with a diagnosis year, a current A1c of 7.1 percent and two active antidiabetic agents. The cardiovascular pathway's exclusion applies."
+      },
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "status": "satisfied",
+        "reason": "Prior myocardial infarction with PCI in 03/2024."
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 31.7 kg/m2, above the 27 threshold that applies within the cardiovascular pathway."
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "status": "satisfied",
+        "reason": "On antiplatelet, statin, beta-blocker and renin-angiotensin inhibitor therapy."
+      },
+      {
+        "criterion_name": "weight_pathway_baseline_bmi_35_or_greater",
+        "status": "not_satisfied",
+        "reason": "Highest documented BMI is 32.6 kg/m2, below the 35 kg/m2 threshold."
+      },
+      {
+        "criterion_name": "weight_pathway_comprehensive_program_6_months",
+        "status": "not_satisfied",
+        "reason": "No structured weight management or nutrition programme is documented at any point."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The member has established cardiovascular disease, a BMI above the cardiovascular pathway's 27 kg/m2 threshold, and is on guideline-directed medical therapy.",
+      "The denial accurately states both criteria it relies on and accurately reports the record.",
+      "Three of the four cardiovascular criteria are met."
+    ],
+    "unsupported_claims": [
+      "That the member does not have type 2 diabetes.",
+      "That the strength of the cardiovascular indication can outweigh an express exclusion criterion.",
+      "That the cardiovascular pathway's 27 kg/m2 threshold can be applied to the weight-management pathway.",
+      "That cardiac rehabilitation satisfies the comprehensive weight management program criterion."
+    ],
+    "correct_next_step": "Advise that neither pathway in this policy is available on the current record and that an appeal arguing otherwise would fail. The policy itself notes that patients with type 2 diabetes and established cardiovascular disease may be treated for cardiovascular risk reduction with Ozempic; raising that with the prescriber is the productive route, subject to whatever policy governs that product."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The member sustained an inferior ST-elevation myocardial infarction in March 2024, treated with primary PCI and a drug-eluting stent.",
+      "The member completed 36 sessions of cardiac rehabilitation in 2024.",
+      "The member is receiving aspirin, ticagrelor, atorvastatin 80 mg, metoprolol succinate and lisinopril.",
+      "Documented BMI on January 26, 2026 was 31.7 kg/m2, with height 5 feet 9 inches and weight 215 pounds.",
+      "The highest BMI recorded in the episode is 32.6 kg/m2, on July 14, 2025.",
+      "Hemoglobin A1c on January 12, 2026 was 7.1 percent.",
+      "The member is treated with metformin and empagliflozin.",
+      "A nutrition services referral was placed on January 26, 2026 and had not been scheduled."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member does not have type 2 diabetes.",
+      "The member's diabetes is diet-controlled or in remission.",
+      "The member's BMI meets the 35 kg/m2 threshold in the chronic weight management pathway.",
+      "The cardiovascular pathway's BMI threshold of 27 kg/m2 governs the weight management pathway.",
+      "The member completed a comprehensive weight management program.",
+      "Cardiac rehabilitation satisfies the comprehensive weight management program criterion.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "This policy provides coverage for Ozempic."
+    ]
+  },
+  "files": {
+    "denial": "case_006_denial.txt",
+    "note": "case_006_note.txt"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "case_id": "case_024",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "1.7 mg subcutaneous once weekly",
+    "request_type": "reauthorization",
+    "policy_pathway": "Section 2 — General coverage criteria, B. Reauthorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "borderline_threshold",
+      "computed_threshold",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-05-25",
+      "request_date": "2026-06-01",
+      "denial_date": "2026-06-08",
+      "note_type": "family_medicine_medication_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The payer states the correct threshold, identifies the correct baseline, quotes the correct weights, and then computes the percentage wrong. Eleven pounds from 217 is 5.069 percent, not 4.9. The denial is legally accurate and arithmetically false, which is a different failure from the misstated-threshold cases: the check that catches it is recomputation, not policy reading."
+  },
+  "patient": {
+    "name": "Coretta J. Mbeki",
+    "mrn": "MRN-200261",
+    "member_id": "MEM-UHC-261",
+    "age": 49,
+    "dob": "1976-08-08",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.33 BMI 33.0-33.9, adult",
+      "I10 essential hypertension"
+    ],
+    "comorbidities": [
+      "essential hypertension"
+    ],
+    "relevant_measurements": {
+      "bmi": 33.2,
+      "weight_lb": 206,
+      "height_in": 66,
+      "bmi_history": [
+        { "date": "2025-12-15", "weight_lb": 217, "bmi": 35.0 },
+        { "date": "2026-03-02", "weight_lb": 210, "bmi": 33.9 },
+        { "date": "2026-05-25", "weight_lb": 206, "bmi": 33.2 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "Wegovy (semaglutide), started 2025-12-15, current",
+    "prior_glp1_exposure": "Wegovy (semaglutide) only, from 2025-12-15"
+  },
+  "provider": {
+    "name": "Solomon P. Reinholt, MD",
+    "specialty": "Family Medicine",
+    "practice": "Wrenfield Family Medicine",
+    "provider_id": "PRV-SYN-2684"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_treatment_start",
+      "from_lb": 217,
+      "to_lb": 206,
+      "percent": 5.1,
+      "note": "217 to 206 lb is 11 lb, or 5.069 percent, which rounds to 5.1 and satisfies the 5 percent threshold. The denial asserts 4.9 percent from the same two figures."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "reauthorization_weight_loss_below_threshold_payer_arithmetic_error",
+    "denial_reason_text": "Reauthorization requires a weight loss of 5 percent or more of baseline body weight; the denial states the documented reduction as 4.9 percent.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, B. Reauthorization",
+    "cited_requirement_text": "For Wegovy injection or tablet, weight loss of ≥ 5% of baseline body weight",
+    "denial_accurately_states_policy": true,
+    "denial_accuracy_note": "The denial quotes the correct criterion, identifies the correct baseline date and weight, and quotes the correct current weight. Its error is arithmetic: 11 pounds from a baseline of 217 pounds is 5.069 percent, which rounds to 5.1 percent, not 4.9 percent.",
+    "records_reviewed_at_denial": [
+      "Reauthorization request form received 2026-06-01",
+      "Family medicine office note dated 2026-05-25"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_wegovy",
+        "requirement": "For Wegovy injection or tablet, weight loss of 5 percent or more of baseline body weight.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.a(3)(b)",
+        "policy_support_text": "For Wegovy injection or tablet, weight loss of ≥ 5% of baseline body weight",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "requirement": "Continuation of lifestyle modification.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.b",
+        "policy_support_text": "Continuation of lifestyle modification",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The reauthorization section has only two requirements: one of the drug-specific response limbs, and continuation of lifestyle modification. It does not re-apply the initial-authorization BMI, age or indication criteria.",
+      "Wegovy injection has its own named limb at 1.a(3)(b) at 5 percent. It does not fall to the catch-all at 1.a(4), although that limb also sets 5 percent."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-25 note was submitted and reviewed. Both weights the calculation requires were in front of the reviewer and are quoted in the denial.",
+    "expected_evidence": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_wegovy",
+        "evidence_present": true,
+        "evidence_text": "Weights on file record 217 lb on 12/15/2025 annotated 'recorded on the day semaglutide was started' and 206 lb on 05/25/2026. The reduction is 11 lb, or 5.1 percent of baseline. No percentage is stated in the note.",
+        "evidence_location": "OBJECTIVE section, weights on file; TREATMENT COURSE",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Dietitian consultation from 11/17/2025 with monthly reviews continuing to date, four-mornings-weekly walking, and a Sunday water aerobics class added in March. Plan item 1 continues all three.",
+        "evidence_location": "SUBJECTIVE; TREATMENT COURSE; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "The note states no percentage reduction. The values are present and the denial quotes both of them.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_wegovy",
+        "status": "satisfied",
+        "reason": "11 pounds from a baseline of 217 pounds is 5.069 percent, above the 5 percent threshold. The payer's figure of 4.9 percent is arithmetically incorrect on the very weights it quotes."
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietitian input from before treatment start continuing monthly, plus two ongoing activity programmes."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "Eleven pounds from a baseline of 217 pounds is 5.1 percent, which meets the 5 percent threshold.",
+      "The denial quotes the correct baseline weight and the correct current weight, so the disagreement is arithmetic and can be resolved on the face of the determination.",
+      "Continuation of lifestyle modification is documented and is not disputed."
+    ],
+    "unsupported_claims": [
+      "That the payer applied the wrong threshold; 5 percent is correct for Wegovy injection.",
+      "That the member reached a higher dose than 1.7 mg weekly.",
+      "That the member's reduction is materially greater than 5.1 percent."
+    ],
+    "correct_next_step": "Challenge on the arithmetic. Set out the two weights the denial itself quotes and the resulting 5.1 percent against the 5 percent threshold. No new clinical evidence is required."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Semaglutide was started on December 15, 2025 at a recorded weight of 217 pounds, a BMI of 35.0 kg/m2.",
+      "The recorded weight on May 25, 2026 was 206 pounds, a BMI of 33.2 kg/m2, at a height of 5 feet 6 inches.",
+      "The reduction is 11 pounds, which is 5.1 percent of the baseline weight.",
+      "An interval weight of 210 pounds was recorded on March 2, 2026.",
+      "The member has been seeing a dietitian since November 17, 2025, before starting the medication, and continues monthly.",
+      "The member walks four mornings a week and added a Sunday water aerobics class in March 2026.",
+      "The member has settled at 1.7 mg weekly and no further escalation is planned."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has lost 10 percent or more of baseline body weight.",
+      "The member reached the 2.4 mg dose.",
+      "The applicable reauthorization threshold for Wegovy injection is 4 percent.",
+      "The member completed a six-month supervised weight management program.",
+      "The member has type 2 diabetes.",
+      "The reauthorization criteria require a minimum BMI."
+    ]
+  },
+  "files": {
+    "denial": "case_024_denial.txt",
+    "note": "case_024_note.txt"
+  }
+}

@@ -1,0 +1,85 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            March 10, 2026
+Authorization Reference:   AUTH-AET-2026-000295
+Review Tracking ID:        UM-RX-2026-03-0295
+
+Member Name:               Georgina F. Achterberg
+Member ID:                 MEM-AET-096
+Medical Record Number:     MRN-200096
+Date of Birth:             12/03/1975
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Teodora V. Iliescu, MD — Rheumatology
+Practice:                  Halloway Rheumatology and Internal Medicine
+Provider ID:               PRV-SYN-1137
+Request Received:          March 3, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Ms. Achterberg:
+
+We have completed our review of the prior authorization request submitted on your behalf.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        0.25 mg subcutaneously once weekly, titrated per prescribing
+                           information
+  Requested indication:    Chronic weight management
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+The policy requires documentation of a baseline body mass index of 35 kg/m² or greater. The
+submitted records do not provide the documentation required to establish the baseline body mass
+index.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," COVERAGE CRITERIA — Chronic Weight
+Management (Adult).
+
+That section requires among other criteria that "The patient has a baseline body mass index
+(BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for
+approval.]"
+
+Materials reviewed:
+  1. Prior authorization request form received March 3, 2026
+  2. Office visit note dated February 24, 2026, Halloway Rheumatology and Internal Medicine
+
+The prior authorization form was submitted with the height and weight fields left blank and the
+BMI field marked "see notes." The accompanying office note is a lengthy multi-problem
+consultation. Our reviewer was unable to identify documentation establishing the baseline body
+mass index within the submitted material. The policy states that documentation is required for
+approval of this criterion.
+
+The weight management program criterion appears satisfied on the submitted record and is not the
+reason for this decision. Your age is likewise not at issue.
+
+Approval may be reconsidered on submission of documentation of height, weight and body mass
+index.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

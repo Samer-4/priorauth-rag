@@ -1,0 +1,72 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    03/23/2026
+Case Reference:          AUTH-CIG-2026-000289
+Member:                  Lucinda P. Bhattacharya
+Member ID:               MEM-CIG-173
+Patient Record Number:   MRN-200173
+Date of Birth:           10/17/1980
+Request Received:        03/16/2026
+Prescriber:              Gregor A. Lindqvist-Mbeki, MD, Endocrinology
+Prescriber Reference:    PRV-SYN-1804
+
+
+REQUEST REVIEWED
+
+  Medication:            Zepbound (tirzepatide) injection
+  Strength requested:    2.5 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Weight loss in an adult with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+The request is for Zepbound to be added to the member's existing Ozempic therapy. Concomitant use
+of these agents is not covered under this policy.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," CONDITIONS NOT COVERED, 1. Concomitant Use with
+Glucagon-Like Peptide-1 (GLP-1) Agonists or GLP-1/Glucose-Dependent Insulinotropic Polypeptide
+(GIP) Agonists.
+
+That section provides that "The GLP-1 agonists and the GLP-1/GIP agonist should not be combined
+with each other or with any other GLP-1 agonists or GLP-1/GIP agonist." The policy names Ozempic
+among its examples of other GLP-1 agonists.
+
+Records reviewed: prior authorization request form dated 03/16/2026; endocrinology office note
+dated 03/09/2026, Wexford Endocrinology.
+
+The submitted note records that the member has been taking Ozempic 1 mg weekly since 2024 for
+type 2 diabetes, that this therapy is to continue, and that Zepbound is requested in addition
+for weight management. Zepbound is a GLP-1/GIP receptor agonist and Ozempic is a GLP-1 agonist.
+Their concomitant use falls squarely within the excluded use above.
+
+We note that the remaining criteria under section V. Zepbound, 1. Weight Loss in an Adult with
+Overweight or Obesity, A) Initial Therapy — age, the three-month behavioral and dietary trial,
+the baseline body mass index, and concomitant lifestyle measures — appear satisfied on the
+submitted record. The exclusion is nonetheless determinative.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

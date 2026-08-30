@@ -1,0 +1,267 @@
+{
+  "case_id": "case_002",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "2.5 mg/0.5 mL subcutaneous once weekly, starting dose with titration",
+    "request_type": "initial_authorization",
+    "policy_pathway": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy",
+    "case_types": [
+      "weak_appeal",
+      "partial_evidence",
+      "contradictory_evidence"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-05-11",
+      "request_date": "2026-05-19",
+      "denial_date": "2026-05-27",
+      "note_type": "internal_medicine_office_visit_note",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The disputed criterion is a duration threshold, so the case is built to be adjudicable on any reasonable reading. The widest span the record can support — first documented contact 03/16/2026 to the request date 05/19/2026 — is 64 days, and the note affirmatively rules out any earlier program. No reading of 'at least 3 months' reaches 64 days, so the verdict does not turn on whether the trial must be continuous."
+  },
+  "patient": {
+    "name": "Travis M. Lindqvist",
+    "mrn": "MRN-200027",
+    "member_id": "MEM-CIG-027",
+    "age": 41,
+    "dob": "1985-01-30",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.31 BMI 31.0-31.9, adult",
+      "E78.5 dyslipidemia, unspecified",
+      "K21.9 gastro-esophageal reflux disease without esophagitis",
+      "S93.402A sprain of left ankle, initial encounter (resolved)",
+      "Z87.891 personal history of nicotine dependence"
+    ],
+    "comorbidities": [
+      "dyslipidemia",
+      "gastroesophageal reflux disease"
+    ],
+    "relevant_measurements": {
+      "bmi": 31.5,
+      "weight_lb": 226,
+      "height_in": 71,
+      "bmi_history": [
+        {
+          "date": "2026-03-16",
+          "weight_lb": 231,
+          "bmi": 32.2
+        },
+        {
+          "date": "2026-04-13",
+          "weight_lb": 229,
+          "bmi": 31.9
+        },
+        {
+          "date": "2026-05-04",
+          "weight_lb": 227,
+          "bmi": 31.7
+        },
+        {
+          "date": "2026-05-11",
+          "weight_lb": 226,
+          "bmi": 31.5
+        }
+      ],
+      "a1c_percent": 5.5
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Priya Raghunathan, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Harborview Primary Care Associates",
+    "provider_id": "PRV-SYN-0311"
+  },
+  "derived_values": [
+    {
+      "name": "documented_trial_span_to_note_date_days",
+      "from_lb": 231,
+      "to_lb": 226,
+      "percent": 2.2,
+      "note": "Weight reduction 03/16/2026 to 05/11/2026. Not a criterion for an initial request; recorded so the audit can confirm the figure. Trial span: 03/16/2026 to 05/11/2026 is 56 days; to the 05/19/2026 request date, 64 days."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "behavioral_and_dietary_trial_duration_not_met",
+    "denial_reason_text": "The clinical record does not establish that the patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" V. Zepbound, 1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy",
+    "cited_requirement_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-05-19",
+      "Harborview Primary Care Associates office note dated 2026-05-11"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "disputed_in_denial": true,
+        "interpretation_note": "The policy states a minimum duration and does not state that the trial must be continuous or uninterrupted. No continuity requirement is read into it. This case is decided on total elapsed span, which is short of three months on any reading.",
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater, where baseline is prior to any GLP-1 or GLP-1/GIP receptor agonist.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion iii(a)",
+        "policy_support_text": "At baseline, patient had a BMI ≥ 30 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "requirement": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion iv",
+        "policy_support_text": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The patient has no GLP-1 or GLP-1/GIP exposure, so the policy's baseline definition resolves to the earliest recorded weight in this episode.",
+      "The Zepbound obstructive sleep apnea pathway is not available: the note records no snoring, no witnessed apneas, no daytime sleepiness and no prior sleep study, and that pathway requires a sleep study."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-11 note was submitted with the PA and was reviewed by the payer. No post-denial evidence exists in this case.",
+    "expected_evidence": [
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "evidence_present": true,
+        "evidence_text": "Documented behavioral and dietary intervention begins 03/16/2026 with nutrition visit #1 (calorie target 1,900 kcal/day, food logging instruction, walking goal), continues with a weight recheck on 04/13/2026 and nutrition visit #2 on 05/04/2026. The note states 'No structured weight-management or nutrition program prior to March 2026' and that prior efforts were self-directed and undocumented. Span from first documented contact to the note date is 56 days; to the request date, 64 days.",
+        "evidence_location": "WEIGHT MANAGEMENT HISTORY section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 11 in, weight 226 lb, BMI 31.5 kg/m2 on 05/11/2026; earliest recorded weight 231 lb, BMI 32.2, on 03/16/2026. No GLP-1 or GLP-1/GIP exposure, so 32.2 is the baseline.",
+        "evidence_location": "OBJECTIVE section; CURRENT MEDICATIONS",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 01/30/1985; age 41 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "evidence_present": true,
+        "evidence_text": "Plan states 'Reduced-calorie target and increased physical activity to continue with any medication' and continues dietitian follow-up with a nutrition visit scheduled for 06/2026.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No dated record of behavioral or dietary intervention before 03/16/2026. The note affirmatively states none exists, so this is a documented absence rather than an omission from the submission.",
+        "material_to_outcome": true
+      },
+      {
+        "description": "No record of any earlier trial at an outside clinic, commercial program, or behavioral health provider.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": [
+      {
+        "description": "The prior authorization request form asserts the patient completed '6 months of diet and exercise.' The clinical record contradicts this: documented intervention begins 03/16/2026, and the note states there was no structured weight-management or nutrition program prior to March 2026.",
+        "location_a": "Denial letter, COVERAGE POLICY AND REVIEW FINDINGS, quoting the prior authorization request form",
+        "location_b": "Clinical note, WEIGHT MANAGEMENT HISTORY section",
+        "resolution": "The clinical record governs. The documented trial is 56 days to the note date and 64 days to the request date.",
+        "dispositive": false,
+        "dispositive_note": "The contradiction does not change the outcome. Even the six-month figure asserted on the form, if it were substantiated, would have to be substantiated by records that do not exist. The verdict rests on the documented span."
+      }
+    ]
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "status": "not_satisfied",
+        "reason": "The documented trial runs from 03/16/2026 and is 56 days at the note date and 64 days at the request date. The note affirmatively excludes any earlier program. Sixty-four days is short of three months on any reading of the requirement, so the criterion is not met."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 41."
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "Baseline BMI 32.2 kg/m2 with no prior GLP-1 or GLP-1/GIP exposure; current 31.5 kg/m2. Not disputed."
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "status": "satisfied",
+        "reason": "The plan continues a reduced-calorie target, increased physical activity and dietitian follow-up alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The BMI, age, and concomitant-lifestyle criteria are all satisfied on the record.",
+      "The denial accurately states the policy requirement and accurately characterises what the submitted record shows.",
+      "A genuine behavioral and dietary trial is documented, beginning 03/16/2026."
+    ],
+    "unsupported_claims": [
+      "That a three-month trial of behavioral modification and dietary restriction is established by the current record.",
+      "That the six-month figure on the prior authorization form is supported by any record.",
+      "That undocumented self-directed efforts before March 2026 count toward the requirement."
+    ],
+    "correct_next_step": "Advise that the record does not support overturning the denial. The actionable path is to continue the documented trial past three months — which on the current record falls in mid-June 2026 — and resubmit, or to produce dated records of an earlier qualifying trial if any exist."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on May 11, 2026 was 31.5 kg/m2, with height 5 feet 11 inches and weight 226 pounds.",
+      "The earliest recorded weight in the episode is 231 pounds on March 16, 2026, a BMI of 32.2 kg/m2.",
+      "Nutrition visits with a registered dietitian are documented on March 16, 2026 and May 4, 2026.",
+      "A calorie target of 1,900 kcal/day and food logging instruction were given on March 16, 2026.",
+      "The member was 41 years of age at the time of the request.",
+      "The member has no current or prior GLP-1 or GLP-1/GIP receptor agonist exposure.",
+      "The plan of care directs continued reduced-calorie intake and increased physical activity alongside any medication, with a nutrition visit scheduled for June 2026."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member completed three months of behavioral modification and dietary restriction.",
+      "The member completed six months of diet and exercise.",
+      "The member participated in a weight-management or nutrition program before March 2026.",
+      "The member has obstructive sleep apnea, or has had a sleep study.",
+      "The member failed prior weight-loss pharmacotherapy.",
+      "The member has type 2 diabetes.",
+      "Cigna requires a six-month weight management program.",
+      "The policy requires the three-month trial to be continuous, so the gaps in attendance are the reason for denial."
+    ]
+  },
+  "files": {
+    "denial": "case_002_denial.txt",
+    "note": "case_002_note.txt"
+  }
+}

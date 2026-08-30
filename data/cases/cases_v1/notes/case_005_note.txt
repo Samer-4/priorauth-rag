@@ -1,0 +1,110 @@
+CANNONBRIDGE ENDOCRINE ASSOCIATES
+Endocrinology — Interval Follow-up
+
+PATIENT:          Baptiste, Terrence O.
+MRN:              MRN-200052
+DOB:              06/27/1978          AGE: 48          SEX: Male
+DATE OF SERVICE:  07/13/2026
+PROVIDER:         Ingrid A. Sundqvist, MD — Endocrinology (PRV-SYN-0733)
+VISIT TYPE:       Established patient, obesity pharmacotherapy follow-up
+
+
+REASON FOR VISIT
+Interval follow-up on tirzepatide. Refill and continuation paperwork.
+
+
+SUBJECTIVE
+
+Mr. Baptiste is doing well on tirzepatide. He reports the early nausea settled by about week
+six and he has had no vomiting, no abdominal pain and no symptoms suggestive of pancreatitis or
+biliary disease. Appetite suppression remains effective and he describes portion sizes as
+"about two thirds of what they used to be." He continues the reduced-calorie plan set out with
+Ms. Ferraro and walks the reservoir loop four to five mornings a week; he added twice-weekly
+resistance training in May.
+
+He is pleased with progress and wants to continue. He asks how long he will need to stay on it.
+
+Reflux: improved. He attributes it to the smaller meals.
+
+Knees: chronic bilateral patellofemoral pain, better than a year ago, no effusion.
+
+No tobacco. Alcohol rare. Works night shifts as a rail dispatcher, which he identifies as his
+main barrier to consistent meal timing.
+
+
+TREATMENT COURSE
+
+  11/03/2025   Tirzepatide started at 2.5 mg weekly. Pre-treatment assessment completed the
+               same day.
+  12/15/2025   Escalated to 5 mg weekly. Tolerating.
+  02/09/2026   Escalated to 10 mg weekly. This is the dose he has remained on since; no further
+               escalation has been required or attempted.
+  04/20/2026   Interval check. Continuing 10 mg weekly without change.
+  07/13/2026   Today. Remains on 10 mg weekly.
+
+Nutrition: Ms. Rhoda Ferraro, RD — sessions 10/2025 (pre-treatment), 01/2026, 04/2026 and
+06/2026. Reduced-calorie plan in place throughout and to continue with ongoing therapy.
+
+
+CURRENT MEDICATIONS
+
+  tirzepatide (Zepbound) 10 mg subcutaneously weekly
+  rosuvastatin 10 mg PO daily
+  pantoprazole 40 mg PO daily
+  cholecalciferol 2000 IU PO daily
+
+
+OBJECTIVE
+
+BP 124/76    HR 68    Temp 98.1 F
+Height:  5 ft 10 in (70 in)
+Weight:  241 lb
+BMI:     34.6 kg/m²
+
+Weight flowsheet:
+  11/03/2025   258 lb   (BMI 37.0)   — recorded at treatment start
+  12/15/2025   252 lb   (BMI 36.2)
+  02/09/2026   247 lb   (BMI 35.4)
+  04/20/2026   244 lb   (BMI 35.0)
+  07/13/2026   241 lb   (BMI 34.6)
+
+Exam: Well-appearing. No acute distress. Cardiac regular. Lungs clear. Abdomen soft, non-tender,
+no organomegaly, no right upper quadrant tenderness. No lower extremity edema. Knees without
+effusion, full range of motion.
+
+Laboratory (06/29/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       94 mg/dL
+  Total cholesterol     172 mg/dL
+  LDL                   96 mg/dL
+  HDL                   48 mg/dL
+  Triglycerides         138 mg/dL
+  Lipase                31 U/L
+  ALT                   26 U/L
+  Creatinine            1.0 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.6 kg/m² (Z68.34), responding to tirzepatide. Sustained downward
+   trend across every recorded interval since treatment start, with no plateau or regain.
+2. Dyslipidemia (E78.5) — improved on rosuvastatin; LDL now at goal.
+3. Gastro-esophageal reflux disease (K21.9) — improved.
+4. Bilateral patellofemoral pain (M25.561, M25.562) — stable.
+
+
+PLAN
+
+1. Obesity. Continue tirzepatide 10 mg weekly. No dose change indicated; he is tolerating this
+   dose and responding. Continuation authorization request to be submitted. Continue the
+   reduced-calorie plan with Ms. Ferraro and the walking and resistance programme.
+2. Dyslipidemia. Continue rosuvastatin 10 mg daily. Repeat lipids in 6 months.
+3. Reflux. Continue pantoprazole; consider step-down at next visit.
+4. Monitoring. Repeat A1c, lipase and hepatic panel in 6 months. Counselled again on symptoms
+   that should prompt urgent contact.
+
+Return in 3 months.
+
+
+Ingrid A. Sundqvist, MD
+Electronically signed 07/13/2026 11:05

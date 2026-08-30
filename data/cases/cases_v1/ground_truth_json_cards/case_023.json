@@ -1,0 +1,241 @@
+{
+  "case_id": "case_023",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "2.5 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "straightforward",
+      "weak_appeal"
+    ],
+    "difficulty": "easy",
+    "episode": {
+      "note_date": "2026-05-04",
+      "request_date": "2026-05-11",
+      "denial_date": "2026-05-18",
+      "note_type": "pediatric_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The age criterion is drug-dependent within a single subsection: 12 or older for four named products, over 16 for everything else. Zepbound falls in the second group. Everything else about the case is satisfied, so a system that reads the age limb without checking which product it attaches to will overturn a correct denial."
+  },
+  "patient": {
+    "name": "Tobias R. Vandersteen",
+    "mrn": "MRN-200250",
+    "member_id": "MEM-UHC-250",
+    "age": 15,
+    "dob": "2011-02-03",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 35.3,
+      "weight_lb": 232,
+      "height_in": 68,
+      "bmi_history": [
+        { "date": "2026-02-16", "weight_lb": 236, "bmi": 35.9 },
+        { "date": "2026-05-04", "weight_lb": 232, "bmi": 35.3 }
+      ],
+      "a1c_percent": 5.5
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Marguerite A. Sokolova, MD",
+    "specialty": "Pediatrics",
+    "practice": "Alderbrook Pediatrics",
+    "provider_id": "PRV-SYN-2573"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "age_below_threshold_for_requested_product",
+    "denial_reason_text": "The age requirement for Zepbound under this program is greater than 16 years; the patient is 15.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization",
+    "cited_requirement_text": "Patient is > 16 years of age (for all other medications)",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-05-11",
+      "Pediatric office note dated 2026-05-04"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "requirement": "Patient is over 16 years of age, for medications other than Qsymia, Saxenda, Wegovy injection and Xenical. Zepbound falls in this group.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(2)",
+        "policy_support_text": "Patient is > 16 years of age (for all other medications)",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "age_12_or_older_named_products_not_applicable",
+        "requirement": "The 12-or-older limb applies only to Qsymia, Saxenda, Wegovy injection and Xenical. It does not reach Zepbound.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(1)",
+        "policy_support_text": "Patient is ≥ 12 years of age (for Qsymia, Saxenda, Wegovy injection and Xenical)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "requirement": "Body Mass Index of 30 kg/m2 or greater, or for pediatric patients a BMI above the 95th percentile.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The two age limbs are alternatives keyed to the product, not to the patient. Only Qsymia, Saxenda, Wegovy injection and Xenical carry the 12-or-older threshold under Section 2.",
+      "The threshold for the second limb is strictly greater than 16, not 16 or older. A 16-year-old would also fail it."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-04 note was submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "evidence_present": false,
+        "evidence_text": "DOB 02/03/2011; age 15 at the time of the request. The note header and the denial both record this.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "age_12_or_older_named_products_not_applicable",
+        "evidence_present": true,
+        "evidence_text": "Not a clinical fact. Recorded because the patient's age of 15 does satisfy the 12-or-older limb, which is the most likely source of an incorrect overturn.",
+        "evidence_location": "Not applicable — policy text only",
+        "evidence_type": "indirect"
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 8 in, weight 232 lb, BMI 35.3 kg/m2; 236 lb, BMI 35.9, on 02/16/2026.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "covered_indication",
+        "evidence_present": true,
+        "evidence_text": "Assessment item 1 is adolescent obesity; the plan requests tirzepatide for weight.",
+        "evidence_location": "ASSESSMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Nutrition consultation 02/16/2026 with energy drinks stopped and a packed-lunch plan, review 03/23/2026 with football twice weekly and a Saturday club, both maintained. Plan item 1 states the medication is an adjunct to those changes.",
+        "evidence_location": "WEIGHT MANAGEMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No documentation could satisfy the age criterion; it is a matter of date of birth.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "status": "not_satisfied",
+        "reason": "The patient is 15. Zepbound is governed by the over-16 limb because it is not one of the four products named in the 12-or-older limb."
+      },
+      {
+        "criterion_name": "age_12_or_older_named_products_not_applicable",
+        "status": "satisfied",
+        "reason": "Recorded to make the scope explicit: the patient's age would satisfy this limb, but the limb does not reach Zepbound."
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 35.3 kg/m2."
+      },
+      {
+        "criterion_name": "covered_indication",
+        "status": "satisfied",
+        "reason": "The request is for weight loss."
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietary and activity changes documented from 02/16/2026 and continuing."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "Every criterion other than age is satisfied on the submitted record.",
+      "The denial accurately quotes the age limb and correctly identifies which limb governs Zepbound.",
+      "Lifestyle modification is documented and continuing."
+    ],
+    "unsupported_claims": [
+      "That the patient is over 16 years of age.",
+      "That the 12-or-older limb applies to Zepbound.",
+      "That the patient's BMI or clinical need can displace an age criterion."
+    ],
+    "correct_next_step": "Advise that the denial cannot be overturned. Worth raising with the prescriber: Wegovy injection is one of the four products the same subsection places under the 12-or-older limb, so a request for that product would clear the age criterion at this patient's age. That is a new request on a different product, not an appeal of this determination."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The patient's date of birth is February 3, 2011 and he was 15 years of age at the time of the request.",
+      "Documented BMI on May 4, 2026 was 35.3 kg/m2, with height 5 feet 8 inches and weight 232 pounds.",
+      "A nutrition consultation on February 16, 2026 stopped energy drinks and set a packed-lunch plan.",
+      "Football twice weekly and a Saturday club began by March 23, 2026 and have been maintained.",
+      "The patient has used no prescription weight-loss medication and has no GLP-1 receptor agonist exposure.",
+      "The policy places Qsymia, Saxenda, Wegovy injection and Xenical under a 12-or-older age limb."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The patient is over 16 years of age.",
+      "Zepbound is covered under the 12-or-older age limb.",
+      "The patient has type 2 diabetes, obstructive sleep apnea or another weight-related comorbidity.",
+      "The patient has been approved for Zepbound previously.",
+      "The patient's BMI is above the 120 percent of the 95th percentile threshold in the North Dakota criteria.",
+      "The patient completed a supervised weight management program."
+    ]
+  },
+  "files": {
+    "denial": "case_023_denial.txt",
+    "note": "case_023_note.txt"
+  }
+}

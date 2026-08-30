@@ -1,0 +1,226 @@
+{
+  "case_id": "case_004",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Chronic Weight Management (Adult)",
+    "case_types": [
+      "borderline_threshold",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-03-02",
+      "request_date": "2026-03-10",
+      "denial_date": "2026-03-17",
+      "note_type": "internal_medicine_weight_management_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The sympathetic facts all point one way and the threshold points the other. The member completed the full six-month program, was fully adherent, and has two weight-related comorbidities — none of which matters, because this policy's adult pathway has a single BMI gate at 35 and no comorbidity route. No recorded BMI in the episode reaches 35, so there is no reading on which the criterion is met."
+  },
+  "patient": {
+    "name": "Rosalind K. Tavares",
+    "mrn": "MRN-200041",
+    "member_id": "MEM-AET-041",
+    "age": 44,
+    "dob": "1981-11-04",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult",
+      "I10 essential hypertension",
+      "G47.33 obstructive sleep apnea",
+      "K21.9 gastro-esophageal reflux disease without esophagitis"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "obstructive sleep apnea on CPAP",
+      "gastro-esophageal reflux disease"
+    ],
+    "relevant_measurements": {
+      "bmi": 34.6,
+      "weight_lb": 221,
+      "height_in": 67,
+      "bmi_history": [
+        { "date": "2025-08-18", "weight_lb": 222, "bmi": 34.8 },
+        { "date": "2025-11-17", "weight_lb": 220, "bmi": 34.5 },
+        { "date": "2026-01-19", "weight_lb": 219, "bmi": 34.3 },
+        { "date": "2026-03-02", "weight_lb": 221, "bmi": 34.6 }
+      ],
+      "a1c_percent": 5.5
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Helena M. Straatsma, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Brookmere Internal Medicine",
+    "provider_id": "PRV-SYN-0629"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "baseline_bmi_below_threshold",
+    "denial_reason_text": "The documented body mass index does not meet the minimum of 35 kg/m2 required for coverage for chronic weight management.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-03-10",
+      "Office visit note dated 2026-03-02",
+      "Fairhaven Weight Management Services program summary"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 35 kg/m2, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program encouraging behavioral modification, reduced calorie diet, and increased physical activity, with continuing follow-up, for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "requirement": "The requested drug will be used with a reduced calorie diet and increased physical activity for chronic weight management.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "used with a reduced calorie diet and increased physical activity for chronic weight management",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "This policy's adult chronic weight management pathway has no BMI 30 route and no BMI 27-plus-comorbidity route. Hypertension and obstructive sleep apnea do not create an alternative route under this document.",
+      "The BMI 27 threshold in this document belongs to the Risk Reduction of Major Adverse Cardiovascular Events (Adult) - Wegovy ONLY pathway. The member has no established cardiovascular disease, so that pathway is unavailable."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-03-02 note and the program summary were both submitted with the PA and reviewed. The payer's factual account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 7 in with four recorded weights: 222 lb (BMI 34.8) on 08/18/2025, 220 lb (BMI 34.5) on 11/17/2025, 219 lb (BMI 34.3) on 01/19/2026 and 221 lb (BMI 34.6) on 03/02/2026. The highest value in the record is 34.8 kg/m2.",
+        "evidence_location": "OBJECTIVE section, weights on file",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "Eight dated Fairhaven Weight Management Services contacts from 08/18/2025 through 03/02/2026, a span of 196 days, covering calorie target and food diary, behavioral group sessions, and a stepped-up activity programme.",
+        "evidence_location": "WEIGHT MANAGEMENT PROGRAM section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 11/04/1981; age 44 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "evidence_present": true,
+        "evidence_text": "Plan states she will continue the 1,500 kcal/day plan, the walk-jog sessions and water aerobics alongside the medication.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No recorded weight anywhere in the episode produces a BMI of 35 kg/m2 or greater. There is no earlier or higher weight in the record that could serve as a qualifying baseline.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "status": "not_satisfied",
+        "reason": "The highest BMI documented anywhere in the record is 34.8 kg/m2 and the current value is 34.6. Both are below the 35 kg/m2 threshold, and the policy offers no alternative BMI route in this pathway."
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "status": "satisfied",
+        "reason": "Eight dated contacts spanning 196 days with continuing follow-up, covering diet, behaviour and physical activity, all before any drug therapy."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 44."
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "status": "satisfied",
+        "reason": "The plan continues the calorie target and the exercise regimen alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The six-month comprehensive weight management program criterion is fully satisfied and the denial does not dispute it.",
+      "The denial accurately states the policy threshold and accurately reports the recorded BMI values.",
+      "The member was fully adherent to a structured program and achieved essentially no net weight change."
+    ],
+    "unsupported_claims": [
+      "That any documented BMI in this episode reaches 35 kg/m2.",
+      "That hypertension or obstructive sleep apnea creates an alternative coverage route under this policy.",
+      "That programme adherence or clinical need can substitute for the BMI criterion."
+    ],
+    "correct_next_step": "Advise that the record does not support overturning the denial on this policy. The BMI gate is not met and this document offers no comorbidity route. Options to raise with the member are a formulary or benefit exception request, or review against a different policy if the plan has one, rather than an appeal arguing the criterion is met."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on March 2, 2026 was 34.6 kg/m2, with height 5 feet 7 inches and weight 221 pounds.",
+      "The highest BMI recorded in the episode is 34.8 kg/m2, on August 18, 2025.",
+      "Eight dated weight-management contacts are documented from August 18, 2025 through March 2, 2026.",
+      "The dietitian's closing summary describes adherence as excellent.",
+      "The member has hypertension and obstructive sleep apnea, the latter treated with CPAP.",
+      "The member had received no weight-loss pharmacotherapy and no GLP-1 receptor agonist prior to this request."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member's BMI is 35 kg/m2 or greater.",
+      "This policy permits coverage at a BMI of 30 kg/m2, or at 27 kg/m2 with a weight-related comorbidity.",
+      "The member's sleep apnea or hypertension satisfies a comorbidity criterion in the pathway at issue.",
+      "The member has type 2 diabetes.",
+      "The member has established cardiovascular disease qualifying her for the cardiovascular risk-reduction pathway.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "Aetna's policy requires a trial of a preferred anti-obesity agent before Wegovy."
+    ]
+  },
+  "files": {
+    "denial": "case_004_denial.txt",
+    "note": "case_004_note.txt"
+  }
+}

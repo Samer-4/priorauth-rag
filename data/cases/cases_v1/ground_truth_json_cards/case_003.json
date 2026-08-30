@@ -1,0 +1,269 @@
+{
+  "case_id": "case_003",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2 (general coverage criteria), not Section 3 (North Dakota Fully Insured EHB)"
+    ],
+    "case_types": [
+      "policy_mismatch"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-07-21",
+      "request_date": "2026-07-28",
+      "denial_date": "2026-08-04",
+      "note_type": "endocrinology_consultation_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The member satisfies every criterion the UnitedHealthcare policy actually contains, and would fail the asserted requirement if it were real (documented lifestyle modification is about eleven weeks). The pipeline therefore cannot reach the right answer by accident and cannot avoid deciding whether the cited requirement exists."
+  },
+  "patient": {
+    "name": "Yolanda P. Brennan",
+    "mrn": "MRN-200033",
+    "member_id": "MEM-UHC-033",
+    "age": 38,
+    "dob": "1988-07-22",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.33 BMI 33.0-33.9, adult",
+      "G47.33 obstructive sleep apnea",
+      "I10 essential hypertension",
+      "E61.1 iron deficiency"
+    ],
+    "comorbidities": [
+      "obstructive sleep apnea on CPAP",
+      "essential hypertension"
+    ],
+    "relevant_measurements": {
+      "bmi": 33.7,
+      "weight_lb": 190,
+      "height_in": 63,
+      "bmi_history": [
+        {
+          "date": "2026-04-07",
+          "weight_lb": 198,
+          "bmi": 35.1
+        },
+        {
+          "date": "2026-05-05",
+          "weight_lb": 196,
+          "bmi": 34.7
+        },
+        {
+          "date": "2026-06-16",
+          "weight_lb": 193,
+          "bmi": 34.2
+        },
+        {
+          "date": "2026-07-21",
+          "weight_lb": 190,
+          "bmi": 33.7
+        }
+      ],
+      "a1c_percent": 5.4
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Kwame A. Boateng, MD",
+    "specialty": "Endocrinology",
+    "practice": "Northgate Endocrine & Metabolic Clinic",
+    "provider_id": "PRV-SYN-0507"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_since_first_visit",
+      "from_lb": 198,
+      "to_lb": 190,
+      "percent": 4.0,
+      "note": "Not a criterion for an initial request. Recorded so the appeal is barred from presenting it as satisfying the 5 percent reauthorization threshold."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "six_month_supervised_program_not_documented",
+    "denial_reason_text": "Coverage requires documentation of at least six months of participation in a physician-supervised weight management program before drug therapy begins; the records submitted do not document six months of participation in such a program.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization",
+    "cited_requirement_text": "at least six (6) months of participation in a physician-supervised weight management program before drug therapy begins",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "requirement_not_in_policy",
+      "denial_asserts": "at least six (6) months of participation in a physician-supervised weight management program before drug therapy begins",
+      "policy_actually_requires_text": null,
+      "explanation": "No requirement of this kind exists anywhere in the cited program. See policy_mismatch_detail.absence_proof_terms."
+    },
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-07-28",
+      "Endocrinology consultation note dated 2026-07-21"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": false,
+    "criterion_applies": false,
+    "criteria": [],
+    "policy_mismatch_detail": {
+      "claimed_requirement": "At least six months of participation in a physician-supervised weight management program before drug therapy begins.",
+      "why_not_grounded": "The authoritative UnitedHealthcare document states no minimum duration for lifestyle modification anywhere, and contains no supervision requirement. Its only lifestyle criterion for the drugs at issue is that the medication be used as an adjunct to lifestyle modification. Neither Section 2 (general coverage criteria) nor Section 3 (North Dakota Fully Insured EHB) states a duration or a supervision requirement.",
+      "nearest_related_policy_language": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+      "nearest_related_policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+      "additional_distractor_language": [
+        "Patient is currently enrolled in or has history of a weight loss management program"
+      ],
+      "additional_distractor_note": "This second distractor is the sharper one. A genuine weight-loss-program criterion does exist in this document — but it appears only in the Imcivree (setmelanotide) criteria at Section 2, A. Initial Authorization, 2.c, it applies to no other drug, and it carries no duration and no supervision requirement. Mapping it onto a Wegovy request is a scope error, not a grounding.",
+      "distractor_warning": "Correct Stage 2 behavior is to report that the requirement asserted in the denial cannot be grounded in this policy. It must not be mapped onto the adjunct-to-lifestyle-modification criterion, onto the Imcivree program criterion, or onto any duration requirement imported from another payer's policy.",
+      "cross_payer_confusion_risk": "A six-month comprehensive weight management program requirement does exist in aetna_glp1_weight_management.txt, and a three-month behavioral and dietary trial requirement exists in cigna_glp1_prior_auth.txt. Neither applies to a UnitedHealthcare request.",
+      "absence_proof_terms": [
+        "supervised",
+        "weight management program",
+        "six month",
+        "months of",
+        "prior to"
+      ],
+      "absence_proof_note": "None of these terms occurs anywhere in the authoritative UnitedHealthcare document. Note that 'weight management program' is absent as an exact phrase: the Imcivree criterion reads 'weight loss management program'. Every month count in the document is an authorization duration ('Authorization will be issued for N months'), never a participation requirement."
+    },
+    "criteria_actually_applicable_and_met": [
+      {
+        "criterion_name": "covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "met": true
+      },
+      {
+        "criterion_name": "age_requirement",
+        "requirement": "Patient is 12 years of age or older for Wegovy injection.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(1)",
+        "policy_support_text": "Patient is ≥ 12 years of age (for Qsymia, Saxenda, Wegovy injection and Xenical)",
+        "met": true
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification. No minimum duration is stated.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "met": true
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "requirement": "Body Mass Index of 30 kg/m2 or greater.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+        "met": true
+      }
+    ],
+    "scope_notes": [
+      "Section 3 (North Dakota Fully Insured EHB, Small Group and Individual Plans) and its BMI 40 kg/m2 threshold do not apply. The plan is a commercial employer group plan in Ohio, stated on the face of the denial, and the denial itself cites Section 2."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-07-21 endocrinology note was submitted with the PA and was reviewed. The payer's factual characterisation of the record is accurate; the error is in the requirement applied to it.",
+    "expected_evidence": [
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Nutrition consultation 05/05/2026 with a 1,500 kcal/day target and a specific dietary plan; nutrition follow-up 06/16/2026; gym membership with three sessions weekly begun 06/16/2026 and continuing without a missed week; plan states the medication 'is to be used as an adjunct to, not a replacement for, her current program' with nutrition follow-up already scheduled for 08/2026.",
+        "evidence_location": "SUBJECTIVE; RELEVANT TREATMENT HISTORY; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 3 in, weight 190 lb, BMI 33.7 kg/m2 on 07/21/2026.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "age_requirement",
+        "evidence_present": true,
+        "evidence_text": "DOB 07/22/1988; age 38 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "covered_indication",
+        "evidence_present": true,
+        "evidence_text": "Assessment 1 is obesity, BMI 33.7 kg/m2; the plan requests semaglutide for weight management.",
+        "evidence_location": "ASSESSMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "claimed_six_month_supervised_program",
+        "evidence_present": false,
+        "evidence_text": "Documented lifestyle modification runs from 05/05/2026 to 07/21/2026, approximately eleven weeks. The note states explicitly: 'No structured weight-management program prior to 04/2026.' Six months of participation is therefore absent from the record — but the requirement itself is absent from the policy.",
+        "evidence_location": "RELEVANT TREATMENT HISTORY",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No documentation of any weight-management participation before 04/2026. This is affirmatively stated in the note and is not an omission from the submission.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "criterion_not_found",
+    "per_criterion": []
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "policy_mismatch",
+    "expected_position": "policy_mismatch",
+    "supported_claims": [
+      "The requirement the denial relies on — six months of participation in a physician-supervised weight management program — does not appear in the coverage program the denial itself cites.",
+      "The policy's only lifestyle criterion for this request is that the drug be used as an adjunct to lifestyle modification, with no minimum duration and no supervision requirement stated.",
+      "On the criteria the policy does contain — covered indication, age, adjunct to lifestyle modification, and BMI of 30 or greater — the record supports authorization."
+    ],
+    "unsupported_claims": [
+      "That the member completed a six-month supervised weight management program.",
+      "That the six-month requirement is satisfied by the documented eleven weeks.",
+      "That a six-month requirement exists in this policy and was merely misapplied to the facts rather than invented.",
+      "That the program criterion in the Imcivree section applies to this Wegovy request."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the criterion applied is not found in the cited coverage program, and identify the criteria the program actually contains together with the record evidence satisfying each. Do not argue that a six-month period was met."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on July 21, 2026 was 33.7 kg/m2, with height 5 feet 3 inches and weight 190 pounds.",
+      "The member was 38 years of age at the time of the request.",
+      "The request is for weight loss, which the program lists as a covered indication for initial authorization.",
+      "A nutrition consultation on May 5, 2026 set a 1,500 kcal/day target and established a dietary plan.",
+      "A nutrition follow-up occurred on June 16, 2026 and a further nutrition visit was already scheduled for August 2026.",
+      "The member began three gym sessions per week on June 16, 2026 and had not missed a week as of July 21, 2026.",
+      "The plan of care states the medication is to be used as an adjunct to, not a replacement for, the existing dietary and exercise program.",
+      "The cited UnitedHealthcare program states no minimum duration for lifestyle modification.",
+      "Weight decreased from 198 pounds on April 7, 2026 to 190 pounds on July 21, 2026."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member completed six months of a physician-supervised weight management program.",
+      "UnitedHealthcare's program requires six months of supervised weight management.",
+      "The member participated in a weight-management program before April 2026.",
+      "The member has type 2 diabetes.",
+      "The member failed phentermine, Qsymia, Contrave, or orlistat.",
+      "The member has lost 5 percent of baseline body weight, satisfying the reauthorization criterion.",
+      "The North Dakota Essential Health Benefits criteria, including the BMI of 40 kg/m2 threshold, apply to this member.",
+      "A three-month behavioral and dietary trial requirement applies to this request.",
+      "The requirement that a patient be currently enrolled in or have a history of a weight loss management program applies to this request."
+    ]
+  },
+  "files": {
+    "denial": "case_003_denial.txt",
+    "note": "case_003_note.txt"
+  }
+}

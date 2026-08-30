@@ -1,0 +1,134 @@
+LAKESHORE CARDIOVASCULAR INSTITUTE
+Cardiology — Follow-up Consultation
+
+PATIENT:          Winterbourne, Harold J.
+MRN:              MRN-200063
+DOB:              02/14/1962          AGE: 63          SEX: Male
+DATE OF SERVICE:  01/26/2026
+PROVIDER:         Nadine C. Osei-Tutu, MD — Cardiology (PRV-SYN-0841)
+VISIT TYPE:       Established patient, secondary prevention follow-up
+
+
+REASON FOR VISIT
+Post-infarct secondary prevention review. Discussion of additional cardiovascular risk
+reduction.
+
+
+HISTORY OF PRESENT ILLNESS
+
+Mr. Winterbourne is 22 months out from an inferior ST-elevation myocardial infarction treated
+with primary percutaneous coronary intervention and a drug-eluting stent to the right coronary
+artery. He completed 36 sessions of cardiac rehabilitation in 2024. He remains free of angina,
+denies exertional chest pain, orthopnoea or paroxysmal nocturnal dyspnoea, and walks 25 to 30
+minutes daily on the flat without limitation. He climbs two flights at home without stopping.
+
+Most recent echocardiogram (11/2025) showed an ejection fraction of 52 percent with mild
+inferior hypokinesis, normal right ventricular function, no significant valvular disease. No
+arrhythmia on a 14-day patch monitor in 09/2025 other than infrequent isolated ventricular
+ectopy.
+
+Diabetes: type 2, diagnosed 2019. Managed by his primary care physician. A1c has run between
+6.9 and 7.4 percent over the past two years, most recently 7.1 percent. He is on metformin and
+empagliflozin. No hypoglycaemia. Annual retinal screening up to date, no retinopathy.
+Microalbumin normal at last check. No neuropathic symptoms.
+
+Weight: he has gained and lost the same 10 pounds repeatedly since the infarct. He describes
+his eating as "better than it was" but has not worked with a dietitian and has not been in any
+structured weight programme. He asks about "the injection that helps with the heart," which he
+has read about.
+
+Gout: two flares in the last year, both podagra, resolved with colchicine. Uric acid 7.8.
+
+Obstructive sleep apnea: diagnosed 2021, CPAP prescribed, adherence poor — download shows use
+on 9 of 30 nights. Repeatedly counselled.
+
+Erectile dysfunction: raised today, longstanding. Discussed that nitrates are not in his regimen
+and that PDE5 inhibitors are an option; referral offered and declined for now.
+
+Tobacco: quit at the time of the infarct, 30 pack-years before that. No relapse.
+
+
+TREATMENT AND PREVENTION HISTORY
+
+  03/2024      Inferior STEMI, primary PCI with drug-eluting stent to the right coronary
+               artery.
+  04-08/2024   Cardiac rehabilitation, 36 sessions completed.
+  2019         Type 2 diabetes diagnosed; metformin started.
+  2023         Empagliflozin added for glycaemic and cardiovascular benefit.
+
+No structured weight management or nutrition programme at any point. No dietitian referral has
+been made. No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist
+exposure.
+
+
+CURRENT MEDICATIONS
+
+  aspirin 81 mg PO daily
+  ticagrelor 90 mg PO twice daily
+  atorvastatin 80 mg PO daily
+  metoprolol succinate 50 mg PO daily
+  lisinopril 20 mg PO daily
+  metformin 1000 mg PO twice daily
+  empagliflozin 10 mg PO daily
+  colchicine 0.6 mg PO PRN
+  CPAP nightly (poor adherence)
+
+
+OBJECTIVE
+
+BP 118/70    HR 62    Temp 98.0 F    SpO2 97% on room air
+Height:  5 ft 9 in (69 in)
+Weight:  215 lb
+BMI:     31.7 kg/m²
+
+Weights on file:
+  07/14/2025   221 lb   (BMI 32.6)
+  10/20/2025   218 lb   (BMI 32.2)
+  01/26/2026   215 lb   (BMI 31.7)
+
+Exam: Comfortable at rest. JVP not elevated. Cardiac regular, normal first and second heart
+sounds, no murmur, no gallop. Lungs clear. Abdomen soft. Radial and dorsalis pedis pulses
+present and symmetric. No peripheral oedema. Right first metatarsophalangeal joint without
+active synovitis.
+
+Laboratory (01/12/2026):
+  Hemoglobin A1c        7.1 %
+  Fasting glucose       138 mg/dL
+  Total cholesterol     139 mg/dL
+  LDL                   62 mg/dL
+  HDL                   41 mg/dL
+  Triglycerides         181 mg/dL
+  Creatinine            1.1 mg/dL
+  eGFR                  72 mL/min/1.73 m2
+  Uric acid             7.8 mg/dL
+  hs-CRP                2.4 mg/L
+
+
+ASSESSMENT
+
+1. Coronary artery disease (I25.10) with prior inferior STEMI and PCI (I25.2), stable, no
+   angina, on full guideline-directed medical therapy.
+2. Type 2 diabetes mellitus (E11.9), A1c 7.1 percent, on metformin and empagliflozin.
+3. Obesity (E66.9), BMI 31.7 kg/m² (Z68.31), weight cycling without structured intervention.
+4. Obstructive sleep apnea (G47.33) with poor CPAP adherence.
+5. Gout (M10.9), intermittent.
+6. Former tobacco use (Z87.891).
+
+
+PLAN
+
+1. Cardiovascular risk reduction. Continue current regimen unchanged. Discussed adding
+   semaglutide for cardiovascular risk reduction on top of guideline-directed therapy; he is
+   interested. Prior authorization will be submitted for Wegovy.
+2. Diabetes. Continues under primary care. Reinforced that his current agents already carry
+   cardiovascular benefit.
+3. Weight. Referral placed to clinic nutrition services today — first appointment not yet
+   scheduled.
+4. Sleep apnea. Adherence discussed again at length. Mask refitting arranged.
+5. Gout. Continue as-needed colchicine; consider urate-lowering therapy if a third flare occurs.
+
+Return in 4 months.
+
+
+Nadine C. Osei-Tutu, MD
+Electronically signed 01/26/2026 09:48

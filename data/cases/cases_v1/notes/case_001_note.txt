@@ -1,0 +1,138 @@
+CEDAR RIDGE FAMILY HEALTH
+Primary Care Progress Note
+
+PATIENT:          Okafor, Denise R.
+MRN:              MRN-200014
+DOB:              03/19/1974          AGE: 52          SEX: Female
+DATE OF SERVICE:  05/12/2026
+PROVIDER:         Alonzo T. Whitfield, DO — Family Medicine (PRV-SYN-0142)
+VISIT TYPE:       Established patient, routine follow-up
+
+
+CHIEF COMPLAINT
+Routine follow-up: weight, blood pressure, cholesterol. Also wants to discuss right knee pain
+and refills.
+
+
+SUBJECTIVE
+
+Ms. Okafor returns for scheduled follow-up. She has been working steadily on weight since last
+fall and is discouraged that progress has slowed. She reports she is sticking with the eating
+plan Marisol set up for her — she describes it as "counting to about 1,500 a day" — and says
+she has stopped the evening snacking that was her biggest problem. She has kept up with the
+walking, now 30 to 35 minutes most weekday mornings before work, and says she added the
+resistance band routine after the March session. She has been to the Thursday evening group at
+Lakeview Wellness twice more since we last spoke; she found the session on eating triggers more
+useful than the one on meal prep.
+
+She is frustrated that the scale has "basically stopped" since April despite no change in what
+she is doing. She asks directly whether there is a medication that would help, and mentions a
+coworker who has done well on a weekly injection.
+
+Right knee: aching anteromedially, worse descending stairs and after her longer walks. No
+locking, no giving way, no swelling. She has been using topical diclofenac with partial relief.
+No injury.
+
+Allergic rhinitis: seasonal, currently symptomatic, controlled adequately on cetirizine.
+
+Blood pressure: home readings she brought in run 126–134 systolic, 78–84 diastolic. Taking
+lisinopril daily without missed doses. No cough, no lightheadedness.
+
+Health maintenance: screening mammogram is due — last one was 04/2024. Declined colonoscopy
+discussion today, says "next visit." Up to date on influenza vaccination.
+
+
+OUTSIDE RECORDS AND CARE COORDINATION
+
+Records reviewed and reconciled into the chart this visit:
+
+  09/08/2025   Willow Creek Nutrition Services — initial consultation, Marisol Reyes, RD.
+               Calorie target set, food logging started.
+  10/06/2025   Willow Creek Nutrition Services — follow-up, Reyes RD. Logging reviewed.
+  11/17/2025   Lakeview Wellness Center — behavioral group session (eating triggers).
+  12/15/2025   Willow Creek Nutrition Services — follow-up, Reyes RD.
+  01/26/2026   Willow Creek Nutrition Services — follow-up, Reyes RD; activity plan reviewed
+               and stepped up.
+  02/23/2026   Lakeview Wellness Center — behavioral group session (meal planning).
+  03/30/2026   Willow Creek Nutrition Services — follow-up, Reyes RD; resistance band program
+               added.
+  04/20/2026   Willow Creek Nutrition Services — follow-up, Reyes RD. Summary letter on file.
+
+Patient reports two further Lakeview group sessions since 04/20/2026; documentation for those
+has been requested and is not yet in the chart.
+
+
+CURRENT MEDICATIONS
+
+  lisinopril 20 mg PO daily
+  atorvastatin 20 mg PO daily
+  cetirizine 10 mg PO daily PRN
+  cholecalciferol 2000 IU PO daily
+  diclofenac 1% topical gel to right knee PRN
+
+No current or prior prescription weight-loss medication. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+Vitals:    BP 128/80 (right arm, seated)   HR 74   Temp 98.2 F   RR 14
+Height:    5 ft 5 in (65 in)
+Weight:    219 lb
+BMI:       36.4 kg/m²
+
+Weights on file:
+  09/08/2025   232 lb   (BMI 38.6)
+  12/15/2025   226 lb   (BMI 37.6)
+  04/20/2026   221 lb   (BMI 36.8)
+  05/12/2026   219 lb   (BMI 36.4)
+
+Exam: Well-appearing, no acute distress. Cardiac regular rate and rhythm, no murmur. Lungs
+clear. Abdomen soft, non-tender. Right knee with medial joint line tenderness, no effusion,
+full range of motion, stable to varus and valgus stress. No lower extremity edema.
+
+Laboratory (04/28/2026):
+  Hemoglobin A1c        5.7 %
+  Total cholesterol     198 mg/dL
+  LDL                   118 mg/dL
+  HDL                   47 mg/dL
+  Triglycerides         166 mg/dL
+  TSH                   2.1 mIU/L
+  Creatinine            0.9 mg/dL
+  25-OH vitamin D       31 ng/mL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 36.4 kg/m² (Z68.36). Weight has come down 13 lb since September with
+   sustained dietary and activity changes, but has plateaued over the last month.
+2. Essential hypertension (I10) — at goal on current therapy.
+3. Dyslipidemia (E78.5) — LDL improved on atorvastatin; triglycerides remain mildly elevated.
+4. Prediabetes (R73.03) — A1c 5.7%. Not diabetic. No hypoglycemic agent indicated.
+5. Right knee pain, likely early medial compartment osteoarthritis (M25.561).
+6. Allergic rhinitis (J30.9) — controlled.
+
+
+PLAN
+
+1. Obesity. She has done the work and has plateaued. Discussed adding pharmacotherapy. Reviewed
+   mechanism, expected magnitude of effect, gastrointestinal side effects, contraindications,
+   and the need to continue diet and activity alongside any medication. She has no personal or
+   family history of medullary thyroid carcinoma or MEN2. Will submit prior authorization for
+   semaglutide (Wegovy) injection, starting 0.25 mg weekly with label titration. She will
+   continue the 1,400–1,600 kcal/day plan and the walking program at 30 minutes five days per
+   week, and continue with Willow Creek and the Lakeview sessions.
+   Will request the April summary letter and the outstanding Lakeview attendance records be
+   sent over for the file.
+2. Hypertension. Continue lisinopril 20 mg daily. Continue home monitoring.
+3. Dyslipidemia. Continue atorvastatin 20 mg daily. Recheck lipids in 6 months.
+4. Prediabetes. Reinforced dietary measures. Repeat A1c in 6 months.
+5. Right knee. Continue topical diclofenac. Referral to physical therapy for quadriceps
+   strengthening. Weight-bearing knee films if not improved by next visit.
+6. Health maintenance. Screening mammogram ordered. Colon cancer screening deferred to next
+   visit at patient request.
+
+Follow-up in 8 weeks, sooner if medication is approved and started.
+
+
+Alonzo T. Whitfield, DO
+Electronically signed 05/12/2026 17:42

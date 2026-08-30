@@ -1,0 +1,72 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    06/29/2026
+Case Reference:          AUTH-CIG-2026-000668
+Member:                  Marguerite O. Halloran
+Member ID:               MEM-CIG-206
+Patient Record Number:   MRN-200206
+Date of Birth:           05/14/1972
+Request Received:        06/22/2026
+Prescriber:              Idris B. Vandermolen, MD, Internal Medicine
+Prescriber Reference:    PRV-SYN-2138
+
+
+REQUEST REVIEWED
+
+  Medication:            Wegovy (semaglutide) injection
+  Strength requested:    1.7 mg/0.75 mL, once weekly
+  Indication submitted:  Weight loss in an adult with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+The documented body mass index is 28.7 kg/m², which is below the 30 kg/m² threshold, and no
+weight-related comorbidity was identified that would permit approval at a body mass index of 27
+kg/m² or greater.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section III. Wegovy injection and Wegovy HD injection,
+1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy.
+
+That section requires the patient to meet one of two body mass index routes: at baseline a BMI of
+30 kg/m² or greater, or at baseline a BMI of 27 kg/m² or greater together with at least one
+listed weight-related comorbidity.
+
+Records reviewed: prior authorization request form dated 06/22/2026; internal medicine office
+note dated 06/15/2026, Aldgate Internal Medicine.
+
+The submitted note records a height of 5 feet 4 inches and a weight of 167 pounds, giving a body
+mass index of 28.7 kg/m². The note also records a weight of 172 pounds on 03/02/2026, a body
+mass index of 29.5 kg/m². Neither reaches 30 kg/m².
+
+The submitted records do not identify a weight-related comorbidity from the policy's list. Age
+and the three-month behavioral and dietary trial are satisfied and are not at issue.
+
+Because neither body mass index route is established on the submitted record, the request is
+denied.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

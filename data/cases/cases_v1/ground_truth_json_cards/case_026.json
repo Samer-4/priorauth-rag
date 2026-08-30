@@ -1,0 +1,233 @@
+{
+  "case_id": "case_026",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "paraphrased_evidence",
+      "strong_appeal"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-07-06",
+      "request_date": "2026-07-13",
+      "denial_date": "2026-07-20",
+      "note_type": "family_medicine_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The note never uses the words 'lifestyle modification', 'dietitian', 'programme enrolment' or 'exercise prescription'. It describes a church-hall walking group and an employer wellbeing challenge — which are exactly what the policy means by 'community-based program' and 'behavioral support'. The payer looked for clinical-sounding referrals and found none. The criterion is satisfied in substance and unmatched in vocabulary."
+  },
+  "patient": {
+    "name": "Ruthanne P. Sizemore",
+    "mrn": "MRN-200283",
+    "member_id": "MEM-UHC-283",
+    "age": 58,
+    "dob": "1968-03-07",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult",
+      "I10 essential hypertension",
+      "M25.561 pain in right knee",
+      "M25.562 pain in left knee",
+      "R73.03 prediabetes"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "prediabetes",
+      "bilateral knee pain"
+    ],
+    "relevant_measurements": {
+      "bmi": 34.9,
+      "weight_lb": 191,
+      "height_in": 62,
+      "bmi_history": [
+        { "date": "2026-04-13", "weight_lb": 195, "bmi": 35.7 },
+        { "date": "2026-07-06", "weight_lb": 191, "bmi": 34.9 }
+      ],
+      "a1c_percent": 5.7
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Callum W. Ashworth-Bekele, MD",
+    "specialty": "Family Medicine",
+    "practice": "Marlow Bridge Family Practice",
+    "provider_id": "PRV-SYN-2806"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "lifestyle_modification_not_documented",
+    "denial_reason_text": "The submitted records do not document lifestyle modification; no dietitian referral, programme enrolment or documented dietary or exercise prescription was identified.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization",
+    "cited_requirement_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+    "denial_accurately_states_policy": true,
+    "denial_accuracy_note": "The denial quotes the criterion in full, including the four examples. Its error is that it then applied a narrower test — clinical referral or formal programme enrolment — than the criterion states, and missed the community-based and behavioral-support activity the record describes.",
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-07-13",
+      "Family medicine office note dated 2026-07-06"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification, which the policy illustrates as dietary or caloric restriction, exercise, behavioral support, or a community-based program. No minimum duration, no supervision requirement and no referral requirement is stated.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "requirement": "Body Mass Index of 30 kg/m2 or greater.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "age_requirement",
+        "requirement": "Patient is 12 years of age or older for Wegovy injection.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(1)",
+        "policy_support_text": "Patient is ≥ 12 years of age (for Qsymia, Saxenda, Wegovy injection and Xenical)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The criterion's examples are introduced by 'e.g.' and are illustrative rather than exhaustive. A community-based program and behavioral support are two of the four named illustrations, so activity of that kind is squarely within the criterion rather than an extension of it.",
+      "This policy sets no minimum duration for lifestyle modification and does not require it to be clinically supervised or clinician-referred. Reading in such a requirement is the error made in case 003."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-07-06 note was submitted and reviewed. The qualifying activity is described in the note's own vocabulary rather than the policy's.",
+    "expected_evidence": [
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "A weekly three-mile walking group run from her church hall attended since April with one missed week, which is exercise and a community-based program; the employer's six-week 'Better Plates' challenge over May and June with weekly group sessions on portion size, label reading and batch cooking plus a food diary, which is behavioral support and a community-based program; and specific dietary changes — two cans of regular cola stopped, packed lunches four days in five, weekend batch cooking. Plan item 1 states the medication is to be added to what she is already doing, not to replace it, and names each element she will continue.",
+        "evidence_location": "SUBJECTIVE, paragraphs two and three; PLAN item 1",
+        "evidence_type": "paraphrased"
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 2 in, weight 191 lb, BMI 34.9 kg/m2; 195 lb, BMI 35.7, on 04/13/2026.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "covered_indication",
+        "evidence_present": true,
+        "evidence_text": "Assessment item 1 is obesity; the plan requests semaglutide for weight.",
+        "evidence_location": "ASSESSMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "age_requirement",
+        "evidence_present": true,
+        "evidence_text": "DOB 03/07/1968; age 58 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No dietitian referral, no formal weight-management programme enrolment through the health system, and no written exercise prescription. None of these is required by the criterion.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "The record documents exercise, behavioral support and a community-based program — three of the four illustrations the criterion gives — together with specific dietary restriction, and the plan states the drug is an adjunct to them."
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 34.9 kg/m2."
+      },
+      {
+        "criterion_name": "covered_indication",
+        "status": "satisfied",
+        "reason": "The request is for weight loss."
+      },
+      {
+        "criterion_name": "age_requirement",
+        "status": "satisfied",
+        "reason": "Age 58."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The policy's own examples of lifestyle modification include a community-based program and behavioral support, both of which the record documents.",
+      "The member has attended a weekly walking group since April and completed a six-week employer nutrition programme with a food diary she has maintained.",
+      "The plan of care states the medication is to be added to those measures rather than replace them.",
+      "The policy does not require a clinician referral, a formal programme enrolment, or any minimum duration."
+    ],
+    "unsupported_claims": [
+      "That the member was referred to a dietitian or enrolled in a medically supervised programme.",
+      "That the member completed a three-month or six-month structured programme as a policy requirement.",
+      "That the member's prediabetes or hypertension is needed to establish eligibility at this BMI."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The member has attended a weekly three-mile walking group run from her church hall since April 2026, missing one week.",
+      "The member completed the employer's six-week 'Better Plates' challenge across May and June 2026, with weekly group sessions on portion size, label reading and batch cooking, and a food diary.",
+      "The member has maintained the food diary since the programme ended.",
+      "The member stopped two cans of regular cola a day, takes a packed lunch four days in five, and batch cooks at weekends.",
+      "Documented BMI on July 6, 2026 was 34.9 kg/m2, with height 5 feet 2 inches and weight 191 pounds.",
+      "The plan of care states the medication is to be added to those measures rather than to replace them.",
+      "The member was 58 years of age at the time of the request."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member was referred to a dietitian.",
+      "The member enrolled in a medically supervised weight management programme.",
+      "The member completed six months of lifestyle modification.",
+      "UnitedHealthcare's program requires a minimum duration of lifestyle modification.",
+      "The member has type 2 diabetes.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "The member has lost 5 percent of baseline body weight."
+    ]
+  },
+  "files": {
+    "denial": "case_026_denial.txt",
+    "note": "case_026_note.txt"
+  }
+}

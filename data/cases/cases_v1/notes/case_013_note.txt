@@ -1,0 +1,107 @@
+MERIDIAN PULMONARY AND SLEEP MEDICINE
+Office Visit Note
+
+Patient:            Ramroop, Curtis A.
+MRN:                MRN-200140
+DOB:                07/09/1974     Age: 51     Sex: Male
+Date of service:    05/04/2026
+Clinician:          Faisal N. Kettaneh, MD (PRV-SYN-1572)
+Visit type:         Follow-up — sleep study results and management
+
+
+REASON FOR VISIT
+Review of home sleep apnea test. Discussion of treatment options including medication.
+
+
+HISTORY OF PRESENT ILLNESS
+
+51-year-old man referred by his primary care physician for snoring and unrefreshing sleep. His
+wife reports loud snoring and occasional pauses. He wakes once or twice nightly, and describes
+morning headache perhaps twice a week. Epworth score today is 9.
+
+Home sleep apnea test performed 03/2026. The report gives an apnea-hypopnea index of 14.6 events
+per hour with a nadir oxygen saturation of 88 percent, and characterises the findings as mild
+obstructive sleep apnea. Events were predominantly obstructive; no central events of note and no
+Cheyne-Stokes pattern was seen.
+
+He is reluctant about CPAP and asks whether weight loss medication might treat the sleep apnea
+instead. He has read about tirzepatide for this. I explained that weight reduction improves
+sleep-disordered breathing and that the medication is licensed for this indication, but that
+approval criteria are specific.
+
+He started working on diet at the end of March. He saw the dietitian on 03/30/2026, was given a
+calorie target and a food log, and has been following it since. He has not yet had a second
+nutrition appointment; one is booked for June. Before 03/30/2026 he had made no structured
+dietary or behavioural changes and had not been referred to any weight programme.
+
+Nasal congestion: chronic, worse in spring, on fluticasone.
+
+Reflux: occasional nocturnal symptoms, twice weekly.
+
+No tobacco. Alcohol three to four units per week, usually in the evening — advised to move this
+earlier or reduce.
+
+Works as a quantity surveyor. Drives long distances for work and has been counselled about
+drowsy driving.
+
+
+OBJECTIVE
+
+BP 134/84    HR 74    Temp 98.2 F    SpO2 97% on room air
+Height:  5 ft 10 in (70 in)
+Weight:  198 lb
+BMI:     28.4 kg/m²
+
+Weights on file:
+  02/09/2026   202 lb   (BMI 29.0)
+  05/04/2026   198 lb   (BMI 28.4)
+
+Exam: Mallampati III. Neck circumference 16.5 inches. Nasal turbinates enlarged bilaterally.
+Oropharynx crowded. Cardiac regular rate and rhythm. Lungs clear. No peripheral oedema.
+
+Sleep study (03/2026), home apnea test:
+  Apnea-hypopnea index      14.6 events per hour
+  Nadir SpO2                88 %
+  Total sleep time          6 h 12 min
+  Predominant event type    obstructive
+  Central apnea index       0.4 events per hour
+  Cheyne-Stokes pattern     not observed
+  Report classification     mild obstructive sleep apnea
+
+Laboratory (04/20/2026):
+  Hemoglobin A1c        5.6 %
+  Total cholesterol     196 mg/dL
+  LDL                   118 mg/dL
+  HDL                   44 mg/dL
+  Triglycerides         158 mg/dL
+  TSH                   1.9 mIU/L
+
+
+ASSESSMENT
+
+1. Mild obstructive sleep apnea (G47.33), apnea-hypopnea index 14.6 events per hour.
+2. Overweight (E66.3), BMI 28.4 kg/m² (Z68.28).
+3. Allergic rhinitis (J30.1) contributing to nasal obstruction.
+4. Gastro-esophageal reflux disease (K21.9), mild.
+
+
+PLAN
+
+1. Sleep apnea. Discussed positional therapy, weight reduction, mandibular advancement device
+   and CPAP. He prefers to try weight reduction and a mandibular advancement device first.
+   Dental sleep medicine referral placed.
+2. Weight. Continue the dietitian's plan; second appointment already booked for June. Will submit
+   a prior authorization request for tirzepatide (Zepbound) on the sleep apnea indication at his
+   request, with the caveat above about approval criteria. Reduced-calorie intake and increased
+   activity to continue with any medication.
+3. Rhinitis. Continue intranasal fluticasone; add saline rinses.
+4. Reflux. Advised against late meals and evening alcohol.
+5. Driving. Drowsy-driving advice given and documented.
+
+Repeat sleep study in 12 months or sooner if symptoms change.
+
+Return in 3 months.
+
+
+Faisal N. Kettaneh, MD
+Signed 05/04/2026

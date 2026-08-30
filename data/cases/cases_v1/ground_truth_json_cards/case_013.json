@@ -1,0 +1,274 @@
+{
+  "case_id": "case_013",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "2.5 mg/0.5 mL subcutaneous once weekly, starting dose with titration",
+    "request_type": "initial_authorization",
+    "policy_pathway": "V. Zepbound — 2. Obstructive Sleep Apnea, Moderate to Severe, in a Patient with Obesity — A) Initial Therapy; with 1. Weight Loss in an Adult assessed as an alternative",
+    "case_types": [
+      "borderline_threshold",
+      "multiple_criteria",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-05-04",
+      "request_date": "2026-05-11",
+      "denial_date": "2026-05-18",
+      "note_type": "pulmonary_sleep_medicine_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "An AHI of 14.6 against a threshold of 15 is the visible near-miss. The trap is the alternative pathway: the member's obstructive sleep apnea is itself on Cigna's weight-related comorbidity list, so a BMI of 28.4 plus that comorbidity looks like it opens the adult weight-loss route. It does not, because the three-month behavioural and dietary trial has run only about six weeks. Both routes must be checked and both fail."
+  },
+  "patient": {
+    "name": "Curtis A. Ramroop",
+    "mrn": "MRN-200140",
+    "member_id": "MEM-CIG-140",
+    "age": 51,
+    "dob": "1974-07-09",
+    "sex": "male",
+    "diagnoses": [
+      "G47.33 obstructive sleep apnea",
+      "E66.3 overweight",
+      "Z68.28 BMI 28.0-28.9, adult",
+      "J30.1 allergic rhinitis due to pollen",
+      "K21.9 gastro-esophageal reflux disease without esophagitis"
+    ],
+    "comorbidities": [
+      "mild obstructive sleep apnea",
+      "allergic rhinitis",
+      "gastro-esophageal reflux disease"
+    ],
+    "relevant_measurements": {
+      "bmi": 28.4,
+      "weight_lb": 198,
+      "height_in": 70,
+      "bmi_history": [
+        { "date": "2026-02-09", "weight_lb": 202, "bmi": 29.0 },
+        { "date": "2026-05-04", "weight_lb": 198, "bmi": 28.4 }
+      ],
+      "a1c_percent": 5.6,
+      "apnea_hypopnea_index": 14.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Faisal N. Kettaneh, MD",
+    "specialty": "Pulmonary and Sleep Medicine",
+    "practice": "Meridian Pulmonary and Sleep Medicine",
+    "provider_id": "PRV-SYN-1572"
+  },
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "osa_pathway_ahi_and_bmi_below_threshold",
+    "denial_reason_text": "The obstructive sleep apnea pathway requires a baseline BMI of 30 kg/m2 or greater and an apnea-hypopnea index of 15 or more events per hour; the record shows 28.4 kg/m2 and 14.6 events per hour. The alternative weight-loss pathway requires a three-month behavioural and dietary trial, which is also not met.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" V. Zepbound, 2. Obstructive Sleep Apnea, Moderate to Severe, in a Patient with Obesity, A) Initial Therapy",
+    "cited_requirement_text": "Patient has an apnea-hypopnea index >= 15 events per hour",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-05-11",
+      "Pulmonary and sleep medicine office note dated 2026-05-04",
+      "Home sleep apnea test report dated 03/2026"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "osa_apnea_hypopnea_index_15_or_greater",
+        "requirement": "Patient has an apnea-hypopnea index of 15 or more events per hour.",
+        "policy_reference": "V. Zepbound — 2. Obstructive Sleep Apnea, Moderate to Severe, in a Patient with Obesity — A) Initial Therapy, criterion iii(b)",
+        "policy_support_text": "Patient has an apnea-hypopnea index >= 15 events per hour",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "osa_sleep_study_with_moderate_to_severe_diagnosis",
+        "requirement": "Patient has had a sleep study showing both a diagnosis of moderate to severe obstructive sleep apnea and an AHI of 15 or more.",
+        "policy_reference": "V. Zepbound — 2. Obstructive Sleep Apnea — A) Initial Therapy, criterion iii",
+        "policy_support_text": "Patient has had a sleep study that shows BOTH of the following",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "osa_baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "V. Zepbound — 2. Obstructive Sleep Apnea — A) Initial Therapy, criterion ii",
+        "policy_support_text": "At baseline, patient had a BMI >= 30 kg/m2",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "osa_not_central_apnea_or_cheyne_stokes",
+        "requirement": "The patient does not have central sleep apnea or Cheyne Stokes respiration.",
+        "policy_reference": "V. Zepbound — 2. Obstructive Sleep Apnea — A) Initial Therapy, criterion iv",
+        "policy_support_text": "Central sleep apnea",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months. Assessed because the adult weight-loss pathway is the alternative route for this drug.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "requirement": "At baseline, BMI of 27 kg/m2 or greater together with at least one listed weight-related comorbidity, obstructive sleep apnea among them.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(b)",
+        "policy_support_text": "At baseline, patient had a BMI >= 27 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Cigna's weight-related comorbidity list includes obstructive sleep apnea without qualifying severity, so the member's mild OSA does satisfy the comorbidity element of the weight-loss pathway's BMI 27 route. That route still fails on the three-month trial criterion.",
+      "The OSA pathway's BMI threshold is 30 and is not the same as the weight-loss pathway's 27. The two must not be conflated.",
+      "The sleep study rules out central sleep apnea and Cheyne-Stokes respiration, so that exclusion is not engaged."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-04 note and the sleep study report were submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "osa_apnea_hypopnea_index_15_or_greater",
+        "evidence_present": false,
+        "evidence_text": "Home sleep apnea test 03/2026 reports an apnea-hypopnea index of 14.6 events per hour and classifies the findings as mild obstructive sleep apnea.",
+        "evidence_location": "HISTORY OF PRESENT ILLNESS; OBJECTIVE, sleep study block; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "osa_sleep_study_with_moderate_to_severe_diagnosis",
+        "evidence_present": false,
+        "evidence_text": "A sleep study exists, but it reports mild obstructive sleep apnea rather than moderate to severe. Both limbs of the criterion must be shown by the study.",
+        "evidence_location": "OBJECTIVE, sleep study block",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "osa_baseline_bmi_30_or_greater",
+        "evidence_present": false,
+        "evidence_text": "Height 5 ft 10 in with weights of 202 lb (BMI 29.0) on 02/09/2026 and 198 lb (BMI 28.4) on 05/04/2026. No value reaches 30.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "osa_not_central_apnea_or_cheyne_stokes",
+        "evidence_present": true,
+        "evidence_text": "Central apnea index 0.4 events per hour; Cheyne-Stokes pattern not observed; events predominantly obstructive.",
+        "evidence_location": "OBJECTIVE, sleep study block",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "evidence_present": false,
+        "evidence_text": "Dietary work began at a dietitian appointment on 03/30/2026 with a calorie target and food log. That is 35 days before the note and 42 days before the request. The note states that before 03/30/2026 he had made no structured dietary or behavioural changes and had not been referred to any weight programme.",
+        "evidence_location": "HISTORY OF PRESENT ILLNESS, dietary paragraph",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "evidence_present": true,
+        "evidence_text": "BMI 28.4 kg/m2, above 27, with obstructive sleep apnea documented — a comorbidity named in the policy's list. This element of the alternative route is satisfied.",
+        "evidence_location": "OBJECTIVE section; ASSESSMENT items 1 and 2",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No sleep study showing an AHI of 15 or more exists. A repeat study is planned in 12 months.",
+        "material_to_outcome": true
+      },
+      {
+        "description": "No dietary or behavioural intervention before 03/30/2026, stated affirmatively in the note.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "osa_apnea_hypopnea_index_15_or_greater",
+        "status": "not_satisfied",
+        "reason": "AHI 14.6 events per hour, below the threshold of 15."
+      },
+      {
+        "criterion_name": "osa_sleep_study_with_moderate_to_severe_diagnosis",
+        "status": "not_satisfied",
+        "reason": "The study exists but reports mild obstructive sleep apnea; the criterion requires the study to show moderate to severe disease."
+      },
+      {
+        "criterion_name": "osa_baseline_bmi_30_or_greater",
+        "status": "not_satisfied",
+        "reason": "Highest recorded BMI is 29.0 kg/m2, below 30."
+      },
+      {
+        "criterion_name": "osa_not_central_apnea_or_cheyne_stokes",
+        "status": "satisfied",
+        "reason": "Central apnea index 0.4 and no Cheyne-Stokes pattern."
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "status": "not_satisfied",
+        "reason": "Documented trial runs from 03/30/2026, about six weeks at the date of the request, with an affirmative statement that nothing preceded it."
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "status": "satisfied",
+        "reason": "BMI 28.4 with obstructive sleep apnea, a listed comorbidity. Not sufficient on its own because the trial criterion in the same pathway fails."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The sleep study rules out central sleep apnea and Cheyne-Stokes respiration.",
+      "The member's BMI of 28.4 with documented obstructive sleep apnea satisfies the BMI-plus-comorbidity element of the adult weight-loss pathway.",
+      "The denial accurately states both thresholds and accurately reports the record."
+    ],
+    "unsupported_claims": [
+      "That the apnea-hypopnea index reaches 15 events per hour.",
+      "That the member's obstructive sleep apnea is moderate or severe.",
+      "That any recorded BMI reaches 30 kg/m2.",
+      "That a three-month behavioural and dietary trial is documented."
+    ],
+    "correct_next_step": "Advise that neither pathway is available today. The weight-loss pathway is the closer of the two: the BMI-plus-comorbidity element is already met, so completing and documenting the three-month trial — which on the current record falls at the end of June 2026 — would leave only that criterion to satisfy. The OSA pathway is not reachable without a study showing an AHI of 15 or more and a BMI of 30 or greater."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The home sleep apnea test of March 2026 reports an apnea-hypopnea index of 14.6 events per hour with a nadir oxygen saturation of 88 percent.",
+      "The study classifies the findings as mild obstructive sleep apnea, with events predominantly obstructive.",
+      "Central apnea index was 0.4 events per hour and no Cheyne-Stokes pattern was observed.",
+      "Documented BMI on May 4, 2026 was 28.4 kg/m2, with height 5 feet 10 inches and weight 198 pounds.",
+      "A dietitian appointment on March 30, 2026 set a calorie target and started a food log.",
+      "A second nutrition appointment is booked for June 2026.",
+      "Obstructive sleep apnea appears on the policy's list of weight-related comorbidities."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member's apnea-hypopnea index is 15 or more events per hour.",
+      "The member has moderate or severe obstructive sleep apnea.",
+      "The member's BMI is 30 kg/m2 or greater.",
+      "The member has completed a three-month behavioural and dietary trial.",
+      "The member engaged in structured dietary or behavioural work before March 30, 2026.",
+      "The member has type 2 diabetes.",
+      "The member has used CPAP or failed CPAP therapy.",
+      "The OSA pathway's BMI threshold is 27 kg/m2."
+    ]
+  },
+  "files": {
+    "denial": "case_013_denial.txt",
+    "note": "case_013_note.txt"
+  }
+}

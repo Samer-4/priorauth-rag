@@ -1,0 +1,115 @@
+BELLMOUNT INTERNAL MEDICINE
+Office Visit Note
+
+Patient:            Falkenrath, Ezra B.
+MRN:                MRN-200217
+DOB:                09/30/1988     Age: 37     Sex: Male
+Date of service:    05/18/2026
+Clinician:          Cecily R. Naidoo, MD (PRV-SYN-2249)
+Visit type:         Established patient, records review following coverage determination
+
+
+REASON FOR VISIT
+Review of outside records obtained after the coverage determination of 04/13/2026.
+
+
+SUBJECTIVE
+
+Mr. Falkenrath returns after the tirzepatide request was declined. The stated reason was that
+his dietary and behavioural work had not run three months. At the April visit I recorded only
+what was in our own chart, which began 02/16/2026 when he first saw our dietitian.
+
+He told me at the time that he had "done a programme before," but could not name it or give
+dates, and I did not have records. He has since found the paperwork at home and we have obtained
+the file from the provider.
+
+The records are from the Northside Metabolic Program, a hospital-affiliated outpatient service.
+They document enrolment on 06/09/2025 and structured participation through 10/20/2025: a
+dietitian-led calorie-restriction plan with fortnightly review, a weekly behavioural group, and
+a supervised exercise component. The discharge summary dated 10/20/2025 records completion with
+good attendance. He stopped after his employer changed and the subsidy ended, not for clinical
+reasons.
+
+Combined with our own programme from 02/16/2026, this gives him a documented qualifying trial
+well in excess of three months, although the two blocks are separated.
+
+He has continued with our dietitian since February — appointments on 03/16/2026 and 05/04/2026 —
+and reports he has kept to the calorie target on most days. He cycles to work three days a week.
+
+No tobacco. Alcohol occasional. Works in insurance claims.
+
+
+TREATMENT AND PROGRAMME HISTORY
+
+  06/09/2025   Enrolled, Northside Metabolic Program. Dietitian-led calorie restriction,
+               fortnightly review, weekly behavioural group, supervised exercise component.
+               [Outside records obtained 05/2026; not previously available to this clinic.]
+  10/20/2025   Northside Metabolic Program discharge summary. Completion recorded with good
+               attendance. Programme ended for non-clinical reasons.
+  02/16/2026   Dietitian consultation at this clinic, Ms. Bridget Okoro, RD. Calorie target
+               2,000 kcal/day; food logging started.
+  03/16/2026   Dietitian review at this clinic.
+  04/06/2026   Prior authorization submitted for tirzepatide. Only this clinic's records were
+               available at that point.
+  05/04/2026   Dietitian review at this clinic.
+  05/18/2026   Today.
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist and no
+GLP-1/GIP receptor agonist exposure.
+
+
+CURRENT MEDICATIONS
+
+  cetirizine 10 mg PO daily PRN
+  cholecalciferol 1000 IU PO daily
+
+
+OBJECTIVE
+
+BP 128/80    HR 72    Temp 98.2 F
+Height:  6 ft 0 in (72 in)
+Weight:  242 lb
+BMI:     32.8 kg/m²
+
+Weights on file:
+  02/16/2026   247 lb   (BMI 33.5)
+  04/06/2026   244 lb   (BMI 33.1)
+  05/18/2026   242 lb   (BMI 32.8)
+
+The Northside file records a weight of 251 lb at enrolment in 06/2025 and 248 lb at discharge in
+10/2025. Those measurements were taken on the programme's equipment and are reproduced here as
+reported.
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender. No
+peripheral oedema.
+
+Laboratory (05/04/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       94 mg/dL
+  Total cholesterol     193 mg/dL
+  LDL                   119 mg/dL
+  HDL                   48 mg/dL
+  Triglycerides         131 mg/dL
+  ALT                   26 U/L
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 32.8 kg/m² (Z68.32).
+2. Documented behavioural and dietary intervention in two blocks: 06/09/2025 to 10/20/2025 at an
+   outside programme, and 02/16/2026 to date at this clinic.
+
+
+PLAN
+
+1. Obesity. Resubmit the tirzepatide (Zepbound) request with the Northside Metabolic Program
+   records attached, which were not available at the time of the original submission. Continue
+   Ms. Okoro's plan and the cycling.
+2. Copies of the Northside enrolment record and discharge summary have been added to the chart
+   and will accompany the resubmission.
+
+Return in 8 weeks.
+
+
+Cecily R. Naidoo, MD
+Signed 05/18/2026

@@ -1,0 +1,110 @@
+THORNHILL GENETICS SERVICE
+Medical Genetics — Adult Clinic
+
+PATIENT:          Nwachukwu, Emeka D.
+MRN:              MRN-200327
+DOB:              08/21/1998          AGE: 27          SEX: Male
+DATE OF SERVICE:  02/16/2026
+PROVIDER:         Sanjana R. Iyengar, MD — Medical Genetics (PRV-SYN-3241)
+VISIT TYPE:       Established patient, annual review
+
+
+REASON FOR VISIT
+Annual Bardet-Biedl syndrome review. Discussion of setmelanotide.
+
+
+SUBJECTIVE
+
+Mr. Nwachukwu attends for his annual review. He is accompanied by his mother, who continues to
+support him with appointments.
+
+Bardet-Biedl syndrome was diagnosed in childhood and confirmed molecularly in 2019: biallelic
+pathogenic variants in BBS1, reported as c.1169T>G p.(Met390Arg) homozygous. The clinical picture
+is consistent — rod-cone dystrophy diagnosed at age 9 and now with severe visual impairment,
+postaxial polydactyly of both hands corrected surgically in infancy, a single small right kidney
+with preserved function, and mild learning difficulty.
+
+Weight has been the dominant issue since childhood. Hyperphagia is prominent and his mother
+describes constant food-seeking and distress when access is restricted. She has managed this at
+home with locked cupboards and portioned meals for years, which she describes as exhausting.
+
+He asks, through his mother, about setmelanotide. They read about it at the patient group meeting
+in November and both are keen.
+
+Nutrition and weight services: I asked directly about this. He has never been under a dietitian
+and has never attended a weight management programme. A dietitian referral was offered at the
+2024 review and the family declined it at the time, feeling that the home measures were working
+and that another set of appointments would be too much. Nothing has been arranged since, and
+there is no record of any programme at any point in the chart or in the records transferred from
+paediatric services.
+
+Vision: registered severely sight impaired. Under ophthalmology.
+
+Renal: annual ultrasound and function stable, last creatinine 1.0.
+
+No diabetes. No hypertension.
+
+Lives with his mother. Attends a supported day service four days a week.
+
+
+CURRENT MEDICATIONS
+
+  cholecalciferol 2000 IU PO daily
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 118/72    HR 72    Temp 98.2 F
+Height:  5 ft 7 in (67 in)
+Weight:  245 lb
+BMI:     38.4 kg/m²
+
+Weights on file:
+  09/22/2025   249 lb   (BMI 39.0)
+  02/16/2026   245 lb   (BMI 38.4)
+
+Exam: Postaxial polydactyly scars both hands. No acanthosis nigricans. Cardiac regular rate and
+rhythm. Lungs clear. Abdomen soft, non-tender. Visual acuity counting fingers bilaterally.
+
+Laboratory (02/02/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       95 mg/dL
+  Creatinine            1.0 mg/dL
+  eGFR                  92 mL/min/1.73 m2
+  Total cholesterol     181 mg/dL
+  LDL                   104 mg/dL
+  Triglycerides         138 mg/dL
+  ALT                   26 U/L
+
+Molecular genetics report (2019): BBS1 c.1169T>G p.(Met390Arg), homozygous, classified
+pathogenic. Consistent with Bardet-Biedl syndrome.
+
+
+ASSESSMENT
+
+1. Bardet-Biedl syndrome (Q87.89), molecularly confirmed, with rod-cone dystrophy, prior
+   polydactyly, renal anomaly and learning difficulty.
+2. Obesity (E66.9) with hyperphagia as part of the syndrome. BMI 38.4 kg/m² (Z68.38).
+3. Severe visual impairment (H54.0).
+4. Solitary functioning kidney with preserved function (Q60.0).
+5. No structured weight management input at any point.
+
+
+PLAN
+
+1. Setmelanotide. Prior authorization to be submitted for Imcivree 2 mg daily with label
+   titration. Discussed injection technique, skin hyperpigmentation, and that his mother would
+   administer.
+2. Nutrition. Dietitian referral placed today and accepted this time. Appointment to be
+   arranged. I have explained that a documented weight management input is likely to matter for
+   coverage as well as for his care.
+3. Renal. Continue annual ultrasound and function.
+4. Ophthalmology. Continue under their follow-up.
+
+Return in 12 months, sooner as needed.
+
+
+Sanjana R. Iyengar, MD
+Electronically signed 02/16/2026 09:20

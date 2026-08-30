@@ -1,0 +1,84 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            April 20, 2026
+Authorization Reference:   AUTH-AET-2026-000440
+Review Tracking ID:        UM-RX-2026-04-0440
+
+Member Name:               Nikolai P. Sorensen
+Member ID:                 MEM-AET-107
+Medical Record Number:     MRN-200107
+Date of Birth:             08/19/1966
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Amara J. Tewolde, MD — Neurology
+Practice:                  Stonegate Neurology Associates
+Provider ID:               PRV-SYN-1249
+Request Received:          April 13, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Mr. Sorensen:
+
+We have completed our review of the prior authorization request submitted on your behalf.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        0.25 mg subcutaneously once weekly, titrated per prescribing
+                           information
+  Requested indication:    Reduction of the risk of major adverse cardiovascular events
+                           following ischemic stroke
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+The submitted documentation does not establish participation in a comprehensive weight
+management program with continuing follow-up for at least 6 months prior to beginning drug
+therapy.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024."
+
+The policy requires that "The patient has participated in a comprehensive weight management
+program that encourages behavioral modification, reduced calorie diet, and increased physical
+activity with continuing follow-up for at least 6 months prior to using drug therapy."
+
+Materials reviewed:
+  1. Prior authorization request form received April 13, 2026
+  2. Neurology office note dated April 6, 2026, Stonegate Neurology Associates
+  3. Cardiac rehabilitation discharge summary dated March 2026
+
+We confirm from the submitted records that you have established cardiovascular disease with a
+documented ischemic stroke in November 2024, that your body mass index of 29.4 kg/m² is above
+the 27 kg/m² threshold, that you do not have type 2 diabetes, and that you are receiving
+guideline-directed medical therapy. Those elements are met.
+
+The submitted records document participation in a cardiac rehabilitation programme from January
+to March 2026, a period of approximately ten weeks, together with two dietitian appointments.
+This does not amount to six months of participation in a comprehensive weight management
+program. On that basis the request is denied.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

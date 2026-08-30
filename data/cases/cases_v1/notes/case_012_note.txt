@@ -1,0 +1,121 @@
+FIELDING CHILDREN'S SPECIALTY CENTER
+Pediatric Endocrinology — Follow-up
+
+PATIENT:          Moreau, Jayden T.
+MRN:              MRN-200129
+DOB:              11/30/2013          AGE: 12          SEX: Male
+DATE OF SERVICE:  06/08/2026
+PROVIDER:         Sunita R. Balakrishnan, MD — Pediatric Endocrinology (PRV-SYN-1466)
+ACCOMPANIED BY:   Mother
+VISIT TYPE:       Established patient, obesity management
+
+
+REASON FOR VISIT
+End-of-programme review. Family asking about medication.
+
+
+SUBJECTIVE
+
+Jayden is seen with his mother after finishing the six-month family-based programme here. Both
+report they stuck with it. Attendance was complete and the dietitian's closing note describes
+adherence as very good.
+
+He has changed what he eats — breakfast at home instead of at the corner shop, water instead of
+soda, and a set portion at dinner. He joined the after-school football club in January and goes
+three afternoons a week. His mother has made the same changes for the household, which she says
+has been the biggest single factor.
+
+Weight has come down a little and, more importantly to them, his height has continued along his
+centile so his BMI has drifted down. He is less breathless on the walk to school and has stopped
+being teased about it.
+
+Mother asks directly about "the daily injection." She has read that it is licensed from age 12
+and wants to know whether he qualifies.
+
+Sleep: snores, but no witnessed apnoeas and no daytime sleepiness. Mother declined a sleep study
+when offered last year and remains reluctant.
+
+No acanthosis nigricans. Menarche not applicable. No headaches, no visual symptoms.
+
+School: doing well, no concerns. Lives with mother and two siblings.
+
+
+FAMILY-BASED WEIGHT MANAGEMENT PROGRAMME
+
+Programme records reconciled into the chart:
+
+  11/17/2025   Intake, Ms. Georgiana Petrov, RD. Family assessment, eating pattern goals,
+               activity goals set.
+  12/15/2025   Dietitian review with mother. Household changes agreed.
+  01/19/2026   Behavioural session — screen time and evening snacking.
+  02/23/2026   Dietitian review. Football club started; activity goal met.
+  03/30/2026   Behavioural session — eating outside the home.
+  04/27/2026   Dietitian review. Portion strategy reinforced.
+  05/25/2026   Programme discharge; summary issued by Petrov RD.
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+CURRENT MEDICATIONS
+
+  cholecalciferol 600 IU PO daily
+  None other. No regular prescription medication.
+
+
+OBJECTIVE
+
+BP 106/64    HR 78    Temp 98.1 F
+Height:  4 ft 8 in (56 in), 142.2 cm
+Weight:  128 lb (58.1 kg)
+BMI:     28.7 kg/m²
+
+Growth and weight record:
+  12/08/2025   131 lb (59.4 kg)   BMI 29.4
+  03/09/2026   129 lb (58.5 kg)   BMI 28.9
+  06/08/2026   128 lb (58.1 kg)   BMI 28.7
+
+Height has tracked steadily along the 25th centile throughout; weight centile has fallen
+slightly. Body weight has remained below 60 kg at every recorded measurement in this episode and
+there is no earlier recorded weight above 60 kg in the chart.
+
+I have reviewed his BMI against international cut-off points and document that his current BMI
+of 28.7 kg/m² corresponds to an adult BMI of 30 kg/m² or greater for a boy of his age by the
+Cole criteria.
+
+Exam: Well-appearing, appropriately grown. No acanthosis nigricans. No striae. Thyroid not
+enlarged. Cardiac regular. Abdomen soft. Tanner stage 3. No hepatomegaly.
+
+Laboratory (05/25/2026):
+  Hemoglobin A1c        5.4 %
+  Fasting glucose       88 mg/dL
+  ALT                   24 U/L
+  Total cholesterol     168 mg/dL
+  LDL                   96 mg/dL
+  HDL                   47 mg/dL
+  Triglycerides         112 mg/dL
+  TSH                   2.2 mIU/L
+
+
+ASSESSMENT
+
+1. Obesity, pediatric (E66.9), BMI 28.7 kg/m², corresponding to an adult equivalent of 30 kg/m²
+   or greater by Cole criteria. Completed a full family-based programme with a modest response.
+2. Snoring without documented obstructive sleep apnea; sleep study declined by family.
+3. No evidence of metabolic complications; glucose, lipids and hepatic panel unremarkable.
+
+
+PLAN
+
+1. Obesity. Discussed pharmacotherapy with mother at length, including the daily injection
+   schedule, gastrointestinal effects, the need to continue the dietary and activity changes,
+   and that licensing and coverage criteria are not the same thing. Will submit prior
+   authorization for liraglutide (Saxenda) at 0.6 mg daily with label titration. Family to
+   continue the eating pattern and football club regardless of the outcome.
+2. Sleep. Sleep study offered again and declined. Will revisit.
+3. Follow-up bloods in 6 months.
+
+Return in 3 months, sooner if medication is approved and started.
+
+
+Sunita R. Balakrishnan, MD
+Electronically signed 06/08/2026 10:22

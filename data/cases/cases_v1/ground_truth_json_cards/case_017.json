@@ -1,0 +1,246 @@
+{
+  "case_id": "case_017",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg/0.5 mL subcutaneous once weekly, starting dose with titration",
+    "request_type": "initial_authorization",
+    "policy_pathway": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy",
+    "case_types": [
+      "distractor_heavy",
+      "strong_appeal"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-05-25",
+      "request_date": "2026-06-01",
+      "denial_date": "2026-06-08",
+      "note_type": "obstetrics_gynecology_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The qualifying comorbidity is the note's principal diagnosis and appears verbatim on the policy's list, but it sits inside a gynaecological consultation carrying six other conditions, five of which do not qualify. The denial enumerates the five non-qualifying conditions accurately, which makes it read as a thorough review. The failure mode probed is list-matching against a closed enumeration under distractor load."
+  },
+  "patient": {
+    "name": "Siobhan M. Delacroix",
+    "mrn": "MRN-200184",
+    "member_id": "MEM-CIG-184",
+    "age": 31,
+    "dob": "1994-06-08",
+    "sex": "female",
+    "diagnoses": [
+      "E28.2 polycystic ovarian syndrome",
+      "E66.3 overweight",
+      "Z68.28 BMI 28.0-28.9, adult",
+      "D50.9 iron deficiency anemia, unspecified",
+      "G43.109 migraine with aura, not intractable",
+      "L70.0 acne vulgaris",
+      "F41.9 anxiety disorder, unspecified",
+      "M72.2 plantar fascial fibromatosis"
+    ],
+    "comorbidities": [
+      "polycystic ovarian syndrome",
+      "iron deficiency anemia",
+      "migraine with aura",
+      "acne vulgaris",
+      "anxiety",
+      "plantar fasciitis"
+    ],
+    "relevant_measurements": {
+      "bmi": 28.1,
+      "weight_lb": 174,
+      "height_in": 66,
+      "bmi_history": [
+        { "date": "2026-01-19", "weight_lb": 179, "bmi": 28.9 },
+        { "date": "2026-03-23", "weight_lb": 176, "bmi": 28.4 },
+        { "date": "2026-05-25", "weight_lb": 174, "bmi": 28.1 }
+      ],
+      "a1c_percent": 5.5
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Anneliese K. Fontaine, MD",
+    "specialty": "Obstetrics and Gynecology",
+    "practice": "Caldermill Women's Health",
+    "provider_id": "PRV-SYN-1911"
+  },
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "no_qualifying_weight_related_comorbidity_identified",
+    "denial_reason_text": "Baseline BMI is below 30 kg/m2, and no comorbidity from the policy's list of weight-related comorbidities was identified in the submitted records.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" III. Wegovy injection and Wegovy HD injection, 1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy",
+    "cited_requirement_text": "At baseline, patient had a BMI >= 27 kg/m2",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-06-01",
+      "Obstetrics and gynecology office note dated 2026-05-25"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "baseline_bmi_27_plus_listed_comorbidity",
+        "requirement": "At baseline, BMI of 27 kg/m2 or greater, together with at least one of the listed weight-related comorbidities. Polycystic ovarian syndrome is on that list.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(b)",
+        "policy_support_text": "polycystic ovarian syndrome, or coronary artery disease",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_27_or_greater",
+        "requirement": "At baseline, patient had a BMI of 27 kg/m2 or greater.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(b)(1)",
+        "policy_support_text": "At baseline, patient had a BMI >= 27 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "requirement": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iv",
+        "policy_support_text": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The comorbidity list in this policy is enumerated rather than open-ended: hypertension, type 2 diabetes, dyslipidemia, obstructive sleep apnea, cardiovascular disease, knee osteoarthritis, asthma, chronic obstructive pulmonary disease, metabolic dysfunction-associated steatotic liver disease or non-alcoholic fatty liver disease, polycystic ovarian syndrome, or coronary artery disease. Polycystic ovarian syndrome is the second-to-last item.",
+      "The policy allows the comorbidity to be present either at baseline or currently: 'At baseline, patient had, or patient currently has, at least ONE of the following'. The member's PCOS predates the episode by seven years, so the point does not arise here.",
+      "Anaemia, migraine, acne, anxiety and plantar fasciitis are correctly excluded by the payer; none is on the list."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-25 note was submitted and reviewed. The qualifying diagnosis was in the submitted material and was not identified.",
+    "expected_evidence": [
+      {
+        "criterion_name": "baseline_bmi_27_plus_listed_comorbidity",
+        "evidence_present": true,
+        "evidence_text": "Polycystic ovary syndrome is assessment item 1, coded E28.2, diagnosed in 2019 on Rotterdam criteria with oligomenorrhoea, clinical and biochemical hyperandrogenism and polycystic morphology on ultrasound. It is discussed at length in the subjective section and addressed in plan item 2. It appears verbatim on the policy's comorbidity list.",
+        "evidence_location": "SUBJECTIVE, PCOS paragraph; ASSESSMENT item 1; PLAN item 2",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_27_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 6 in with weights 179 lb (BMI 28.9), 176 lb (BMI 28.4) and 174 lb (BMI 28.1). All above 27.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "evidence_present": true,
+        "evidence_text": "Dietitian consultation 01/19/2026 with calorie target and food logging, review 03/23/2026, and continuation to 05/25/2026 without a break — 126 days to the note and 133 days to the request.",
+        "evidence_location": "WEIGHT MANAGEMENT section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 06/08/1994; age 31 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "evidence_present": true,
+        "evidence_text": "Plan item 1 states she will continue the dietitian's plan and the strength sessions alongside any medication.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "baseline_bmi_27_plus_listed_comorbidity",
+        "status": "satisfied",
+        "reason": "BMI 28.1 kg/m2 with polycystic ovary syndrome, a diagnosis named on the policy's comorbidity list and documented since 2019."
+      },
+      {
+        "criterion_name": "baseline_bmi_27_or_greater",
+        "status": "satisfied",
+        "reason": "All recorded values are between 28.1 and 28.9 kg/m2."
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "status": "satisfied",
+        "reason": "Documented from 01/19/2026, 133 days to the request, with no break recorded."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 31."
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "status": "satisfied",
+        "reason": "The plan continues the dietitian's programme and strength sessions alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "Polycystic ovary syndrome is expressly named on the policy's list of weight-related comorbidities and is the principal diagnosis in the submitted note.",
+      "The member's BMI of 28.1 kg/m2 satisfies the 27 kg/m2 threshold, so the comorbidity route is available.",
+      "The three-month behavioural and dietary trial is documented from January 2026 and is not disputed.",
+      "The conditions the payer enumerated are indeed non-qualifying, but the review omitted the diagnosis that does qualify."
+    ],
+    "unsupported_claims": [
+      "That the member's BMI reaches 30 kg/m2.",
+      "That anaemia, migraine, acne, anxiety or plantar fasciitis is a qualifying comorbidity.",
+      "That semaglutide is indicated to treat the hormonal features of polycystic ovary syndrome."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Polycystic ovary syndrome was diagnosed in 2019 on Rotterdam criteria and is assessment item 1 in the submitted note, coded E28.2.",
+      "Documented BMI on May 25, 2026 was 28.1 kg/m2, with height 5 feet 6 inches and weight 174 pounds.",
+      "Recorded BMI values in the episode are 28.9, 28.4 and 28.1 kg/m2.",
+      "A dietitian consultation on January 19, 2026 set a 1,500 kcal/day target and started food logging, with review on March 23, 2026.",
+      "The member was 31 years of age at the time of the request.",
+      "Polycystic ovarian syndrome appears on the policy's enumerated list of weight-related comorbidities.",
+      "The member has used no prescription weight-loss medication and has no GLP-1 receptor agonist exposure."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member's BMI is 30 kg/m2 or greater.",
+      "The member has type 2 diabetes, hypertension, dyslipidemia or obstructive sleep apnea.",
+      "The member has insulin resistance amounting to a listed comorbidity.",
+      "Iron deficiency anaemia, migraine, acne, anxiety or plantar fasciitis is a qualifying weight-related comorbidity.",
+      "Semaglutide is indicated for the treatment of polycystic ovary syndrome.",
+      "The member failed a trial of another anti-obesity agent."
+    ]
+  },
+  "files": {
+    "denial": "case_017_denial.txt",
+    "note": "case_017_note.txt"
+  }
+}

@@ -1,0 +1,106 @@
+CASTLEFORD INTERNAL MEDICINE
+Office Visit Note
+
+PATIENT:          Delgadillo, Ignacio F.
+MRN:              MRN-200272
+DOB:              04/16/1971          AGE: 55          SEX: Male
+DATE OF SERVICE:  05/04/2026
+PROVIDER:         Beatrix H. Nwachukwu, MD — Internal Medicine (PRV-SYN-2795)
+VISIT TYPE:       Established patient, medication follow-up
+
+
+REASON FOR VISIT
+Liraglutide review; reauthorization paperwork.
+
+
+SUBJECTIVE
+
+Mr. Delgadillo has been on liraglutide since November. He tolerated the titration well after the
+first fortnight and has been on 3 mg daily since early December.
+
+He is realistic about his response. He describes it as "steady, not spectacular," and says the
+main benefit is that he stopped grazing in the evenings. He has not regained at any point.
+
+He continues the dietary work he started before the medication — he has been with our dietitian
+since October and goes monthly. He swims twice a week and has taken up bowls on Thursdays with a
+group from work.
+
+No vomiting, no abdominal pain. No gallbladder or pancreatic history.
+
+Blood pressure controlled on ramipril and indapamide.
+
+Back pain: chronic lumbar, better with the weight down, managed with paracetamol and stretches.
+
+No tobacco. Alcohol four to six units weekly. Works as a warehouse supervisor.
+
+
+TREATMENT COURSE
+
+  10/13/2025   Dietitian consultation, Mr. Aurelio Santangelo, RD. Calorie target set; food
+               diary started. Monthly reviews since, continuing to date.
+  11/10/2025   Liraglutide (Saxenda) started at 0.6 mg daily. Weight recorded this date.
+  12/2025      Reached 3 mg daily. Remains on this dose.
+  02/09/2026   Interval review. Continuing 3 mg daily.
+  05/04/2026   Today. Continuing 3 mg daily, uninterrupted since 11/10/2025.
+
+Liraglutide is his only exposure to this class of medication.
+
+
+CURRENT MEDICATIONS
+
+  liraglutide (Saxenda) 3 mg subcutaneously daily
+  ramipril 5 mg PO daily
+  indapamide 2.5 mg PO daily
+  paracetamol 1 g PO PRN
+
+
+OBJECTIVE
+
+BP 126/78    HR 70    Temp 98.1 F
+Height:  5 ft 7 in (67 in)
+Weight:  217 lb
+BMI:     34.0 kg/m²
+
+Weights on file:
+  11/10/2025   227 lb   (BMI 35.5)   — recorded on the day liraglutide was started
+  02/09/2026   221 lb   (BMI 34.6)
+  05/04/2026   217 lb   (BMI 34.0)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender, no
+right upper quadrant tenderness. Lumbar spine with mild paraspinal tenderness, no neurological
+deficit. No peripheral oedema.
+
+Laboratory (04/20/2026):
+  Hemoglobin A1c        5.8 %
+  Fasting glucose       101 mg/dL
+  Lipase                29 U/L
+  ALT                   24 U/L
+  Total cholesterol     188 mg/dL
+  LDL                   110 mg/dL
+  HDL                   45 mg/dL
+  Triglycerides         152 mg/dL
+  Creatinine            1.0 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.0 kg/m² (Z68.34), with a steady response to liraglutide and no regain
+   at any recorded interval.
+2. Essential hypertension (I10) — controlled.
+3. Chronic low back pain (M54.50) — improved.
+4. Prediabetes (R73.03), A1c 5.8 percent.
+
+
+PLAN
+
+1. Obesity. Continue liraglutide 3 mg daily. Reauthorization request to be submitted with this
+   note. Continue Mr. Santangelo's plan, the swimming and the Thursday bowls.
+2. Hypertension. Continue ramipril and indapamide.
+3. Back. Continue stretches; physiotherapy if symptoms worsen.
+4. Prediabetes. Repeat A1c in 6 months.
+
+Return in 3 months.
+
+
+Beatrix H. Nwachukwu, MD
+Electronically signed 05/04/2026 15:40

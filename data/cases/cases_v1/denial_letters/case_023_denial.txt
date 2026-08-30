@@ -1,0 +1,75 @@
+UnitedHealthcare
+Prior Authorization Determination — Pharmacy Benefit
+
+Date of determination:   May 18, 2026
+Authorization number:    AUTH-UHC-2026-000301
+Member:                  Tobias R. Vandersteen
+Member ID:               MEM-UHC-250
+Patient identifier:      MRN-200250
+Date of birth:           02/03/2011
+Plan:                    Commercial employer group pharmacy benefit (fully insured, Ohio)
+Prescriber:              Marguerite A. Sokolova, MD — Pediatrics
+Prescriber ID:           PRV-SYN-2573
+Date request received:   May 11, 2026
+
+
+ADVERSE DETERMINATION — COVERAGE NOT AUTHORIZED
+
+
+Dear Parent or Guardian of Tobias R. Vandersteen,
+
+We have completed our review of the prior authorization request submitted for your child.
+
+  Drug requested:        Zepbound (tirzepatide) injection
+  Dose requested:        2.5 mg subcutaneously weekly, titrated per labeling
+  Indication submitted:  Weight loss
+  Type of review:        Initial authorization
+
+
+DETERMINATION
+
+Coverage is not authorized.
+
+
+BASIS FOR DETERMINATION
+
+The age requirement for Zepbound under this program is greater than 16 years. The patient is 15
+years of age.
+
+
+CLINICAL REVIEW SUMMARY
+
+Coverage program applied: UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior
+Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage
+(Program Number 2026 P 1114-20, effective 5/1/2026). Section 2, Coverage Criteria, A. Initial
+Authorization.
+
+That section requires one of the following age criteria: "Patient is ≥ 12 years of age (for
+Qsymia, Saxenda, Wegovy injection and Xenical)" or "Patient is > 16 years of age (for all other
+medications)". Zepbound is not among the products in the first group, so the second criterion
+applies.
+
+Documentation reviewed:
+  - Prior authorization request form received May 11, 2026
+  - Pediatric office note dated May 4, 2026, Alderbrook Pediatrics
+
+The patient's date of birth is 02/03/2011, making him 15 years of age at the date of this
+request. The requested product requires an age greater than 16 years.
+
+The remaining criteria are addressed on the submitted record. The body mass index of 35.3 kg/m²
+satisfies the body mass index criterion, the indication is a covered one, and lifestyle
+modification is documented. The age criterion is nonetheless determinative.
+
+
+RECONSIDERATION AND APPEAL
+
+You, or the prescriber acting as your authorized representative, may request an appeal of this
+determination under the terms of the benefit plan. You may submit additional information in
+support of the request.
+
+For the appeal procedures and timeframes that apply to this plan, or for questions about this
+notice, please contact the number for Member Services printed on the health plan ID card.
+
+
+UnitedHealthcare Pharmacy Prior Authorization
+Determination made by a licensed clinical reviewer

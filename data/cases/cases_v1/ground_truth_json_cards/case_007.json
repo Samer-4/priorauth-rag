@@ -1,0 +1,233 @@
+{
+  "case_id": "case_007",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Chronic Weight Management (Adult)",
+    "case_types": [
+      "policy_mismatch"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-05-18",
+      "request_date": "2026-05-26",
+      "denial_date": "2026-06-02",
+      "note_type": "family_medicine_progress_note",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The member meets every criterion this policy contains, and genuinely has not trialled the agents the denial names. The pipeline cannot resolve the case by finding the evidence; it has to decide whether the requirement exists. The denial is also written to be superficially credible: it concedes the criteria that are met, which is how a real misapplied step-therapy denial reads."
+  },
+  "patient": {
+    "name": "Adaeze N. Okwuosa",
+    "mrn": "MRN-200074",
+    "member_id": "MEM-AET-074",
+    "age": 55,
+    "dob": "1970-09-12",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.36 BMI 36.0-36.9, adult",
+      "I10 essential hypertension",
+      "M25.561 pain in right knee",
+      "M25.562 pain in left knee",
+      "N95.1 menopausal and female climacteric states"
+    ],
+    "comorbidities": [
+      "essential hypertension"
+    ],
+    "relevant_measurements": {
+      "bmi": 36.4,
+      "weight_lb": 212,
+      "height_in": 64,
+      "bmi_history": [
+        { "date": "2025-09-15", "weight_lb": 219, "bmi": 37.6 },
+        { "date": "2025-12-08", "weight_lb": 216, "bmi": 37.1 },
+        { "date": "2026-03-16", "weight_lb": 213, "bmi": 36.6 },
+        { "date": "2026-05-18", "weight_lb": 212, "bmi": 36.4 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Bernard L. Kaczmarek, MD",
+    "specialty": "Family Medicine",
+    "practice": "Ridgefield Family Practice",
+    "provider_id": "PRV-SYN-0918"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "step_therapy_not_satisfied",
+    "denial_reason_text": "Coverage requires documented trial and failure of at least two preferred anti-obesity agents, phentermine and naltrexone/bupropion, before a GLP-1 receptor agonist is approved; no trial of either is documented.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "documented trial and failure of at least two preferred anti-obesity agents, specifically phentermine and naltrexone/bupropion (Contrave), prior to approval of a GLP-1 receptor agonist",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "requirement_not_in_policy",
+      "denial_asserts": "documented trial and failure of phentermine and naltrexone/bupropion before a GLP-1 receptor agonist",
+      "policy_actually_requires_text": null,
+      "explanation": "No step-therapy requirement of any kind exists in this document. See policy_mismatch_detail.absence_proof_terms."
+    },
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-05-26",
+      "Office visit note dated 2026-05-18",
+      "Elmcrest Health Partners programme records"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": false,
+    "criterion_applies": false,
+    "criteria": [],
+    "policy_mismatch_detail": {
+      "claimed_requirement": "Documented trial and failure of at least two preferred anti-obesity agents, phentermine and naltrexone/bupropion, before a GLP-1 receptor agonist is approved.",
+      "why_not_grounded": "This document contains no step-therapy requirement, no preferred-agent hierarchy, and no requirement to trial any other weight-loss product before Saxenda, Wegovy or Zepbound. Its adult chronic weight management pathway has exactly four criteria: use with a reduced calorie diet and increased physical activity, age 18 or older, a six-month comprehensive weight management program, and a baseline BMI of 35 kg/m2 or greater. Neither phentermine nor naltrexone/bupropion nor Contrave is named anywhere in the document.",
+      "nearest_related_policy_language": "The patient had a baseline body mass index (BMI) greater than or equal to 35 kg/m2 at the start of drug therapy for weight loss",
+      "nearest_related_policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+      "additional_distractor_language": [
+        "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy"
+      ],
+      "additional_distractor_note": "The nearest language mentioning prior weight-loss drug therapy is the continuation criterion's phrase 'at the start of drug therapy for weight loss'. It presupposes that drug therapy may already have occurred; it does not require it. The six-month program criterion is the only prerequisite of any kind in the initial pathway, and it concerns a lifestyle program, not pharmacotherapy.",
+      "distractor_warning": "Correct Stage 2 behavior is to report that the asserted step-therapy requirement cannot be grounded in this policy. It must not be mapped onto the six-month program criterion, onto the continuation criterion's reference to prior drug therapy, or onto the FDA Limitations of Use text about coadministration with other GLP-1 receptor agonists, which concerns concurrent use rather than prior trial.",
+      "cross_payer_confusion_risk": "Neither cigna_glp1_prior_auth.txt nor uhc_weight_loss_prior_auth.txt contains a step-therapy requirement either. The UnitedHealthcare document does list phentermine, Contrave and orlistat, but as products it covers under the same program, not as prerequisites for anything.",
+      "absence_proof_terms": [
+        "step therapy",
+        "step-therapy",
+        "phentermine",
+        "contrave",
+        "naltrexone",
+        "bupropion",
+        "orlistat",
+        "metformin"
+      ],
+      "absence_proof_note": "None of these terms occurs anywhere in the authoritative Aetna document."
+    },
+    "criteria_actually_applicable_and_met": [
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "met": true
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "met": true
+      },
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 35 kg/m2, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+        "met": true
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "requirement": "The requested drug will be used with a reduced calorie diet and increased physical activity for chronic weight management.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "used with a reduced calorie diet and increased physical activity for chronic weight management",
+        "met": true
+      }
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "Everything was submitted and reviewed. The payer's factual account of the record is accurate, including its correct observation that no anti-obesity pharmacotherapy has been used. The error is that the requirement does not exist.",
+    "expected_evidence": [
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "Seven dated Elmcrest Health Partners contacts from 09/15/2025 through 04/27/2026, a span of 224 days, covering calorie target and food diary, behavioural group sessions, and a stepped-up activity prescription.",
+        "evidence_location": "ELMCREST HEALTH PARTNERS — PROGRAMME RECORD",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 4 in, weight 212 lb, BMI 36.4 kg/m2 on 05/18/2026; highest recorded 219 lb, BMI 37.6, on 09/15/2025.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 09/12/1970; age 55 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "evidence_present": true,
+        "evidence_text": "Plan states she will continue the 1,400 to 1,600 kcal pattern, the walking and the Tuesday strength class alongside the medication.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "claimed_step_therapy_trial",
+        "evidence_present": false,
+        "evidence_text": "The medication history states that no prescription weight-loss medication has been used, currently or at any time in the past. The member has genuinely not trialled phentermine or naltrexone/bupropion. The requirement is nonetheless absent from the policy.",
+        "evidence_location": "MEDICATION HISTORY",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No trial of any anti-obesity pharmacotherapy exists in the record. This is a documented absence, not an omission from the submission, and it is not material because the requirement is not in the policy.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "criterion_not_found",
+    "per_criterion": []
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "policy_mismatch",
+    "expected_position": "policy_mismatch",
+    "supported_claims": [
+      "The step-therapy requirement the denial relies on does not appear in the clinical policy bulletin the denial itself cites.",
+      "The adult chronic weight management pathway in that policy has four criteria and none of them concerns prior pharmacotherapy.",
+      "On the criteria the policy does contain, the record supports authorization: age 55, a 224-day comprehensive program, BMI 36.4 kg/m2, and continued diet and activity alongside the drug."
+    ],
+    "unsupported_claims": [
+      "That the member trialled and failed phentermine or naltrexone/bupropion.",
+      "That the member has a documented contraindication to either agent.",
+      "That a step-therapy requirement exists in this policy and was merely misapplied to the facts."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the requirement applied is not found in the cited policy, quote the four criteria that policy does contain, and point to the record evidence satisfying each. Do not argue that step therapy was completed or that an exception to it is warranted, since arguing for an exception concedes that the requirement exists."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Seven dated programme contacts are documented from September 15, 2025 through April 27, 2026, a span of 224 days.",
+      "The programme included dietitian sessions, a fortnightly behavioural group, and a stepped-up activity prescription.",
+      "Documented BMI on May 18, 2026 was 36.4 kg/m2, with height 5 feet 4 inches and weight 212 pounds.",
+      "The member was 55 years of age at the time of the request.",
+      "The plan of care continues a 1,400 to 1,600 kcal pattern, daily walking and a weekly strength class alongside the medication.",
+      "The member has used no prescription weight-loss medication at any time and has no GLP-1 receptor agonist exposure.",
+      "The cited Aetna policy contains no step-therapy requirement."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member trialled phentermine.",
+      "The member trialled naltrexone/bupropion or Contrave.",
+      "The member has a contraindication to phentermine or naltrexone/bupropion.",
+      "Aetna's policy requires a trial of a preferred anti-obesity agent before Wegovy.",
+      "The member qualifies at a BMI of 30 kg/m2, or at 27 kg/m2 with a comorbidity.",
+      "The member has type 2 diabetes.",
+      "The member meets the continuation-of-therapy criteria."
+    ]
+  },
+  "files": {
+    "denial": "case_007_denial.txt",
+    "note": "case_007_note.txt"
+  }
+}

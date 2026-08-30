@@ -1,0 +1,143 @@
+HALLOWAY RHEUMATOLOGY AND INTERNAL MEDICINE
+Combined Rheumatology / Primary Care Visit
+
+PATIENT:          Achterberg, Georgina F.
+MRN:              MRN-200096
+DOB:              12/03/1975          AGE: 50          SEX: Female
+DATE OF SERVICE:  02/24/2026
+PROVIDER:         Teodora V. Iliescu, MD — Rheumatology (PRV-SYN-1137)
+VISIT TYPE:       Established patient, multi-problem review
+
+
+REASON FOR VISIT
+Quarterly rheumatoid arthritis review, methotrexate monitoring, post-operative follow-up, and
+several outstanding issues including weight.
+
+
+SUBJECTIVE
+
+Rheumatoid arthritis (seropositive, diagnosed 2016). Disease activity is low. Morning stiffness
+is down to about 20 minutes. She reports no swollen joints since November. DAS28-CRP at the last
+assessment was 2.4. She has tolerated methotrexate 20 mg weekly with folic acid; no mouth
+ulcers, no nausea since moving to the subcutaneous route in 2024. Hydroxychloroquine continues.
+She asks whether she can reduce the methotrexate; I have advised holding steady for another six
+months given how long it took to get here.
+
+Cholecystectomy 09/2025 for symptomatic cholelithiasis. Recovery uneventful. No further biliary
+colic. Incisions well healed. She has had looser stools since, improving, no blood, no
+nocturnal symptoms.
+
+Hypothyroidism, autoimmune. TSH 2.7 on levothyroxine 100 mcg. No symptoms.
+
+B12 deficiency, on three-monthly hydroxocobalamin since 2023. Last level 512.
+
+Osteopenia on DEXA 06/2025, T-score -1.8 at the femoral neck. On calcium and vitamin D. No
+fragility fractures. Given long-term steroid exposure earlier in her disease course, we will
+repeat DEXA in 2027.
+
+Depression, recurrent, in remission on sertraline 100 mg for three years. PHQ-9 today is 4. No
+suicidal ideation. She is stable and does not wish to change anything.
+
+Migraine, episodic, two to three per month, managed with rizatriptan.
+
+Weight. This is what she most wants to discuss. She has been in the Corvale programme since
+August and finished it in February. She followed the eating plan, kept the diary, and did the
+seated and pool-based exercise sessions that her joints allow. She lost seven pounds and has not
+been able to shift more. She is frustrated because she knows her weight is worsening her knees
+and making the arthritis harder to manage, and she asks directly whether medication is an
+option for her. She has never taken any weight-loss medication.
+
+Social: works part time as a library assistant. Non-smoker. No alcohol. Lives with her partner.
+
+
+CORVALE WEIGHT MANAGEMENT PROGRAMME
+
+Programme records reconciled into the chart:
+
+  08/11/2025   Intake, Dorothy Nkosi, RD. Calorie target set, food diary started, activity
+               prescription adapted for joint limitation.
+  09/15/2025   Dietitian review. Diary adherence good.
+  10/13/2025   Behavioural group — hunger cues.
+  11/24/2025   Dietitian review. Pool sessions added twice weekly.
+  12/22/2025   Behavioural group — festive-period planning.
+  01/26/2026   Dietitian review. Seated strength circuit added.
+  02/16/2026   Programme discharge; summary letter issued by Nkosi RD.
+
+
+CURRENT MEDICATIONS
+
+  methotrexate 20 mg subcutaneously weekly
+  folic acid 5 mg PO weekly
+  hydroxychloroquine 200 mg PO twice daily
+  levothyroxine 100 mcg PO daily
+  sertraline 100 mg PO daily
+  rizatriptan 10 mg PO PRN
+  calcium carbonate / cholecalciferol PO daily
+  hydroxocobalamin 1 mg IM every 3 months
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 122/74    HR 76    Temp 98.1 F
+Height:  5 ft 2 in (62 in)
+Weight:  225 lb
+BMI:     41.1 kg/m²
+
+Weights on file:
+  08/11/2025   232 lb   (BMI 42.4)
+  11/24/2025   228 lb   (BMI 41.7)
+  02/24/2026   225 lb   (BMI 41.1)
+
+Joint exam: No swollen joints. Tender joint count 2 (right second MCP, left wrist). No synovitis
+at the knees, crepitus bilaterally. Abdomen soft, port sites healed. No peripheral oedema.
+
+Laboratory (02/09/2026):
+  Hemoglobin A1c        5.8 %
+  CRP                   4 mg/L
+  ESR                   18 mm/hr
+  Hemoglobin            12.6 g/dL
+  White cell count      6.1 x10^9/L
+  Platelets             268 x10^9/L
+  ALT                   22 U/L
+  Creatinine            0.8 mg/dL
+  TSH                   2.7 mIU/L
+  Vitamin B12           512 pg/mL
+
+
+ASSESSMENT
+
+1. Seropositive rheumatoid arthritis (M05.79), low disease activity on methotrexate and
+   hydroxychloroquine.
+2. Obesity (E66.01), BMI 41.1 kg/m² (Z68.41). Completed a structured programme with a modest
+   response and a sustained plateau. Weight is a material contributor to her knee symptoms and
+   to her overall functional limitation.
+3. Autoimmune hypothyroidism (E06.3) — euthyroid.
+4. Status post laparoscopic cholecystectomy 09/2025 (Z90.49) — recovered.
+5. Osteopenia (M85.80) — on supplementation, repeat DEXA 2027.
+6. Recurrent depressive disorder in remission (F33.42).
+7. Vitamin B12 deficiency (E53.8) — replaced.
+8. Episodic migraine (G43.709).
+
+
+PLAN
+
+1. Rheumatoid arthritis. Continue methotrexate 20 mg weekly and hydroxychloroquine. Monitoring
+   bloods in 3 months.
+2. Obesity. Discussed pharmacotherapy in detail, including gastrointestinal side effects,
+   contraindications, and the requirement to continue dietary and activity work alongside. No
+   personal or family history of medullary thyroid carcinoma or MEN2. Prior cholecystectomy
+   noted and discussed; no residual biliary risk. Will submit prior authorization for
+   semaglutide (Wegovy) at 0.25 mg weekly with label titration. She will continue the Corvale
+   eating plan and the pool and seated exercise sessions.
+3. Thyroid. Continue levothyroxine 100 mcg daily.
+4. Bone health. Continue calcium and vitamin D.
+5. Mood. Continue sertraline 100 mg daily, no change.
+6. Migraine. Continue rizatriptan as needed.
+
+Return in 3 months, sooner if weight-loss medication is started.
+
+
+Teodora V. Iliescu, MD
+Electronically signed 02/24/2026 16:55

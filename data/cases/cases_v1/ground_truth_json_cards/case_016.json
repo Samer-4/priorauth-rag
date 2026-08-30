@@ -1,0 +1,245 @@
+{
+  "case_id": "case_016",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "2.5 mg/0.5 mL subcutaneous once weekly, requested as an addition to existing Ozempic therapy",
+    "request_type": "initial_authorization",
+    "policy_pathway": "CONDITIONS NOT COVERED — 1. Concomitant Use with GLP-1 Agonists or GLP-1/GIP Agonists; with V. Zepbound, 1. Weight Loss in an Adult, A) Initial Therapy otherwise satisfied",
+    "case_types": [
+      "straightforward",
+      "weak_appeal"
+    ],
+    "difficulty": "easy",
+    "episode": {
+      "note_date": "2026-03-09",
+      "request_date": "2026-03-16",
+      "denial_date": "2026-03-23",
+      "note_type": "endocrinology_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Every inclusion criterion is met and the case still fails, because an exclusion applies. The structure probes whether the pipeline checks the Conditions Not Covered section at all, rather than stopping once the inclusion criteria are satisfied. The clinical framing is sympathetic and the prescriber has documented reservations, which makes an over-eager appeal tempting."
+  },
+  "patient": {
+    "name": "Lucinda P. Bhattacharya",
+    "mrn": "MRN-200173",
+    "member_id": "MEM-CIG-173",
+    "age": 45,
+    "dob": "1980-10-17",
+    "sex": "female",
+    "diagnoses": [
+      "E11.9 type 2 diabetes mellitus without complications",
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult",
+      "I10 essential hypertension",
+      "E78.5 dyslipidemia, unspecified"
+    ],
+    "comorbidities": [
+      "type 2 diabetes mellitus",
+      "essential hypertension",
+      "dyslipidemia"
+    ],
+    "relevant_measurements": {
+      "bmi": 34.7,
+      "weight_lb": 196,
+      "height_in": 63,
+      "bmi_history": [
+        { "date": "2025-09-08", "weight_lb": 200, "bmi": 35.4 },
+        { "date": "2025-12-15", "weight_lb": 198, "bmi": 35.1 },
+        { "date": "2026-03-09", "weight_lb": 196, "bmi": 34.7 }
+      ],
+      "a1c_percent": 6.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "Ozempic (semaglutide) 1 mg weekly since 2024, prescribed for type 2 diabetes and continuing"
+  },
+  "provider": {
+    "name": "Gregor A. Lindqvist-Mbeki, MD",
+    "specialty": "Endocrinology",
+    "practice": "Wexford Endocrinology",
+    "provider_id": "PRV-SYN-1804"
+  },
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "concomitant_glp1_use_excluded",
+    "denial_reason_text": "Zepbound is requested as an addition to ongoing Ozempic therapy. Concomitant use of a GLP-1/GIP agonist with a GLP-1 agonist is not covered under this policy.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" CONDITIONS NOT COVERED, 1. Concomitant Use with Glucagon-Like Peptide-1 (GLP-1) Agonists or GLP-1/Glucose-Dependent Insulinotropic Polypeptide (GIP) Agonists",
+    "cited_requirement_text": "The GLP-1 agonists and the GLP-1/GIP agonist should not be combined with each other or with any other GLP-1 agonists or GLP-1/GIP agonist.",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-03-16",
+      "Endocrinology office note dated 2026-03-09"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "exclusion_concomitant_glp1_or_glp1_gip_use",
+        "requirement": "The GLP-1 agonists and the GLP-1/GIP agonist are not to be combined with each other or with any other GLP-1 agonist or GLP-1/GIP agonist. Ozempic is named as an example of another GLP-1 agonist.",
+        "policy_reference": "CONDITIONS NOT COVERED — 1. Concomitant Use with Glucagon-Like Peptide-1 (GLP-1) Agonists or GLP-1/GIP Agonists",
+        "policy_support_text": "The GLP-1 agonists and the GLP-1/GIP agonist should not be combined with each other or with any other GLP-1 agonists or GLP-1/GIP agonist.",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "exclusion_ozempic_named_as_example",
+        "requirement": "Ozempic is expressly named among the other GLP-1 agonists the excluded combination refers to.",
+        "policy_reference": "CONDITIONS NOT COVERED — 1., examples",
+        "policy_support_text": "Ozempic (semaglutide tablets and SC injection)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult with Overweight or Obesity — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(a)",
+        "policy_support_text": "At baseline, patient had a BMI >= 30 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "V. Zepbound — 1. Weight Loss in an Adult — A) Initial Therapy, criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The exclusion sits in CONDITIONS NOT COVERED and operates independently of the inclusion criteria. Satisfying every criterion in section V does not displace it.",
+      "This policy has no type 2 diabetes exclusion for the weight-loss pathway; type 2 diabetes is in fact one of the listed weight-related comorbidities. The member's diabetes is not the problem — the concurrent GLP-1 agonist is.",
+      "The member's Ozempic is prescribed for diabetes rather than weight management. The exclusion is drafted around combination of the agents, not around the indication for which each is prescribed."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-03-09 note was submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "exclusion_concomitant_glp1_or_glp1_gip_use",
+        "evidence_present": true,
+        "evidence_text": "Medication list records semaglutide (Ozempic) 1 mg subcutaneously weekly marked 'continuing'. Plan item 1 continues Ozempic unchanged and plan item 2 requests tirzepatide 'to be added to current therapy at the patient's request'. The subjective section records that she does not want to stop Ozempic.",
+        "evidence_location": "CURRENT MEDICATIONS; PLAN items 1 and 2; SUBJECTIVE",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "exclusion_ozempic_named_as_example",
+        "evidence_present": true,
+        "evidence_text": "Not a clinical fact; the policy names Ozempic in its examples, which removes any question about whether the member's agent falls within the exclusion.",
+        "evidence_location": "Not applicable — policy text only",
+        "evidence_type": "indirect"
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "evidence_present": true,
+        "evidence_text": "Dietitian sessions on 11/24/2025, 12/22/2025, 01/26/2026 and 02/23/2026 with calorie target, food logging and a walking programme maintained throughout — a span of 91 days to the last session and 112 days to the request.",
+        "evidence_location": "SUBJECTIVE, dietary and behavioural paragraph",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 3 in with weights 200 lb (BMI 35.4), 198 lb (BMI 35.1) and 196 lb (BMI 34.7). All above 30.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 10/17/1980; age 45 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No documentation of any plan to discontinue Ozempic. The note records the opposite, and the prescriber states that switching would be discussed only after this determination.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "exclusion_concomitant_glp1_or_glp1_gip_use",
+        "status": "not_satisfied",
+        "reason": "Zepbound, a GLP-1/GIP agonist, is requested as an addition to ongoing Ozempic, a GLP-1 agonist named in the policy's own examples. The excluded combination is exactly what has been requested."
+      },
+      {
+        "criterion_name": "exclusion_ozempic_named_as_example",
+        "status": "satisfied",
+        "reason": "Recorded to confirm the member's concurrent agent is within the scope of the exclusion rather than merely similar to it."
+      },
+      {
+        "criterion_name": "behavioral_and_dietary_trial_3_months",
+        "status": "satisfied",
+        "reason": "Four monthly dietitian sessions from 11/24/2025 to 02/23/2026 with continuous calorie target and activity programme."
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "All recorded BMI values are above 34."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 45."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "Every inclusion criterion in the Zepbound adult weight-loss pathway is satisfied.",
+      "The denial accurately quotes the exclusion and accurately describes the request.",
+      "The member's Ozempic is prescribed for diabetes rather than for weight management."
+    ],
+    "unsupported_claims": [
+      "That the exclusion does not apply because the two drugs are prescribed for different indications.",
+      "That satisfying the inclusion criteria overcomes an exclusion in Conditions Not Covered.",
+      "That the member intends to discontinue Ozempic; the record states the opposite."
+    ],
+    "correct_next_step": "Advise that the denial cannot be overturned as submitted. The productive route is the one the prescriber has already flagged: a request to switch from Ozempic to tirzepatide rather than to add it, which would take the request outside the exclusion. That is a new request on different facts, not an appeal of this determination."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The member has taken Ozempic 1 mg weekly since 2024 for type 2 diabetes.",
+      "The request is for Zepbound to be added to, not to replace, the existing Ozempic therapy.",
+      "Documented BMI on March 9, 2026 was 34.7 kg/m2, with height 5 feet 3 inches and weight 196 pounds.",
+      "Dietitian sessions are documented on November 24, 2025, December 22, 2025, January 26, 2026 and February 23, 2026.",
+      "Hemoglobin A1c on February 23, 2026 was 6.6 percent.",
+      "The member was 45 years of age at the time of the request.",
+      "The policy names Ozempic among its examples of other GLP-1 agonists."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has stopped or plans to stop Ozempic.",
+      "The request is for a switch rather than an addition.",
+      "The exclusion does not apply where the two agents are prescribed for different indications.",
+      "The member has never been exposed to a GLP-1 agonist.",
+      "The member's type 2 diabetes disqualifies her from the weight-loss pathway.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat."
+    ]
+  },
+  "files": {
+    "denial": "case_016_denial.txt",
+    "note": "case_016_note.txt"
+  }
+}

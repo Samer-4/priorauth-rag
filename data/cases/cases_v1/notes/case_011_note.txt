@@ -1,0 +1,111 @@
+KETTERING FAMILY HEALTH CENTER
+Family Medicine — Office Visit Note
+
+PATIENT:          Okonjo, Bettina L.
+MRN:              MRN-200118
+DOB:              01/08/1983          AGE: 43          SEX: Female
+DATE OF SERVICE:  07/06/2026
+PROVIDER:         Rosario D. Villaseñor, MD — Family Medicine (PRV-SYN-1358)
+VISIT TYPE:       Established patient, medication follow-up
+
+
+REASON FOR VISIT
+Semaglutide follow-up; continuation paperwork; wants to move to mail-order supply.
+
+
+SUBJECTIVE
+
+Ms. Okonjo continues to do well on semaglutide. Early nausea and constipation resolved by the
+third month. No vomiting, no abdominal pain, no gallbladder symptoms. Appetite control remains
+good and she describes food noise as "much quieter."
+
+She reached the 2.4 mg dose in March and has stayed there since. She has not needed a dose
+reduction and has not missed doses.
+
+She raises a practical problem: she now travels for work three weeks in four and finds monthly
+pharmacy pickups difficult. She asks to move to a 90-day mail-order supply. I have written the
+request accordingly for four packages per 90-day fill.
+
+She continues the eating pattern set out with the dietitian last autumn and does a 40-minute
+gym circuit three times weekly plus walking on travel days.
+
+Menstrual cycles regular. Using a copper intrauterine device. No pregnancy plans; counselled
+again that the medication should be stopped in advance of any planned pregnancy.
+
+No tobacco. Alcohol occasional. Works in logistics.
+
+
+TREATMENT COURSE
+
+  10/2025      Dietitian consultation series began, Mr. Deshaun Whitlock, RD. Reduced-calorie
+               eating pattern established; activity plan agreed.
+  12/01/2025   Semaglutide (Wegovy) started at 0.25 mg weekly. Weight recorded this date at
+               treatment start.
+  02/02/2026   Escalated to 1.0 mg weekly. Tolerating.
+  03/16/2026   Escalated to 2.4 mg weekly. She has remained on this dose since, with no
+               reduction and no interruption.
+  05/11/2026   Interval check, continuing 2.4 mg weekly.
+  07/06/2026   Today, continuing 2.4 mg weekly.
+
+
+CURRENT MEDICATIONS
+
+  semaglutide (Wegovy) 2.4 mg subcutaneously weekly
+  copper intrauterine device (in situ)
+  cholecalciferol 2000 IU PO daily
+
+No other prescription weight-loss medication, current or prior. No other GLP-1 receptor agonist
+exposure.
+
+
+OBJECTIVE
+
+BP 116/72    HR 66    Temp 98.3 F
+Height:  5 ft 4 in (64 in)
+Weight:  199 lb
+BMI:     34.2 kg/m²
+
+Weight flowsheet:
+  12/01/2025   214 lb   (BMI 36.7)   — recorded at treatment start
+  02/02/2026   208 lb   (BMI 35.7)
+  03/16/2026   205 lb   (BMI 35.2)
+  05/11/2026   201 lb   (BMI 34.5)
+  07/06/2026   199 lb   (BMI 34.2)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender, no
+right upper quadrant tenderness. No peripheral oedema. Injection sites without induration.
+
+Laboratory (06/22/2026):
+  Hemoglobin A1c        5.3 %
+  Fasting glucose       86 mg/dL
+  Lipase                26 U/L
+  ALT                   17 U/L
+  Total cholesterol     168 mg/dL
+  LDL                   92 mg/dL
+  HDL                   56 mg/dL
+  Triglycerides         101 mg/dL
+  Creatinine            0.7 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.2 kg/m² (Z68.34), responding well to semaglutide with a steady
+   downward trend at every recorded interval and no plateau or regain.
+2. No metabolic complications; A1c and lipids normal.
+
+
+PLAN
+
+1. Obesity. Continue semaglutide 2.4 mg weekly. Continuation authorization to be submitted.
+   Continue the dietitian's eating pattern and the three-times-weekly gym circuit.
+2. Supply. Request 90-day mail-order fill, four packages per fill, to accommodate her travel
+   schedule.
+3. Monitoring. Repeat lipase and hepatic panel at 6 months. Reviewed symptoms that should
+   prompt urgent contact.
+4. Contraception. Continue intrauterine device; pre-pregnancy counselling repeated.
+
+Return in 3 months.
+
+
+Rosario D. Villaseñor, MD
+Electronically signed 07/06/2026 15:15

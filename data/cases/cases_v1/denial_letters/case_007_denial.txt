@@ -1,0 +1,84 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            June 2, 2026
+Authorization Reference:   AUTH-AET-2026-000601
+Review Tracking ID:        UM-RX-2026-06-0601
+
+Member Name:               Adaeze N. Okwuosa
+Member ID:                 MEM-AET-074
+Medical Record Number:     MRN-200074
+Date of Birth:             09/12/1970
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Bernard L. Kaczmarek, MD — Family Medicine
+Practice:                  Ridgefield Family Practice
+Provider ID:               PRV-SYN-0918
+Request Received:          May 26, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Ms. Okwuosa:
+
+We have completed our review of the prior authorization request submitted on your behalf.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        0.25 mg subcutaneously once weekly, titrated per prescribing
+                           information
+  Requested indication:    Chronic weight management
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+Coverage of this medication for chronic weight management requires documented trial and failure
+of at least two preferred anti-obesity agents, specifically phentermine and naltrexone/bupropion
+(Contrave), prior to approval of a GLP-1 receptor agonist. The submitted records do not document
+a trial of either agent.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," COVERAGE CRITERIA — Chronic Weight
+Management (Adult).
+
+Materials reviewed:
+  1. Prior authorization request form received May 26, 2026
+  2. Office visit note dated May 18, 2026, Ridgefield Family Practice
+  3. Nutrition and behavioral program records, Elmcrest Health Partners
+
+We confirm from the submitted records that you are 55 years of age, that your body mass index is
+36.4 kg/m², and that you participated in a comprehensive weight management program with
+continuing follow-up from September 2025 through April 2026. Those criteria are met and are not
+the reason for this decision.
+
+The submitted records contain no evidence of a trial of phentermine, and no evidence of a trial
+of naltrexone/bupropion. The medication history states that no prescription weight-loss
+medication has been used. Because the required prior agents have not been trialled, step therapy
+is not satisfied and the request is denied.
+
+Approval may be reconsidered on submission of records documenting an adequate trial of each
+required agent, or documentation of a clinical contraindication to each.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

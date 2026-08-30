@@ -1,0 +1,99 @@
+GREENFORD FAMILY MEDICINE
+Progress Note
+
+Patient:            Broussard, Imani S.
+MRN:                MRN-200151
+DOB:                03/25/1990     Age: 36     Sex: Female
+Date of service:    06/01/2026
+Clinician:          Marcus O. Delacroix-Byrne, MD (PRV-SYN-1685)
+Visit type:         Established patient, weight management follow-up
+
+
+REASON FOR VISIT
+Nine-month semaglutide review. Continuation paperwork due.
+
+
+SUBJECTIVE
+
+Ms. Broussard has done well. She reached 2.4 mg in February and has stayed there. Nausea in the
+first two months has resolved entirely. No vomiting, no abdominal pain, no gallbladder symptoms.
+
+She reports that the change has been as much behavioural as pharmacological — she cooks most
+evenings now, has stopped the drive-through habit on the way home from her shift, and goes to a
+Tuesday and Thursday spin class plus a Saturday walk with a friend.
+
+Her weight at the start, before any of this, was 205 pounds. Today she is 189 pounds. That is a
+16 pound loss, a 7.8 percent reduction from baseline. She is pleased and wants to continue.
+
+Periods regular, no changes. No pregnancy plans; using an implant.
+
+Mood good. Sleep good.
+
+No tobacco. Alcohol occasional.
+
+
+TREATMENT COURSE
+
+  09/15/2025   Baseline assessment before any weight-loss pharmacotherapy. Weight recorded.
+               Dietitian plan started with Mr. Osric Bellamy, RD.
+  09/22/2025   Semaglutide (Wegovy) started at 0.25 mg weekly.
+  01/12/2026   Escalated stepwise; at 1.7 mg weekly at this visit.
+  02/2026      Reached 2.4 mg weekly. Remains on this dose.
+  06/01/2026   Today.
+
+No other GLP-1 agonist and no GLP-1/GIP receptor agonist has ever been used. Semaglutide is her
+first and only agent of this class, so the 09/15/2025 weight is the pre-GLP-1 baseline.
+
+
+CURRENT MEDICATIONS
+
+  semaglutide (Wegovy) 2.4 mg subcutaneously weekly
+  etonogestrel implant (in situ)
+  ferrous sulfate 325 mg PO alternate days
+
+
+OBJECTIVE
+
+BP 114/70    HR 64    Temp 98.2 F
+Height:  5 ft 5 in (65 in)
+Weight:  189 lb
+BMI:     31.4 kg/m²
+
+Weights on file:
+  09/15/2025   205 lb   (BMI 34.1)   — pre-treatment baseline
+  01/12/2026   196 lb   (BMI 32.6)
+  06/01/2026   189 lb   (BMI 31.4)
+
+Total reduction from baseline: 16 lb, 7.8 percent.
+
+Exam: Well-appearing. Cardiac regular. Lungs clear. Abdomen soft, non-tender, no right upper
+quadrant tenderness. No oedema.
+
+Laboratory (05/18/2026):
+  Hemoglobin A1c        5.2 %
+  Lipase                24 U/L
+  ALT                   16 U/L
+  Total cholesterol     171 mg/dL
+  LDL                   94 mg/dL
+  Ferritin              41 ng/mL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 31.4 kg/m² (Z68.31), responding well to semaglutide with a 7.8 percent
+   reduction from pre-treatment baseline.
+2. Iron deficiency without anemia (E61.1), improving on supplementation.
+
+
+PLAN
+
+1. Obesity. Continue semaglutide 2.4 mg weekly. Continuation request to be submitted with this
+   note. Continue the dietitian's plan and the spin classes.
+2. Iron. Continue alternate-day ferrous sulfate; recheck ferritin in 3 months.
+3. Monitoring. Repeat lipase and hepatic panel at 6 months.
+
+Return in 3 months.
+
+
+Marcus O. Delacroix-Byrne, MD
+Signed 06/01/2026

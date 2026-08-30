@@ -1,0 +1,300 @@
+{
+  "case_id": "case_011",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "2.4 mg subcutaneous once weekly; 4 packages (12 mL) per 90-day mail-order fill requested",
+    "request_type": "continuation_of_therapy",
+    "policy_pathway": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Wegovy; and QUANTITY LIMITS APPLY",
+    "case_types": [
+      "split_verdict",
+      "computed_threshold",
+      "multiple_criteria"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-07-06",
+      "request_date": "2026-07-13",
+      "denial_date": "2026-07-20",
+      "note_type": "family_medicine_medication_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Two independent grounds with opposite verdicts. The payer is right about the quantity and wrong about the response. The correct output is neither a full challenge nor a full concession: concede the quantity ground and fix it with a corrected prescription, contest the clinical ground with a computed percentage. The percentage is never stated in the note, so the clinical ground also requires deriving 7.0 percent from the flowsheet."
+  },
+  "patient": {
+    "name": "Bettina L. Okonjo",
+    "mrn": "MRN-200118",
+    "member_id": "MEM-AET-118",
+    "age": 43,
+    "dob": "1983-01-08",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 34.2,
+      "weight_lb": 199,
+      "height_in": 64,
+      "bmi_history": [
+        { "date": "2025-12-01", "weight_lb": 214, "bmi": 36.7 },
+        { "date": "2026-02-02", "weight_lb": 208, "bmi": 35.7 },
+        { "date": "2026-03-16", "weight_lb": 205, "bmi": 35.2 },
+        { "date": "2026-05-11", "weight_lb": 201, "bmi": 34.5 },
+        { "date": "2026-07-06", "weight_lb": 199, "bmi": 34.2 }
+      ],
+      "a1c_percent": 5.3
+    },
+    "prior_weight_loss_pharmacotherapy": "Wegovy (semaglutide), started 2025-12-01, current",
+    "prior_glp1_exposure": "Wegovy (semaglutide) only, from 2025-12-01"
+  },
+  "provider": {
+    "name": "Rosario D. Villaseñor, MD",
+    "specialty": "Family Medicine",
+    "practice": "Kettering Family Health Center",
+    "provider_id": "PRV-SYN-1358"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_treatment_start",
+      "from_lb": 214,
+      "to_lb": 199,
+      "percent": 7.0,
+      "note": "Baseline is the 12/01/2025 weight recorded at treatment start. 214 to 199 lb is a 7.0 percent reduction, above the 5 percent continuation threshold. No percentage appears anywhere in the note."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "quantity_limit_exceeded_and_continuation_response_not_documented",
+    "denial_reason_text": "The quantity requested exceeds the applicable 3-month limit, and the documentation does not establish a loss of at least 5 percent of baseline body weight.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" QUANTITY LIMITS APPLY; and CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient has lost at least 5 percent of baseline body weight OR the patient has continued to maintain their initial 5 percent weight loss",
+    "denial_accurately_states_policy": true,
+    "denial_grounds": [
+      {
+        "ground_id": "quantity_limit",
+        "denial_reason_text": "The request for 4 packages (12 mL) per 90-day fill exceeds the 3-month limit of 9 mL, being three packages of four pens, per 63 days, for Wegovy 1.7 mg and 2.4 mg per 0.75 mL.",
+        "cited_policy_reference": "QUANTITY LIMITS APPLY",
+        "cited_requirement_text": "1.7 mg / 0.75 mL 3 mL (1 package of 9 mL (3 packages of 4 pens each) 4 pens each) 2.4 mg / 0.75 / 21 days** / 63 days**",
+        "cited_text_extraction_note": "The quantity table does not linearise cleanly from the source PDF; the columns interleave. The text above is the verbatim extracted row. Read as a table it means: for Wegovy 1.7 mg/0.75 mL and 2.4 mg/0.75 mL, 1-month limit 3 mL (1 package of 4 pens) per 21 days; 3-month limit 9 mL (3 packages of 4 pens each) per 63 days.",
+        "denial_accurately_states_policy": true,
+        "criterion_exists": true,
+        "criterion_applies": true,
+        "verdict": "denial_correct",
+        "reason": "Four packages, 12 mL, exceeds the 9 mL three-month limit for this strength. The policy's footnote that 63 days is used for an 84-day fill period does not create room for a fourth package; it shortens the interval, it does not raise the quantity.",
+        "action": "concede_and_submit_corrected_prescription_for_3_packages_per_fill"
+      },
+      {
+        "ground_id": "continuation_response",
+        "denial_reason_text": "The documentation does not establish a loss of at least 5 percent of baseline body weight or maintenance of an initial 5 percent loss, because no baseline is identified and no percentage is stated.",
+        "cited_policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Wegovy",
+        "cited_requirement_text": "The patient has lost at least 5 percent of baseline body weight OR the patient has continued to maintain their initial 5 percent weight loss",
+        "denial_accurately_states_policy": true,
+        "criterion_exists": true,
+        "criterion_applies": true,
+        "verdict": "denial_incorrect",
+        "reason": "The flowsheet records 214 lb at treatment start and 199 lb currently, a 7.0 percent reduction, above the threshold. The values are documented; only the percentage is unstated.",
+        "action": "challenge_with_computed_percentage_from_the_flowsheet"
+      }
+    ],
+    "records_reviewed_at_denial": [
+      "Continuation request form received 2026-07-13",
+      "Office visit note dated 2026-07-06"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "quantity_limit_wegovy_high_strength",
+        "requirement": "For Wegovy 1.7 mg and 2.4 mg per 0.75 mL: 1-month limit 3 mL (1 package of 4 pens) per 21 days; 3-month limit 9 mL (3 packages of 4 pens each) per 63 days.",
+        "policy_reference": "QUANTITY LIMITS APPLY",
+        "policy_support_text": "1.7 mg / 0.75 mL 3 mL (1 package of 9 mL (3 packages of 4 pens each) 4 pens each) 2.4 mg / 0.75 / 21 days** / 63 days**",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "quantity_limit_fill_period_footnote",
+        "requirement": "The 21-day duration is used for a 28-day fill period and the 63-day duration for an 84-day fill period, to allow time for refill processing.",
+        "policy_reference": "QUANTITY LIMITS APPLY, footnote",
+        "policy_support_text": "The duration of 21 days is used for a 28-day fill period",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "requirement": "Patient has lost at least 5 percent of baseline body weight, or has continued to maintain an initial 5 percent weight loss.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Wegovy",
+        "policy_support_text": "The patient has lost at least 5 percent of baseline body weight OR the patient has continued to maintain their initial 5 percent weight loss",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "requirement": "Patient has completed at least 3 months of therapy with the requested drug at a stable maintenance dose.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Wegovy",
+        "policy_support_text": "The patient has completed at least 3 months of therapy with the requested drug at a stable maintenance dose",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "requirement": "Patient had a baseline BMI of 35 kg/m2 or greater at the start of drug therapy for weight loss.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient had a baseline body mass index (BMI) greater than or equal to 35 kg/m2 at the start of drug therapy for weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The quantity limit is a supply rule, independent of the clinical continuation criteria. Satisfying the clinical criteria does not lift it, and exceeding it does not bear on clinical eligibility.",
+      "The quantity table does not linearise cleanly from the source PDF. policy_support_text preserves the verbatim extracted row rather than a tidied reconstruction; the reading is given in cited_text_extraction_note."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-07-06 note was submitted and reviewed. Everything needed for both grounds was in front of the reviewer.",
+    "expected_evidence": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "evidence_present": true,
+        "evidence_text": "Weight flowsheet records 214 lb on 12/01/2025 annotated 'recorded at treatment start' and 199 lb on 07/06/2026. The reduction is 15 lb, or 7.0 percent of baseline. No percentage appears in the note.",
+        "evidence_location": "OBJECTIVE section, weight flowsheet; TREATMENT COURSE",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "evidence_present": true,
+        "evidence_text": "Escalated to 2.4 mg weekly on 03/16/2026 with the note stating she has remained on this dose since, with no reduction and no interruption; 2.4 mg confirmed on 05/11/2026 and 07/06/2026. From 03/16/2026 to the 07/13/2026 request is 119 days.",
+        "evidence_location": "TREATMENT COURSE; CURRENT MEDICATIONS",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "evidence_present": true,
+        "evidence_text": "BMI 36.7 kg/m2 at 214 lb on 12/01/2025, the date semaglutide was started.",
+        "evidence_location": "OBJECTIVE section, weight flowsheet",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 01/08/1983; age 43 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "quantity_limit_wegovy_high_strength",
+        "evidence_present": false,
+        "evidence_text": "Plan item 2 requests a 90-day mail-order fill of four packages. Four packages is 12 mL, above the 9 mL three-month limit for this strength. The record supports the payer's finding on this ground.",
+        "evidence_location": "PLAN item 2; SUBJECTIVE, travel paragraph",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "quantity_limit_fill_period_footnote",
+        "evidence_present": true,
+        "evidence_text": "Not a clinical fact; recorded because the footnote is the most likely source of a wrong argument that a 90-day fill permits a fourth package.",
+        "evidence_location": "Not applicable — policy text only",
+        "evidence_type": "indirect"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "The note states no percentage reduction and does not use the word 'baseline'. The underlying values are present.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "partially_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "quantity_limit_wegovy_high_strength",
+        "status": "not_satisfied",
+        "reason": "Four packages, 12 mL, per 90-day fill exceeds the 9 mL three-month limit for Wegovy 1.7 mg and 2.4 mg per 0.75 mL."
+      },
+      {
+        "criterion_name": "quantity_limit_fill_period_footnote",
+        "status": "satisfied",
+        "reason": "Not in dispute. Recorded so that the footnote is not misread as authorising a larger quantity."
+      },
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "status": "satisfied",
+        "reason": "214 lb at treatment start to 199 lb currently is a 7.0 percent reduction, above the 5 percent threshold."
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "status": "satisfied",
+        "reason": "Stable at 2.4 mg weekly since 03/16/2026, 119 days before the request."
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "status": "satisfied",
+        "reason": "BMI 36.7 kg/m2 on the date therapy started."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 43."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "position_note": "Challenge is correct as to the clinical ground only. The quantity ground must be conceded, not contested. An appeal that disputes both grounds is wrong, and so is one that abandons the clinical ground because the quantity ground fails.",
+    "supported_claims": [
+      "The record documents a 15 pound reduction from the weight recorded at treatment start, a 7.0 percent decrease, above the 5 percent continuation threshold.",
+      "The member has been at a stable 2.4 mg maintenance dose since 03/16/2026, exceeding the three-month requirement.",
+      "Baseline BMI at the start of drug therapy was 36.7 kg/m2, above the 35 kg/m2 requirement.",
+      "The quantity requested does exceed the applicable limit and the prescription should be corrected to three packages per fill."
+    ],
+    "unsupported_claims": [
+      "That a 90-day fill permits four packages.",
+      "That the footnote about 63-day and 84-day fill periods raises the permitted quantity.",
+      "That satisfying the clinical continuation criteria lifts the quantity limit.",
+      "That the quantity limit is a clinical criterion that can be appealed on medical necessity grounds under this policy."
+    ],
+    "correct_next_step": "Submit a corrected prescription for three packages per 90-day fill, and appeal the clinical ground with the computed 7.0 percent reduction from the flowsheet. Both actions are needed; neither alone results in coverage."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Semaglutide was started on December 1, 2025 at a recorded weight of 214 pounds, a BMI of 36.7 kg/m2.",
+      "The recorded weight on July 6, 2026 was 199 pounds, a BMI of 34.2 kg/m2, at a height of 5 feet 4 inches.",
+      "The reduction from treatment start is 15 pounds, or 7.0 percent of the starting weight.",
+      "The member escalated to 2.4 mg weekly on March 16, 2026 and has remained at that dose without reduction or interruption.",
+      "Weights are recorded at every interval with no regain: 214, 208, 205, 201 and 199 pounds.",
+      "The prescription as submitted requests four packages per 90-day fill.",
+      "The applicable three-month quantity limit for this strength is 9 mL, three packages of four pens, per 63 days."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The requested quantity of four packages is within the policy limit.",
+      "The member has lost 10 percent or more of baseline body weight.",
+      "The member's current BMI satisfies the continuation BMI criterion, which is retrospective to the start of therapy.",
+      "The member completed a six-month comprehensive weight management program.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "The member has type 2 diabetes.",
+      "A travel schedule or mail-order arrangement is a basis for exceeding a quantity limit under this policy."
+    ]
+  },
+  "files": {
+    "denial": "case_011_denial.txt",
+    "note": "case_011_note.txt"
+  }
+}

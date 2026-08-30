@@ -1,0 +1,80 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    02/23/2026
+Case Reference:          AUTH-CIG-2026-000198
+Member:                  Wallace T. Nkemdirim
+Member ID:               MEM-CIG-228
+Patient Record Number:   MRN-200228
+Date of Birth:           11/26/1963
+Request Received:        02/16/2026
+Prescriber:              Halvard S. Ingebretsen, MD, Family Medicine
+Prescriber Reference:    PRV-SYN-2350
+
+
+REQUEST REVIEWED
+
+  Medication:            Wegovy (semaglutide) injection
+  Strength requested:    0.25 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Reduction of the risk of major adverse cardiovascular events
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+The cardiovascular pathway requires a prior myocardial infarction, a prior stroke, or
+symptomatic peripheral arterial disease. The cerebrovascular event documented in the record is a
+transient ischemic attack, which the policy expressly excludes.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section III. Wegovy injection and Wegovy HD injection,
+3. Major Adverse Cardiovascular Event(s) Risk Reduction in a Patient with Established
+Cardiovascular Disease with Overweight or Obesity.
+
+That section requires the patient to meet one of three qualifying events: a prior myocardial
+infarction; a prior stroke, with the note that "This does not include a transient ischemic
+attack (TIA)."; or a history of symptomatic peripheral arterial disease evidenced by intermittent
+claudication with an ankle-brachial index below 0.85, a peripheral arterial revascularization
+procedure, or amputation due to atherosclerotic disease.
+
+Records reviewed: prior authorization request form dated 02/16/2026; family medicine office note
+dated 02/09/2026, Harrowfield Family Medicine; neurology consultation letter dated 07/2024.
+
+The member's body mass index of 29.1 kg/m² satisfies the 27 kg/m² threshold for this pathway, and
+he is on cardiovascular pharmacotherapy. Those elements are met.
+
+The problem list in the family medicine note carries "CVA 2024." The neurology consultation
+letter of 07/2024, which is the source document for that entry, records a transient ischemic
+attack: right arm weakness and dysarthria with complete resolution within 40 minutes, and
+magnetic resonance imaging with diffusion-weighted sequences showing no acute infarction. The
+diagnosis recorded by the neurologist is transient ischemic attack. No myocardial infarction and
+no peripheral arterial disease is documented.
+
+We also considered the request under section III, 1. Weight Loss in an Adult with Overweight or
+Obesity, A) Initial Therapy. That section requires a trial of behavioral modification and
+dietary restriction for at least 3 months. The record documents dietary counselling beginning
+01/19/2026, approximately four weeks before this request. That criterion is not met either.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

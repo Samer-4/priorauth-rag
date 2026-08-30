@@ -1,0 +1,81 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            July 27, 2026
+Authorization Reference:   AUTH-AET-2026-000744
+Review Tracking ID:        UM-RX-2026-07-0744
+
+Member Name:               Terrence O. Baptiste
+Member ID:                 MEM-AET-052
+Medical Record Number:     MRN-200052
+Date of Birth:             06/27/1978
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Ingrid A. Sundqvist, MD — Endocrinology
+Practice:                  Cannonbridge Endocrine Associates
+Provider ID:               PRV-SYN-0733
+Request Received:          July 20, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — CONTINUATION OF THERAPY
+
+
+Dear Mr. Baptiste:
+
+We have completed our review of the request to continue coverage of your medication.
+
+  Drug requested:          Zepbound (tirzepatide) injection
+  Requested dosing:        10 mg subcutaneously once weekly
+  Requested indication:    Chronic weight management, continuation of therapy
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+The submitted documentation does not establish that you have lost at least 5 percent of your
+baseline body weight, or that you have maintained an initial 5 percent weight loss.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," CONTINUATION OF THERAPY — Chronic
+Weight Management (Adult).
+
+For a Zepbound continuation request, that section requires that all listed criteria be met,
+including that "The patient has lost at least 5 percent of baseline body weight OR the patient
+has continued to maintain their initial 5 percent weight loss [ACTION REQUIRED: Documentation
+is required for approval.]" The section also requires that the patient had a baseline BMI of 35
+kg/m² or greater at the start of drug therapy for weight loss, and that at least 3 months of
+therapy at a stable maintenance dose has been completed.
+
+Materials reviewed:
+  1. Continuation request form received July 20, 2026
+  2. Endocrinology office note dated July 13, 2026, Cannonbridge Endocrine Associates
+
+The submitted note records a current weight of 241 pounds at a height of 5 feet 10 inches. The
+duration and dosing criteria appear satisfied on the submitted record. However, the note does
+not state the percentage of weight lost from baseline, and does not identify which recorded
+weight represents the baseline at the start of drug therapy. Without a stated baseline and a
+stated percentage reduction, we are unable to confirm that the 5 percent threshold has been
+reached. Coverage cannot be authorized on the documentation provided.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

@@ -1,0 +1,111 @@
+WYNNHAVEN MEDICAL GROUP
+Internal Medicine — Office Visit Note
+
+PATIENT:          Vandenberg, Priscilla M.
+MRN:              MRN-200085
+DOB:              04/30/1986          AGE: 40          SEX: Female
+DATE OF SERVICE:  06/29/2026
+PROVIDER:         Oluwaseun A. Fadipe, MD — Internal Medicine (PRV-SYN-1024)
+VISIT TYPE:       Established patient, medication follow-up
+
+
+REASON FOR VISIT
+Liraglutide follow-up and continuation paperwork.
+
+
+SUBJECTIVE
+
+Ms. Vandenberg has been on liraglutide since February and is doing reasonably well. Nausea in
+the first three weeks settled with slower titration and smaller evening meals. She reached the
+3 mg dose in late March and has stayed there. No vomiting, no abdominal pain, no jaundice, no
+symptoms suggestive of pancreatitis or gallbladder disease.
+
+She is honest that progress has been slower than she hoped. She has lost weight steadily but
+modestly and says she was "expecting the numbers people talk about." I explained that response
+varies, that her trajectory is downward without plateau, and that the agent is still working.
+
+She continues the reduced-calorie plan she set up with the dietitian in January and swims three
+mornings a week at the municipal pool. She has kept this up without a break since starting.
+
+Hypothyroidism: on levothyroxine, TSH in range, no symptoms.
+
+Migraine: two episodes in the last three months, both aborted with sumatriptan. No aura.
+
+Contraception: copper intrauterine device in situ. No pregnancy plans. Counselled again that
+liraglutide should be stopped if pregnancy is planned or occurs.
+
+No tobacco. Alcohol occasional. Works from home as a claims analyst.
+
+
+TREATMENT COURSE
+
+  01/12/2026   Dietitian consultation, Ms. Anneke Prinsloo, RD. Reduced-calorie plan
+               established; swimming programme agreed.
+  02/16/2026   Liraglutide (Saxenda) started, 0.6 mg daily, with weekly escalation planned.
+               Pre-treatment weight recorded this date.
+  03/23/2026   Reached 3 mg daily. Tolerating after initial nausea.
+  04/13/2026   Interval check. Remains on 3 mg daily.
+  06/29/2026   Today. Continues 3 mg daily; therapy has been uninterrupted since 02/16/2026.
+
+
+CURRENT MEDICATIONS
+
+  liraglutide (Saxenda) 3 mg subcutaneously daily
+  levothyroxine 75 mcg PO daily
+  sumatriptan 50 mg PO PRN
+  copper intrauterine device (in situ)
+
+No other prescription weight-loss medication, current or prior. No other GLP-1 receptor agonist
+exposure.
+
+
+OBJECTIVE
+
+BP 118/74    HR 68    Temp 98.4 F
+Height:  5 ft 6 in (66 in)
+Weight:  210 lb
+BMI:     33.9 kg/m²
+
+Weights on file:
+  02/16/2026   219 lb   (BMI 35.3)   — recorded on the day liraglutide was started
+  04/13/2026   214 lb   (BMI 34.5)
+  06/29/2026   210 lb   (BMI 33.9)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender,
+no right upper quadrant tenderness, no organomegaly. No peripheral oedema. Thyroid not enlarged.
+
+Laboratory (06/15/2026):
+  Hemoglobin A1c        5.4 %
+  Fasting glucose       89 mg/dL
+  TSH                   2.0 mIU/L
+  Free T4               1.2 ng/dL
+  Lipase                28 U/L
+  ALT                   19 U/L
+  Total cholesterol     178 mg/dL
+  LDL                   99 mg/dL
+  Creatinine            0.7 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.9 kg/m² (Z68.33), responding to liraglutide with a steady downward
+   trend and no plateau. Tolerating the maintenance dose.
+2. Hypothyroidism (E03.9) — euthyroid on levothyroxine.
+3. Migraine without aura (G43.009) — infrequent, well controlled with abortive therapy.
+
+
+PLAN
+
+1. Obesity. Continue liraglutide 3 mg daily. Response is modest but real and sustained; no
+   reason to stop. Continuation authorization request to be submitted. Continue the
+   reduced-calorie plan with Ms. Prinsloo and the swimming programme.
+2. Hypothyroidism. Continue levothyroxine 75 mcg daily. Repeat TSH in 6 months.
+3. Migraine. Continue sumatriptan as needed. Consider prophylaxis if frequency rises.
+4. Monitoring. Repeat lipase and hepatic panel at 6 months. Symptoms prompting urgent contact
+   reviewed again.
+
+Return in 3 months.
+
+
+Oluwaseun A. Fadipe, MD
+Electronically signed 06/29/2026 10:37

@@ -1,0 +1,236 @@
+{
+  "case_id": "case_005",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "10 mg subcutaneous once weekly, stable maintenance dose",
+    "request_type": "continuation_of_therapy",
+    "policy_pathway": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+    "case_types": [
+      "computed_threshold",
+      "scattered_evidence",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-07-13",
+      "request_date": "2026-07-20",
+      "denial_date": "2026-07-27",
+      "note_type": "endocrinology_interval_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "No percentage appears anywhere in the record. The pipeline must identify which recorded weight is the baseline at the start of drug therapy, take the current weight, compute the reduction, and compare it to 5 percent. The three continuation criteria are each evidenced in a different part of the note: the baseline in the weight flowsheet, the stable maintenance dose in the treatment course, and the current weight in vitals."
+  },
+  "patient": {
+    "name": "Terrence O. Baptiste",
+    "mrn": "MRN-200052",
+    "member_id": "MEM-AET-052",
+    "age": 48,
+    "dob": "1978-06-27",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult",
+      "E78.5 dyslipidemia, unspecified",
+      "K21.9 gastro-esophageal reflux disease without esophagitis",
+      "M25.561 pain in right knee",
+      "M25.562 pain in left knee"
+    ],
+    "comorbidities": [
+      "dyslipidemia",
+      "gastro-esophageal reflux disease"
+    ],
+    "relevant_measurements": {
+      "bmi": 34.6,
+      "weight_lb": 241,
+      "height_in": 70,
+      "bmi_history": [
+        { "date": "2025-11-03", "weight_lb": 258, "bmi": 37.0 },
+        { "date": "2025-12-15", "weight_lb": 252, "bmi": 36.2 },
+        { "date": "2026-02-09", "weight_lb": 247, "bmi": 35.4 },
+        { "date": "2026-04-20", "weight_lb": 244, "bmi": 35.0 },
+        { "date": "2026-07-13", "weight_lb": 241, "bmi": 34.6 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "Zepbound (tirzepatide), started 2025-11-03, current",
+    "prior_glp1_exposure": "Zepbound (tirzepatide) only, from 2025-11-03"
+  },
+  "provider": {
+    "name": "Ingrid A. Sundqvist, MD",
+    "specialty": "Endocrinology",
+    "practice": "Cannonbridge Endocrine Associates",
+    "provider_id": "PRV-SYN-0733"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_treatment_start",
+      "from_lb": 258,
+      "to_lb": 241,
+      "percent": 6.6,
+      "note": "Baseline is the 11/03/2025 weight recorded at treatment start. 258 to 241 lb is a 6.6 percent reduction, above the 5 percent continuation threshold. No percentage is stated anywhere in the note; it must be computed."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "continuation_weight_loss_not_documented",
+    "denial_reason_text": "The submitted documentation does not establish a loss of at least 5 percent of baseline body weight, or maintenance of an initial 5 percent weight loss, because no baseline is identified and no percentage is stated.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient has lost at least 5 percent of baseline body weight OR the patient has continued to maintain their initial 5 percent weight loss",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Continuation request form received 2026-07-20",
+      "Endocrinology office note dated 2026-07-13"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "requirement": "Patient has lost at least 5 percent of baseline body weight, or has continued to maintain an initial 5 percent weight loss.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Zepbound",
+        "policy_support_text": "The patient has lost at least 5 percent of baseline body weight OR the patient has continued to maintain their initial 5 percent weight loss",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "requirement": "Patient has completed at least 3 months of therapy with the requested drug at a stable maintenance dose.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult), Zepbound",
+        "policy_support_text": "The patient has completed at least 3 months of therapy with the requested drug at a stable maintenance dose",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "requirement": "Patient had a baseline BMI of 35 kg/m2 or greater at the start of drug therapy for weight loss.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient had a baseline body mass index (BMI) greater than or equal to 35 kg/m2 at the start of drug therapy for weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "CONTINUATION OF THERAPY — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The continuation pathway does not re-apply the six-month comprehensive weight management program criterion, which sits in the initial COVERAGE CRITERIA section only.",
+      "The continuation BMI criterion is retrospective: it asks about BMI at the start of drug therapy, not the current BMI. The current value of 34.6 is therefore not disqualifying."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-07-13 note was submitted with the continuation request and reviewed. Everything needed to compute the reduction was in front of the reviewer.",
+    "expected_evidence": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "evidence_present": true,
+        "evidence_text": "Weight flowsheet records 258 lb on 11/03/2025 annotated 'recorded at treatment start' and 241 lb on 07/13/2026. The reduction is 17 lb, or 6.6 percent of baseline. No percentage appears in the note; it must be derived from the flowsheet.",
+        "evidence_location": "OBJECTIVE section, weight flowsheet; treatment start date in TREATMENT COURSE",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "evidence_present": true,
+        "evidence_text": "Treatment course records escalation to 10 mg weekly on 02/09/2026 and states 'this is the dose he has remained on since; no further escalation has been required or attempted', with 10 mg confirmed on 04/20/2026 and 07/13/2026. From 02/09/2026 to the 07/20/2026 request is 161 days.",
+        "evidence_location": "TREATMENT COURSE; CURRENT MEDICATIONS",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "evidence_present": true,
+        "evidence_text": "BMI 37.0 kg/m2 at 258 lb on 11/03/2025, the date tirzepatide was started.",
+        "evidence_location": "OBJECTIVE section, weight flowsheet; TREATMENT COURSE",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 06/27/1978; age 48 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "The note never states a percentage weight reduction and never uses the word 'baseline'. This is the omission the payer relied on, but the underlying values are all present.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "status": "satisfied",
+        "reason": "258 lb at treatment start to 241 lb currently is a 6.6 percent reduction, above the 5 percent threshold. The values are documented even though the percentage is not."
+      },
+      {
+        "criterion_name": "continuation_3_months_stable_maintenance_dose",
+        "status": "satisfied",
+        "reason": "Stable at 10 mg weekly since 02/09/2026, 161 days before the request, exceeding three months."
+      },
+      {
+        "criterion_name": "baseline_bmi_35_at_start_of_drug_therapy",
+        "status": "satisfied",
+        "reason": "BMI 37.0 kg/m2 on the date therapy started."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 48."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The record documents a 17 pound reduction from the weight recorded at treatment start, a 6.6 percent decrease, exceeding the 5 percent continuation threshold.",
+      "The weight recorded on 11/03/2025 is identified in the record as the treatment-start weight, so the baseline is not ambiguous.",
+      "The member has been at a stable 10 mg maintenance dose since 02/09/2026, exceeding the three-month requirement.",
+      "Baseline BMI at the start of drug therapy was 37.0 kg/m2, above the 35 kg/m2 requirement."
+    ],
+    "unsupported_claims": [
+      "That the member's current BMI satisfies the continuation BMI criterion — that criterion is retrospective to the start of therapy.",
+      "That the six-month program criterion applies to a continuation request.",
+      "That any dose above 10 mg was trialled or is required."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Tirzepatide was started on November 3, 2025 at a recorded weight of 258 pounds, a BMI of 37.0 kg/m2.",
+      "The recorded weight on July 13, 2026 was 241 pounds, a BMI of 34.6 kg/m2, at a height of 5 feet 10 inches.",
+      "The reduction from treatment start is 17 pounds, or 6.6 percent of the starting weight.",
+      "The member escalated to 10 mg weekly on February 9, 2026 and has remained at that dose since.",
+      "Weights are recorded at every interval visit with no regain: 258, 252, 247, 244 and 241 pounds.",
+      "A reduced-calorie plan with a registered dietitian has been in place throughout and is to continue."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has lost 10 percent or more of baseline body weight.",
+      "The member's current BMI of 34.6 satisfies the continuation BMI criterion.",
+      "The member completed a six-month comprehensive weight management program.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "Aetna's policy requires a trial of a preferred anti-obesity agent before Zepbound.",
+      "The member has type 2 diabetes.",
+      "The member was escalated to 15 mg weekly."
+    ]
+  },
+  "files": {
+    "denial": "case_005_denial.txt",
+    "note": "case_005_note.txt"
+  }
+}

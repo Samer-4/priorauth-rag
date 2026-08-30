@@ -34,7 +34,7 @@ def extract_denial_info(text_data: str) -> DenialInfo:
 
 if __name__ == "__main__":
     BASE_DIR = Path(__file__).resolve().parent.parent
-    file_path = BASE_DIR / "data" / "cases" / "denial_letters" / "case_001_denial.txt"
+    file_path = BASE_DIR / "data" / "cases" / "cases_v1" / "denial_letters" / "case_001_denial.txt"
     with open(file_path, "r", encoding="utf-8") as f:
         text_data = f.read()
     result = extract_denial_info(text_data)

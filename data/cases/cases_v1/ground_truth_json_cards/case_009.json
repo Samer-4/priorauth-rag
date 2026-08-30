@@ -1,0 +1,228 @@
+{
+  "case_id": "case_009",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Chronic Weight Management (Adult)",
+    "case_types": [
+      "distractor_heavy",
+      "strong_appeal"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-02-24",
+      "request_date": "2026-03-03",
+      "denial_date": "2026-03-10",
+      "note_type": "combined_rheumatology_primary_care_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The disputed fact is trivially present and the note is dense with unrelated clinical material — eight active problems, eight medications, a full rheumatology assessment and a post-operative review. The denial is a documentation-not-found denial rather than a criterion-not-met denial, which is the most common real-world variety and the easiest for a retrieval-weak pipeline to affirm wrongly."
+  },
+  "patient": {
+    "name": "Georgina F. Achterberg",
+    "mrn": "MRN-200096",
+    "member_id": "MEM-AET-096",
+    "age": 50,
+    "dob": "1975-12-03",
+    "sex": "female",
+    "diagnoses": [
+      "E66.01 morbid (severe) obesity due to excess calories",
+      "Z68.41 BMI 40.0-44.9, adult",
+      "M05.79 rheumatoid arthritis with rheumatoid factor, multiple sites",
+      "E06.3 autoimmune thyroiditis",
+      "Z90.49 acquired absence of other specified parts of digestive tract",
+      "M85.80 other specified disorders of bone density and structure",
+      "F33.42 major depressive disorder, recurrent, in full remission",
+      "E53.8 deficiency of other specified B group vitamins",
+      "G43.709 chronic migraine without aura, not intractable"
+    ],
+    "comorbidities": [
+      "rheumatoid arthritis",
+      "autoimmune hypothyroidism",
+      "osteopenia",
+      "recurrent depression in remission"
+    ],
+    "relevant_measurements": {
+      "bmi": 41.1,
+      "weight_lb": 225,
+      "height_in": 62,
+      "bmi_history": [
+        { "date": "2025-08-11", "weight_lb": 232, "bmi": 42.4 },
+        { "date": "2025-11-24", "weight_lb": 228, "bmi": 41.7 },
+        { "date": "2026-02-24", "weight_lb": 225, "bmi": 41.1 }
+      ],
+      "a1c_percent": 5.8
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Teodora V. Iliescu, MD",
+    "specialty": "Rheumatology",
+    "practice": "Halloway Rheumatology and Internal Medicine",
+    "provider_id": "PRV-SYN-1137"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "baseline_bmi_documentation_not_identified",
+    "denial_reason_text": "The submitted records do not provide the documentation required to establish a baseline body mass index of 35 kg/m2 or greater.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-03-03, with height and weight fields blank",
+      "Office visit note dated 2026-02-24"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 35 kg/m2, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "requirement": "The requested drug will be used with a reduced calorie diet and increased physical activity for chronic weight management.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "used with a reduced calorie diet and increased physical activity for chronic weight management",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The documentation requirement attaches to the BMI criterion. It is satisfied by a chart entry recording height, weight and BMI; the policy does not specify a form or format."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-02-24 note was submitted with the PA. The BMI was in the submitted material; the reviewer did not locate it in a dense multi-problem note.",
+    "expected_evidence": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "evidence_present": true,
+        "evidence_text": "OBJECTIVE section records height 5 ft 2 in, weight 225 lb, BMI 41.1 kg/m2, with a weight series of 232 lb (BMI 42.4) on 08/11/2025, 228 lb (BMI 41.7) on 11/24/2025 and 225 lb (BMI 41.1) on 02/24/2026. Assessment item 2 repeats the BMI and the Z68.41 code for BMI 40.0 to 44.9.",
+        "evidence_location": "OBJECTIVE section; ASSESSMENT item 2",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "Seven dated Corvale programme contacts from 08/11/2025 through 02/16/2026, a span of 189 days, covering calorie target and food diary, behavioural groups and an adapted activity prescription.",
+        "evidence_location": "CORVALE WEIGHT MANAGEMENT PROGRAMME",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 12/03/1975; age 50 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "evidence_present": true,
+        "evidence_text": "Plan item 2 states she will continue the Corvale eating plan and the pool and seated exercise sessions alongside the medication.",
+        "evidence_location": "PLAN item 2",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "The prior authorization form itself was submitted with height and weight blank. That is a form-completion failure, not an absence of documentation in the record.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 41.1 kg/m2 documented with height and weight in the submitted note, well above the 35 kg/m2 threshold, and corroborated by two earlier recorded values and by the assessment's diagnosis coding."
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "status": "satisfied",
+        "reason": "Seven dated contacts spanning 189 days with continuing follow-up, covering diet, behaviour and physical activity, all before any drug therapy."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 50."
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "status": "satisfied",
+        "reason": "The plan continues the eating plan and adapted exercise programme alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The submitted note documents height, weight and BMI in its objective section, satisfying the documentation requirement attached to the BMI criterion.",
+      "The documented BMI of 41.1 kg/m2 exceeds the 35 kg/m2 threshold by a wide margin, and every recorded value in the episode is above 41.",
+      "The six-month program criterion is satisfied and is not disputed.",
+      "The blank fields on the authorization form do not reflect an absence of documentation in the clinical record."
+    ],
+    "unsupported_claims": [
+      "That the member's rheumatoid arthritis, hypothyroidism or osteopenia bears on eligibility under this pathway.",
+      "That the member meets the continuation-of-therapy criteria.",
+      "That the member trialled another weight-loss agent."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on February 24, 2026 was 41.1 kg/m2, with height 5 feet 2 inches and weight 225 pounds.",
+      "Recorded BMI values in the episode are 42.4, 41.7 and 41.1 kg/m2.",
+      "The assessment records obesity with the Z68.41 code for a BMI of 40.0 to 44.9.",
+      "Seven dated Corvale programme contacts are documented from August 11, 2025 through February 16, 2026.",
+      "The programme was adapted for joint limitation, with pool sessions added in November 2025 and a seated strength circuit in January 2026.",
+      "The member was 50 years of age at the time of the request.",
+      "The member has used no prescription weight-loss medication and has no GLP-1 receptor agonist exposure."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member's rheumatoid arthritis or its treatment creates an alternative coverage route under this policy.",
+      "This policy permits coverage at a BMI of 30 kg/m2, or at 27 kg/m2 with a weight-related comorbidity.",
+      "The member has type 2 diabetes.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "The member's prior cholecystectomy is a contraindication that entitles her to an exception.",
+      "The member completed twelve months of a weight management program."
+    ]
+  },
+  "files": {
+    "denial": "case_009_denial.txt",
+    "note": "case_009_note.txt"
+  }
+}

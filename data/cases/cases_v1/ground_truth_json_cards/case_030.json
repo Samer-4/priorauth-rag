@@ -1,0 +1,217 @@
+{
+  "case_id": "case_030",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Imcivree (setmelanotide) injection",
+    "drug_detail": "2 mg subcutaneous once daily, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization, criteria for Imcivree",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "partial_evidence",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-02-16",
+      "request_date": "2026-02-23",
+      "denial_date": "2026-03-02",
+      "note_type": "medical_genetics_annual_review",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Imcivree has its own criteria block, distinct from the weight-loss and appetite-suppression criteria that govern every other drug in this program. Two of its three criteria are met and are clinically striking — a molecularly confirmed syndromic diagnosis and a BMI of 38.4. The third is a plain administrative requirement that the patient be enrolled in or have a history of a weight loss management program, and it is not met. This is also the criterion that serves as the sharpest distractor in case 003, so a system that has seen it there must not import it here or refuse to apply it here."
+  },
+  "patient": {
+    "name": "Emeka D. Nwachukwu",
+    "mrn": "MRN-200327",
+    "member_id": "MEM-UHC-327",
+    "age": 27,
+    "dob": "1998-08-21",
+    "sex": "male",
+    "diagnoses": [
+      "Q87.89 other specified congenital malformation syndromes, Bardet-Biedl syndrome",
+      "E66.9 obesity, unspecified",
+      "Z68.38 BMI 38.0-38.9, adult",
+      "H54.0 blindness, both eyes",
+      "Q60.0 renal agenesis, unilateral"
+    ],
+    "comorbidities": [
+      "Bardet-Biedl syndrome with hyperphagia",
+      "rod-cone dystrophy with severe visual impairment",
+      "solitary functioning kidney",
+      "mild learning difficulty"
+    ],
+    "relevant_measurements": {
+      "bmi": 38.4,
+      "weight_lb": 245,
+      "height_in": 67,
+      "bmi_history": [
+        { "date": "2025-09-22", "weight_lb": 249, "bmi": 39.0 },
+        { "date": "2026-02-16", "weight_lb": 245, "bmi": 38.4 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Sanjana R. Iyengar, MD",
+    "specialty": "Medical Genetics",
+    "practice": "Thornhill Genetics Service",
+    "provider_id": "PRV-SYN-3241"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Imcivree (setmelanotide) injection",
+    "denial_reason": "no_current_or_prior_weight_loss_management_program",
+    "denial_reason_text": "Coverage of Imcivree requires current enrolment in, or a history of, a weight loss management program; the records document neither.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization, criteria for Imcivree",
+    "cited_requirement_text": "Patient is currently enrolled in or has history of a weight loss management program",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-02-23",
+      "Medical genetics clinic note dated 2026-02-16",
+      "Molecular genetics report dated 2019"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "imcivree_weight_loss_management_program",
+        "requirement": "Patient is currently enrolled in, or has a history of, a weight loss management program. No minimum duration and no supervision requirement is stated.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 2.c",
+        "policy_support_text": "Patient is currently enrolled in or has history of a weight loss management program",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "imcivree_qualifying_diagnosis",
+        "requirement": "Diagnosis of obesity due to POMC, PCSK1 or LEPR gene deficiency confirmed by genetic testing, or a diagnosis of Bardet-Biedl syndrome.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 2.a(2)",
+        "policy_support_text": "Diagnosis of Bardet-Biedl syndrome",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "imcivree_adult_bmi_30_or_greater",
+        "requirement": "Adult patient with a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 2.b(1)",
+        "policy_support_text": "Adult patient with BMI ≥ 30 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Imcivree has its own criteria block at Section 2.A.2 and is not governed by the weight-loss and appetite-suppression criteria at Section 2.A.1. It has no indication criterion, no age criterion beyond the adult and pediatric BMI split, and no adjunct-to-lifestyle-modification criterion.",
+      "The weight loss management program criterion is unique to Imcivree within this program. It does not appear in the criteria for any other drug, which is why applying it to a Wegovy or Zepbound request would be a scope error.",
+      "The criterion is satisfied by current enrolment or by a history of participation. It sets no duration, requires no supervision, and does not say the programme must be recent."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-02-16 note and the 2019 molecular report were submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "imcivree_weight_loss_management_program",
+        "evidence_present": false,
+        "evidence_text": "The note records that he has never been under a dietitian and has never attended a weight management programme, that a dietitian referral was offered at the 2024 review and declined, and that there is no record of any programme at any point in the chart or in the records transferred from paediatric services. Assessment item 5 states 'No structured weight management input at any point.' A referral was placed on the day of this visit and accepted, but no appointment had been arranged.",
+        "evidence_location": "SUBJECTIVE, nutrition and weight services paragraph; ASSESSMENT item 5; PLAN item 2",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "imcivree_qualifying_diagnosis",
+        "evidence_present": true,
+        "evidence_text": "Bardet-Biedl syndrome confirmed molecularly in 2019: BBS1 c.1169T>G p.(Met390Arg) homozygous, classified pathogenic, with a consistent clinical picture of rod-cone dystrophy, prior postaxial polydactyly, renal anomaly and learning difficulty.",
+        "evidence_location": "SUBJECTIVE; OBJECTIVE, molecular genetics report; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "imcivree_adult_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 7 in, weight 245 lb, BMI 38.4 kg/m2 on 02/16/2026; 249 lb, BMI 39.0, on 09/22/2025. Patient is 27, an adult.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No current or historical weight loss management program enrolment exists anywhere in the record, including in records transferred from paediatric services. The note documents the absence affirmatively and explains it: a referral was offered in 2024 and declined.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "imcivree_weight_loss_management_program",
+        "status": "not_satisfied",
+        "reason": "The record affirmatively documents that the patient has never been enrolled in a weight management programme and has never seen a dietitian. The referral placed on the day of the visit had not been arranged and does not amount to current enrolment."
+      },
+      {
+        "criterion_name": "imcivree_qualifying_diagnosis",
+        "status": "satisfied",
+        "reason": "Molecularly confirmed Bardet-Biedl syndrome with a homozygous pathogenic BBS1 variant."
+      },
+      {
+        "criterion_name": "imcivree_adult_bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "Adult patient with BMI 38.4 kg/m2."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "Bardet-Biedl syndrome is molecularly confirmed and satisfies the qualifying-diagnosis criterion.",
+      "The adult BMI criterion is satisfied at 38.4 kg/m2.",
+      "The denial accurately quotes the third criterion and accurately reports that the record documents neither current enrolment nor a history.",
+      "A dietitian referral was placed and accepted on the day of the visit."
+    ],
+    "unsupported_claims": [
+      "That the family's home management of hyperphagia — locked cupboards and portioned meals — constitutes a weight loss management program.",
+      "That a referral placed but not yet arranged amounts to current enrolment.",
+      "That the severity of the syndromic diagnosis displaces an express criterion.",
+      "That the criterion requires only that a programme be planned."
+    ],
+    "correct_next_step": "Advise that the denial cannot be overturned today, and that it is remediable rather than final. The referral accepted at this visit will, once the patient attends, establish current enrolment and satisfy the only unmet criterion. A resubmission with the dietitian's initial assessment attached is the productive route, and it is worth flagging to the practice that this is a short path rather than a lost cause."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Bardet-Biedl syndrome was confirmed molecularly in 2019 with a homozygous pathogenic BBS1 variant, c.1169T>G p.(Met390Arg).",
+      "The clinical picture includes rod-cone dystrophy with severe visual impairment, prior postaxial polydactyly, a solitary functioning kidney and mild learning difficulty.",
+      "Documented BMI on February 16, 2026 was 38.4 kg/m2, with height 5 feet 7 inches and weight 245 pounds.",
+      "The patient was 27 years of age at the time of the request.",
+      "Hyperphagia is documented, with the family managing it through locked cupboards and portioned meals.",
+      "A dietitian referral was offered at the 2024 review and declined by the family.",
+      "A dietitian referral was placed and accepted on February 16, 2026, with the appointment not yet arranged."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The patient is currently enrolled in a weight loss management program.",
+      "The patient has a history of participation in a weight loss management program.",
+      "The patient has previously seen a dietitian.",
+      "Home management of hyperphagia by the family constitutes a weight loss management program.",
+      "The patient has type 2 diabetes.",
+      "The patient has a POMC, PCSK1 or LEPR gene deficiency.",
+      "The Imcivree criteria require use as an adjunct to lifestyle modification.",
+      "The patient has trialled another anti-obesity agent."
+    ]
+  },
+  "files": {
+    "denial": "case_030_denial.txt",
+    "note": "case_030_note.txt"
+  }
+}

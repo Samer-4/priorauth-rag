@@ -1,0 +1,81 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            July 13, 2026
+Authorization Reference:   AUTH-AET-2026-000712
+Review Tracking ID:        UM-RX-2026-07-0712
+
+Member Name:               Priscilla M. Vandenberg
+Member ID:                 MEM-AET-085
+Medical Record Number:     MRN-200085
+Date of Birth:             04/30/1986
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Oluwaseun A. Fadipe, MD — Internal Medicine
+Practice:                  Wynnhaven Medical Group
+Provider ID:               PRV-SYN-1024
+Request Received:          July 6, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — CONTINUATION OF THERAPY
+
+
+Dear Ms. Vandenberg:
+
+We have completed our review of the request to continue coverage of your medication.
+
+  Drug requested:          Saxenda (liraglutide) injection
+  Requested dosing:        3 mg subcutaneously once daily
+  Requested indication:    Chronic weight management, continuation of therapy
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+Continuation of therapy requires a weight loss of at least 5 percent of baseline body weight, or
+maintenance of an initial 5 percent weight loss. Your documented weight loss is 4.1 percent,
+which does not reach the required threshold.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," CONTINUATION OF THERAPY — Chronic
+Weight Management (Adult).
+
+That section requires that all listed criteria be met, including that the patient has lost at
+least 5 percent of baseline body weight, or has continued to maintain an initial 5 percent
+weight loss, with documentation required for approval.
+
+Materials reviewed:
+  1. Continuation request form received July 6, 2026
+  2. Office visit note dated June 29, 2026, Wynnhaven Medical Group
+
+The submitted note documents a baseline weight of 219 pounds on February 16, 2026, the date
+liraglutide was started, at a height of 5 feet 6 inches, corresponding to a body mass index of
+35.3 kg/m². The baseline BMI criterion is met. Therapy has been continuous since February 16,
+2026, a duration of approximately 19 weeks, so the duration criterion is also met.
+
+The current recorded weight is 210 pounds. This is a reduction of 9 pounds, or 4.1 percent of
+baseline. Because 4.1 percent is below the 5 percent threshold, the response criterion is not
+met and continuation cannot be authorized.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

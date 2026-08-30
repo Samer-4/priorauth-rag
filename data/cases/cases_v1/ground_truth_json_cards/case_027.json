@@ -1,0 +1,251 @@
+{
+  "case_id": "case_027",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "2.5 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 2 — General coverage criteria, A. Initial Authorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "partial_evidence",
+      "borderline_threshold",
+      "weak_appeal"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-03-23",
+      "request_date": "2026-03-30",
+      "denial_date": "2026-04-06",
+      "note_type": "family_medicine_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Family history is not comorbidity. The note is dense with diabetes language — a father diagnosed at 41, a sister at 36, an explicit Z83.3 code — while every measurement belonging to the patient is normal, including an A1c of 5.3 that is not even prediabetes. The BMI of 27.9 clears the lower threshold, which makes the comorbidity limb the whole case. A system that treats risk factors as conditions will overturn a correct denial."
+  },
+  "patient": {
+    "name": "Aurelio S. Panganiban",
+    "mrn": "MRN-200294",
+    "member_id": "MEM-UHC-294",
+    "age": 33,
+    "dob": "1992-12-11",
+    "sex": "male",
+    "diagnoses": [
+      "E66.3 overweight",
+      "Z68.27 BMI 27.0-27.9, adult",
+      "Z83.3 family history of diabetes mellitus",
+      "Z82.49 family history of ischemic heart disease"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 27.9,
+      "weight_lb": 206,
+      "height_in": 72,
+      "bmi_history": [
+        { "date": "2026-01-12", "weight_lb": 210, "bmi": 28.5 },
+        { "date": "2026-03-23", "weight_lb": 206, "bmi": 27.9 }
+      ],
+      "a1c_percent": 5.3
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Ingrid F. Malmqvist, MD",
+    "specialty": "Family Medicine",
+    "practice": "Kingsholm Family Medicine",
+    "provider_id": "PRV-SYN-2917"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "bmi_below_30_and_no_weight_related_comorbidity",
+    "denial_reason_text": "BMI is below 30 kg/m2 and no weight-related comorbidity is documented in the member; the record shows a family history of type 2 diabetes rather than a diagnosis in the member.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, A. Initial Authorization",
+    "cited_requirement_text": "Patient has a weight-related comorbidity (e.g., dyslipidemia, hypertension, type 2 diabetes, sleep apnea)",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-03-30",
+      "Family medicine office note dated 2026-03-23"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "weight_related_comorbidity",
+        "requirement": "Patient has a weight-related comorbidity, illustrated as dyslipidemia, hypertension, type 2 diabetes or sleep apnea. Required only where the BMI route relied on is 27 kg/m2 or greater.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(2)(b)",
+        "policy_support_text": "Patient has a weight-related comorbidity (e.g., dyslipidemia, hypertension, type 2 diabetes, sleep apnea)",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "requirement": "Body Mass Index of 30 kg/m2 or greater. The alternative route, which would remove the comorbidity requirement.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 30 kg/m2 or for pediatric patients a BMI > 95th percentile",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "requirement": "Patient is over 16 years of age, for medications other than Qsymia, Saxenda, Wegovy injection and Xenical. Zepbound falls in this group.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.b(2)",
+        "policy_support_text": "Patient is > 16 years of age (for all other medications)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss.",
+        "policy_reference": "Section 2, Coverage Criteria, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The criterion is that the patient has a weight-related comorbidity. A family history is a risk factor, not a condition the patient has, and does not satisfy it however strong the family history is.",
+      "The illustrative list is introduced by 'e.g.' and is not exhaustive, so a condition outside the four named could qualify. That does not help here: the member has no diagnosed condition of any kind.",
+      "An A1c of 5.3 percent is normoglycaemic and does not even reach prediabetes, so the question of whether prediabetes would qualify does not arise on these facts."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-03-23 note was submitted and reviewed. The payer's account of the record is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "weight_related_comorbidity",
+        "evidence_present": false,
+        "evidence_text": "The record documents family history only: father diagnosed with type 2 diabetes at 41 with a myocardial infarction at 55, sister diagnosed at 36. Coded Z83.3 and Z82.49. The member's own results are A1c 5.3 percent, fasting glucose 88 mg/dL, a normal lipid profile, normal blood pressure on repeat measurement without treatment, and no clinical features of obstructive sleep apnea. The assessment states expressly that the patient himself has no diagnosed metabolic or cardiovascular condition.",
+        "evidence_location": "SUBJECTIVE; laboratory results; ASSESSMENT items 2 to 6",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "evidence_present": false,
+        "evidence_text": "Height 6 ft 0 in with 210 lb (BMI 28.5) on 01/12/2026 and 206 lb (BMI 27.9) on 03/23/2026. Neither reaches 30.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "evidence_present": true,
+        "evidence_text": "DOB 12/11/1992; age 33 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Evening snacking stopped, food logging started and gym membership taken out from 01/12/2026, with four gym mornings weekly maintained to 03/23/2026. Plan item 1 states the drug is an adjunct to those changes.",
+        "evidence_location": "WEIGHT MANAGEMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "covered_indication",
+        "evidence_present": true,
+        "evidence_text": "The plan requests tirzepatide for weight.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No diagnosed weight-related comorbidity exists in the member. The note documents the absence affirmatively across five assessment items.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "weight_related_comorbidity",
+        "status": "not_satisfied",
+        "reason": "The record documents family history rather than a condition the member has. Every measurement belonging to the member is normal."
+      },
+      {
+        "criterion_name": "bmi_30_or_greater",
+        "status": "not_satisfied",
+        "reason": "Highest recorded BMI is 28.5 kg/m2, below 30. The comorbidity route is therefore the only one available and it fails."
+      },
+      {
+        "criterion_name": "age_over_16_for_other_medications",
+        "status": "satisfied",
+        "reason": "Age 33."
+      },
+      {
+        "criterion_name": "adjunct_to_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietary change, food logging and a four-times-weekly gym programme documented and continuing."
+      },
+      {
+        "criterion_name": "covered_indication",
+        "status": "satisfied",
+        "reason": "The request is for weight loss."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The member's BMI of 27.9 kg/m2 clears the 27 kg/m2 threshold, so the comorbidity route is available in principle.",
+      "Age, covered indication and lifestyle modification are all satisfied.",
+      "The denial accurately states both routes and accurately reports the record.",
+      "The family history is genuinely strong and the prescriber's clinical concern is reasonable."
+    ],
+    "unsupported_claims": [
+      "That a family history of type 2 diabetes is a weight-related comorbidity of the member.",
+      "That the member has prediabetes; an A1c of 5.3 percent is normoglycaemic.",
+      "That the member has dyslipidemia, hypertension or sleep apnea.",
+      "That risk of future disease satisfies a criterion framed around conditions the patient has."
+    ],
+    "correct_next_step": "Advise that the record does not support overturning the denial. The prescriber's own note anticipates this. If the member's own measurements change — an A1c reaching the prediabetes or diabetes range, a lipid or blood-pressure diagnosis, or a sleep study showing apnea — the comorbidity route becomes available on a fresh request. A BMI reaching 30 would remove the need for it altogether."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on March 23, 2026 was 27.9 kg/m2, with height 6 feet 0 inches and weight 206 pounds.",
+      "A weight of 210 pounds, a BMI of 28.5 kg/m2, was recorded on January 12, 2026.",
+      "The member's father was diagnosed with type 2 diabetes at 41 and had a myocardial infarction at 55.",
+      "The member's sister was diagnosed with type 2 diabetes at 36.",
+      "Hemoglobin A1c on March 9, 2026 was 5.3 percent and fasting glucose was 88 mg/dL.",
+      "The lipid profile and blood pressure were normal and the member takes no regular prescription medication.",
+      "The member stopped evening snacking, logs food, and attends the gym four mornings weekly since January 12, 2026.",
+      "The member was 33 years of age at the time of the request."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has type 2 diabetes.",
+      "The member has prediabetes.",
+      "The member has dyslipidemia, hypertension or obstructive sleep apnea.",
+      "The member's family history satisfies the weight-related comorbidity criterion.",
+      "The member's BMI is 30 kg/m2 or greater.",
+      "The member has undergone a sleep study.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat."
+    ]
+  },
+  "files": {
+    "denial": "case_027_denial.txt",
+    "note": "case_027_note.txt"
+  }
+}

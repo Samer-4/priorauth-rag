@@ -1,0 +1,75 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    05/18/2026
+Case Reference:          AUTH-CIG-2026-000513
+Member:                  Curtis A. Ramroop
+Member ID:               MEM-CIG-140
+Patient Record Number:   MRN-200140
+Date of Birth:           07/09/1974
+Request Received:        05/11/2026
+Prescriber:              Faisal N. Kettaneh, MD, Pulmonary and Sleep Medicine
+Prescriber Reference:    PRV-SYN-1572
+
+
+REQUEST REVIEWED
+
+  Medication:            Zepbound (tirzepatide) injection
+  Strength requested:    2.5 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Moderate to severe obstructive sleep apnea in a patient with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Coverage of Zepbound for obstructive sleep apnea requires a baseline body mass index of 30 kg/m²
+or greater and an apnea-hypopnea index of 15 or more events per hour. Neither threshold is met
+on the submitted record.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section V. Zepbound, 2. Obstructive Sleep Apnea, Moderate
+to Severe, in a Patient with Obesity, A) Initial Therapy.
+
+That section requires all of the listed criteria, including that at baseline the patient had a
+BMI of 30 kg/m² or greater, and that the patient "has had a sleep study that shows BOTH of the
+following": a diagnosis of moderate to severe obstructive sleep apnea, and an apnea-hypopnea
+index of 15 or more events per hour. The policy notes that a diagnosis of moderate obstructive
+sleep apnea is an apnea-hypopnea index of 15 or more events per hour.
+
+Records reviewed: prior authorization request form dated 05/11/2026; pulmonary and sleep
+medicine office note dated 05/04/2026; home sleep apnea test report dated 03/2026.
+
+The sleep study reports an apnea-hypopnea index of 14.6 events per hour, which is below the
+threshold of 15 and is characterised in the report itself as mild obstructive sleep apnea. The
+recorded body mass index is 28.4 kg/m², with the highest value in the submitted record being
+29.0 kg/m². Both thresholds for this indication are therefore unmet.
+
+We also considered the request under section V. Zepbound, 1. Weight Loss in an Adult with
+Overweight or Obesity, A) Initial Therapy. That section requires that the patient has engaged in
+a trial of behavioral modification and dietary restriction for at least 3 months. The submitted
+record documents dietary counselling beginning 03/30/2026, approximately six weeks before this
+request. That criterion is not met either.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

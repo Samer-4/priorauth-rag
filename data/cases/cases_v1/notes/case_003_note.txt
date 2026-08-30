@@ -1,0 +1,139 @@
+NORTHGATE ENDOCRINE & METABOLIC CLINIC
+Endocrinology Consultation — Follow-up
+
+PATIENT:           Brennan, Yolanda P.
+MRN:               MRN-200033
+DOB:               07/22/1988      AGE: 38      SEX: Female
+DATE OF SERVICE:   07/21/2026
+PROVIDER:          Kwame A. Boateng, MD — Endocrinology (PRV-SYN-0507)
+REFERRED BY:       Internal Medicine, Northgate Primary Care
+VISIT TYPE:        Obesity management follow-up (third visit)
+
+
+CHIEF COMPLAINT
+"I want to talk about whether I'm a candidate for the injection."
+
+
+SUBJECTIVE
+
+Ms. Brennan returns for follow-up of obesity management. She was referred in April for weight
+management in the context of obstructive sleep apnea and hypertension.
+
+Since her initial visit she has been working with our nutrition service. She saw Elena Vasquez,
+RD on 05/05/2026, when a calorie target of 1,500 kcal/day was set along with a plan to shift
+away from restaurant breakfasts and to add protein at each meal. She returned to nutrition on
+06/16/2026, at which point she reported consistent adherence on weekdays and more difficulty on
+weekends. At that visit she also reported joining a gym near her workplace; she has been going
+three mornings a week for a combination of treadmill walking and machine-based resistance work,
+and reports she has not missed a week since starting.
+
+She is discouraged that the rate of loss has slowed and asks about medication. She has read
+about semaglutide. We discussed mechanism, the titration schedule, expected gastrointestinal
+effects, the importance of continuing dietary and activity changes with the medication, and the
+recommendation to stop the medication at least two months before a planned pregnancy. She is
+using an intrauterine device and does not plan pregnancy. No personal or family history of
+medullary thyroid carcinoma or multiple endocrine neoplasia type 2. No history of pancreatitis.
+No history of gallbladder disease.
+
+Obstructive sleep apnea: diagnosed 2024 on home sleep testing, on CPAP. Download from
+06/2026 shows usage on 26 of 30 nights, average 6.1 hours per night, residual AHI 3.2. She
+tolerates the mask well since switching to a nasal pillow interface.
+
+Hypertension: home readings 124-136 systolic. On lisinopril-hydrochlorothiazide. No side
+effects reported.
+
+Fatigue: improved since iron repletion earlier this year. Menses regular, moderate flow.
+
+She works as a hospital unit coordinator on a rotating schedule, which she identifies as her
+main barrier to consistent meal timing.
+
+
+RELEVANT TREATMENT HISTORY
+
+  04/07/2026    Initial endocrinology consultation. Weight 198 lb. Referral placed to clinic
+                nutrition service. Labs ordered.
+  05/05/2026    Nutrition consultation, Vasquez RD. Calorie target 1,500 kcal/day; dietary plan
+                established.
+  06/16/2026    Nutrition follow-up, Vasquez RD. Adherence reviewed. Gym membership started;
+                three sessions weekly begun.
+  07/21/2026    Today.
+
+No prescription weight-loss medication has been used, currently or previously. No GLP-1
+receptor agonist exposure. No bariatric surgery. No structured weight-management program prior
+to 04/2026.
+
+
+CURRENT MEDICATIONS
+
+  lisinopril-hydrochlorothiazide 20-12.5 mg PO daily
+  ferrous sulfate 325 mg PO every other day
+  levonorgestrel intrauterine device (placed 2023)
+  CPAP nightly
+
+
+OBJECTIVE
+
+BP 128/78    HR 70    Temp 98.1 F    SpO2 97% room air
+Height:  5 ft 3 in (63 in)
+Weight:  190 lb
+BMI:     33.7 kg/m²
+
+Weight trend:
+  04/07/2026    198 lb    BMI 35.1
+  05/05/2026    196 lb    BMI 34.7
+  06/16/2026    193 lb    BMI 34.2
+  07/21/2026    190 lb    BMI 33.7
+
+Exam: No acute distress. Thyroid not enlarged, no nodules palpable. Cardiovascular regular
+rhythm, no murmurs. Lungs clear. Abdomen soft, non-tender. No acanthosis nigricans. No lower
+extremity edema. No proximal muscle weakness.
+
+Laboratory (07/06/2026):
+  Hemoglobin A1c        5.4 %
+  Fasting glucose       91 mg/dL
+  TSH                   1.8 mIU/L
+  Free T4               1.1 ng/dL
+  Total cholesterol     186 mg/dL
+  LDL                   109 mg/dL
+  HDL                   52 mg/dL
+  Triglycerides         124 mg/dL
+  ALT                   22 U/L
+  Ferritin              68 ng/mL
+  Hemoglobin            12.9 g/dL
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.7 kg/m² (Z68.33). Eight pounds down since April with dietary and
+   activity changes; rate of loss slowing. Candidate for adjunctive pharmacotherapy.
+2. Obstructive sleep apnea (G47.33), on CPAP with good adherence and well-controlled residual
+   AHI.
+3. Essential hypertension (I10), controlled.
+4. Iron deficiency without anemia (E61.1), repleted; ferritin now normal.
+5. No evidence of thyroid dysfunction or hypercortisolism to explain weight; screening labs
+   unremarkable.
+
+
+PLAN
+
+1. Obesity. Will submit prior authorization for semaglutide (Wegovy) injection, 0.25 mg weekly
+   with standard monthly titration toward the maintenance dose as tolerated. The medication is
+   to be used as an adjunct to, not a replacement for, her current program: she will continue
+   the 1,500 kcal/day plan with Vasquez RD and the three-times-weekly gym sessions, and will
+   keep her nutrition follow-up scheduled for 08/2026. Reviewed contraception and pregnancy
+   planning as above. Antiemetic strategies and titration-hold instructions given in writing.
+2. Obstructive sleep apnea. Continue CPAP. Repeat download at next visit. If substantial weight
+   loss occurs, reassess pressure settings.
+3. Hypertension. Continue current regimen. Monitor for orthostatic symptoms if weight falls
+   further; anticipate possible need to reduce diuretic dose.
+4. Iron. Continue every-other-day ferrous sulfate through 09/2026, then recheck ferritin and
+   CBC.
+5. Nutrition. Continue with clinic nutrition service; next visit 08/2026.
+
+Return in 10 weeks, or 4 weeks after medication start if approved.
+
+
+Kwame A. Boateng, MD
+Endocrinology
+Electronically signed 07/21/2026 15:08

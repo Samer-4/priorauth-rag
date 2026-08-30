@@ -1,0 +1,80 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    05/27/2026
+Case Reference:          AUTH-CIG-2026-000278
+Member:                  Travis M. Lindqvist
+Member ID:               MEM-CIG-027
+Patient Record Number:   MRN-200027
+Date of Birth:           01/30/1985
+Request Received:        05/19/2026
+Prescriber:              Priya Raghunathan, MD, Internal Medicine
+Prescriber Reference:    PRV-SYN-0311
+
+
+REQUEST REVIEWED
+
+  Medication:            Zepbound (tirzepatide) injection
+  Strength requested:    2.5 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Weight loss in an adult with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Coverage of Zepbound for weight loss in an adult requires that the patient has engaged in a
+trial of behavioral modification and dietary restriction for at least 3 months. The clinical
+record submitted does not support that this has occurred.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like
+Peptide-1 Agonists Prior Authorization Policy," section V. Zepbound, 1. Weight Loss in an Adult
+with Overweight or Obesity, A) Initial Therapy.
+
+That section requires, among other criteria, that the "Patient has engaged in a trial of
+behavioral modification and dietary restriction for at least 3 months."
+
+Records reviewed: prior authorization request form dated 05/19/2026 and office note from
+Harborview Primary Care Associates dated 05/11/2026.
+
+The office note documents a body mass index of 31.5 kg/m², which satisfies the baseline BMI
+criterion of 30 kg/m² or greater. Age and the concomitant behavioral modification and
+reduced-calorie diet criteria are also satisfied and are not at issue.
+
+The behavioral and dietary trial is at issue. The prior authorization form states that the
+patient has completed "6 months of diet and exercise." The clinical record does not support
+that statement. The dated entries in the submitted note record the first nutrition visit on
+03/16/2026 and a second on 05/04/2026, and the note states that there was no structured
+weight-management or nutrition program before March 2026. Measured from the first documented
+contact on 03/16/2026 to the date of this request, the documented trial is approximately nine
+weeks. Measured to the date of the submitted note, it is eight weeks. Either way it falls short
+of three months.
+
+Because the clinical record does not establish a three-month trial, the criterion is not met
+and the request cannot be approved.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan. Additional clinical documentation may be submitted with the request. Documentation that
+would bear on this determination includes dated records from a dietitian, nutrition program, or
+behavioral health provider covering a period of at least three months, or records of an earlier
+qualifying trial not previously submitted.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

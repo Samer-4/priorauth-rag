@@ -1,0 +1,241 @@
+{
+  "case_id": "case_028",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per labeling",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Section 3 — Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) Plans, A. Initial Authorization",
+    "plan_variant": "north_dakota_fully_insured_ehb_individual",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'North Dakota Fully Insured Essential Health Benefits — Individual market plan'",
+      "Denial letter cites Section 3 by name and states that where Section 3 applies it governs in place of Section 2",
+      "Member ID carries the ND variant marker: MEM-UHC-ND-305",
+      "Clinical note letterhead is Red River Internal Medicine, Fargo, North Dakota",
+      "Clinical note header records STATE OF RESIDENCE: North Dakota",
+      "Clinical note records that the member bought the plan through the state exchange in January 2026 after leaving employer coverage"
+    ],
+    "case_types": [
+      "plan_variant_selection",
+      "distractor_heavy",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-04-20",
+      "request_date": "2026-04-27",
+      "denial_date": "2026-05-04",
+      "note_type": "internal_medicine_office_visit",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The whole case is which section of one policy governs. A BMI of 36.3 comfortably clears the Section 2 threshold of 30 and comfortably fails the Section 3 threshold of 40. Membership of the Section 3 variant is established six separate ways across both documents so that the determination is auditable, but a system that retrieves the first BMI criterion it finds will approve a request the policy denies."
+  },
+  "patient": {
+    "name": "Marlene K. Thorsvik",
+    "mrn": "MRN-200305",
+    "member_id": "MEM-UHC-ND-305",
+    "age": 46,
+    "dob": "1979-09-24",
+    "sex": "female",
+    "state_of_residence": "North Dakota",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.36 BMI 36.0-36.9, adult",
+      "M25.561 pain in right knee",
+      "M25.562 pain in left knee"
+    ],
+    "comorbidities": [
+      "bilateral knee pain"
+    ],
+    "relevant_measurements": {
+      "bmi": 36.3,
+      "weight_lb": 218,
+      "height_in": 65,
+      "bmi_history": [
+        { "date": "2026-01-26", "weight_lb": 223, "bmi": 37.1 },
+        { "date": "2026-04-20", "weight_lb": 218, "bmi": 36.3 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Halldor J. Sigurdsson, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Red River Internal Medicine, Fargo, North Dakota",
+    "provider_id": "PRV-SYN-3028"
+  },
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "bmi_below_north_dakota_ehb_threshold",
+    "denial_reason_text": "The plan is a North Dakota fully insured EHB individual market plan, whose criteria require a BMI of 40 kg/m2 or greater; the documented BMI is 36.3 kg/m2.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 3, Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) Plans, A. Initial Authorization",
+    "cited_requirement_text": "Body Mass Index (BMI) ≥ 40 kg/m2 or for pediatric patients a BMI > 120% of 95th percentile",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-04-27",
+      "Internal medicine office note dated 2026-04-20"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "nd_ehb_bmi_40_or_greater",
+        "requirement": "For North Dakota fully insured EHB small group and individual plans, Body Mass Index of 40 kg/m2 or greater, or for pediatric patients a BMI above 120 percent of the 95th percentile.",
+        "policy_reference": "Section 3, Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) Plans, A. Initial Authorization, 1.d(1)",
+        "policy_support_text": "Body Mass Index (BMI) ≥ 40 kg/m2 or for pediatric patients a BMI > 120% of 95th percentile",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "nd_ehb_covered_indication",
+        "requirement": "Treatment is being requested for appetite suppression or weight loss, or one of the other listed indications.",
+        "policy_reference": "Section 3, A. Initial Authorization, 1.a(1)",
+        "policy_support_text": "Treatment is being requested for appetite suppression or weight loss",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "nd_ehb_age_requirement",
+        "requirement": "Patient is 12 years of age or older for Wegovy injection.",
+        "policy_reference": "Section 3, A. Initial Authorization, 1.b(1)",
+        "policy_support_text": "Patient is ≥ 12 years of age for Wegovy injection",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "nd_ehb_adjunct_to_lifestyle_modification",
+        "requirement": "Used as an adjunct to lifestyle modification.",
+        "policy_reference": "Section 3, A. Initial Authorization, 1.c",
+        "policy_support_text": "Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, exercise, behavioral support, community-based program)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Section 2 and Section 3 are alternative criteria sets within one program document. Section 3 is headed 'Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) Plans' and governs where the member's plan falls within it.",
+      "The Section 2 threshold of 30 kg/m2, and its BMI 27-plus-comorbidity route, do not apply to a Section 3 plan. The member would qualify under Section 2 and that is irrelevant.",
+      "Section 3's only alternative to the BMI route is a request for Wegovy injection for the treatment of MASH. The record documents normal hepatic function and no liver disease, so that route is unavailable.",
+      "The program's background section states that it is designed in part to meet regulatory requirements for coverage of weight loss medications in North Dakota Essential Health Benefits, which is why the variant exists."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-04-20 note was submitted and reviewed. The payer's account of the record and of the plan variant is accurate.",
+    "expected_evidence": [
+      {
+        "criterion_name": "nd_ehb_bmi_40_or_greater",
+        "evidence_present": false,
+        "evidence_text": "Height 5 ft 5 in with 223 lb (BMI 37.1) on 01/26/2026 and 218 lb (BMI 36.3) on 04/20/2026. The highest value in the record is 37.1 kg/m2, below the 40 kg/m2 threshold that Section 3 sets.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "nd_ehb_covered_indication",
+        "evidence_present": true,
+        "evidence_text": "Assessment item 1 is obesity; the plan requests semaglutide for weight. Assessment item 2 records no liver disease and no evidence of steatohepatitis, closing the MASH alternative.",
+        "evidence_location": "ASSESSMENT items 1 and 2; PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "nd_ehb_age_requirement",
+        "evidence_present": true,
+        "evidence_text": "DOB 09/24/1979; age 46 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "nd_ehb_adjunct_to_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Dietitian consultation 01/26/2026 with calorie target, food diary and an indoor walking programme, reviews on 02/23/2026 and 03/30/2026 with walking increased to four mornings weekly, all maintained. Plan item 1 states the drug is an adjunct to that work.",
+        "evidence_location": "WEIGHT MANAGEMENT; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No recorded BMI reaches 40 kg/m2 and there is no earlier or higher weight in the record.",
+        "material_to_outcome": true
+      },
+      {
+        "description": "No evidence of metabolic dysfunction-associated steatohepatitis; hepatic function is normal and the assessment records no liver disease.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "nd_ehb_bmi_40_or_greater",
+        "status": "not_satisfied",
+        "reason": "Highest recorded BMI is 37.1 kg/m2 and the current value is 36.3, both below the Section 3 threshold of 40 kg/m2."
+      },
+      {
+        "criterion_name": "nd_ehb_covered_indication",
+        "status": "satisfied",
+        "reason": "The request is for weight loss."
+      },
+      {
+        "criterion_name": "nd_ehb_age_requirement",
+        "status": "satisfied",
+        "reason": "Age 46, above the 12-year threshold that applies to Wegovy injection under Section 3."
+      },
+      {
+        "criterion_name": "nd_ehb_adjunct_to_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietitian input and a walking programme documented from 01/26/2026 and continuing."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The indication, age and lifestyle-modification criteria are all satisfied under Section 3.",
+      "The denial correctly identifies the plan as one governed by Section 3 and correctly quotes the threshold that section sets.",
+      "The member has completed three months of documented dietary and activity intervention."
+    ],
+    "unsupported_claims": [
+      "That the member's BMI reaches 40 kg/m2.",
+      "That the Section 2 threshold of 30 kg/m2 applies to this plan.",
+      "That the BMI 27-plus-comorbidity route is available under Section 3; Section 3 contains no such route.",
+      "That the member has metabolic dysfunction-associated steatohepatitis."
+    ],
+    "correct_next_step": "Advise that the denial cannot be overturned on this plan's criteria. The gap is substantial rather than marginal — 36.3 against a threshold of 40. Worth confirming with the member that the plan is correctly identified, since the criteria that apply turn entirely on that, but the record supports the payer's classification."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Documented BMI on April 20, 2026 was 36.3 kg/m2, with height 5 feet 5 inches and weight 218 pounds.",
+      "A weight of 223 pounds, a BMI of 37.1 kg/m2, was recorded on January 26, 2026.",
+      "The member's plan is a North Dakota fully insured Essential Health Benefits individual market plan purchased through the state exchange in January 2026.",
+      "The member resides in North Dakota and is treated in Fargo, North Dakota.",
+      "Dietitian consultations are documented on January 26, February 23 and March 30, 2026, with a food diary and an indoor walking programme increased to four mornings weekly.",
+      "The member was 46 years of age at the time of the request.",
+      "Hepatic function was normal and the assessment records no liver disease."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member's BMI is 40 kg/m2 or greater.",
+      "The general Section 2 criteria, including the 30 kg/m2 threshold, apply to this member.",
+      "The BMI 27-plus-comorbidity route is available under the North Dakota criteria.",
+      "The member has metabolic dysfunction-associated steatohepatitis.",
+      "The member has type 2 diabetes, hypertension, dyslipidemia or sleep apnea.",
+      "The member is enrolled in an employer group plan.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat."
+    ]
+  },
+  "files": {
+    "denial": "case_028_denial.txt",
+    "note": "case_028_note.txt"
+  }
+}

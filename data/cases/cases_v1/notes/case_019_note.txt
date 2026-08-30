@@ -1,0 +1,117 @@
+ALDGATE INTERNAL MEDICINE
+Office Visit Note
+
+Patient:            Halloran, Marguerite O.
+MRN:                MRN-200206
+DOB:                05/14/1972     Age: 54     Sex: Female
+Date of service:    06/15/2026
+Clinician:          Idris B. Vandermolen, MD (PRV-SYN-2138)
+Visit type:         Established patient, weight management
+
+
+REASON FOR VISIT
+Transition from compounded semaglutide to a licensed product.
+
+
+SUBJECTIVE
+
+Ms. Halloran comes in to arrange a switch. She has been taking compounded semaglutide obtained
+through a telehealth service since last September. That service stopped supplying it on
+05/25/2026 when the compounding exemption ended, and she has now been three weeks without any
+medication. She has not taken anything else in the interim.
+
+She is worried about losing what she has gained. She describes the last nine months as the first
+time in twenty years that her weight has moved in a sustained way, and she does not want to go
+back.
+
+She has been working with our dietitian throughout. She started with Ms. Perpetua Osei-Bonsu, RD
+in September, before any medication, and has continued monthly since. The plan is a 1,400
+kcal/day pattern with a food diary, and she walks 45 minutes on most days.
+
+She asks to be switched to a licensed product. I have explained that this is a new authorization
+rather than a continuation, because what she has been taking is not the product being requested.
+
+Menopausal. No hormone therapy.
+
+Knees ache after longer walks, no swelling.
+
+No tobacco. Alcohol rare. Works as a school business manager.
+
+
+TREATMENT HISTORY
+
+  08/25/2025   Baseline assessment before any weight-loss pharmacotherapy of any kind. Weight
+               recorded. This is the last weight before any GLP-1 exposure. Recorded in the
+               08/2025 clinic note.
+  09/08/2025   Dietitian programme started with Ms. Osei-Bonsu, RD. Calorie target and food
+               diary established. Monthly reviews thereafter, continuing to date without
+               interruption.
+  09/2025      Compounded semaglutide started through an external telehealth service.
+  05/25/2026   Compounded semaglutide supply discontinued by the provider. No medication since.
+  06/15/2026   Today. No GLP-1 or GLP-1/GIP agonist currently being taken.
+
+Compounded semaglutide is the only agent of this class she has ever taken. She has never taken
+Wegovy, Saxenda, liraglutide, Zepbound, tirzepatide, Ozempic or any other product in this class.
+No other prescription weight-loss medication at any time.
+
+
+CURRENT MEDICATIONS
+
+  atorvastatin 10 mg PO daily
+  cholecalciferol 2000 IU PO daily
+
+No weight-loss medication currently. Compounded semaglutide discontinued 05/25/2026.
+
+
+OBJECTIVE
+
+BP 122/76    HR 68    Temp 98.2 F
+Height:  5 ft 4 in (64 in)
+Weight:  167 lb
+BMI:     28.7 kg/m²
+
+Weights on file:
+  08/25/2025   197 lb   (BMI 33.8)   — pre-treatment, before any GLP-1 exposure
+  11/03/2025   186 lb   (BMI 31.9)
+  03/02/2026   172 lb   (BMI 29.5)
+  06/15/2026   167 lb   (BMI 28.7)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender. No
+peripheral oedema. Knees without effusion.
+
+Laboratory (06/01/2026):
+  Hemoglobin A1c        5.4 %
+  Fasting glucose       88 mg/dL
+  Total cholesterol     174 mg/dL
+  LDL                   98 mg/dL
+  HDL                   58 mg/dL
+  Triglycerides         96 mg/dL
+  TSH                   2.3 mIU/L
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9) with substantial treated response. Pre-treatment BMI 33.8 kg/m²; current BMI
+   28.7 kg/m² (Z68.28) after nine months of therapy and sustained dietary and activity change.
+2. Interruption of pharmacotherapy since 05/25/2026 following withdrawal of the compounded
+   product, with risk of regain.
+3. Dyslipidemia (E78.5) — at goal on atorvastatin.
+
+
+PLAN
+
+1. Obesity. Prior authorization to be submitted for semaglutide (Wegovy) injection at 1.7 mg
+   weekly, matching the dose she had reached, to replace the discontinued compounded product.
+   She will continue Ms. Osei-Bonsu's plan and the walking programme alongside it.
+2. Documentation. The pre-treatment weight and body mass index are in the 08/2025 clinic note.
+   I have asked the office to retrieve that note so it can accompany the request; it is not
+   part of the current chart summary.
+3. Lipids. Continue atorvastatin 10 mg daily.
+4. Knees. Reassurance; review if symptoms progress.
+
+Return in 8 weeks.
+
+
+Idris B. Vandermolen, MD
+Signed 06/15/2026

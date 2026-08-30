@@ -1,0 +1,78 @@
+UnitedHealthcare
+Prior Authorization Determination — Pharmacy Benefit
+
+Date of determination:   August 4, 2026
+Authorization number:    AUTH-UHC-2026-000512
+Member:                  Yolanda P. Brennan
+Member ID:               MEM-UHC-033
+Patient identifier:      MRN-200033
+Date of birth:           07/22/1988
+Plan:                    Commercial employer group pharmacy benefit (fully insured, Ohio)
+Prescriber:              Kwame A. Boateng, MD — Endocrinology
+Prescriber ID:           PRV-SYN-0507
+Date request received:   July 28, 2026
+
+
+ADVERSE DETERMINATION — COVERAGE NOT AUTHORIZED
+
+
+Dear Ms. Brennan,
+
+We have completed our review of the prior authorization request submitted for you.
+
+  Drug requested:        Wegovy (semaglutide) injection
+  Dose requested:        0.25 mg subcutaneously weekly, titrated per labeling
+  Indication submitted:  Weight loss
+  Type of review:        Initial authorization
+
+
+DETERMINATION
+
+Coverage is not authorized at this time.
+
+
+BASIS FOR DETERMINATION
+
+Coverage for weight loss medications under this benefit requires documentation of at least six
+(6) months of participation in a physician-supervised weight management program before drug
+therapy begins. The records submitted do not document six months of participation in such a
+program.
+
+
+CLINICAL REVIEW SUMMARY
+
+Coverage program applied: UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior
+Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage
+(Program Number 2026 P 1114-20, effective 5/1/2026). Section 2, Coverage Criteria, A. Initial
+Authorization.
+
+Documentation reviewed:
+  - Prior authorization request form received July 28, 2026
+  - Endocrinology consultation note dated July 21, 2026, Northgate Endocrine & Metabolic Clinic
+
+The submitted records establish a body mass index of 33.7 kg/m² and a request for the treatment
+of obesity. Those elements are consistent with the criteria. The member's age is not at issue.
+
+The submitted records describe nutrition counseling beginning May 5, 2026 and a structured
+exercise regimen beginning June 16, 2026. This represents approximately eleven weeks of
+documented participation through the date of the most recent submitted note. Because this falls
+short of the six-month participation requirement described above, the request is not
+authorized.
+
+Approval may be reconsidered upon submission of documentation showing that the required
+six-month period of supervised weight management has been completed.
+
+
+RECONSIDERATION AND APPEAL
+
+You, or your prescriber acting as your authorized representative, may request an appeal of this
+determination under the terms of your benefit plan. You may submit additional information in
+support of the request, including records from a weight management program, a registered
+dietitian, or a behavioral health provider.
+
+For the appeal procedures and timeframes that apply to your plan, or for questions about this
+notice, please contact the number for Member Services printed on your health plan ID card.
+
+
+UnitedHealthcare Pharmacy Prior Authorization
+Determination made by a licensed clinical reviewer

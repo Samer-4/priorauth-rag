@@ -1,0 +1,103 @@
+MARLOW BRIDGE FAMILY PRACTICE
+Office Visit Note
+
+PATIENT:          Sizemore, Ruthanne P.
+MRN:              MRN-200283
+DOB:              03/07/1968          AGE: 58          SEX: Female
+DATE OF SERVICE:  07/06/2026
+PROVIDER:         Callum W. Ashworth-Bekele, MD — Family Medicine (PRV-SYN-2806)
+VISIT TYPE:       Established patient, weight review
+
+
+CHIEF COMPLAINT
+Weight. Asking about the injection.
+
+
+SUBJECTIVE
+
+Ms. Sizemore has been chipping away at this since the spring and wanted to review where she has
+got to.
+
+Since April she has been going out with the Thursday evening walking group that runs from her
+church hall. It is about three miles and she has not missed a week except when she had a cold in
+May. She has also been doing the six-week "Better Plates" challenge that her employer's wellbeing
+team ran through May and June — weekly group sessions on portion size, label reading and
+batch cooking, with a food diary. She finished it and has kept the diary going since.
+
+The practical changes she describes: she stopped the two cans of regular cola a day, she takes a
+packed lunch four days out of five instead of buying from the canteen, and she has been cooking
+in batches at the weekend so there is something in the freezer on late shifts. She has lost four
+pounds.
+
+She would like to add medication now. She has read about the side effects and is willing to try.
+
+Blood pressure has been fine on amlodipine.
+
+Knees ache on stairs, no swelling, no giving way.
+
+Reflux occasionally at night; she manages it by not eating late.
+
+Postmenopausal, no bleeding. Mammogram up to date.
+
+No tobacco. Alcohol rare. Works as a care home team leader on rotating shifts.
+
+
+CURRENT MEDICATIONS
+
+  amlodipine 5 mg PO daily
+  cholecalciferol 2000 IU PO daily
+  paracetamol 1 g PO PRN
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 128/76    HR 72    Temp 98.2 F
+Height:  5 ft 2 in (62 in)
+Weight:  191 lb
+BMI:     34.9 kg/m²
+
+Weights on file:
+  04/13/2026   195 lb   (BMI 35.7)
+  07/06/2026   191 lb   (BMI 34.9)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender. No
+peripheral oedema. Knees with mild crepitus, no effusion.
+
+Laboratory (06/22/2026):
+  Hemoglobin A1c        5.7 %
+  Fasting glucose       97 mg/dL
+  Total cholesterol     192 mg/dL
+  LDL                   114 mg/dL
+  HDL                   56 mg/dL
+  Triglycerides         126 mg/dL
+  TSH                   2.0 mIU/L
+  Creatinine            0.9 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.9 kg/m² (Z68.34), with a modest response to the changes she has made
+   since April.
+2. Essential hypertension (I10) — controlled.
+3. Bilateral knee pain (M25.561, M25.562), activity-related.
+4. Prediabetes (R73.03), A1c 5.7 percent.
+
+
+PLAN
+
+1. Weight. Prior authorization to be submitted for semaglutide (Wegovy) 0.25 mg weekly with
+   label titration. The medication is to be added to what she is already doing, not to replace
+   it: she will keep going to the Thursday walking group, keep the food diary from the Better
+   Plates programme, and continue the packed lunches and batch cooking. Titration schedule and
+   side-effect advice given in writing.
+2. Hypertension. Continue amlodipine 5 mg daily.
+3. Knees. Reassurance; review if symptoms progress.
+4. Prediabetes. Repeat A1c in 6 months.
+
+Return in 8 weeks.
+
+
+Callum W. Ashworth-Bekele, MD
+Electronically signed 07/06/2026 12:20

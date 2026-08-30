@@ -1,0 +1,108 @@
+ASHCOMBE INTERNAL MEDICINE
+Office Visit Note
+
+Patient:            Montenegro, Rafael E.
+MRN:                MRN-200162
+DOB:                12/01/1969     Age: 56     Sex: Male
+Date of service:    06/22/2026
+Clinician:          Wilhelmina T. Achebe, MD (PRV-SYN-1793)
+Visit type:         Established patient, medication review
+
+
+REASON FOR VISIT
+Liraglutide review; continuation paperwork.
+
+
+SUBJECTIVE
+
+Mr. Montenegro has been on liraglutide since October. He tolerated titration slowly — nausea at
+1.8 mg required two extra weeks before going up — and reached 3 mg in December. He has stayed on
+3 mg since without interruption.
+
+He is candid that his response has been modest. He describes appetite suppression as "real but
+not dramatic." He has kept up the eating plan and walks the dog twice daily, about 50 minutes
+in total. He works long hours managing a restaurant kitchen, which he identifies as his main
+difficulty.
+
+He wants to continue. He says the medication has stopped the upward drift he had before starting,
+which he considers worthwhile in itself.
+
+Blood pressure controlled on amlodipine and losartan. No side effects.
+
+Knees: osteoarthritic pain, better since the weight came off, managed with topical NSAID.
+
+No tobacco. Alcohol two units most evenings; advised to reduce.
+
+
+TREATMENT COURSE
+
+  10/06/2025   Pre-treatment assessment. Weight recorded. Dietitian plan started with Ms.
+               Coralie Vasquez, RD.
+  10/13/2025   Liraglutide (Saxenda) started at 0.6 mg daily.
+  12/2025      Reached 3 mg daily after extended titration. Remains on this dose.
+  02/16/2026   Interval review. Continuing 3 mg daily.
+  06/22/2026   Today. Continuing 3 mg daily; no interruption since 10/13/2025.
+
+Liraglutide is his first and only GLP-1 receptor agonist. He has never taken semaglutide,
+tirzepatide, or any other agent of this class, so the 10/06/2025 weight is the pre-GLP-1
+baseline.
+
+
+CURRENT MEDICATIONS
+
+  liraglutide (Saxenda) 3 mg subcutaneously daily
+  amlodipine 5 mg PO daily
+  losartan 50 mg PO daily
+  diclofenac 1% topical gel PRN
+
+
+OBJECTIVE
+
+BP 128/78    HR 70    Temp 98.1 F
+Height:  5 ft 8 in (68 in)
+Weight:  223 lb
+BMI:     33.9 kg/m²
+
+Weights on file:
+  10/06/2025   233 lb   (BMI 35.4)   — pre-treatment baseline
+  02/16/2026   227 lb   (BMI 34.5)
+  06/22/2026   223 lb   (BMI 33.9)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender, no
+right upper quadrant tenderness. Knees with crepitus, no effusion. No peripheral oedema.
+
+Laboratory (06/08/2026):
+  Hemoglobin A1c        5.7 %
+  Fasting glucose       98 mg/dL
+  Lipase                30 U/L
+  ALT                   28 U/L
+  Total cholesterol     184 mg/dL
+  LDL                   106 mg/dL
+  HDL                   43 mg/dL
+  Triglycerides         149 mg/dL
+  Creatinine            1.0 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.9 kg/m² (Z68.33), with a modest but sustained response to
+   liraglutide and no regain at any interval.
+2. Essential hypertension (I10) — controlled.
+3. Bilateral knee osteoarthritis (M17.0) — symptomatically improved with weight reduction.
+4. Prediabetes (R73.03), A1c 5.7 percent. Not diabetic.
+
+
+PLAN
+
+1. Obesity. Continue liraglutide 3 mg daily. Response is modest but consistent and the trajectory
+   remains downward. Continuation request to be submitted with this note. Continue the dietitian's
+   plan and daily walking.
+2. Hypertension. Continue amlodipine and losartan.
+3. Knees. Continue topical diclofenac; physiotherapy referral if symptoms progress.
+4. Prediabetes. Repeat A1c in 6 months.
+
+Return in 3 months.
+
+
+Wilhelmina T. Achebe, MD
+Signed 06/22/2026

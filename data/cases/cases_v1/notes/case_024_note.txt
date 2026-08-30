@@ -1,0 +1,103 @@
+WRENFIELD FAMILY MEDICINE
+Office Visit Note
+
+PATIENT:          Mbeki, Coretta J.
+MRN:              MRN-200261
+DOB:              08/08/1976          AGE: 49          SEX: Female
+DATE OF SERVICE:  05/25/2026
+PROVIDER:         Solomon P. Reinholt, MD — Family Medicine (PRV-SYN-2684)
+VISIT TYPE:       Established patient, medication follow-up
+
+
+REASON FOR VISIT
+Semaglutide review; reauthorization paperwork.
+
+
+SUBJECTIVE
+
+Ms. Mbeki has been on semaglutide since mid-December. Titration was slow because of nausea, and
+she has settled at 1.7 mg weekly rather than pushing to 2.4 mg. She is comfortable at this dose
+and does not want to increase.
+
+Her response has been steady rather than dramatic. She is pleased with it and says the main
+difference is that she no longer thinks about food constantly.
+
+She has kept up the dietary work throughout — she has been seeing our dietitian since November,
+before starting the medication, and continues monthly. She walks with a neighbour four mornings
+a week and has added a water aerobics class on Sundays since March.
+
+No vomiting, no abdominal pain, no gallbladder symptoms. No pancreatitis history.
+
+Blood pressure controlled on losartan.
+
+Knees are better than they were, which she attributes to the weight.
+
+No tobacco. Alcohol rare. Works as a school nurse.
+
+
+TREATMENT COURSE
+
+  11/17/2025   Dietitian consultation, Ms. Harriet Oduya, RD. Calorie target set; food logging
+               started. Monthly reviews since, continuing to date.
+  12/15/2025   Semaglutide (Wegovy) started at 0.25 mg weekly. Weight recorded this date.
+  03/02/2026   At 1.0 mg weekly. Interval weight recorded.
+  04/2026      Settled at 1.7 mg weekly. No further escalation planned.
+  05/25/2026   Today. Continuing 1.7 mg weekly, uninterrupted since 12/15/2025.
+
+Semaglutide is her only exposure to this class of medication.
+
+
+CURRENT MEDICATIONS
+
+  semaglutide (Wegovy) 1.7 mg subcutaneously weekly
+  losartan 50 mg PO daily
+  cholecalciferol 2000 IU PO daily
+
+
+OBJECTIVE
+
+BP 122/76    HR 68    Temp 98.2 F
+Height:  5 ft 6 in (66 in)
+Weight:  206 lb
+BMI:     33.2 kg/m²
+
+Weights on file:
+  12/15/2025   217 lb   (BMI 35.0)   — recorded on the day semaglutide was started
+  03/02/2026   210 lb   (BMI 33.9)
+  05/25/2026   206 lb   (BMI 33.2)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender, no
+right upper quadrant tenderness. Knees without effusion. No peripheral oedema.
+
+Laboratory (05/11/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       93 mg/dL
+  Lipase                27 U/L
+  ALT                   21 U/L
+  Total cholesterol     179 mg/dL
+  LDL                   101 mg/dL
+  HDL                   54 mg/dL
+  Triglycerides         118 mg/dL
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.2 kg/m² (Z68.33), responding to semaglutide with a steady downward
+   trend at every recorded interval.
+2. Essential hypertension (I10) — controlled.
+
+
+PLAN
+
+1. Obesity. Continue semaglutide 1.7 mg weekly; she is comfortable at this dose and further
+   escalation is not required. Reauthorization request to be submitted with this note. Continue
+   Ms. Oduya's plan, the walking and the water aerobics.
+2. Hypertension. Continue losartan 50 mg daily.
+3. Monitoring. Repeat lipase and hepatic panel at 6 months.
+
+Return in 3 months.
+
+
+Solomon P. Reinholt, MD
+Electronically signed 05/25/2026 09:55

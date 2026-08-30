@@ -1,0 +1,118 @@
+BROOKMERE INTERNAL MEDICINE
+Office Visit Note
+
+PATIENT:          Tavares, Rosalind K.
+MRN:              MRN-200041
+DOB:              11/04/1981          AGE: 44          SEX: Female
+DATE OF SERVICE:  03/02/2026
+PROVIDER:         Helena M. Straatsma, MD — Internal Medicine (PRV-SYN-0629)
+VISIT TYPE:       Weight management follow-up
+
+
+CHIEF COMPLAINT
+Six-month weight program wrap-up; wants to discuss medication.
+
+
+SUBJECTIVE
+
+Ms. Tavares returns after completing the structured program at Fairhaven. She has been
+consistent throughout — she attended every scheduled session, kept her food diary for the whole
+period, and moved from no formal exercise to four walk-jog sessions a week plus a Saturday
+water aerobics class. Her dietitian's closing summary describes her adherence as excellent.
+
+Despite that, the scale has barely moved. She started the program at 222 pounds and is 221
+pounds today, with a low of 219 pounds in January that she was not able to hold. She is
+demoralized and says she is "doing everything right and it isn't working," which is a fair
+description of the record.
+
+She raises medication directly. Her sister was started on a weekly injection through a
+different insurer and has done well. She wants to know whether she is a candidate.
+
+Hypertension: home readings 122-130 over 76-82 on chlorthalidone. No side effects.
+
+Obstructive sleep apnea: diagnosed 2023 on home sleep testing. CPAP nightly, download from
+January shows use on 28 of 31 nights averaging 6.4 hours, residual AHI 2.8. She tolerates it
+well.
+
+Reflux: occasional, controlled with as-needed famotidine.
+
+No tobacco. Alcohol two to three drinks per week. Works as a school administrator.
+
+
+WEIGHT MANAGEMENT PROGRAM — FAIRHAVEN WEIGHT MANAGEMENT SERVICES
+
+Records received and reconciled into the chart:
+
+  08/18/2025   Intake with Corinne Aldaz, RD. Baseline assessment, calorie target
+               1,500 kcal/day, food diary started, activity goal set.
+  09/22/2025   RD follow-up. Diary reviewed. Behavioral session on portion cues.
+  10/27/2025   RD follow-up. Walking program increased to four sessions weekly.
+  11/17/2025   Group behavioral session — emotional eating.
+  12/15/2025   RD follow-up. Holiday planning strategies.
+  01/19/2026   RD follow-up. Water aerobics added. Diary adherence excellent.
+  02/16/2026   Group behavioral session — maintenance and relapse prevention.
+  03/02/2026   Program closing summary issued by Aldaz RD.
+
+
+CURRENT MEDICATIONS
+
+  chlorthalidone 25 mg PO daily
+  famotidine 20 mg PO PRN
+  cholecalciferol 2000 IU PO daily
+  CPAP nightly
+
+No current or prior prescription weight-loss medication. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 126/78    HR 72    Temp 98.3 F
+Height:  5 ft 7 in (67 in)
+Weight:  221 lb
+BMI:     34.6 kg/m²
+
+Weights on file:
+  08/18/2025   222 lb   (BMI 34.8)
+  11/17/2025   220 lb   (BMI 34.5)
+  01/19/2026   219 lb   (BMI 34.3)
+  03/02/2026   221 lb   (BMI 34.6)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender.
+No edema. Mallampati III, neck circumference 15 inches.
+
+Laboratory (02/09/2026):
+  Hemoglobin A1c        5.5 %
+  Total cholesterol     191 mg/dL
+  LDL                   112 mg/dL
+  HDL                   54 mg/dL
+  Triglycerides         124 mg/dL
+  TSH                   1.6 mIU/L
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.6 kg/m² (Z68.34). Completed a full course of structured
+   dietary, behavioral and activity intervention with essentially no net weight change.
+2. Essential hypertension (I10) — controlled.
+3. Obstructive sleep apnea (G47.33) — well controlled on CPAP with good adherence.
+4. Gastro-esophageal reflux disease (K21.9) — mild, intermittent.
+
+
+PLAN
+
+1. Obesity. Discussed pharmacologic options. Reviewed mechanism, gastrointestinal effects,
+   contraindications, and that medication is an addition to, not a substitute for, the dietary
+   and activity work she has already established. No personal or family history of medullary
+   thyroid carcinoma or MEN2. Will submit prior authorization for semaglutide (Wegovy)
+   injection at 0.25 mg weekly with standard titration. She will continue the 1,500 kcal/day
+   plan, the walk-jog sessions and water aerobics.
+2. Hypertension. Continue chlorthalidone 25 mg daily.
+3. Sleep apnea. Continue CPAP; repeat download at next visit.
+4. Reflux. Continue as-needed famotidine.
+
+Return in 10 weeks.
+
+
+Helena M. Straatsma, MD
+Electronically signed 03/02/2026 16:20

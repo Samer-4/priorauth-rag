@@ -1,0 +1,110 @@
+KINGSHOLM FAMILY MEDICINE
+Office Visit Note
+
+PATIENT:          Panganiban, Aurelio S.
+MRN:              MRN-200294
+DOB:              12/11/1992          AGE: 33          SEX: Male
+DATE OF SERVICE:  03/23/2026
+PROVIDER:         Ingrid F. Malmqvist, MD — Family Medicine (PRV-SYN-2917)
+VISIT TYPE:       Established patient, weight and risk review
+
+
+CHIEF COMPLAINT
+Wants to start weight-loss medication because of family history.
+
+
+SUBJECTIVE
+
+Mr. Panganiban is here specifically about his diabetes risk. His father was diagnosed with type 2
+diabetes at 41 and had a myocardial infarction at 55. His older sister was diagnosed at 36, two
+years ago, and that is what prompted this visit. He is 33 and describes himself as "next in
+line."
+
+He has been careful since January. He cut out the evening snacking, has been logging food, and
+has been going to the gym before work four times a week for cardio and weights. He has lost four
+pounds and finds progress slow.
+
+He asks for tirzepatide. He has read that it prevents progression to diabetes and wants to start
+now rather than wait until something goes wrong. I have explained that I share his concern about
+the family history, that his own measurements are currently normal, and that coverage rules turn
+on conditions he has rather than conditions he is at risk of.
+
+He has no symptoms of diabetes — no polyuria, no polydipsia, no visual change, no paraesthesia.
+
+He denies snoring, witnessed apnoeas and daytime sleepiness. His partner has not reported
+snoring. No prior sleep study and no clinical indication for one.
+
+No chest pain, no exertional symptoms. Exercises to a good level without limitation.
+
+No tobacco. Alcohol four to six units at weekends. Works as a software developer.
+
+
+WEIGHT MANAGEMENT
+
+  01/12/2026   Baseline visit. Evening snacking stopped, food logging started, gym membership
+               taken out. Weight recorded.
+  03/23/2026   Today. All three maintained; attending the gym four mornings weekly.
+
+
+CURRENT MEDICATIONS
+
+  cholecalciferol 1000 IU PO daily
+
+No regular prescription medication. No prescription weight-loss medication, current or prior. No
+GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 118/72 (repeat 116/70)    HR 64    Temp 98.2 F
+Height:  6 ft 0 in (72 in)
+Weight:  206 lb
+BMI:     27.9 kg/m²
+
+Weights on file:
+  01/12/2026   210 lb   (BMI 28.5)
+  03/23/2026   206 lb   (BMI 27.9)
+
+Exam: Well-appearing, muscular build. No acanthosis nigricans. Neck circumference 15 inches.
+Mallampati II. Cardiac regular rate and rhythm, no murmur. Lungs clear. Abdomen soft,
+non-tender. No peripheral oedema.
+
+Laboratory (03/09/2026):
+  Hemoglobin A1c        5.3 %
+  Fasting glucose       88 mg/dL
+  Total cholesterol     171 mg/dL
+  LDL                   96 mg/dL
+  HDL                   58 mg/dL
+  Triglycerides         84 mg/dL
+  ALT                   22 U/L
+  Creatinine            1.0 mg/dL
+  TSH                   1.9 mIU/L
+
+
+ASSESSMENT
+
+1. Overweight (E66.3), BMI 27.9 kg/m² (Z68.27).
+2. Family history of type 2 diabetes (Z83.3) in father and sister, and family history of
+   ischaemic heart disease (Z82.49). The patient himself has no diagnosed metabolic or
+   cardiovascular condition.
+3. Normoglycaemia. A1c 5.3 percent, fasting glucose 88 mg/dL — not prediabetes.
+4. Normal lipid profile.
+5. Normotensive on repeated measurement, not on antihypertensive therapy.
+6. No clinical features of obstructive sleep apnea.
+
+
+PLAN
+
+1. Weight. Prior authorization to be submitted for tirzepatide (Zepbound) 2.5 mg weekly at the
+   patient's request, as an adjunct to the dietary and activity changes already in place, which
+   he will continue regardless of the outcome. I have told him I am not confident this will be
+   approved on his current measurements and that I will support a further request if his
+   position changes.
+2. Risk. Annual A1c and lipid profile given the family history. Blood pressure at each visit.
+3. Continue gym programme and food logging.
+
+Return in 6 months, sooner if he wishes to discuss further.
+
+
+Ingrid F. Malmqvist, MD
+Electronically signed 03/23/2026 10:15

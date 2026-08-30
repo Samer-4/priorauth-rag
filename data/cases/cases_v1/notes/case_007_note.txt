@@ -1,0 +1,116 @@
+RIDGEFIELD FAMILY PRACTICE
+Progress Note
+
+PATIENT:          Okwuosa, Adaeze N.
+MRN:              MRN-200074
+DOB:              09/12/1970          AGE: 55          SEX: Female
+DATE OF SERVICE:  05/18/2026
+PROVIDER:         Bernard L. Kaczmarek, MD — Family Medicine (PRV-SYN-0918)
+VISIT TYPE:       Established patient, weight management
+
+
+CHIEF COMPLAINT
+Programme finished; wants to discuss next steps for weight.
+
+
+SUBJECTIVE
+
+Ms. Okwuosa has completed the Elmcrest programme and comes in to review where things stand. She
+was in it from September through the end of April, attending the dietitian sessions and the
+fortnightly behavioural group, and she brought the discharge summary with her today.
+
+Her account of the last eight months is consistent with what the records show. She moved from
+irregular eating around shift work to a planned 1,400 to 1,600 kcal pattern, and from no
+scheduled activity to walking six days a week plus a beginners' strength class on Tuesdays. She
+lost seven pounds and then stalled from February onwards despite no change in what she was
+doing. She is realistic about it and says she is not looking for "a shortcut," but wants to know
+whether adding a medication is reasonable now.
+
+Blood pressure has been well controlled on amlodipine. No headaches, no ankle swelling.
+
+Knees ache after the strength class but settle overnight; no locking or instability.
+
+Perimenopausal symptoms — hot flushes several times a day, disturbed sleep. She has declined
+hormone therapy previously and wishes to continue to decline.
+
+No tobacco, no alcohol. Works as a hospital ward clerk on rotating shifts.
+
+
+ELMCREST HEALTH PARTNERS — PROGRAMME RECORD
+
+Discharge summary and session log reconciled into the chart today:
+
+  09/15/2025   Intake, Yolanda Mbatha, RD. Baseline assessment, calorie target set, food diary
+               started, activity prescription given.
+  10/20/2025   Dietitian review. Diary adherence good. Walking increased to five days weekly.
+  12/08/2025   Behavioural group — cue-based eating and shift-work planning.
+  01/19/2026   Dietitian review. Strength class added Tuesdays.
+  02/23/2026   Behavioural group — plateau management.
+  03/30/2026   Dietitian review. Diary continued; no change to plan.
+  04/27/2026   Programme discharge. Summary letter issued by Mbatha RD.
+
+
+MEDICATION HISTORY
+
+  amlodipine 5 mg PO daily
+  atorvastatin 10 mg PO daily
+  cholecalciferol 2000 IU PO daily
+
+No prescription weight-loss medication has been used, currently or at any time in the past. No
+GLP-1 receptor agonist exposure. No bariatric surgery.
+
+
+OBJECTIVE
+
+BP 124/76    HR 70    Temp 98.2 F
+Height:  5 ft 4 in (64 in)
+Weight:  212 lb
+BMI:     36.4 kg/m²
+
+Weights on file:
+  09/15/2025   219 lb   (BMI 37.6)
+  12/08/2025   216 lb   (BMI 37.1)
+  03/16/2026   213 lb   (BMI 36.6)
+  05/18/2026   212 lb   (BMI 36.4)
+
+Exam: Well-appearing, no acute distress. Cardiac regular rate and rhythm. Lungs clear. Abdomen
+soft, non-tender. Knees without effusion, full range of motion, mild crepitus bilaterally. No
+peripheral oedema.
+
+Laboratory (05/04/2026):
+  Hemoglobin A1c        5.6 %
+  Total cholesterol     186 mg/dL
+  LDL                   104 mg/dL
+  HDL                   58 mg/dL
+  Triglycerides         119 mg/dL
+  TSH                   2.4 mIU/L
+  Creatinine            0.8 mg/dL
+  25-OH vitamin D       36 ng/mL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 36.4 kg/m² (Z68.36). Completed a full structured programme with a
+   modest initial response and a sustained plateau.
+2. Essential hypertension (I10) — controlled.
+3. Bilateral knee pain (M25.561, M25.562), activity-related, no red flags.
+4. Perimenopausal symptoms (N95.1) — hormone therapy declined.
+
+
+PLAN
+
+1. Obesity. Discussed pharmacotherapy. Reviewed mechanism, expected effect size,
+   gastrointestinal side effects, contraindications and the requirement to continue the dietary
+   and activity work alongside any medication. No personal or family history of medullary
+   thyroid carcinoma or MEN2, no history of pancreatitis. Will submit prior authorization for
+   semaglutide (Wegovy) at 0.25 mg weekly with label titration. She will continue the 1,400 to
+   1,600 kcal pattern, the walking and the Tuesday class.
+2. Hypertension. Continue amlodipine 5 mg daily.
+3. Knees. Reassurance, continue class with modification. Consider physiotherapy if persistent.
+4. Perimenopause. Non-hormonal measures reviewed; she will consider referral at a later visit.
+
+Return in 8 weeks, sooner if medication is approved and started.
+
+
+Bernard L. Kaczmarek, MD
+Electronically signed 05/18/2026 14:12

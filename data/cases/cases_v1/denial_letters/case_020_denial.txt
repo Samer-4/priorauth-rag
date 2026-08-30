@@ -1,0 +1,71 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    04/13/2026
+Case Reference:          AUTH-CIG-2026-000377
+Member:                  Ezra B. Falkenrath
+Member ID:               MEM-CIG-217
+Patient Record Number:   MRN-200217
+Date of Birth:           09/30/1988
+Request Received:        04/06/2026
+Prescriber:              Cecily R. Naidoo, MD, Internal Medicine
+Prescriber Reference:    PRV-SYN-2249
+
+
+REQUEST REVIEWED
+
+  Medication:            Zepbound (tirzepatide) injection
+  Strength requested:    2.5 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Weight loss in an adult with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Coverage requires that the patient has engaged in a trial of behavioral modification and dietary
+restriction for at least 3 months. The submitted record documents approximately seven weeks.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section V. Zepbound, 1. Weight Loss in an Adult with
+Overweight or Obesity, A) Initial Therapy.
+
+That section requires, among other criteria, that the "Patient has engaged in a trial of
+behavioral modification and dietary restriction for at least 3 months."
+
+Records reviewed: prior authorization request form dated 04/06/2026; internal medicine office
+note dated 04/06/2026, Bellmount Internal Medicine.
+
+The submitted note establishes a body mass index of 33.1 kg/m², which satisfies the baseline
+requirement, and the member's age and concomitant lifestyle measures are also satisfied. None of
+those is at issue.
+
+The submitted note records dietary and behavioral intervention beginning 02/16/2026, seven weeks
+before this request. It does not describe any earlier programme. On the record submitted, the
+three-month criterion is not met.
+
+Approval may be reconsidered on submission of records documenting a qualifying trial not
+previously provided.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

@@ -1,0 +1,96 @@
+RIVERBEND INTERNAL MEDICINE
+Office Visit Note
+
+PATIENT:          Rutherford, Delphine A.
+MRN:              MRN-200239
+DOB:              01/19/1987          AGE: 39          SEX: Female
+DATE OF SERVICE:  06/08/2026
+PROVIDER:         Everett M. Oyelowo, MD — Internal Medicine (PRV-SYN-2461)
+VISIT TYPE:       Established patient, weight management
+
+
+CHIEF COMPLAINT
+Weight. Wants to start medication.
+
+
+SUBJECTIVE
+
+Ms. Rutherford has been trying to lose weight since the spring. She has cut out sweetened drinks
+entirely, is cooking at home five or six nights a week, and has been going to a lunchtime walking
+group at work three times a week since April. She has lost four pounds and describes progress as
+"slow but real."
+
+She would like to add medication. Her sister started semaglutide last year through a different
+plan and has done well. She has read about the side effects and is prepared for them.
+
+No nausea, no reflux, no gallbladder history. No pancreatitis. No personal or family history of
+medullary thyroid carcinoma or multiple endocrine neoplasia type 2.
+
+Periods regular. Using a copper intrauterine device, no pregnancy plans in the next two years.
+
+Sleep adequate. Mood good. No tobacco. Alcohol occasional.
+
+Works in hospital administration.
+
+
+WEIGHT MANAGEMENT
+
+  03/16/2026   Baseline visit. Dietary changes agreed: sweetened drinks stopped, home cooking
+               target set. Weight recorded.
+  04/2026      Workplace walking group started, three times weekly.
+  06/08/2026   Today. Both changes maintained.
+
+
+CURRENT MEDICATIONS
+
+  copper intrauterine device (in situ)
+  cholecalciferol 2000 IU PO daily
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 118/74    HR 70    Temp 98.2 F
+Height:  5 ft 4 in (64 in)
+Weight:  203 lb
+BMI:     34.8 kg/m²
+
+Weights on file:
+  03/16/2026   207 lb   (BMI 35.5)
+  06/08/2026   203 lb   (BMI 34.8)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender. No
+peripheral oedema. Thyroid not enlarged.
+
+Laboratory (05/25/2026):
+  Hemoglobin A1c        5.5 %
+  Fasting glucose       92 mg/dL
+  Total cholesterol     184 mg/dL
+  LDL                   108 mg/dL
+  HDL                   52 mg/dL
+  Triglycerides         121 mg/dL
+  TSH                   1.8 mIU/L
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 34.8 kg/m² (Z68.34).
+2. No metabolic complications; glucose, lipids and thyroid function normal.
+
+
+PLAN
+
+1. Obesity. Prior authorization to be submitted for semaglutide (Wegovy) 0.25 mg weekly with
+   label titration. Medication is to be used as an adjunct to the dietary and activity changes
+   she has already made, which she will continue. Titration schedule and antiemetic strategies
+   given in writing.
+2. Contraception. Continue intrauterine device; pre-pregnancy counselling given.
+3. Follow-up bloods in 6 months.
+
+Return in 8 weeks, sooner if medication is approved and started.
+
+
+Everett M. Oyelowo, MD
+Electronically signed 06/08/2026 11:30

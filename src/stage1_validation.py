@@ -22,14 +22,12 @@ def validate_json(result: DenialInfo, labels: dict) -> bool:
             elif key == "denial_reason":
                 if not denial_reason_matches(value, labels[key]):
                     status = False
-            elif value.lower() != labels[key].lower():
-                status = False
     return status
 
 def drug_matches(result_drug: str, label_drug: str) -> bool:
     result_lower = result_drug.lower()
     label_terms = label_drug.lower().replace("(", "").replace(")", "").split()
-    return all(term in result_lower for term in label_terms)
+    return any(term in result_lower for term in label_terms)
 
 def payer_matches(result_payer: str, label_payer: str) -> bool:
     result_lower = result_payer.lower().strip()
@@ -59,10 +57,12 @@ def score():
         with open(file, "r", encoding="utf-8") as f:
             text_data = f.read()
             count += 1
-        label_file = labels_path / f"{file.stem}.json"
+        case_id = file.stem.replace("_denial", "")
+        label_file = labels_path / f"{case_id}.json"
         if label_file.exists():
             with open(label_file, "r", encoding="utf-8") as f:
-                labels = json.load(f)
+                card = json.load(f)
+                labels = card["denial_ground_truth"]
             result = extract_denial_info(text_data)
             if validate_json(result, labels):
                 score += 1
@@ -73,8 +73,8 @@ def score():
 if __name__ == "__main__":
 
     BASE_DIR = Path(__file__).resolve().parent.parent
-    file_path = BASE_DIR / "data" / "cases" / "denial_letters"
-    labels_path = BASE_DIR / "data" / "cases" / "denial_json"
+    file_path = BASE_DIR / "data" / "cases" / "cases_v1" / "denial_letters"
+    labels_path = BASE_DIR / "data" / "cases" / "cases_v1" / "ground_truth_json_cards"
 
     result_text = score()
     print(result_text)

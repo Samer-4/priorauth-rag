@@ -1,0 +1,277 @@
+{
+  "case_id": "case_010",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+    "case_types": [
+      "scope_error",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-04-06",
+      "request_date": "2026-04-13",
+      "denial_date": "2026-04-20",
+      "note_type": "neurology_stroke_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The cited requirement is real policy language quoted accurately, and the member genuinely does not meet it — but it belongs to the chronic weight management pathway, and this is a cardiovascular risk-reduction request. Every criterion in the pathway that does govern is met. The failure mode probed is section-blind retrieval: matching a requirement by keyword without checking which pathway the request sits in."
+  },
+  "patient": {
+    "name": "Nikolai P. Sorensen",
+    "mrn": "MRN-200107",
+    "member_id": "MEM-AET-107",
+    "age": 59,
+    "dob": "1966-08-19",
+    "sex": "male",
+    "diagnoses": [
+      "I69.354 hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side",
+      "E66.3 overweight",
+      "Z68.29 BMI 29.0-29.9, adult",
+      "I10 essential hypertension"
+    ],
+    "comorbidities": [
+      "prior ischemic stroke",
+      "essential hypertension"
+    ],
+    "relevant_measurements": {
+      "bmi": 29.4,
+      "weight_lb": 211,
+      "height_in": 71,
+      "bmi_history": [
+        { "date": "2026-01-12", "weight_lb": 215, "bmi": 30.0 },
+        { "date": "2026-04-06", "weight_lb": 211, "bmi": 29.4 }
+      ],
+      "a1c_percent": 5.6
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Amara J. Tewolde, MD",
+    "specialty": "Neurology",
+    "practice": "Stonegate Neurology Associates",
+    "provider_id": "PRV-SYN-1249"
+  },
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "six_month_program_applied_to_cardiovascular_request",
+    "denial_reason_text": "The submitted documentation does not establish participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024\"",
+    "cited_requirement_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "wrong_pathway",
+      "denial_asserts": "the six-month comprehensive weight management program criterion governs this request",
+      "policy_actually_requires_text": null,
+      "explanation": "The quoted requirement is accurate policy language, but it appears only under COVERAGE CRITERIA — Chronic Weight Management (Adult). This request is under Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY, which lists its own criteria and does not include a program requirement. See scope_error_detail."
+    },
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-04-13",
+      "Neurology office note dated 2026-04-06",
+      "Cardiac rehabilitation discharge summary dated 03/2026"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": false,
+    "scope_error_detail": {
+      "cited_language_in_policy": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+      "belongs_to_section": "COVERAGE CRITERIA — Chronic Weight Management (Adult); the same wording is repeated in COVERAGE CRITERIA — Chronic Weight Management (Pediatric) — Saxenda and Wegovy ONLY",
+      "governing_section": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+      "why_it_does_not_apply": "The cardiovascular risk-reduction pathway sets out its own complete list of criteria: that the request is for Wegovy, that the drug is used with a reduced calorie diet and increased physical activity, established cardiovascular disease, a baseline BMI of 27 kg/m2 or greater, absence of type 2 diabetes, and guideline-directed medical therapy. A weight management program requirement is not among them, and the policy does not cross-reference the weight-management criteria into this pathway.",
+      "distractor_warning": "The cited language is genuine and the member genuinely fails it — only about ten weeks of dietetic and rehabilitation input is documented. A system that verifies the quote against the policy text and then checks the record against it will affirm the denial. The check that matters is which pathway the request sits in.",
+      "correct_characterisation": "criterion_exists is true and criterion_applies is false. This is not a policy mismatch: the requirement is real, it simply does not govern this request."
+    },
+    "criteria": [
+      {
+        "criterion_name": "mace_request_is_for_wegovy",
+        "requirement": "The request is for Wegovy (semaglutide).",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The request is for Wegovy (semaglutide)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_concomitant_diet_and_activity",
+        "requirement": "The requested drug is being used with a reduced calorie diet and increased physical activity.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The requested drug is being used with a reduced calorie diet and increased physical activity",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "requirement": "Established cardiovascular disease with a history of one of: previous MI, previous stroke, symptomatic PAD, or prior revascularization.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "previous MI; previous stroke; symptomatic peripheral arterial disease (PAD)",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 27 kg/m2.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 27",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "requirement": "The patient does not have type 2 diabetes.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient does NOT have type 2 diabetes",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "requirement": "Patient is currently receiving guideline-directed management and therapy for cardiovascular disease, or has a clinical reason not to be.",
+        "policy_reference": "COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) — Wegovy ONLY",
+        "policy_support_text": "The patient is currently receiving guideline-directed management and therapy (GDMT) for cardiovascular disease",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The member's BMI of 29.4 kg/m2 would not satisfy the chronic weight management pathway, which requires 35. That is irrelevant here: the cardiovascular pathway sets its own threshold of 27.",
+      "This policy has three initial pathways with non-overlapping criteria lists. Requirements are not shared between them and the document contains no cross-references."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-04-06 note and the rehabilitation summary were submitted and reviewed. The payer's factual account is accurate; the error is which pathway's criteria it applied.",
+    "expected_evidence": [
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "evidence_present": true,
+        "evidence_text": "Left middle cerebral artery territory ischemic stroke on 11/08/2024, MRI-confirmed, thrombolysed. This is a previous stroke, one of the listed qualifying events.",
+        "evidence_location": "HISTORY OF PRESENT ILLNESS; CARDIOVASCULAR AND LIFESTYLE HISTORY; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 11 in, weight 211 lb, BMI 29.4 kg/m2; earlier value 215 lb, BMI 30.0 on 01/12/2026. Both above 27.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "evidence_present": true,
+        "evidence_text": "Assessment item 5 states 'No diabetes mellitus. A1c 5.6 percent.' Fasting glucose 92 mg/dL. The history records two normal checks since the stroke.",
+        "evidence_location": "ASSESSMENT item 5; laboratory results; HISTORY OF PRESENT ILLNESS",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "evidence_present": true,
+        "evidence_text": "Atorvastatin 80 mg, clopidogrel 75 mg, lisinopril 20 mg and metoprolol succinate 25 mg, described in the plan as existing guideline-directed therapy continued unchanged, with LDL at target.",
+        "evidence_location": "CURRENT MEDICATIONS; PLAN item 2",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_concomitant_diet_and_activity",
+        "evidence_present": true,
+        "evidence_text": "Plan item 1 states the drug is 'to be used alongside a reduced calorie diet and increased physical activity', continuing the Mediterranean-pattern reduced-calorie plan and a four-times-weekly walking and resistance routine.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_request_is_for_wegovy",
+        "evidence_present": true,
+        "evidence_text": "The request and the plan both specify semaglutide (Wegovy) injection.",
+        "evidence_location": "PLAN item 1; denial letter drug requested field",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No six-month comprehensive weight management program is documented; dietetic and rehabilitation input runs about ten weeks. The note states this plainly. It is not material because that requirement does not govern this pathway.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "mace_request_is_for_wegovy",
+        "status": "satisfied",
+        "reason": "The request is for Wegovy."
+      },
+      {
+        "criterion_name": "mace_concomitant_diet_and_activity",
+        "status": "satisfied",
+        "reason": "The plan specifies concurrent reduced calorie diet and increased physical activity."
+      },
+      {
+        "criterion_name": "mace_established_cardiovascular_disease",
+        "status": "satisfied",
+        "reason": "MRI-confirmed ischemic stroke in 11/2024, a listed qualifying event."
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 29.4 kg/m2, above the 27 threshold for this pathway."
+      },
+      {
+        "criterion_name": "mace_no_type_2_diabetes",
+        "status": "satisfied",
+        "reason": "A1c 5.6 percent, fasting glucose 92 mg/dL, no diabetes diagnosis."
+      },
+      {
+        "criterion_name": "mace_guideline_directed_medical_therapy",
+        "status": "satisfied",
+        "reason": "On statin, antiplatelet, ACE inhibitor and beta-blocker."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The requirement the denial applied belongs to the chronic weight management pathway and does not appear among the criteria for cardiovascular risk reduction.",
+      "This request is for cardiovascular risk reduction following an MRI-confirmed ischemic stroke, and every criterion in that pathway is met on the submitted record.",
+      "The denial itself concedes established cardiovascular disease, the BMI threshold, the absence of type 2 diabetes, and guideline-directed medical therapy."
+    ],
+    "unsupported_claims": [
+      "That the member completed a six-month comprehensive weight management program.",
+      "That cardiac rehabilitation satisfies a weight management program requirement.",
+      "That the member's BMI of 29.4 would satisfy the chronic weight management pathway."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the criterion applied does not govern this pathway. Set out the six criteria in the cardiovascular risk-reduction section and the record evidence for each. Do not argue that the six-month program requirement was satisfied."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The member sustained a left middle cerebral artery ischemic stroke on November 8, 2024, MRI-confirmed and treated with thrombolysis.",
+      "Documented BMI on April 6, 2026 was 29.4 kg/m2, with height 5 feet 11 inches and weight 211 pounds.",
+      "Hemoglobin A1c on March 16, 2026 was 5.6 percent and fasting glucose was 92 mg/dL; the member has no diabetes.",
+      "The member is receiving atorvastatin 80 mg, clopidogrel, lisinopril and metoprolol succinate, with LDL at target.",
+      "The plan states the drug is to be used alongside a reduced calorie diet and increased physical activity.",
+      "The member completed a ten-week cardiac rehabilitation programme in March 2026 and had two dietitian appointments.",
+      "The cardiovascular risk-reduction pathway in the cited policy does not include a weight management program criterion."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member completed six months of a comprehensive weight management program.",
+      "Cardiac rehabilitation is a comprehensive weight management program.",
+      "The member's BMI meets the 35 kg/m2 threshold in the chronic weight management pathway.",
+      "The member has type 2 diabetes.",
+      "The member had a transient ischemic attack rather than a stroke.",
+      "The member failed a trial of phentermine, Qsymia, Contrave, or orlistat.",
+      "The member has a prior myocardial infarction or peripheral arterial disease."
+    ]
+  },
+  "files": {
+    "denial": "case_010_denial.txt",
+    "note": "case_010_note.txt"
+  }
+}

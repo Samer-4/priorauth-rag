@@ -1,0 +1,105 @@
+THORNBURY FAMILY MEDICINE
+Progress Note
+
+Patient:            Mensah, Kofi A.
+MRN:                MRN-200195
+DOB:                02/21/1979     Age: 47     Sex: Male
+Date of service:    04/13/2026
+Clinician:          Lorna E. Petrakis, MD (PRV-SYN-2027)
+Visit type:         Established patient, weight management
+
+
+REASON FOR VISIT
+Three-month weight review; discussion of pharmacotherapy.
+
+
+SUBJECTIVE
+
+Mr. Mensah has been working with our dietitian since the start of January and has been
+consistent about it. He logs his food most days, has cut out the daily bakery stop, and has been
+going to a 6 a.m. circuit class three times a week since February. He has lost six pounds.
+
+He is realistic about the rate of progress and says his main problem is that hunger returns
+within two hours of eating. He would like to try medication.
+
+He has never taken anything for weight before. No orlistat, no phentermine, no topiramate
+combination, no naltrexone-bupropion, nothing over the counter beyond a brief period of a
+fibre supplement two years ago.
+
+Blood pressure well controlled on ramipril. Home readings 118 to 128 systolic.
+
+Reflux: occasional, twice a month, no treatment needed.
+
+Snoring: reported by his partner. No witnessed apnoeas, Epworth 6. He has declined a sleep study
+for now.
+
+No tobacco. Alcohol four to six units at weekends. Works as a secondary school teacher.
+
+
+WEIGHT MANAGEMENT
+
+  01/05/2026   Dietitian consultation, Ms. Ingrid Falkenberg, RD. Calorie target 1,900 kcal/day.
+               Food diary started. Baseline weight recorded.
+  02/09/2026   Dietitian review. Circuit class started three times weekly.
+  03/16/2026   Dietitian review. Diary adherence good; portion strategy adjusted.
+  04/13/2026   Today. Programme continuing without interruption since 01/05/2026.
+
+
+MEDICATION HISTORY
+
+  ramipril 5 mg PO daily
+  cholecalciferol 1000 IU PO daily
+
+No prescription weight-loss medication at any time. No GLP-1 receptor agonist and no GLP-1/GIP
+receptor agonist exposure, current or prior. No bariatric surgery.
+
+
+OBJECTIVE
+
+BP 124/78    HR 70    Temp 98.1 F
+Height:  5 ft 9 in (69 in)
+Weight:  225 lb
+BMI:     33.2 kg/m²
+
+Weights on file:
+  01/05/2026   231 lb   (BMI 34.1)   — baseline at start of dietary programme
+  04/13/2026   225 lb   (BMI 33.2)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender.
+No peripheral oedema. Mallampati II.
+
+Laboratory (03/30/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       96 mg/dL
+  Total cholesterol     201 mg/dL
+  LDL                   128 mg/dL
+  HDL                   46 mg/dL
+  Triglycerides         142 mg/dL
+  ALT                   30 U/L
+  Creatinine            1.0 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.2 kg/m² (Z68.33), with a modest response to three months of dietary
+   and behavioural intervention.
+2. Essential hypertension (I10) — controlled.
+3. Snoring without documented obstructive sleep apnea; sleep study declined.
+
+
+PLAN
+
+1. Obesity. Discussed pharmacotherapy including mechanism, gastrointestinal effects,
+   contraindications and the need to continue the dietary and activity work. No personal or
+   family history of medullary thyroid carcinoma or MEN2, no pancreatitis. Prior authorization
+   to be submitted for semaglutide (Wegovy) 0.25 mg weekly with label titration. He will
+   continue Ms. Falkenberg's plan and the circuit class.
+2. Hypertension. Continue ramipril 5 mg daily.
+3. Sleep. Sleep study offered again; declined. Will revisit if symptoms change.
+4. Lipids. Repeat panel in 6 months; dietary measures first line at this level.
+
+Return in 8 weeks.
+
+
+Lorna E. Petrakis, MD
+Signed 04/13/2026

@@ -1,0 +1,116 @@
+HARROWFIELD FAMILY MEDICINE
+Progress Note
+
+Patient:            Nkemdirim, Wallace T.
+MRN:                MRN-200228
+DOB:                11/26/1963     Age: 62     Sex: Male
+Date of service:    02/09/2026
+Clinician:          Halvard S. Ingebretsen, MD (PRV-SYN-2350)
+Visit type:         Established patient, cardiovascular risk review
+
+
+PROBLEM LIST (as carried forward)
+
+  Essential hypertension
+  Dyslipidemia
+  CVA 2024
+  Overweight
+  Benign prostatic hyperplasia
+
+
+REASON FOR VISIT
+Annual cardiovascular risk review. Patient asking about semaglutide.
+
+
+SUBJECTIVE
+
+Mr. Nkemdirim is well. He has had no recurrent neurological symptoms since the episode in 2024.
+He walks daily and has no exertional chest pain, no claudication and no calf pain on walking. He
+has never had a heart attack and has never had a procedure on his heart or legs.
+
+He read about semaglutide reducing cardiovascular events and would like to take it. His brother
+had a myocardial infarction at 58 and he is anxious about his own risk.
+
+The 2024 episode. I have reviewed the neurology consultation letter of 07/2024 with him again
+today. He presented with right arm weakness and slurred speech which resolved completely within
+40 minutes. MRI with diffusion-weighted imaging showed no acute infarction. Carotid Doppler
+showed no significant stenosis. The neurologist's conclusion, stated in the letter, is transient
+ischemic attack. He was started on clopidogrel and a high-intensity statin at that point.
+
+I note that our problem list carries this as "CVA 2024," which is how it was entered at the time
+by the covering clinician. That entry does not match the neurology letter and I have flagged it
+for correction. The neurology documentation is the accurate account.
+
+Diet: he saw our dietitian for the first time on 01/19/2026 and was given a calorie target and a
+food diary. He has been following it since. Before that appointment he had made no structured
+dietary changes and had not attended any weight programme.
+
+Prostate symptoms stable on tamsulosin. No nocturia beyond twice.
+
+No tobacco for 20 years. Alcohol two units most weekends. Retired postal supervisor.
+
+
+CURRENT MEDICATIONS
+
+  clopidogrel 75 mg PO daily
+  atorvastatin 80 mg PO daily
+  amlodipine 10 mg PO daily
+  tamsulosin 400 mcg PO nightly
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 130/78    HR 66    Temp 98.1 F
+Height:  5 ft 10 in (70 in)
+Weight:  203 lb
+BMI:     29.1 kg/m²
+
+Weights on file:
+  11/17/2025   206 lb   (BMI 29.6)
+  02/09/2026   203 lb   (BMI 29.1)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm, no murmur. Carotids without bruit. Lungs
+clear. Abdomen soft. Peripheral pulses present and symmetric; no ulceration; capillary refill
+normal. Neurological examination normal — power 5/5 throughout, speech fluent, no facial
+asymmetry.
+
+Laboratory (01/26/2026):
+  Hemoglobin A1c        5.7 %
+  Fasting glucose       99 mg/dL
+  Total cholesterol     142 mg/dL
+  LDL                   61 mg/dL
+  HDL                   47 mg/dL
+  Triglycerides         168 mg/dL
+  Creatinine            1.0 mg/dL
+  eGFR                  79 mL/min/1.73 m2
+
+
+ASSESSMENT
+
+1. Transient ischemic attack, 07/2024 (Z86.73), with complete resolution and no imaging
+   evidence of infarction. Problem list entry "CVA 2024" is inaccurate and is to be corrected.
+2. Essential hypertension (I10) — controlled.
+3. Dyslipidemia (E78.5) — LDL at target on high-intensity statin.
+4. Overweight (E66.3), BMI 29.1 kg/m² (Z68.29).
+5. Prediabetes (R73.03), A1c 5.7 percent.
+6. Benign prostatic hyperplasia (N40.0) — stable.
+
+
+PLAN
+
+1. Cardiovascular risk. Continue clopidogrel, atorvastatin and amlodipine. Prior authorization
+   to be submitted for semaglutide (Wegovy) for cardiovascular risk reduction at the patient's
+   request. Reduced-calorie diet and increased physical activity to continue alongside.
+2. Problem list. Correct "CVA 2024" to transient ischemic attack, 07/2024, per the neurology
+   letter.
+3. Weight. Continue with the dietitian; next appointment 03/2026.
+4. Prediabetes. Repeat A1c in 6 months.
+5. Prostate. Continue tamsulosin.
+
+Return in 6 months.
+
+
+Halvard S. Ingebretsen, MD
+Signed 02/09/2026

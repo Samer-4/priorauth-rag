@@ -1,0 +1,70 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    07/06/2026
+Case Reference:          AUTH-CIG-2026-000704
+Member:                  Rafael E. Montenegro
+Member ID:               MEM-CIG-162
+Patient Record Number:   MRN-200162
+Date of Birth:           12/01/1969
+Request Received:        06/29/2026
+Prescriber:              Wilhelmina T. Achebe, MD, Internal Medicine
+Prescriber Reference:    PRV-SYN-1793
+
+
+REQUEST REVIEWED
+
+  Medication:            Saxenda (liraglutide) injection
+  Strength requested:    3 mg subcutaneously once daily
+  Indication submitted:  Weight loss in an adult with obesity, continuation of therapy
+  Review type:           Continuation
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Continuation of coverage requires that the patient has lost at least 5 percent of baseline body
+weight. The documented reduction is 4.3 percent.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section I. Liraglutide (Saxenda, generic), 1. Weight Loss
+in an Adult with Overweight or Obesity, B) Patient is Currently Receiving liraglutide.
+
+Continuation under this policy requires that the patient has lost at least 5 percent of baseline
+body weight, where baseline refers to baseline prior to any GLP-1 agonist or GLP-1/GIP receptor
+agonist.
+
+Records reviewed: continuation request form dated 06/29/2026; internal medicine office note
+dated 06/22/2026, Ashcombe Internal Medicine.
+
+The submitted note documents a pre-treatment weight of 233 pounds on 10/06/2025 at a height of 5
+feet 8 inches, giving a baseline body mass index of 35.4 kg/m². The baseline BMI criterion is
+met. The member's age and the concomitant behavioral modification and reduced-calorie diet
+criteria are also met and are not at issue.
+
+The current recorded weight is 223 pounds, a reduction of 10 pounds. That is 4.3 percent of
+baseline, which is below the required 5 percent. The response criterion is not met and
+continuation cannot be approved.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

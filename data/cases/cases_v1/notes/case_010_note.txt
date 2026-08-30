@@ -1,0 +1,128 @@
+STONEGATE NEUROLOGY ASSOCIATES
+Neurology — Stroke Follow-up
+
+PATIENT:          Sorensen, Nikolai P.
+MRN:              MRN-200107
+DOB:              08/19/1966          AGE: 59          SEX: Male
+DATE OF SERVICE:  04/06/2026
+PROVIDER:         Amara J. Tewolde, MD — Neurology (PRV-SYN-1249)
+VISIT TYPE:       Established patient, secondary stroke prevention
+
+
+REASON FOR VISIT
+Seventeen-month stroke follow-up and review of secondary prevention.
+
+
+SUBJECTIVE
+
+Mr. Sorensen is seventeen months out from a left middle cerebral artery territory ischemic
+stroke sustained on 11/08/2024. Presentation was right-sided weakness and expressive dysphasia.
+MRI at the time confirmed acute infarction in the left MCA territory. He was thrombolysed within
+the window. Carotid imaging showed no significant stenosis; prolonged cardiac monitoring found
+no atrial fibrillation. The stroke was classified as small-vessel in origin.
+
+Recovery has been good. Speech is fluent with occasional word-finding pauses that he notices
+more than others do. He has residual mild weakness of the left hand — he is left-handed and
+reports reduced grip for jar lids and buttons. Gait is normal. He drives again and returned to
+work part time in mid-2025.
+
+He asks today about semaglutide. His stroke consultant mentioned it at his last review as an
+option for reducing further cardiovascular events, and he has read about it since. He is keen.
+
+He has no diabetes. Fasting glucose and A1c have been checked twice since the stroke and both
+have been normal.
+
+Blood pressure is well controlled on his current regimen with home readings of 118 to 128
+systolic.
+
+Sleep: no snoring reported by his wife, no daytime somnolence.
+
+Mood: low for several months after the stroke, now much improved without medication.
+
+Tobacco: never. Alcohol: two units a week.
+
+
+CARDIOVASCULAR AND LIFESTYLE HISTORY
+
+  11/08/2024   Left MCA territory ischemic stroke, thrombolysed. MRI-confirmed infarct.
+  11/2024      Secondary prevention started: high-intensity statin, antiplatelet, ACE
+               inhibitor and beta-blocker.
+  01/2026      Enrolled in the Meadowbank cardiac rehabilitation programme.
+  01/26/2026   Dietitian appointment 1, Ms. Halina Brozek, RD. Mediterranean-pattern eating
+               plan and calorie guidance provided.
+  03/2026      Cardiac rehabilitation completed — ten weeks, twice weekly, supervised exercise
+               with education sessions.
+  03/23/2026   Dietitian appointment 2, Brozek RD. Plan reviewed and continued.
+
+There has been no separate structured weight-management programme. The dietetic input above sits
+within the cardiac rehabilitation pathway and has run for approximately ten weeks in total. No
+prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+CURRENT MEDICATIONS
+
+  atorvastatin 80 mg PO daily
+  clopidogrel 75 mg PO daily
+  lisinopril 20 mg PO daily
+  metoprolol succinate 25 mg PO daily
+
+
+OBJECTIVE
+
+BP 122/74    HR 64    Temp 98.2 F
+Height:  5 ft 11 in (71 in)
+Weight:  211 lb
+BMI:     29.4 kg/m²
+
+Weights on file:
+  01/12/2026   215 lb   (BMI 30.0)
+  04/06/2026   211 lb   (BMI 29.4)
+
+Neurological exam: Speech fluent, occasional word-finding pause, comprehension intact. Cranial
+nerves intact. Power 5-/5 left hand grip and finger abduction, 5/5 elsewhere. Tone normal.
+Coordination intact. Gait normal, tandem gait steady. No sensory deficit.
+
+General exam: Cardiac regular rate and rhythm, no murmur. Carotids without bruit. Lungs clear.
+No peripheral oedema.
+
+Laboratory (03/16/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       92 mg/dL
+  Total cholesterol     131 mg/dL
+  LDL                   54 mg/dL
+  HDL                   45 mg/dL
+  Triglycerides         160 mg/dL
+  Creatinine            0.9 mg/dL
+  eGFR                  84 mL/min/1.73 m2
+
+
+ASSESSMENT
+
+1. Cerebral infarction, sequelae (I69.354), with mild residual left hand weakness and mild
+   anomia. Stable, no recurrent events.
+2. Established cardiovascular disease for secondary prevention purposes, on full
+   guideline-directed medical therapy.
+3. Overweight (E66.3), BMI 29.4 kg/m² (Z68.29).
+4. Essential hypertension (I10) — controlled.
+5. No diabetes mellitus. A1c 5.6 percent.
+
+
+PLAN
+
+1. Cardiovascular risk reduction. Request semaglutide (Wegovy) for reduction of the risk of
+   major adverse cardiovascular events, to be used alongside a reduced calorie diet and
+   increased physical activity, on top of existing guideline-directed therapy. Prior
+   authorization to be submitted. He will continue the Mediterranean-pattern reduced-calorie
+   plan set out by Ms. Brozek and the walking and resistance routine he began in cardiac
+   rehabilitation, now continued independently four times weekly.
+2. Secondary prevention. Continue atorvastatin 80 mg, clopidogrel, lisinopril and metoprolol
+   unchanged. LDL at target.
+3. Hypertension. Continue current regimen; home monitoring.
+4. Residual deficits. Continue home hand exercises. Occupational therapy review if no further
+   progress by the next visit.
+
+Return in 6 months.
+
+
+Amara J. Tewolde, MD
+Electronically signed 04/06/2026 13:40

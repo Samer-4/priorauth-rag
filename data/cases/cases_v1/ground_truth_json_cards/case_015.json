@@ -1,0 +1,235 @@
+{
+  "case_id": "case_015",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Saxenda (liraglutide) injection",
+    "drug_detail": "3 mg subcutaneous once daily",
+    "request_type": "continuation_of_therapy",
+    "policy_pathway": "I. Liraglutide (Saxenda, generic) — 1. Weight Loss in an Adult with Overweight or Obesity — B) Patient is Currently Receiving liraglutide",
+    "case_types": [
+      "misstated_threshold",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-06-22",
+      "request_date": "2026-06-29",
+      "denial_date": "2026-07-06",
+      "note_type": "internal_medicine_medication_review",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "Cigna's continuation threshold is 5 percent for every drug in the policy except liraglutide, where it is 4 percent. The denial applied the majority figure. The member sits between the two, so the outcome turns entirely on reading the threshold from the liraglutide section rather than from the denial or from the policy's more common wording."
+  },
+  "patient": {
+    "name": "Rafael E. Montenegro",
+    "mrn": "MRN-200162",
+    "member_id": "MEM-CIG-162",
+    "age": 56,
+    "dob": "1969-12-01",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.33 BMI 33.0-33.9, adult",
+      "I10 essential hypertension",
+      "M17.0 bilateral primary osteoarthritis of knee",
+      "R73.03 prediabetes"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "knee osteoarthritis",
+      "prediabetes"
+    ],
+    "relevant_measurements": {
+      "bmi": 33.9,
+      "weight_lb": 223,
+      "height_in": 68,
+      "bmi_history": [
+        { "date": "2025-10-06", "weight_lb": 233, "bmi": 35.4 },
+        { "date": "2026-02-16", "weight_lb": 227, "bmi": 34.5 },
+        { "date": "2026-06-22", "weight_lb": 223, "bmi": 33.9 }
+      ],
+      "a1c_percent": 5.7
+    },
+    "prior_weight_loss_pharmacotherapy": "Saxenda (liraglutide), started 2025-10-13, current",
+    "prior_glp1_exposure": "Saxenda (liraglutide) only, from 2025-10-13"
+  },
+  "provider": {
+    "name": "Wilhelmina T. Achebe, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Ashcombe Internal Medicine",
+    "provider_id": "PRV-SYN-1793"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_pre_glp1_baseline",
+      "from_lb": 233,
+      "to_lb": 223,
+      "percent": 4.3,
+      "note": "233 lb on 10/06/2025, before any GLP-1 exposure, to 223 lb on 06/22/2026. Above the 4 percent liraglutide threshold; below the 5 percent figure the denial asserts."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Saxenda (liraglutide) injection",
+    "denial_reason": "continuation_weight_loss_below_asserted_threshold",
+    "denial_reason_text": "Continuation requires a loss of at least 5 percent of baseline body weight; the documented reduction is 4.3 percent.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" I. Liraglutide (Saxenda, generic), 1. Weight Loss in an Adult with Overweight or Obesity, B) Patient is Currently Receiving liraglutide",
+    "cited_requirement_text": "Patient has lost >= 5% of baseline body weight",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "wrong_threshold_for_this_drug",
+      "denial_asserts": "at least 5 percent of baseline body weight",
+      "policy_actually_requires_text": "Patient has lost >= 4% of baseline body weight",
+      "explanation": "The 5 percent figure is genuine policy language but belongs to the Foundayo, Wegovy and Zepbound continuation limbs. The liraglutide limb, which is the section the denial itself cites, requires 4 percent."
+    },
+    "records_reviewed_at_denial": [
+      "Continuation request form dated 2026-06-29",
+      "Internal medicine office note dated 2026-06-22"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "liraglutide_continuation_weight_loss_4_percent",
+        "requirement": "For liraglutide, patient has lost at least 4 percent of baseline body weight, where baseline is prior to any GLP-1 or GLP-1/GIP receptor agonist.",
+        "policy_reference": "I. Liraglutide (Saxenda, generic) — 1. Weight Loss in an Adult — B) Patient is Currently Receiving liraglutide, criterion iii",
+        "policy_support_text": "Patient has lost >= 4% of baseline body weight",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "I. Liraglutide (Saxenda, generic) — 1. Weight Loss in an Adult — B), criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "I. Liraglutide (Saxenda, generic) — 1. Weight Loss in an Adult — B), criterion ii(a)",
+        "policy_support_text": "At baseline, patient had a BMI >= 30 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "requirement": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+        "policy_reference": "I. Liraglutide (Saxenda, generic) — 1. Weight Loss in an Adult — B), criterion iv",
+        "policy_support_text": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The 4 percent threshold is unique to liraglutide in this policy. Foundayo, Wegovy injection, Wegovy HD, Wegovy tablet and Zepbound all require 5 percent for continuation, and Zepbound requires 10 percent for the obstructive sleep apnea continuation limb.",
+      "Unlike the Aetna policy, Cigna's liraglutide continuation limb sets no minimum duration of therapy; it requires the response, the age criterion, the BMI pathway and concomitant lifestyle measures."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-06-22 note was submitted and reviewed. The payer computed the percentage correctly from it.",
+    "expected_evidence": [
+      {
+        "criterion_name": "liraglutide_continuation_weight_loss_4_percent",
+        "evidence_present": true,
+        "evidence_text": "233 lb on 10/06/2025 marked 'pre-treatment baseline' and 223 lb on 06/22/2026. The reduction is 10 lb, or 4.3 percent of baseline, above the 4 percent liraglutide threshold.",
+        "evidence_location": "OBJECTIVE section, weights on file; TREATMENT COURSE",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Baseline weight 233 lb at 5 ft 8 in gives BMI 35.4 kg/m2 on 10/06/2025, before any GLP-1 exposure.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 12/01/1969; age 56 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "evidence_present": true,
+        "evidence_text": "Plan item 1 continues the dietitian's plan and daily walking alongside the medication.",
+        "evidence_location": "PLAN item 1; SUBJECTIVE",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "liraglutide_continuation_weight_loss_4_percent",
+        "status": "satisfied",
+        "reason": "A 4.3 percent reduction exceeds the 4 percent threshold that this policy sets for liraglutide continuation."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 56."
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "Baseline BMI 35.4 kg/m2 before any GLP-1 exposure."
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "status": "satisfied",
+        "reason": "Dietitian plan and daily walking continued alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The continuation threshold for liraglutide under this policy is 4 percent, not 5 percent.",
+      "The documented reduction of 4.3 percent exceeds the applicable threshold.",
+      "The denial cites the liraglutide section by name while applying the threshold from a different drug's section.",
+      "Baseline BMI before any GLP-1 exposure was 35.4 kg/m2, above the 30 kg/m2 requirement."
+    ],
+    "unsupported_claims": [
+      "That the documented reduction reaches 5 percent.",
+      "That the member's response is greater than 4.3 percent.",
+      "That the member has completed any minimum duration of therapy required by this policy, which sets none for liraglutide continuation."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the wrong drug's response threshold was applied. Quote the liraglutide continuation limb and show the 4.3 percent reduction against the 4 percent requirement."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The pre-treatment weight on October 6, 2025 was 233 pounds, a BMI of 35.4 kg/m2.",
+      "The recorded weight on June 22, 2026 was 223 pounds, a BMI of 33.9 kg/m2, at a height of 5 feet 8 inches.",
+      "The reduction is 10 pounds, or 4.3 percent of baseline.",
+      "Liraglutide was started on October 13, 2025 and is the member's only GLP-1 exposure.",
+      "The member reached 3 mg daily in December 2025 and has continued without interruption.",
+      "The applicable Cigna continuation threshold for liraglutide is 4 percent of baseline body weight.",
+      "A dietitian plan and twice-daily dog walking totalling about 50 minutes have continued throughout."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has lost 5 percent or more of baseline body weight.",
+      "The 4 percent threshold applies to Wegovy or Zepbound continuation.",
+      "The member previously used semaglutide or tirzepatide.",
+      "The member has type 2 diabetes.",
+      "The member completed a six-month comprehensive weight management program.",
+      "This policy requires a minimum duration of liraglutide therapy before continuation."
+    ]
+  },
+  "files": {
+    "denial": "case_015_denial.txt",
+    "note": "case_015_note.txt"
+  }
+}

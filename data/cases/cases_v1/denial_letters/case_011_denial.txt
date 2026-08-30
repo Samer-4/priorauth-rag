@@ -1,0 +1,91 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            July 20, 2026
+Authorization Reference:   AUTH-AET-2026-000733
+Review Tracking ID:        UM-RX-2026-07-0733
+
+Member Name:               Bettina L. Okonjo
+Member ID:                 MEM-AET-118
+Medical Record Number:     MRN-200118
+Date of Birth:             01/08/1983
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Rosario D. Villaseñor, MD — Family Medicine
+Practice:                  Kettering Family Health Center
+Provider ID:               PRV-SYN-1358
+Request Received:          July 13, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — CONTINUATION OF THERAPY
+
+
+Dear Ms. Okonjo:
+
+We have completed our review of the request to continue coverage of your medication.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        2.4 mg subcutaneously once weekly
+  Quantity requested:      4 packages (12 mL) per 90-day fill, mail order
+  Requested indication:    Chronic weight management, continuation of therapy
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved. This determination rests on two separate grounds, set out below.
+
+
+GROUND 1 — QUANTITY REQUESTED EXCEEDS THE APPLICABLE LIMIT
+
+The quantity requested exceeds the quantity limit that applies to this strength.
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024," QUANTITY LIMITS APPLY.
+
+For Wegovy 1.7 mg and 2.4 mg per 0.75 mL, the policy sets a 1-month limit of 3 mL, being one
+package of four pens, per 21 days, and a 3-month limit of 9 mL, being three packages of four
+pens, per 63 days. The policy notes that the 21-day and 63-day durations are used for 28-day and
+84-day fill periods respectively to allow time for refill processing.
+
+The submitted request is for four packages, 12 mL, per 90-day fill. This exceeds the 3-month
+limit of three packages, 9 mL.
+
+
+GROUND 2 — CONTINUATION RESPONSE NOT ESTABLISHED
+
+The submitted documentation does not establish that you have lost at least 5 percent of your
+baseline body weight, or that you have maintained an initial 5 percent weight loss.
+
+Applicable section: CONTINUATION OF THERAPY — Chronic Weight Management (Adult). For a Wegovy
+continuation request, that section requires that "The patient has lost at least 5 percent of
+baseline body weight OR the patient has continued to maintain their initial 5 percent weight
+loss [ACTION REQUIRED: Documentation is required for approval.]"
+
+Materials reviewed:
+  1. Continuation request form received July 13, 2026
+  2. Office visit note dated July 6, 2026, Kettering Family Health Center
+
+The submitted note records a current weight of 199 pounds at a height of 5 feet 4 inches. The
+note does not state a percentage reduction from baseline and does not identify which recorded
+weight represents the baseline at the start of drug therapy. On the documentation provided we
+are unable to confirm that the 5 percent threshold has been reached.
+
+The requirement for at least 3 months of therapy at a stable maintenance dose, and the
+requirement for a baseline BMI of 35 kg/m² or greater at the start of drug therapy, both appear
+satisfied on the submitted record and are not in dispute.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request. A corrected prescription may be submitted in respect of the quantity.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed pharmacist reviewer

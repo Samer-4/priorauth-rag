@@ -1,0 +1,123 @@
+Harborview Primary Care Associates
+Internal Medicine — Office Visit Note
+
+Patient:            Lindqvist, Travis M.
+MRN:                MRN-200027
+DOB:                01/30/1985     Age: 41     Sex: Male
+Date of service:    05/11/2026
+Clinician:          Priya Raghunathan, MD (PRV-SYN-0311)
+Visit type:         Follow-up — weight management, lipids
+
+
+REASON FOR VISIT
+Weight management follow-up. Wants to talk about medication options. Also GERD symptoms.
+
+
+HISTORY OF PRESENT ILLNESS
+
+41-year-old man seen for ongoing weight management. He has wanted to lose weight for years and
+says he has "tried everything at one point or another," though nothing structured until this
+spring. He was referred to our nutrition service in March and has been working with Dana
+Okonkwo, RD since then. He is logging food most days, is walking the dog most evenings, and has
+been to the gym "maybe once a week, some weeks." He identifies takeout on late shifts as his
+main obstacle.
+
+He asks specifically about tirzepatide. A colleague at work has lost a substantial amount of
+weight on it. He has read about the gastrointestinal side effects and says he is willing to
+tolerate them. He would like to start as soon as possible and asks whether insurance will cover
+it; I told him I did not know and that coverage rules for these agents commonly require a
+documented period of diet and behavioral work first.
+
+GERD: burning after evening meals, three to four nights a week, worse when he eats late. Using
+over-the-counter famotidine with partial relief. No dysphagia, no odynophagia, no weight loss
+attributable to reduced intake, no melena.
+
+Left ankle: sprained playing recreational basketball 03/22/2026, treated conservatively, now
+resolved. Back to normal activity.
+
+Tobacco: quit 2019, roughly 8 pack-year history before that. No relapse.
+
+He denies snoring, witnessed apneas, or daytime sleepiness. No prior sleep study.
+
+
+WEIGHT MANAGEMENT HISTORY
+
+No structured weight-management or nutrition program prior to March 2026. No commercial weight
+program, no medically supervised program, no behavioral health involvement for weight, and no
+prior referral to a dietitian. Prior efforts were self-directed and undocumented.
+
+  03/16/2026   Nutrition visit #1, Dana Okonkwo, RD. Calorie target 1,900 kcal/day set; food
+               logging instruction given; walking goal set.
+  04/13/2026   Office visit (this clinic). Weight recheck; ankle sprain addressed. Logging
+               reported as ongoing.
+  05/04/2026   Nutrition visit #2, Okonkwo RD. Logging reviewed; adherence described as fair on
+               weekdays, poor on weekends. Portion strategy revised.
+  05/11/2026   Today.
+
+
+CURRENT MEDICATIONS
+
+  rosuvastatin 10 mg PO daily
+  famotidine 20 mg PO BID PRN
+  multivitamin PO daily
+
+No current or prior prescription weight-loss medication. No GLP-1 receptor agonist and no
+GLP-1/GIP receptor agonist exposure, current or prior.
+
+
+OBJECTIVE
+
+BP 132/84    HR 78    Temp 98.4 F    SpO2 98% on room air
+Height 5 ft 11 in (71 in)
+Weight 226 lb
+BMI 31.5 kg/m²
+
+Recorded weights:
+  03/16/2026    231 lb    BMI 32.2
+  04/13/2026    229 lb    BMI 31.9
+  05/04/2026    227 lb    BMI 31.7
+  05/11/2026    226 lb    BMI 31.5
+
+Exam: No acute distress. Neck supple, no thyromegaly. Cardiovascular regular, no murmur. Lungs
+clear to auscultation. Abdomen soft, obese, non-tender, no hepatosplenomegaly appreciated. Left
+ankle non-tender, full range of motion, no swelling. No peripheral edema.
+
+Laboratory (04/30/2026):
+  Hemoglobin A1c        5.5 %
+  Fasting glucose       97 mg/dL
+  Total cholesterol     214 mg/dL
+  LDL                   139 mg/dL
+  HDL                   38 mg/dL
+  Triglycerides         198 mg/dL
+  ALT                   34 U/L
+  Creatinine            1.0 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 31.5 kg/m² (Z68.31). Weight down 5 lb since mid-March on nutrition
+   counselling and increased activity.
+2. Dyslipidemia (E78.5) — LDL above goal, HDL low, triglycerides elevated. On rosuvastatin.
+3. Gastroesophageal reflux disease (K21.9) — symptomatic, partially controlled.
+4. Left ankle sprain (S93.402A), resolved.
+5. Former tobacco use (Z87.891).
+
+
+PLAN
+
+1. Obesity. Discussed pharmacotherapy at length, including that medication works alongside and
+   not instead of dietary and behavioural change. He wants to proceed now. Will submit a prior
+   authorization request for tirzepatide (Zepbound), 2.5 mg weekly starting dose with monthly
+   titration as tolerated. Reduced-calorie target and increased physical activity to continue
+   with any medication. Continue with Okonkwo RD; next nutrition visit scheduled 06/2026.
+   Continue food logging.
+2. Dyslipidemia. Increase rosuvastatin to 20 mg daily. Repeat lipid panel in 12 weeks.
+3. GERD. Trial of omeprazole 20 mg daily for 8 weeks in place of PRN famotidine. Discussed
+   late-evening meals as a trigger. If no improvement, consider gastroenterology referral.
+4. Preventive. Blood pressure borderline; recheck at next visit with home readings.
+
+Return in 8 weeks.
+
+
+Priya Raghunathan, MD
+Signed 05/11/2026

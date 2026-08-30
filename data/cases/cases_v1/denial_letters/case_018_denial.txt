@@ -1,0 +1,70 @@
+Cigna Healthcare
+Pharmacy Services — Coverage Review
+
+NOTICE OF COVERAGE DETERMINATION
+
+Date:                    04/27/2026
+Case Reference:          AUTH-CIG-2026-000431
+Member:                  Kofi A. Mensah
+Member ID:               MEM-CIG-195
+Patient Record Number:   MRN-200195
+Date of Birth:           02/21/1979
+Request Received:        04/20/2026
+Prescriber:              Lorna E. Petrakis, MD, Family Medicine
+Prescriber Reference:    PRV-SYN-2027
+
+
+REQUEST REVIEWED
+
+  Medication:            Wegovy (semaglutide) injection
+  Strength requested:    0.25 mg/0.5 mL, once weekly, with titration
+  Indication submitted:  Weight loss in an adult with obesity
+  Review type:           Initial prior authorization
+
+
+DETERMINATION
+
+Not approved.
+
+
+WHY THIS REQUEST WAS NOT APPROVED
+
+Coverage of a GLP-1 receptor agonist for weight loss requires documented trial and inadequate
+response to two lower-cost anti-obesity agents, orlistat and phentermine, before a GLP-1 agent
+is approved. The submitted records document neither trial.
+
+
+COVERAGE POLICY AND REVIEW FINDINGS
+
+Policy applied: Cigna National Formulary Coverage Policy, "Weight Loss – Glucagon-Like Peptide-1
+Agonists Prior Authorization Policy," section III. Wegovy injection and Wegovy HD injection,
+1. Weight Loss in an Adult with Overweight or Obesity, A) Initial Therapy.
+
+Records reviewed: prior authorization request form dated 04/20/2026; family medicine office note
+dated 04/13/2026, Thornbury Family Medicine; dietitian summary dated 04/2026.
+
+We confirm from the submitted records that the member is 47 years of age, that the baseline body
+mass index is 34.1 kg/m² and the current value 33.2 kg/m², and that he has engaged in a trial of
+behavioral modification and dietary restriction since 01/05/2026, in excess of three months.
+Those criteria are met and are not the reason for this decision.
+
+The medication history in the submitted note records no prior anti-obesity pharmacotherapy of
+any kind. Because neither orlistat nor phentermine has been trialled, the step therapy sequence
+is not satisfied and the request cannot be approved.
+
+Approval may be reconsidered on submission of records documenting an adequate trial of each
+agent, or documentation of intolerance or contraindication to each.
+
+
+APPEAL RIGHTS
+
+The member, or the prescriber acting as the member's authorized representative, may request
+reconsideration of this determination under the appeal provisions of the applicable benefit
+plan, and may submit additional clinical documentation with that request.
+
+For questions about this notice or the appeal process that applies to this plan, contact
+Customer Service using the information on the member identification card.
+
+
+Cigna Pharmacy Services
+Reviewed by a clinical pharmacist

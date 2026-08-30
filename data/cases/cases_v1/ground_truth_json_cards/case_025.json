@@ -1,0 +1,202 @@
+{
+  "case_id": "case_025",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Saxenda (liraglutide) injection",
+    "drug_detail": "3 mg subcutaneous once daily",
+    "request_type": "reauthorization",
+    "policy_pathway": "Section 2 — General coverage criteria, B. Reauthorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "misstated_threshold",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-05-04",
+      "request_date": "2026-05-11",
+      "denial_date": "2026-05-18",
+      "note_type": "internal_medicine_medication_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The third misstated-threshold case, and the one where the correct figure is easiest to miss. This reauthorization subsection lists four response limbs in sequence — 3 percent for Qsymia, 4 percent for Saxenda, 5 percent for Wegovy, 5 percent for all other appetite suppressants. The denial applied the last, most general limb to a drug that has its own named limb two lines above it."
+  },
+  "patient": {
+    "name": "Ignacio F. Delgadillo",
+    "mrn": "MRN-200272",
+    "member_id": "MEM-UHC-272",
+    "age": 55,
+    "dob": "1971-04-16",
+    "sex": "male",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.34 BMI 34.0-34.9, adult",
+      "I10 essential hypertension",
+      "M54.50 low back pain, unspecified",
+      "R73.03 prediabetes"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "chronic low back pain",
+      "prediabetes"
+    ],
+    "relevant_measurements": {
+      "bmi": 34.0,
+      "weight_lb": 217,
+      "height_in": 67,
+      "bmi_history": [
+        { "date": "2025-11-10", "weight_lb": 227, "bmi": 35.5 },
+        { "date": "2026-02-09", "weight_lb": 221, "bmi": 34.6 },
+        { "date": "2026-05-04", "weight_lb": 217, "bmi": 34.0 }
+      ],
+      "a1c_percent": 5.8
+    },
+    "prior_weight_loss_pharmacotherapy": "Saxenda (liraglutide), started 2025-11-10, current",
+    "prior_glp1_exposure": "Saxenda (liraglutide) only, from 2025-11-10"
+  },
+  "provider": {
+    "name": "Beatrix H. Nwachukwu, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Castleford Internal Medicine",
+    "provider_id": "PRV-SYN-2795"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_treatment_start",
+      "from_lb": 227,
+      "to_lb": 217,
+      "percent": 4.4,
+      "note": "227 to 217 lb is 10 lb, or 4.4 percent. Above the 4 percent Saxenda reauthorization threshold; below the 5 percent figure the denial asserts."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Saxenda (liraglutide) injection",
+    "denial_reason": "reauthorization_weight_loss_below_asserted_threshold",
+    "denial_reason_text": "Reauthorization requires a weight loss of 5 percent or more of baseline body weight; the documented reduction is 4.4 percent.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, B. Reauthorization",
+    "cited_requirement_text": "Weight loss of ≥ 5% of baseline body weight for all other appetite suppressants",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "wrong_threshold_for_this_drug",
+      "denial_asserts": "weight loss of 5 percent or more of baseline body weight",
+      "policy_actually_requires_text": "Weight loss of ≥ 4% of baseline body weight for Saxenda",
+      "explanation": "The 5 percent figure comes from the catch-all limb for 'all other appetite suppressants'. Saxenda is not an 'other' product here: it has its own named limb requiring 4 percent, two lines earlier in the same subsection."
+    },
+    "records_reviewed_at_denial": [
+      "Reauthorization request form received 2026-05-11",
+      "Internal medicine office note dated 2026-05-04"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "reauthorization_weight_loss_4_percent_saxenda",
+        "requirement": "For Saxenda, weight loss of 4 percent or more of baseline body weight.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.a(2)",
+        "policy_support_text": "Weight loss of ≥ 4% of baseline body weight for Saxenda",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "requirement": "Continuation of lifestyle modification.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.b",
+        "policy_support_text": "Continuation of lifestyle modification",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The reauthorization response criterion is a list of alternatives, one of which must be met. The limbs are drug-specific: 3 percent for Qsymia, 4 percent for Saxenda, 5 percent for Wegovy injection or tablet, and 5 percent for all other appetite suppressants. A drug with its own named limb is not an 'other' product.",
+      "The reauthorization section does not re-apply the initial-authorization BMI, age or indication criteria."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-05-04 note was submitted and reviewed. The payer computed the percentage correctly from it.",
+    "expected_evidence": [
+      {
+        "criterion_name": "reauthorization_weight_loss_4_percent_saxenda",
+        "evidence_present": true,
+        "evidence_text": "227 lb on 11/10/2025 annotated 'recorded on the day liraglutide was started' and 217 lb on 05/04/2026. The reduction is 10 lb, or 4.4 percent of baseline, above the 4 percent Saxenda threshold.",
+        "evidence_location": "OBJECTIVE section, weights on file; TREATMENT COURSE",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Dietitian input from 10/13/2025, before treatment start, with monthly reviews continuing to date; twice-weekly swimming and Thursday bowls. Plan item 1 continues all three.",
+        "evidence_location": "SUBJECTIVE; TREATMENT COURSE; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "reauthorization_weight_loss_4_percent_saxenda",
+        "status": "satisfied",
+        "reason": "A 4.4 percent reduction exceeds the 4 percent threshold that this program sets for Saxenda reauthorization."
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietitian input predating treatment and continuing monthly, plus two ongoing activity programmes."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The reauthorization threshold for Saxenda under this program is 4 percent, not 5 percent.",
+      "The documented reduction of 4.4 percent exceeds the applicable threshold.",
+      "Saxenda has its own named limb in the reauthorization subsection and is not covered by the 'all other appetite suppressants' catch-all the denial relied on.",
+      "Continuation of lifestyle modification is documented and is not disputed."
+    ],
+    "unsupported_claims": [
+      "That the documented reduction reaches 5 percent.",
+      "That the member's response is greater than 4.4 percent.",
+      "That the reauthorization criteria impose a BMI or duration requirement."
+    ],
+    "correct_next_step": "Challenge the determination on the ground that the wrong limb of the reauthorization criterion was applied. Quote the Saxenda limb and show the 4.4 percent reduction against the 4 percent requirement."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Liraglutide was started on November 10, 2025 at a recorded weight of 227 pounds, a BMI of 35.5 kg/m2.",
+      "The recorded weight on May 4, 2026 was 217 pounds, a BMI of 34.0 kg/m2, at a height of 5 feet 7 inches.",
+      "The reduction is 10 pounds, or 4.4 percent of baseline.",
+      "An interval weight of 221 pounds was recorded on February 9, 2026, with no regain at any point.",
+      "The member reached 3 mg daily in December 2025 and has continued without interruption.",
+      "The member has seen a dietitian monthly since October 13, 2025, before starting the medication.",
+      "The applicable UnitedHealthcare reauthorization threshold for Saxenda is 4 percent of baseline body weight."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has lost 5 percent or more of baseline body weight.",
+      "Saxenda falls under the 'all other appetite suppressants' limb of the reauthorization criterion.",
+      "The applicable threshold is 3 percent, which belongs to Qsymia.",
+      "The member has type 2 diabetes.",
+      "The member completed a six-month supervised weight management program.",
+      "The reauthorization criteria require a minimum BMI or a minimum duration of therapy."
+    ]
+  },
+  "files": {
+    "denial": "case_025_denial.txt",
+    "note": "case_025_note.txt"
+  }
+}

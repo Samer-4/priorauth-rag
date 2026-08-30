@@ -1,0 +1,75 @@
+UnitedHealthcare
+Prior Authorization Determination — Pharmacy Benefit
+
+Date of determination:   July 20, 2026
+Authorization number:    AUTH-UHC-2026-000447
+Member:                  Ruthanne P. Sizemore
+Member ID:               MEM-UHC-283
+Patient identifier:      MRN-200283
+Date of birth:           03/07/1968
+Plan:                    Commercial employer group pharmacy benefit (fully insured, Ohio)
+Prescriber:              Callum W. Ashworth-Bekele, MD — Family Medicine
+Prescriber ID:           PRV-SYN-2806
+Date request received:   July 13, 2026
+
+
+ADVERSE DETERMINATION — COVERAGE NOT AUTHORIZED
+
+
+Dear Ms. Sizemore,
+
+We have completed our review of the prior authorization request submitted for you.
+
+  Drug requested:        Wegovy (semaglutide) injection
+  Dose requested:        0.25 mg subcutaneously weekly, titrated per labeling
+  Indication submitted:  Weight loss
+  Type of review:        Initial authorization
+
+
+DETERMINATION
+
+Coverage is not authorized at this time.
+
+
+BASIS FOR DETERMINATION
+
+Initial authorization requires that the medication be used as an adjunct to lifestyle
+modification. The submitted records do not document lifestyle modification.
+
+
+CLINICAL REVIEW SUMMARY
+
+Coverage program applied: UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior
+Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage
+(Program Number 2026 P 1114-20, effective 5/1/2026). Section 2, Coverage Criteria, A. Initial
+Authorization.
+
+That section requires that the medication be "Used as an adjunct to lifestyle modification (e.g.,
+dietary or caloric restriction, exercise, behavioral support, community-based program)".
+
+Documentation reviewed:
+  - Prior authorization request form received July 13, 2026
+  - Family medicine office note dated July 6, 2026, Marlow Bridge Family Practice
+
+The body mass index of 34.9 kg/m² satisfies the body mass index criterion, the indication is a
+covered one, and the age requirement is met. None of those is at issue.
+
+The submitted note does not record a referral to a dietitian, enrolment in a weight management
+programme, or a documented dietary or exercise prescription. No structured lifestyle intervention
+was identified in the record. On that basis the adjunct criterion is not established.
+
+Approval may be reconsidered on submission of documentation of lifestyle modification.
+
+
+RECONSIDERATION AND APPEAL
+
+You, or your prescriber acting as your authorized representative, may request an appeal of this
+determination under the terms of your benefit plan. You may submit additional information in
+support of the request.
+
+For the appeal procedures and timeframes that apply to your plan, or for questions about this
+notice, please contact the number for Member Services printed on your health plan ID card.
+
+
+UnitedHealthcare Pharmacy Prior Authorization
+Determination made by a licensed clinical reviewer

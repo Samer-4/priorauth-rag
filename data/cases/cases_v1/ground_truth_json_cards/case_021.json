@@ -1,0 +1,262 @@
+{
+  "case_id": "case_021",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg/0.5 mL subcutaneous once weekly, starting dose with titration",
+    "request_type": "initial_authorization",
+    "policy_pathway": "III. Wegovy injection and Wegovy HD injection — 3. Major Adverse Cardiovascular Event(s) Risk Reduction; with 1. Weight Loss in an Adult assessed as an alternative",
+    "case_types": [
+      "contradictory_evidence",
+      "multiple_criteria",
+      "weak_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-02-09",
+      "request_date": "2026-02-16",
+      "denial_date": "2026-02-23",
+      "note_type": "family_medicine_cardiovascular_risk_review",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The contradiction is internal to a single note: the carried-forward problem list says CVA, the narrative and assessment say transient ischemic attack, and the policy expressly excludes TIA. The resolution is documented in the note itself, so the case is adjudicable, but a system that reads the problem list as authoritative will find a qualifying event that the record does not support. The alternative weight-loss route is closed on the trial criterion rather than on the comorbidity, which the member does have."
+  },
+  "patient": {
+    "name": "Wallace T. Nkemdirim",
+    "mrn": "MRN-200228",
+    "member_id": "MEM-CIG-228",
+    "age": 62,
+    "dob": "1963-11-26",
+    "sex": "male",
+    "diagnoses": [
+      "Z86.73 personal history of transient ischemic attack and cerebral infarction without residual deficits",
+      "I10 essential hypertension",
+      "E78.5 dyslipidemia, unspecified",
+      "E66.3 overweight",
+      "Z68.29 BMI 29.0-29.9, adult",
+      "R73.03 prediabetes",
+      "N40.0 benign prostatic hyperplasia without lower urinary tract symptoms"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "dyslipidemia",
+      "prediabetes",
+      "benign prostatic hyperplasia"
+    ],
+    "relevant_measurements": {
+      "bmi": 29.1,
+      "weight_lb": 203,
+      "height_in": 70,
+      "bmi_history": [
+        { "date": "2025-11-17", "weight_lb": 206, "bmi": 29.6 },
+        { "date": "2026-02-09", "weight_lb": 203, "bmi": 29.1 }
+      ],
+      "a1c_percent": 5.7
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Halvard S. Ingebretsen, MD",
+    "specialty": "Family Medicine",
+    "practice": "Harrowfield Family Medicine",
+    "provider_id": "PRV-SYN-2350"
+  },
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "no_qualifying_cardiovascular_event_tia_excluded",
+    "denial_reason_text": "The cerebrovascular event documented is a transient ischemic attack, which the policy expressly excludes from the prior-stroke criterion. No myocardial infarction and no peripheral arterial disease is documented. The alternative weight-loss pathway fails on the three-month trial criterion.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" III. Wegovy injection and Wegovy HD injection, 3. Major Adverse Cardiovascular Event(s) Risk Reduction in a Patient with Established Cardiovascular Disease with Overweight or Obesity",
+    "cited_requirement_text": "Note: This does not include a transient ischemic attack (TIA).",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form dated 2026-02-16",
+      "Family medicine office note dated 2026-02-09",
+      "Neurology consultation letter dated 07/2024"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "mace_prior_stroke_tia_excluded",
+        "requirement": "Patient has had a prior stroke. A transient ischemic attack does not count.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 3. Major Adverse Cardiovascular Event(s) Risk Reduction, criterion C(ii) and its Note",
+        "policy_support_text": "Note: This does not include a transient ischemic attack (TIA).",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_prior_myocardial_infarction",
+        "requirement": "Patient has had a prior myocardial infarction.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 3. Major Adverse Cardiovascular Event(s) Risk Reduction, criterion C(i)",
+        "policy_support_text": "Patient has had a prior myocardial infarction",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "requirement": "At baseline, patient had a BMI of 27 kg/m2 or greater.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 3. Major Adverse Cardiovascular Event(s) Risk Reduction, criterion B",
+        "policy_support_text": "At baseline, patient had a BMI >= 27 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "requirement": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months. Assessed because the adult weight-loss pathway is the alternative route.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion ii",
+        "policy_support_text": "Patient has engaged in a trial of behavioral modification and dietary restriction for at least 3 months",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "requirement": "At baseline, BMI of 27 kg/m2 or greater with at least one listed comorbidity. Hypertension and dyslipidemia are both on the list.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — A) Initial Therapy, criterion iii(b)",
+        "policy_support_text": "At baseline, patient had a BMI >= 27 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "The TIA exclusion is drafted as a Note attached to the prior-stroke limb rather than as a numbered criterion. It is binding policy text, not commentary.",
+      "The member's hypertension and dyslipidemia do satisfy the comorbidity element of the weight-loss route. That route still fails because the three-month trial criterion is not met.",
+      "Prediabetes is not on the policy's comorbidity list; type 2 diabetes is. The distinction is not load-bearing here because hypertension already satisfies the element."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-02-09 note and the 07/2024 neurology letter were both submitted and reviewed. The payer resolved the contradiction the same way the treating clinician did.",
+    "expected_evidence": [
+      {
+        "criterion_name": "mace_prior_stroke_tia_excluded",
+        "evidence_present": false,
+        "evidence_text": "The neurology consultation letter of 07/2024 records right arm weakness and dysarthria resolving completely within 40 minutes, MRI with diffusion-weighted imaging showing no acute infarction, and a diagnosis of transient ischemic attack. The treating clinician records the same conclusion and flags the problem-list entry for correction.",
+        "evidence_location": "SUBJECTIVE, 2024 episode paragraph; ASSESSMENT item 1; PLAN item 2",
+        "evidence_type": "contradictory"
+      },
+      {
+        "criterion_name": "mace_prior_myocardial_infarction",
+        "evidence_present": false,
+        "evidence_text": "The note records that he has never had a heart attack and has never had a procedure on his heart or legs. Peripheral pulses are present and symmetric with no claudication.",
+        "evidence_location": "SUBJECTIVE; OBJECTIVE, exam",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 10 in with 206 lb (BMI 29.6) on 11/17/2025 and 203 lb (BMI 29.1) on 02/09/2026. Both above 27.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "evidence_present": false,
+        "evidence_text": "First dietitian appointment 01/19/2026 with calorie target and food diary. That is 21 days before the note and 28 days before the request. The note states that before that appointment he had made no structured dietary changes and had not attended any weight programme.",
+        "evidence_location": "SUBJECTIVE, diet paragraph",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "evidence_present": true,
+        "evidence_text": "BMI 29.1 kg/m2 with essential hypertension and dyslipidemia, both on the policy's comorbidity list. This element of the alternative route is satisfied.",
+        "evidence_location": "PROBLEM LIST; ASSESSMENT items 2 and 3; OBJECTIVE",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "No imaging or clinical documentation of a completed stroke, myocardial infarction or peripheral arterial disease exists anywhere in the record.",
+        "material_to_outcome": true
+      }
+    ],
+    "contradictions": [
+      {
+        "description": "The carried-forward problem list records 'CVA 2024'. The narrative, the neurology consultation letter it derives from, and the assessment all record a transient ischemic attack with negative diffusion-weighted MRI.",
+        "location_a": "PROBLEM LIST (as carried forward), entry 'CVA 2024'",
+        "location_b": "SUBJECTIVE, 2024 episode paragraph; ASSESSMENT item 1; PLAN item 2",
+        "resolution": "The neurology letter is the source document and records a transient ischemic attack. The treating clinician states expressly that the problem-list entry does not match it and has flagged it for correction. The event is a TIA, which the policy excludes.",
+        "dispositive": true,
+        "dispositive_note": "This contradiction decides the cardiovascular pathway. Reading the problem list as authoritative produces a qualifying event that the source documentation does not support."
+      }
+    ]
+  },
+  "sufficiency_ground_truth": {
+    "overall": "not_satisfied",
+    "per_criterion": [
+      {
+        "criterion_name": "mace_prior_stroke_tia_excluded",
+        "status": "not_satisfied",
+        "reason": "The documented event is a transient ischemic attack with no infarction on diffusion-weighted imaging. The policy's Note excludes TIA from the prior-stroke limb."
+      },
+      {
+        "criterion_name": "mace_prior_myocardial_infarction",
+        "status": "not_satisfied",
+        "reason": "No myocardial infarction is documented and the note records that none has occurred."
+      },
+      {
+        "criterion_name": "mace_baseline_bmi_27_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 29.1 kg/m2, above 27."
+      },
+      {
+        "criterion_name": "weight_pathway_behavioral_and_dietary_trial_3_months",
+        "status": "not_satisfied",
+        "reason": "Documented trial runs from 01/19/2026, about four weeks at the request date, with an affirmative statement that nothing preceded it."
+      },
+      {
+        "criterion_name": "weight_pathway_bmi_27_plus_comorbidity",
+        "status": "satisfied",
+        "reason": "BMI 29.1 with hypertension and dyslipidemia, both listed. Not sufficient on its own because the trial criterion in the same pathway fails."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "weak_appeal",
+    "expected_position": "insufficient_basis_to_challenge",
+    "supported_claims": [
+      "The member's BMI satisfies the 27 kg/m2 threshold for both pathways.",
+      "Hypertension and dyslipidemia satisfy the comorbidity element of the weight-loss pathway.",
+      "The denial accurately quotes the TIA exclusion and accurately reports the neurology documentation."
+    ],
+    "unsupported_claims": [
+      "That the member has had a stroke, notwithstanding the problem-list entry.",
+      "That a transient ischemic attack qualifies under the prior-stroke limb.",
+      "That the member has had a myocardial infarction or has peripheral arterial disease.",
+      "That a three-month behavioural and dietary trial is documented."
+    ],
+    "correct_next_step": "Advise that neither pathway is available. The cardiovascular pathway is closed by the express TIA exclusion and no further documentation can change the nature of the 2024 event. The weight-loss pathway is reachable: the BMI-plus-comorbidity element is already met, so completing and documenting the three-month trial, which on the current record falls in late April 2026, would leave only that criterion to satisfy. Correcting the problem-list entry is also appropriate, though it works against rather than for the request."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The neurology consultation letter of July 2024 records right arm weakness and dysarthria resolving completely within 40 minutes.",
+      "Magnetic resonance imaging with diffusion-weighted sequences showed no acute infarction.",
+      "The neurologist's recorded diagnosis is transient ischemic attack.",
+      "Documented BMI on February 9, 2026 was 29.1 kg/m2, with height 5 feet 10 inches and weight 203 pounds.",
+      "The member has essential hypertension and dyslipidemia, both on the policy's comorbidity list.",
+      "The member is taking clopidogrel 75 mg and atorvastatin 80 mg daily.",
+      "A first dietitian appointment took place on January 19, 2026 with a calorie target and food diary.",
+      "The treating clinician has flagged the problem-list entry 'CVA 2024' as inaccurate and for correction."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has had a stroke.",
+      "The member had a cerebral infarction in 2024.",
+      "The problem-list entry 'CVA 2024' establishes a qualifying event.",
+      "The member has had a myocardial infarction.",
+      "The member has symptomatic peripheral arterial disease, intermittent claudication, or an ankle-brachial index below 0.85.",
+      "The member has completed a three-month behavioural and dietary trial.",
+      "The member's prediabetes is a listed weight-related comorbidity.",
+      "The member's BMI is 30 kg/m2 or greater."
+    ]
+  },
+  "files": {
+    "denial": "case_021_denial.txt",
+    "note": "case_021_note.txt"
+  }
+}

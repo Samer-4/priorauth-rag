@@ -1,0 +1,98 @@
+HALVERTON INTERNAL MEDICINE
+Office Visit Note
+
+PATIENT:          Oyelaran, Nadia R.
+MRN:              MRN-200316
+DOB:              05/05/1984          AGE: 42          SEX: Female
+DATE OF SERVICE:  06/01/2026
+PROVIDER:         Aurelia N. Kowalczyk, MD — Internal Medicine (PRV-SYN-3139)
+VISIT TYPE:       Established patient, medication follow-up
+
+
+REASON FOR VISIT
+Tirzepatide review; reauthorization paperwork.
+
+
+SUBJECTIVE
+
+Ms. Oyelaran has been on tirzepatide since late November. Titration was uneventful apart from
+two weeks of constipation at the 5 mg step, which settled with fibre and fluid. She reached 10 mg
+in February and has stayed there.
+
+She is very pleased. She says the difference is that she can stop eating when she has had enough,
+which she had not been able to do before. She has had no vomiting, no abdominal pain and no
+gallbladder symptoms.
+
+She continues the dietary work she began before starting the medication. She has been with our
+dietitian since October, goes every six to eight weeks, and keeps a food log. She runs a
+parkrun most Saturdays and does a Pilates class on Wednesdays.
+
+Periods regular. Using a progestogen implant; no pregnancy plans.
+
+No tobacco. Alcohol occasional. Works as a civil engineer.
+
+
+TREATMENT COURSE
+
+  10/20/2025   Dietitian consultation, Ms. Freya Lindenbaum, RD. Calorie target set; food log
+               started. Reviews every six to eight weeks since, continuing to date.
+  11/24/2025   Tirzepatide (Zepbound) started at 2.5 mg weekly. Weight recorded this date.
+  02/23/2026   Reached 10 mg weekly following stepwise titration. Interval weight recorded.
+  06/01/2026   Today. Continuing 10 mg weekly, uninterrupted since 11/24/2025.
+
+Tirzepatide is her only exposure to this class of medication.
+
+
+CURRENT MEDICATIONS
+
+  tirzepatide (Zepbound) 10 mg subcutaneously weekly
+  etonogestrel implant (in situ)
+  cholecalciferol 2000 IU PO daily
+
+
+OBJECTIVE
+
+BP 116/72    HR 64    Temp 98.2 F
+Height:  5 ft 4 in (64 in)
+Weight:  196 lb
+BMI:     33.6 kg/m²
+
+Weights on file:
+  11/24/2025   209 lb   (BMI 35.9)   — recorded on the day tirzepatide was started
+  02/23/2026   201 lb   (BMI 34.5)
+  06/01/2026   196 lb   (BMI 33.6)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender, no
+right upper quadrant tenderness. No peripheral oedema. Injection sites without induration.
+
+Laboratory (05/18/2026):
+  Hemoglobin A1c        5.3 %
+  Fasting glucose       87 mg/dL
+  Lipase                25 U/L
+  ALT                   18 U/L
+  Total cholesterol     166 mg/dL
+  LDL                   89 mg/dL
+  HDL                   61 mg/dL
+  Triglycerides         92 mg/dL
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 33.6 kg/m² (Z68.33), responding well to tirzepatide with a steady
+   downward trend at every recorded interval and no regain.
+2. No metabolic complications; glucose, lipids and hepatic panel normal.
+
+
+PLAN
+
+1. Obesity. Continue tirzepatide 10 mg weekly. Reauthorization request to be submitted with this
+   note. Continue Ms. Lindenbaum's plan, the Saturday parkrun and the Wednesday Pilates class.
+2. Monitoring. Repeat lipase and hepatic panel at 6 months.
+3. Contraception. Continue implant; pre-pregnancy counselling repeated.
+
+Return in 3 months.
+
+
+Aurelia N. Kowalczyk, MD
+Electronically signed 06/01/2026 14:30

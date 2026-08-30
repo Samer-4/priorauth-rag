@@ -1,0 +1,76 @@
+UnitedHealthcare
+Prior Authorization Determination — Pharmacy Benefit
+
+Date of determination:   June 15, 2026
+Authorization number:    AUTH-UHC-2026-000371
+Member:                  Nadia R. Oyelaran
+Member ID:               MEM-UHC-316
+Patient identifier:      MRN-200316
+Date of birth:           05/05/1984
+Plan:                    Commercial employer group pharmacy benefit (fully insured, Ohio)
+Prescriber:              Aurelia N. Kowalczyk, MD — Internal Medicine
+Prescriber ID:           PRV-SYN-3139
+Date request received:   June 8, 2026
+
+
+ADVERSE DETERMINATION — COVERAGE NOT AUTHORIZED
+
+
+Dear Ms. Oyelaran,
+
+We have completed our review of the reauthorization request submitted for you.
+
+  Drug requested:        Zepbound (tirzepatide) injection
+  Dose requested:        10 mg subcutaneously weekly
+  Indication submitted:  Weight loss
+  Type of review:        Reauthorization
+
+
+DETERMINATION
+
+Coverage is not authorized.
+
+
+BASIS FOR DETERMINATION
+
+The reauthorization criteria set weight-loss thresholds for specific named products. No
+reauthorization threshold is specified for Zepbound. Because the criteria do not provide a
+reauthorization pathway for this product, continued coverage cannot be approved.
+
+
+CLINICAL REVIEW SUMMARY
+
+Coverage program applied: UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior
+Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage
+(Program Number 2026 P 1114-20, effective 5/1/2026). Section 2, Coverage Criteria,
+B. Reauthorization.
+
+The reauthorization response criterion is expressed as a set of alternatives keyed to particular
+products. It sets a threshold of 3 percent for Qsymia, 4 percent for Saxenda, and for Wegovy the
+requirement that "For Wegovy injection or tablet, weight loss of ≥ 5% of baseline body weight".
+Zepbound is not named in any of these.
+
+Documentation reviewed:
+  - Reauthorization request form received June 8, 2026
+  - Internal medicine office note dated June 1, 2026, Halverton Internal Medicine
+
+We note that continuation of lifestyle modification is documented, and that the submitted note
+records a baseline weight of 209 pounds on November 24, 2025 and a current weight of 196 pounds.
+Those matters are not the basis of this determination.
+
+Because no product-specific reauthorization threshold is stated for Zepbound, the criterion
+cannot be met and the request is not authorized.
+
+
+RECONSIDERATION AND APPEAL
+
+You, or your prescriber acting as your authorized representative, may request an appeal of this
+determination under the terms of your benefit plan. You may submit additional information in
+support of the request.
+
+For the appeal procedures and timeframes that apply to your plan, or for questions about this
+notice, please contact the number for Member Services printed on your health plan ID card.
+
+
+UnitedHealthcare Pharmacy Prior Authorization
+Determination made by a licensed clinical reviewer

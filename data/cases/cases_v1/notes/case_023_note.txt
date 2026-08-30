@@ -1,0 +1,97 @@
+ALDERBROOK PEDIATRICS
+Office Visit Note
+
+PATIENT:          Vandersteen, Tobias R.
+MRN:              MRN-200250
+DOB:              02/03/2011          AGE: 15          SEX: Male
+DATE OF SERVICE:  05/04/2026
+PROVIDER:         Marguerite A. Sokolova, MD — Pediatrics (PRV-SYN-2573)
+ACCOMPANIED BY:   Father
+VISIT TYPE:       Established patient, weight management
+
+
+REASON FOR VISIT
+Weight management review. Family requesting medication.
+
+
+SUBJECTIVE
+
+Tobias is seen with his father. He has been working on weight since February with our nutrition
+service and the school's sports programme. He has cut out energy drinks, takes a packed lunch
+instead of buying, and plays football twice a week plus a Saturday club. He has lost four pounds.
+
+His father raises medication directly. A colleague's son was started on tirzepatide and he asks
+whether Tobias can have it. I explained that products in this class differ in the ages they are
+licensed and covered for, and that I would submit a request but could not predict the outcome.
+
+Tobias is otherwise well. No snoring, no daytime sleepiness. No joint pain. No headaches or
+visual symptoms. No acanthosis nigricans. No polyuria or polydipsia.
+
+Mood good, no bullying reported, doing well at school.
+
+Growth: height has tracked along the 75th centile. Tanner stage 4.
+
+No tobacco, no alcohol, no vaping.
+
+
+WEIGHT MANAGEMENT
+
+  02/16/2026   Nutrition consultation, Ms. Delphine Rasmussen, RD. Energy drinks stopped;
+               packed lunch plan agreed; activity goals set. Weight recorded.
+  03/23/2026   Nutrition review. Football twice weekly plus Saturday club started.
+  05/04/2026   Today. Both maintained.
+
+
+CURRENT MEDICATIONS
+
+  cholecalciferol 600 IU PO daily
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 114/68    HR 74    Temp 98.3 F
+Height:  5 ft 8 in (68 in)
+Weight:  232 lb
+BMI:     35.3 kg/m²
+
+Weights on file:
+  02/16/2026   236 lb   (BMI 35.9)
+  05/04/2026   232 lb   (BMI 35.3)
+
+Exam: Well-grown adolescent. No acanthosis nigricans, no striae. Thyroid not enlarged. Cardiac
+regular. Abdomen soft, non-tender. Tanner stage 4. Gait normal, no hip or knee tenderness.
+
+Laboratory (04/20/2026):
+  Hemoglobin A1c        5.5 %
+  Fasting glucose       90 mg/dL
+  ALT                   28 U/L
+  Total cholesterol     176 mg/dL
+  LDL                   104 mg/dL
+  HDL                   45 mg/dL
+  Triglycerides         134 mg/dL
+  TSH                   2.1 mIU/L
+
+
+ASSESSMENT
+
+1. Obesity, adolescent (E66.9), BMI 35.3 kg/m².
+2. No metabolic complications identified; glucose, lipids, hepatic and thyroid function within
+   reference range.
+
+
+PLAN
+
+1. Weight. Prior authorization to be submitted for tirzepatide (Zepbound) 2.5 mg weekly at the
+   family's request, to be used as an adjunct to the dietary and activity changes already in
+   place, which continue either way. I have explained to the family that coverage rules for
+   these products vary by product and by age and that this request may not be approved.
+2. Nutrition. Continue with Ms. Rasmussen; next appointment 06/2026.
+3. Repeat bloods in 6 months.
+
+Return in 8 weeks.
+
+
+Marguerite A. Sokolova, MD
+Electronically signed 05/04/2026 14:05

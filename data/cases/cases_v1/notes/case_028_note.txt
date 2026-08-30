@@ -1,0 +1,109 @@
+RED RIVER INTERNAL MEDICINE
+Fargo, North Dakota
+
+Office Visit Note
+
+PATIENT:            Thorsvik, Marlene K.
+MRN:                MRN-200305
+DOB:                09/24/1979          AGE: 46          SEX: Female
+STATE OF RESIDENCE: North Dakota
+DATE OF SERVICE:    04/20/2026
+PROVIDER:           Halldor J. Sigurdsson, MD — Internal Medicine (PRV-SYN-3028)
+VISIT TYPE:         Established patient, weight management
+
+
+CHIEF COMPLAINT
+Weight review; wants to start medication.
+
+
+SUBJECTIVE
+
+Ms. Thorsvik has been working on this since January. She has been to the dietitian at the clinic
+three times, keeps a food diary, and has been walking the indoor track at the community centre
+four mornings a week through the winter. She has lost five pounds and is frustrated that it is
+not more.
+
+She would like to start semaglutide. Her cousin in Minnesota has done well on it. She has read
+about the side effects and is prepared for the nausea.
+
+She has been on this plan since January when she moved off her former employer's coverage after
+being made redundant. She bought the plan through the state exchange. She mentions this because
+she is worried the new plan may cover less than the old one.
+
+Blood pressure has been fine off medication for two years. Home readings 118 to 126 systolic.
+
+Reflux occasional, no treatment.
+
+Periods regular, no changes. Copper intrauterine device in situ, no pregnancy plans.
+
+Knees ache on the stairs at the end of a shift; no swelling, no instability.
+
+No tobacco. Alcohol rare. Works as a dental hygienist.
+
+
+WEIGHT MANAGEMENT
+
+  01/26/2026   Dietitian consultation, Ms. Brynhild Aasland, RD. Calorie target set; food diary
+               started; indoor walking programme agreed. Weight recorded.
+  02/23/2026   Dietitian review. Diary adherence good.
+  03/30/2026   Dietitian review. Walking increased to four mornings weekly.
+  04/20/2026   Today. All maintained.
+
+
+CURRENT MEDICATIONS
+
+  copper intrauterine device (in situ)
+  cholecalciferol 2000 IU PO daily
+
+No prescription weight-loss medication, current or prior. No GLP-1 receptor agonist exposure.
+
+
+OBJECTIVE
+
+BP 120/74    HR 70    Temp 98.1 F
+Height:  5 ft 5 in (65 in)
+Weight:  218 lb
+BMI:     36.3 kg/m²
+
+Weights on file:
+  01/26/2026   223 lb   (BMI 37.1)
+  04/20/2026   218 lb   (BMI 36.3)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft, non-tender. No
+peripheral oedema. Knees with mild crepitus, no effusion.
+
+Laboratory (04/06/2026):
+  Hemoglobin A1c        5.6 %
+  Fasting glucose       94 mg/dL
+  Total cholesterol     189 mg/dL
+  LDL                   112 mg/dL
+  HDL                   55 mg/dL
+  Triglycerides         110 mg/dL
+  ALT                   23 U/L
+  TSH                   1.8 mIU/L
+  Creatinine            0.8 mg/dL
+
+
+ASSESSMENT
+
+1. Obesity (E66.9), BMI 36.3 kg/m² (Z68.36), with a modest response to three months of dietary
+   and activity intervention.
+2. No metabolic complications. Glucose, lipids, hepatic and thyroid function all within
+   reference range. No liver disease and no evidence of steatohepatitis.
+3. Bilateral knee pain (M25.561, M25.562), activity-related.
+
+
+PLAN
+
+1. Weight. Prior authorization to be submitted for semaglutide (Wegovy) 0.25 mg weekly with
+   label titration, as an adjunct to the dietary and activity work already in place, which she
+   will continue. Titration and side-effect advice given in writing.
+2. Nutrition. Continue with Ms. Aasland; next review 05/2026.
+3. Blood pressure. Continue annual monitoring; no treatment indicated.
+4. Knees. Reassurance; review if symptoms progress.
+
+Return in 8 weeks.
+
+
+Halldor J. Sigurdsson, MD
+Electronically signed 04/20/2026 11:45

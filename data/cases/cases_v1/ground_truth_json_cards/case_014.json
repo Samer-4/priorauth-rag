@@ -1,0 +1,218 @@
+{
+  "case_id": "case_014",
+  "case_metadata": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "2.4 mg/0.75 mL subcutaneous once weekly",
+    "request_type": "continuation_of_therapy",
+    "policy_pathway": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult with Overweight or Obesity — B) Patient is Currently Receiving Wegovy",
+    "case_types": [
+      "straightforward",
+      "strong_appeal"
+    ],
+    "difficulty": "easy",
+    "episode": {
+      "note_date": "2026-06-01",
+      "request_date": "2026-06-08",
+      "denial_date": "2026-06-15",
+      "note_type": "family_medicine_progress_note",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": false
+    },
+    "design_note": "The dataset's control case. The criterion is met, stated explicitly and numerically in the note, and the note existed before the request but was not attached to it. Nothing is hidden, scattered or borderline. A pipeline that cannot win this one has a retrieval or submission-scope problem rather than a reasoning problem."
+  },
+  "patient": {
+    "name": "Imani S. Broussard",
+    "mrn": "MRN-200151",
+    "member_id": "MEM-CIG-151",
+    "age": 36,
+    "dob": "1990-03-25",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.31 BMI 31.0-31.9, adult",
+      "E61.1 iron deficiency"
+    ],
+    "comorbidities": [
+      "iron deficiency without anemia"
+    ],
+    "relevant_measurements": {
+      "bmi": 31.4,
+      "weight_lb": 189,
+      "height_in": 65,
+      "bmi_history": [
+        { "date": "2025-09-15", "weight_lb": 205, "bmi": 34.1 },
+        { "date": "2026-01-12", "weight_lb": 196, "bmi": 32.6 },
+        { "date": "2026-06-01", "weight_lb": 189, "bmi": 31.4 }
+      ],
+      "a1c_percent": 5.2
+    },
+    "prior_weight_loss_pharmacotherapy": "Wegovy (semaglutide), started 2025-09-22, current",
+    "prior_glp1_exposure": "Wegovy (semaglutide) only, from 2025-09-22"
+  },
+  "provider": {
+    "name": "Marcus O. Delacroix-Byrne, MD",
+    "specialty": "Family Medicine",
+    "practice": "Greenford Family Medicine",
+    "provider_id": "PRV-SYN-1685"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_pre_glp1_baseline",
+      "from_lb": 205,
+      "to_lb": 189,
+      "percent": 7.8,
+      "note": "205 lb on 09/15/2025, before any GLP-1 exposure, to 189 lb on 06/01/2026. The note states the percentage explicitly."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Cigna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "continuation_weight_loss_documentation_not_submitted",
+    "denial_reason_text": "The continuation request was submitted without clinical documentation of baseline weight or percentage reduction, so the 5 percent response criterion could not be confirmed.",
+    "cited_policy_reference": "Cigna National Formulary Coverage Policy, \"Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy,\" III. Wegovy injection and Wegovy HD injection, 1. Weight Loss in an Adult with Overweight or Obesity, B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or Wegovy tablet",
+    "cited_requirement_text": "Patient has lost >= 5% of baseline body weight",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Continuation request form dated 2026-06-08, submitted without clinical records"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "cigna_glp1_prior_auth.txt",
+    "policy_name": "Weight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization Policy",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "requirement": "Patient has lost at least 5 percent of baseline body weight, where baseline is prior to any GLP-1 or GLP-1/GIP receptor agonist.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — B) Patient is Currently Receiving Wegovy, criterion iii",
+        "policy_support_text": "Patient has lost >= 5% of baseline body weight",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — B), criterion i",
+        "policy_support_text": "Patient is ≥ 18 years of age",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "requirement": "At baseline, patient had a BMI of 30 kg/m2 or greater.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — B), criterion ii(a)",
+        "policy_support_text": "At baseline, patient had a BMI >= 30 kg/m2",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "requirement": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+        "policy_reference": "III. Wegovy injection and Wegovy HD injection — 1. Weight Loss in an Adult — B), criterion iv",
+        "policy_support_text": "The medication will be used concomitantly with behavioral modification and a reduced-calorie diet",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Baseline for this policy is defined as prior to any GLP-1 agonist or GLP-1/GIP receptor agonist. Semaglutide is this member's only exposure, so the 09/15/2025 pre-treatment weight is the correct baseline."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "existing_but_not_submitted",
+    "evidence_timing_note": "The 2026-06-01 note predates the 2026-06-08 continuation request but was not attached to it. The payer reviewed the form alone.",
+    "expected_evidence": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "evidence_present": true,
+        "evidence_text": "The note states the baseline weight of 205 lb on 09/15/2025, the current weight of 189 lb, and expressly that this is 'a 16 pound loss, a 7.8 percent reduction from baseline'. The figure is repeated in the objective section and in the assessment.",
+        "evidence_location": "SUBJECTIVE; OBJECTIVE, total reduction line; ASSESSMENT item 1",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Baseline weight 205 lb at 5 ft 5 in gives BMI 34.1 kg/m2 on 09/15/2025, marked 'pre-treatment baseline'.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 03/25/1990; age 36 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "evidence_present": true,
+        "evidence_text": "Plan item 1 continues the dietitian's plan and the spin classes alongside the medication; the subjective section describes the behavioural changes in detail.",
+        "evidence_location": "PLAN item 1; SUBJECTIVE",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "continuation_weight_loss_5_percent",
+        "status": "satisfied",
+        "reason": "A 7.8 percent reduction from the pre-GLP-1 baseline, stated explicitly and consistent with the recorded weights."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 36."
+      },
+      {
+        "criterion_name": "baseline_bmi_30_or_greater",
+        "status": "satisfied",
+        "reason": "Baseline BMI 34.1 kg/m2 before any GLP-1 exposure."
+      },
+      {
+        "criterion_name": "concomitant_behavioral_modification_and_reduced_calorie_diet",
+        "status": "satisfied",
+        "reason": "Dietitian plan and structured exercise continued alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The clinical record documents a 7.8 percent reduction from the pre-GLP-1 baseline, above the 5 percent threshold.",
+      "The record existed before the continuation request and was simply not attached, so it is properly considered on reconsideration.",
+      "Baseline BMI before any GLP-1 exposure was 34.1 kg/m2, above the 30 kg/m2 requirement."
+    ],
+    "unsupported_claims": [
+      "That the payer erred on the policy; the denial states the criterion correctly and the failure was in the submission.",
+      "That the member meets the initial-therapy criteria, which are not what this request is assessed against."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "The pre-treatment weight on September 15, 2025 was 205 pounds, a BMI of 34.1 kg/m2.",
+      "The recorded weight on June 1, 2026 was 189 pounds, a BMI of 31.4 kg/m2, at a height of 5 feet 5 inches.",
+      "The reduction is 16 pounds, or 7.8 percent of baseline, stated explicitly in the note.",
+      "Semaglutide was started on September 22, 2025 and is the member's only GLP-1 exposure.",
+      "The member reached the 2.4 mg dose in February 2026 and has remained on it.",
+      "A dietitian plan and twice-weekly spin classes have continued throughout."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member has lost 10 percent or more of baseline body weight.",
+      "The member previously used another GLP-1 agonist.",
+      "The member completed a six-month comprehensive weight management program.",
+      "The member has type 2 diabetes.",
+      "The member trialled another anti-obesity agent before semaglutide."
+    ]
+  },
+  "files": {
+    "denial": "case_014_denial.txt",
+    "note": "case_014_note.txt"
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "case_id": "case_001",
+  "case_metadata": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "drug_detail": "0.25 mg subcutaneous once weekly, titrated per prescribing information",
+    "request_type": "initial_authorization",
+    "policy_pathway": "Chronic Weight Management (Adult)",
+    "case_types": [
+      "strong_appeal",
+      "scattered_evidence"
+    ],
+    "difficulty": "medium",
+    "episode": {
+      "note_date": "2026-05-12",
+      "request_date": "2026-06-04",
+      "denial_date": "2026-06-11",
+      "note_type": "primary_care_progress_note",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": false
+    }
+  },
+  "patient": {
+    "name": "Denise R. Okafor",
+    "mrn": "MRN-200014",
+    "member_id": "MEM-AET-014",
+    "age": 52,
+    "dob": "1974-03-19",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.36 BMI 36.0-36.9, adult",
+      "I10 essential hypertension",
+      "E78.5 dyslipidemia, unspecified",
+      "R73.03 prediabetes",
+      "M25.561 pain in right knee",
+      "J30.9 allergic rhinitis, unspecified"
+    ],
+    "comorbidities": [
+      "essential hypertension",
+      "dyslipidemia",
+      "prediabetes"
+    ],
+    "relevant_measurements": {
+      "bmi": 36.4,
+      "weight_lb": 219,
+      "height_in": 65,
+      "bmi_history": [
+        {
+          "date": "2025-09-08",
+          "weight_lb": 232,
+          "bmi": 38.6
+        },
+        {
+          "date": "2025-12-15",
+          "weight_lb": 226,
+          "bmi": 37.6
+        },
+        {
+          "date": "2026-04-20",
+          "weight_lb": 221,
+          "bmi": 36.8
+        },
+        {
+          "date": "2026-05-12",
+          "weight_lb": 219,
+          "bmi": 36.4
+        }
+      ],
+      "a1c_percent": 5.7
+    },
+    "prior_weight_loss_pharmacotherapy": "none",
+    "prior_glp1_exposure": "none"
+  },
+  "provider": {
+    "name": "Alonzo T. Whitfield, DO",
+    "specialty": "Family Medicine",
+    "practice": "Cedar Ridge Family Health",
+    "provider_id": "PRV-SYN-0142"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_since_program_start",
+      "from_lb": 232,
+      "to_lb": 219,
+      "percent": 5.6,
+      "note": "Not a criterion for an initial request under this policy. Recorded so the audit can confirm the figure and so the appeal is barred from misusing it as the 5 percent continuation threshold."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "Aetna",
+    "drug": "Wegovy (semaglutide) injection",
+    "denial_reason": "comprehensive_weight_management_program_not_documented",
+    "denial_reason_text": "Submitted documentation does not establish participation in a comprehensive weight management program with continuing follow-up for at least 6 months prior to using drug therapy.",
+    "cited_policy_reference": "Aetna Pharmacy Clinical Policy Bulletin, \"Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024,\" COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+    "cited_requirement_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+    "denial_accurately_states_policy": true,
+    "records_reviewed_at_denial": [
+      "Prior authorization request form received 2026-06-04",
+      "One-page office visit summary dated 2026-06-01"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "aetna_glp1_weight_management.txt",
+    "policy_name": "Weight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024",
+    "criterion_exists": true,
+    "criterion_applies": true,
+    "criteria": [
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "requirement": "Participation in a comprehensive weight management program encouraging behavioral modification, reduced calorie diet, and increased physical activity, with continuing follow-up, for at least 6 months prior to using drug therapy.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has participated in a comprehensive weight management program that encourages behavioral modification, reduced calorie diet, and increased physical activity with continuing follow-up for at least 6 months prior to using drug therapy",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "requirement": "Patient is 18 years of age or older.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient is 18 years of age or older",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "requirement": "Baseline BMI greater than or equal to 35 kg/m2, with documentation.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "The patient has a baseline body mass index (BMI) greater than or equal to 35 kg/m2 [ACTION REQUIRED: Documentation is required for approval.]",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "requirement": "The requested drug will be used with a reduced calorie diet and increased physical activity for chronic weight management.",
+        "policy_reference": "COVERAGE CRITERIA — Chronic Weight Management (Adult)",
+        "policy_support_text": "used with a reduced calorie diet and increased physical activity for chronic weight management",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "This policy's adult chronic weight management pathway has no BMI 30 route and no BMI 27-plus-comorbidity route. There is no weight-related comorbidity criterion in this pathway at all.",
+      "The BMI 27 threshold in this document belongs solely to the Risk Reduction of Major Adverse Cardiovascular Events (Adult) - Wegovy ONLY pathway, which is not the pathway of this request.",
+      "This policy contains no step therapy requirement."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "existing_but_not_submitted",
+    "evidence_timing_note": "The 2026-05-12 progress note predates the 2026-06-04 PA submission but was not included in it. The denial reviewed only the PA form and a one-page visit summary dated 2026-06-01.",
+    "expected_evidence": [
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "Eight dated weight-management contacts from 09/08/2025 through 04/20/2026: registered-dietitian visits at Willow Creek Nutrition Services on 09/08/2025, 10/06/2025, 12/15/2025, 01/26/2026, 03/30/2026 and 04/20/2026, and behavioral group sessions at Lakeview Wellness Center on 11/17/2025 and 02/23/2026. Span is 7 months 12 days; the longest gap between contacts is 6 weeks.",
+        "evidence_location": "OUTSIDE RECORDS AND CARE COORDINATION section; corroborated in SUBJECTIVE",
+        "evidence_type": "scattered"
+      },
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "evidence_present": true,
+        "evidence_text": "The three components the policy names are each documented separately: reduced calorie diet (calorie target set and food logging started 09/08/2025; 'counting to about 1,500 a day'); behavioral modification (group sessions on eating triggers and meal planning); increased physical activity (walking 30-35 minutes most weekday mornings, activity plan stepped up 01/26/2026, resistance band program added 03/30/2026).",
+        "evidence_location": "SUBJECTIVE; OUTSIDE RECORDS AND CARE COORDINATION",
+        "evidence_type": "paraphrased"
+      },
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "evidence_present": true,
+        "evidence_text": "Height 5 ft 5 in, weight 219 lb, BMI 36.4 kg/m2 on 05/12/2026; earliest recorded weight 232 lb, BMI 38.6, on 09/08/2025. Every recorded BMI in the episode is at or above 36.4.",
+        "evidence_location": "OBJECTIVE section",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "evidence_present": true,
+        "evidence_text": "DOB 03/19/1974; age 52 at the time of the request.",
+        "evidence_location": "Note header",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "evidence_present": true,
+        "evidence_text": "Plan states the patient 'will continue the 1,400-1,600 kcal/day plan and the walking program at 30 minutes five days per week' alongside the requested medication.",
+        "evidence_location": "PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [
+      {
+        "description": "Documentation of the two Lakeview Wellness Center group sessions the patient reports attending after 04/20/2026. These are patient-reported only; the note states documentation has been requested and is not yet in the chart. They are not needed to satisfy the 6-month requirement.",
+        "material_to_outcome": false
+      },
+      {
+        "description": "The Willow Creek 04/20/2026 program summary letter is referenced as on file at Willow Creek but is not reproduced in the note.",
+        "material_to_outcome": false
+      }
+    ],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "comprehensive_weight_management_program_6_months",
+        "status": "satisfied",
+        "reason": "Dated contacts span 09/08/2025 to 04/20/2026, seven months and twelve days, exceeding six months, with continuing follow-up at intervals of three to six weeks and documentation of all three components the policy names. No weight-loss drug therapy had been started, so the entire period precedes drug therapy."
+      },
+      {
+        "criterion_name": "adult_age_18_or_older",
+        "status": "satisfied",
+        "reason": "Age 52."
+      },
+      {
+        "criterion_name": "baseline_bmi_35_or_greater",
+        "status": "satisfied",
+        "reason": "BMI 36.4 kg/m2 documented with height and weight, above the 35 kg/m2 threshold; baseline 38.6 kg/m2. Not disputed by the payer."
+      },
+      {
+        "criterion_name": "concomitant_reduced_calorie_diet_and_physical_activity",
+        "status": "satisfied",
+        "reason": "Plan continues a specified reduced-calorie diet and walking program alongside the drug."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "The record contains dated evidence of weight-management participation spanning more than seven months with continuing follow-up, prior to any drug therapy, satisfying the criterion the denial says was not met.",
+      "The evidence existed in the patient's chart before the prior authorization was submitted and was simply not included in the submission, so it is properly considered on reconsideration.",
+      "The program documented includes all three components the policy names: behavioral modification, reduced calorie diet, and increased physical activity.",
+      "The BMI criterion of 35 kg/m2 or greater is met at 36.4 kg/m2 and is not in dispute."
+    ],
+    "unsupported_claims": [
+      "That the member exhausted or failed other anti-obesity pharmacotherapy.",
+      "That the program was formally accredited, insurer-approved, or physician-supervised.",
+      "That the member meets the continuation-of-therapy criteria.",
+      "That the member's comorbidities are relevant to eligibility under this pathway."
+    ]
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Dated weight-management contacts are documented from September 8, 2025 through April 20, 2026, a span of seven months and twelve days.",
+      "Eight contacts are documented: six registered-dietitian visits at Willow Creek Nutrition Services and two behavioral group sessions at Lakeview Wellness Center.",
+      "The longest interval between documented contacts is six weeks.",
+      "A calorie target and food logging were started at the 09/08/2025 nutrition consultation.",
+      "The activity plan was stepped up on 01/26/2026 and a resistance band program was added on 03/30/2026.",
+      "Documented BMI on May 12, 2026 was 36.4 kg/m2, with height 5 feet 5 inches and weight 219 pounds.",
+      "Weight decreased from 232 pounds on 09/08/2025 to 219 pounds on 05/12/2026.",
+      "The member had received no weight-loss pharmacotherapy and no GLP-1 receptor agonist prior to this request.",
+      "The plan of care continues a 1,400-1,600 kcal/day diet and walking 30 minutes five days per week alongside the requested medication."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "The member failed a trial of phentermine, phentermine/topiramate, naltrexone/bupropion, or orlistat.",
+      "Aetna's policy requires a trial of a preferred anti-obesity agent before Wegovy.",
+      "This policy permits coverage at a BMI of 30 kg/m2, or at 27 kg/m2 with a weight-related comorbidity.",
+      "The member's hypertension and dyslipidemia satisfy a weight-related comorbidity requirement in the pathway at issue.",
+      "The member has type 2 diabetes.",
+      "The member completed twelve months of a weight management program.",
+      "The member has completed at least three months of Wegovy at a stable maintenance dose.",
+      "The weight management program was accredited, insurer-approved, or physician-supervised.",
+      "The two Lakeview Wellness Center sessions after April 20, 2026 are documented in the record.",
+      "The member's 5.6 percent weight reduction satisfies the coverage criterion at issue."
+    ]
+  },
+  "files": {
+    "denial": "case_001_denial.txt",
+    "note": "case_001_note.txt"
+  }
+}

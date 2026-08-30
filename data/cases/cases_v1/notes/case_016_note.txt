@@ -1,0 +1,102 @@
+WEXFORD ENDOCRINOLOGY
+Office Visit Note
+
+Patient:            Bhattacharya, Lucinda P.
+MRN:                MRN-200173
+DOB:                10/17/1980     Age: 45     Sex: Female
+Date of service:    03/09/2026
+Clinician:          Gregor A. Lindqvist-Mbeki, MD (PRV-SYN-1804)
+Visit type:         Established patient, diabetes and weight
+
+
+REASON FOR VISIT
+Diabetes review. Patient requesting additional medication for weight.
+
+
+SUBJECTIVE
+
+Ms. Bhattacharya has type 2 diabetes diagnosed in 2019, currently managed with metformin and
+Ozempic. She has been on Ozempic 1 mg weekly since 2024 and her glycaemic control is good, with
+A1c 6.6 percent today. She tolerates it well and has had no hypoglycaemia.
+
+Her frustration is with weight. She lost about 12 pounds in the first year on Ozempic and has
+since plateaued. She has read about tirzepatide and asks whether it can be added to what she is
+already taking. She is clear that she does not want to stop the Ozempic because "it is doing its
+job for the sugars."
+
+I explained that these agents work on the same and related receptor pathways and that they are
+not intended to be combined, and that switching rather than adding would be the usual approach if
+we pursued tirzepatide. She would prefer to add. At her request I am submitting the
+authorization as an addition so that she can see the response in writing, and we will revisit
+switching afterwards.
+
+Dietary and behavioural work: she started with our dietitian, Ms. Perpetua Nwankwo, RD, on
+11/24/2025 and has attended monthly since — 12/22/2025, 01/26/2026 and 02/23/2026. Calorie
+target and food logging in place throughout, plus a walking programme she has kept to.
+
+Retinal screening up to date, no retinopathy. Feet examined today, sensation intact. Urine
+albumin-creatinine ratio normal.
+
+No tobacco. Alcohol rare. Works as a pharmacist.
+
+
+CURRENT MEDICATIONS
+
+  semaglutide (Ozempic) 1 mg subcutaneously weekly — continuing
+  metformin 1000 mg PO twice daily
+  atorvastatin 20 mg PO daily
+  lisinopril 10 mg PO daily
+
+No prescription weight-loss medication has been used. Ozempic is prescribed for type 2 diabetes,
+not for weight management.
+
+
+OBJECTIVE
+
+BP 124/76    HR 72    Temp 98.3 F
+Height:  5 ft 3 in (63 in)
+Weight:  196 lb
+BMI:     34.7 kg/m²
+
+Weights on file:
+  09/08/2025   200 lb   (BMI 35.4)
+  12/15/2025   198 lb   (BMI 35.1)
+  03/09/2026   196 lb   (BMI 34.7)
+
+Exam: Well-appearing. Cardiac regular rate and rhythm. Lungs clear. Abdomen soft. Feet:
+monofilament intact bilaterally, pedal pulses present, no ulceration. No peripheral oedema.
+
+Laboratory (02/23/2026):
+  Hemoglobin A1c        6.6 %
+  Fasting glucose       118 mg/dL
+  Creatinine            0.8 mg/dL
+  eGFR                  88 mL/min/1.73 m2
+  Urine ACR             8 mg/g
+  Total cholesterol     162 mg/dL
+  LDL                   84 mg/dL
+  Triglycerides         134 mg/dL
+
+
+ASSESSMENT
+
+1. Type 2 diabetes mellitus (E11.9), well controlled on metformin and semaglutide.
+2. Obesity (E66.9), BMI 34.7 kg/m² (Z68.34), plateaued.
+3. Essential hypertension (I10) — controlled.
+4. Dyslipidemia (E78.5) — at goal on atorvastatin.
+
+
+PLAN
+
+1. Diabetes. Continue metformin and Ozempic 1 mg weekly, unchanged.
+2. Weight. Prior authorization to be submitted for tirzepatide (Zepbound) 2.5 mg weekly, to be
+   added to current therapy at the patient's request. Continue the dietitian's plan and the
+   walking programme. If the addition is not supported, we will discuss switching from Ozempic
+   to tirzepatide at the next visit.
+3. Hypertension and lipids. No change.
+4. Diabetes surveillance. Retinal screening and foot check up to date; repeat A1c in 3 months.
+
+Return in 3 months.
+
+
+Gregor A. Lindqvist-Mbeki, MD
+Signed 03/09/2026

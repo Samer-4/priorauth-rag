@@ -1,0 +1,95 @@
+AETNA
+Pharmacy Utilization Management — Coverage Determination
+
+Date of Notice:            February 9, 2026
+Authorization Reference:   AUTH-AET-2026-000207
+Review Tracking ID:        UM-RX-2026-02-0207
+
+Member Name:               Harold J. Winterbourne
+Member ID:                 MEM-AET-063
+Medical Record Number:     MRN-200063
+Date of Birth:             02/14/1962
+Plan Type:                 Commercial pharmacy benefit
+
+Requesting Provider:       Nadine C. Osei-Tutu, MD — Cardiology
+Practice:                  Lakeshore Cardiovascular Institute
+Provider ID:               PRV-SYN-0841
+Request Received:          February 2, 2026
+
+
+NOTICE OF ADVERSE BENEFIT DETERMINATION — PRIOR AUTHORIZATION
+
+
+Dear Mr. Winterbourne:
+
+We have completed our review of the prior authorization request submitted on your behalf.
+
+  Drug requested:          Wegovy (semaglutide) injection
+  Requested dosing:        0.25 mg subcutaneously once weekly, titrated per prescribing
+                           information
+  Requested indication:    Reduction of the risk of major adverse cardiovascular events
+  Requested duration:      12 months
+
+
+DETERMINATION
+
+The request is not approved.
+
+
+REASON FOR DENIAL
+
+The cardiovascular risk-reduction criteria for this medication exclude members who have type 2
+diabetes. Your records document type 2 diabetes. The alternative coverage pathway, chronic
+weight management, requires a body mass index of at least 35 kg/m², which your records do not
+document.
+
+
+POLICY BASIS AND CLINICAL RATIONALE
+
+Applicable coverage policy: Aetna Pharmacy Clinical Policy Bulletin, "Weight Loss (BMI 35)
+GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024."
+
+Under COVERAGE CRITERIA — Risk Reduction of Major Adverse Cardiovascular Events (Adult) —
+Wegovy ONLY, authorization requires that all listed criteria be met, including that "The patient
+does NOT have type 2 diabetes." The policy carries a note that Ozempic is indicated to reduce
+the risk of major cardiovascular events in adults with type 2 diabetes mellitus and established
+cardiovascular disease, and that patients with type 2 diabetes may be treated for cardiovascular
+risk reduction with Ozempic.
+
+Under COVERAGE CRITERIA — Chronic Weight Management (Adult), authorization requires among other
+criteria that "The patient has a baseline body mass index (BMI) greater than or equal to 35
+kg/m2 [ACTION REQUIRED: Documentation is required for approval.]"
+
+Materials reviewed:
+  1. Prior authorization request form received February 2, 2026
+  2. Cardiology office note dated January 26, 2026, Lakeshore Cardiovascular Institute
+  3. Laboratory results dated January 12, 2026
+
+We confirm from the submitted records that you have established cardiovascular disease with a
+documented myocardial infarction in March 2024, that you are receiving guideline-directed
+medical therapy, and that your body mass index of 31.7 kg/m² exceeds the 27 kg/m² threshold that
+applies within the cardiovascular pathway. Those elements are met.
+
+However, the submitted records also document type 2 diabetes, with a hemoglobin A1c of 7.1
+percent and ongoing treatment with metformin and empagliflozin. The cardiovascular pathway
+therefore cannot be used.
+
+Reviewing the request against the chronic weight management pathway instead, the highest body
+mass index recorded in the submitted records is 32.6 kg/m², below the required 35 kg/m².
+
+Neither pathway is satisfied and the request is denied.
+
+
+YOUR RIGHT TO APPEAL
+
+You or your authorized representative, including your prescribing provider acting on your
+behalf, may request reconsideration of this determination in accordance with the appeal
+provisions of your benefit plan, and may submit additional clinical documentation with that
+request.
+
+To ask questions about this notice or to obtain the appeal procedures that apply to your plan,
+contact Member Services using the information on your member identification card.
+
+
+Aetna Pharmacy Utilization Management
+Clinical review completed by a licensed physician reviewer

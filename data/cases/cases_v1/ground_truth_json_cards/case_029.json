@@ -1,0 +1,205 @@
+{
+  "case_id": "case_029",
+  "case_metadata": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "drug_detail": "10 mg subcutaneous once weekly",
+    "request_type": "reauthorization",
+    "policy_pathway": "Section 2 — General coverage criteria, B. Reauthorization",
+    "plan_variant": "general_commercial",
+    "plan_variant_evidence": [
+      "Denial letter plan line: 'Commercial employer group pharmacy benefit (fully insured, Ohio)'",
+      "Denial letter cites Section 2, not Section 3"
+    ],
+    "case_types": [
+      "scope_error",
+      "strong_appeal"
+    ],
+    "difficulty": "hard",
+    "episode": {
+      "note_date": "2026-06-01",
+      "request_date": "2026-06-08",
+      "denial_date": "2026-06-15",
+      "note_type": "internal_medicine_medication_followup",
+      "note_precedes_denial": true,
+      "note_submitted_with_pa": true
+    },
+    "design_note": "The inverse of case 010. There the payer applied a criterion that does not govern; here it concluded that no criterion governs, having read three named limbs and stopped before the fourth. Zepbound is listed in the reauthorization drug list at 2.B.1 but has no limb of its own, so it falls to the catch-all for all other appetite suppressants at 5 percent — which the member exceeds. Reaching the right answer requires reading the subsection to its end rather than pattern-matching the drug name."
+  },
+  "patient": {
+    "name": "Nadia R. Oyelaran",
+    "mrn": "MRN-200316",
+    "member_id": "MEM-UHC-316",
+    "age": 42,
+    "dob": "1984-05-05",
+    "sex": "female",
+    "diagnoses": [
+      "E66.9 obesity, unspecified",
+      "Z68.33 BMI 33.0-33.9, adult"
+    ],
+    "comorbidities": [],
+    "relevant_measurements": {
+      "bmi": 33.6,
+      "weight_lb": 196,
+      "height_in": 64,
+      "bmi_history": [
+        { "date": "2025-11-24", "weight_lb": 209, "bmi": 35.9 },
+        { "date": "2026-02-23", "weight_lb": 201, "bmi": 34.5 },
+        { "date": "2026-06-01", "weight_lb": 196, "bmi": 33.6 }
+      ],
+      "a1c_percent": 5.3
+    },
+    "prior_weight_loss_pharmacotherapy": "Zepbound (tirzepatide), started 2025-11-24, current",
+    "prior_glp1_exposure": "Zepbound (tirzepatide) only, from 2025-11-24"
+  },
+  "provider": {
+    "name": "Aurelia N. Kowalczyk, MD",
+    "specialty": "Internal Medicine",
+    "practice": "Halverton Internal Medicine",
+    "provider_id": "PRV-SYN-3139"
+  },
+  "derived_values": [
+    {
+      "name": "weight_reduction_from_treatment_start",
+      "from_lb": 209,
+      "to_lb": 196,
+      "percent": 6.2,
+      "note": "209 to 196 lb is 13 lb, or 6.2 percent, comfortably above the 5 percent threshold in the catch-all reauthorization limb that governs Zepbound."
+    }
+  ],
+  "denial_ground_truth": {
+    "payer": "UnitedHealthcare",
+    "drug": "Zepbound (tirzepatide) injection",
+    "denial_reason": "no_reauthorization_pathway_asserted_for_zepbound",
+    "denial_reason_text": "The reauthorization criteria set weight-loss thresholds for specific named products and no threshold is specified for Zepbound, so no reauthorization pathway is available for this product.",
+    "cited_policy_reference": "UnitedHealthcare Pharmacy, Clinical Pharmacy Programs — Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage (Program Number 2026 P 1114-20, effective 5/1/2026), Section 2, Coverage Criteria, B. Reauthorization",
+    "cited_requirement_text": "For Wegovy injection or tablet, weight loss of ≥ 5% of baseline body weight",
+    "denial_accurately_states_policy": false,
+    "misstatement": {
+      "type": "wrong_pathway",
+      "denial_asserts": "no reauthorization limb covers Zepbound, because the named limbs are for Qsymia, Saxenda and Wegovy",
+      "policy_actually_requires_text": null,
+      "explanation": "The named limbs the denial quotes are real and Zepbound is genuinely absent from them. The denial stopped at limb (3). Limb (4) sets 5 percent for all other appetite suppressants and is the limb that governs Zepbound, which is named in the drug list opening the same subsection. See scope_error_detail."
+    },
+    "records_reviewed_at_denial": [
+      "Reauthorization request form received 2026-06-08",
+      "Internal medicine office note dated 2026-06-01"
+    ]
+  },
+  "policy_ground_truth": {
+    "policy_file": "uhc_weight_loss_prior_auth.txt",
+    "policy_name": "Prior Authorization/Notification - Plans with Weight Loss/Appetite Suppression Medication Coverage",
+    "policy_program_number": "2026 P 1114-20",
+    "policy_effective_date": "2026-05-01",
+    "criterion_exists": true,
+    "criterion_applies": false,
+    "scope_error_detail": {
+      "cited_language_in_policy": "For Wegovy injection or tablet, weight loss of ≥ 5% of baseline body weight",
+      "belongs_to_section": "Section 2, Coverage Criteria, B. Reauthorization, 1.a(3)(b) — the Wegovy limb",
+      "governing_section": "Section 2, Coverage Criteria, B. Reauthorization, 1.a(4) — the catch-all limb for all other appetite suppressants",
+      "why_it_does_not_apply": "The reauthorization response criterion is a list of alternatives at 1.a(1) to 1.a(4). Limbs (1) to (3) name Qsymia, Saxenda and Wegovy. Limb (4) covers all other appetite suppressants at 5 percent. Zepbound is named in the drug list that opens subsection B.1, so it is within the scope of the reauthorization criteria; having no limb of its own, it falls to limb (4). The denial treated the absence of a Zepbound-specific limb as the absence of any applicable limb.",
+      "distractor_warning": "The denial's premise is factually correct as far as it goes: Zepbound genuinely is not named in limbs (1) to (3). A system that verifies that observation against the policy text and stops will affirm the denial. The check that matters is whether a residual limb exists and whether the drug is within the subsection's scope.",
+      "correct_characterisation": "criterion_exists is true and criterion_applies is false. The limbs the denial cited are real; they simply are not the limb that governs this drug."
+    },
+    "criteria": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_all_other_appetite_suppressants",
+        "requirement": "Weight loss of 5 percent or more of baseline body weight, for appetite suppressants other than those with a named limb. This is the limb that governs Zepbound.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.a(4)",
+        "policy_support_text": "Weight loss of ≥ 5% of baseline body weight for all other appetite suppressants",
+        "disputed_in_denial": true,
+        "applies_to_this_request": true
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "requirement": "Continuation of lifestyle modification.",
+        "policy_reference": "Section 2, Coverage Criteria, B. Reauthorization, 1.b",
+        "policy_support_text": "Continuation of lifestyle modification",
+        "disputed_in_denial": false,
+        "applies_to_this_request": true
+      }
+    ],
+    "scope_notes": [
+      "Zepbound is named in the drug list opening Section 2.B.1, which establishes that the reauthorization criteria apply to it. That list is the reason the catch-all limb reaches it rather than leaving it uncovered.",
+      "The North Dakota variant at Section 3.B.1.a(1) does set an express Zepbound threshold of 5 percent. That section does not apply to this member's plan, but it confirms that the program contemplates Zepbound reauthorization at 5 percent.",
+      "The reauthorization section does not re-apply the initial-authorization BMI, age or indication criteria."
+    ]
+  },
+  "evidence_ground_truth": {
+    "evidence_timing": "available_at_denial",
+    "evidence_timing_note": "The 2026-06-01 note was submitted and reviewed. The payer quotes both weights in its own letter and expressly sets them aside as not being the basis of the determination.",
+    "expected_evidence": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_all_other_appetite_suppressants",
+        "evidence_present": true,
+        "evidence_text": "Weights on file record 209 lb on 11/24/2025 annotated 'recorded on the day tirzepatide was started' and 196 lb on 06/01/2026, with an interval value of 201 lb on 02/23/2026. The reduction is 13 lb, or 6.2 percent of baseline.",
+        "evidence_location": "OBJECTIVE section, weights on file; TREATMENT COURSE",
+        "evidence_type": "explicit"
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "evidence_present": true,
+        "evidence_text": "Dietitian input from 10/20/2025, before treatment start, with reviews every six to eight weeks continuing to date; a Saturday parkrun and a Wednesday Pilates class. Plan item 1 continues all three.",
+        "evidence_location": "SUBJECTIVE; TREATMENT COURSE; PLAN item 1",
+        "evidence_type": "explicit"
+      }
+    ],
+    "missing_evidence": [],
+    "contradictions": []
+  },
+  "sufficiency_ground_truth": {
+    "overall": "sufficient",
+    "per_criterion": [
+      {
+        "criterion_name": "reauthorization_weight_loss_5_percent_all_other_appetite_suppressants",
+        "status": "satisfied",
+        "reason": "A 6.2 percent reduction from the weight recorded at treatment start exceeds the 5 percent threshold in the limb that governs Zepbound."
+      },
+      {
+        "criterion_name": "reauthorization_continuation_of_lifestyle_modification",
+        "status": "satisfied",
+        "reason": "Dietitian input predating treatment and continuing, plus two ongoing activity programmes."
+      }
+    ]
+  },
+  "appeal_ground_truth": {
+    "appeal_tier": "strong_appeal",
+    "expected_position": "challenge_denial",
+    "supported_claims": [
+      "Zepbound is named in the drug list that opens the reauthorization subsection, so the reauthorization criteria apply to it.",
+      "The response criterion includes a residual limb setting 5 percent for all other appetite suppressants, which is the limb that governs a product without a named limb of its own.",
+      "The documented reduction of 13 pounds from 209 pounds is 6.2 percent, above that threshold.",
+      "Continuation of lifestyle modification is documented and the denial does not dispute it."
+    ],
+    "unsupported_claims": [
+      "That Zepbound appears in the Qsymia, Saxenda or Wegovy limbs.",
+      "That the North Dakota section's express Zepbound threshold governs this member's plan.",
+      "That the reauthorization criteria impose a BMI or duration requirement the member also satisfies."
+    ],
+    "correct_next_step": "Challenge on the ground that the reauthorization subsection has a residual limb the determination did not reach. Quote the drug list opening 2.B.1, the catch-all limb at 1.a(4), and the 6.2 percent reduction computed from the two weights the denial itself recites."
+  },
+  "verification_ground_truth": {
+    "facts_allowed_in_appeal": [
+      "Tirzepatide was started on November 24, 2025 at a recorded weight of 209 pounds, a BMI of 35.9 kg/m2.",
+      "The recorded weight on June 1, 2026 was 196 pounds, a BMI of 33.6 kg/m2, at a height of 5 feet 4 inches.",
+      "The reduction is 13 pounds, or 6.2 percent of baseline.",
+      "An interval weight of 201 pounds was recorded on February 23, 2026, with no regain at any point.",
+      "The member reached 10 mg weekly in February 2026 and has continued without interruption.",
+      "The member has seen a dietitian since October 20, 2025, before starting the medication, and continues every six to eight weeks.",
+      "The member runs a parkrun most Saturdays and attends a Wednesday Pilates class.",
+      "Zepbound is named in the drug list opening the reauthorization subsection of the cited program."
+    ],
+    "facts_not_allowed_in_appeal": [
+      "Zepbound is named in the Qsymia, Saxenda or Wegovy reauthorization limbs.",
+      "The applicable reauthorization threshold for Zepbound is 3 percent or 4 percent.",
+      "The member has lost 10 percent or more of baseline body weight.",
+      "The member has type 2 diabetes or another weight-related comorbidity.",
+      "The North Dakota Essential Health Benefits criteria apply to this member.",
+      "The member completed a six-month supervised weight management program."
+    ]
+  },
+  "files": {
+    "denial": "case_029_denial.txt",
+    "note": "case_029_note.txt"
+  }
+}
