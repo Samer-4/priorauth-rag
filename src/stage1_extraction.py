@@ -2,6 +2,7 @@ import anthropic
 from pydantic import BaseModel, Field
 from pathlib import Path
 from dotenv import load_dotenv
+from typing import Literal
 
 load_dotenv()
 client = anthropic.Anthropic()
@@ -18,7 +19,7 @@ class PrescriberInfo(BaseModel):
     credentials: str | None = None
     
 class DenialInfo(BaseModel):
-  payer: str
+  payer: Literal["cigna", "aetna", "unitedhealthcare"]
   drug: str
   denial_reason : str = Field(
         description="The primary denial determination as a concise 2-5 word category-style phrase. "

@@ -74,10 +74,25 @@ def generate_appeal(denial_info: DenialInfo, sufficiency_results: list[Sufficien
             - Do not use "satisfied", "partial", or "not_satisfied" as internal system labels in the appeal prose.
             - Keep the writing professional, concise, factual, and appropriate for insurer review.
             - The output is a DRAFT for human review and must remain fully grounded in the supplied information.
+
+            Evidence citation rules:
+            - Every clinical factual claim in clinical_policy_support must be followed by one or more evidence IDs that directly support that claim.
+            - Use the evidence_id values exactly as provided in the sufficiency judgment results, formatted in square brackets, for example [E2] or [E2] [E4].
+            - Cite only evidence that directly supports the claim immediately before the citation.
+            - Do not invent evidence IDs.
+            - Do not cite an evidence ID that is not present in the supplied sufficiency judgment results.
+            - If a clinical claim cannot be directly supported by the supplied evidence, do not include that claim.
+            - Place all supporting evidence citation tags at the end of the clinical sentence they support.
             """
         }],
         output_format = AppealDraft,
     )
+
+    if resp.parsed_output is None:
+        raise RuntimeError(
+            "Stage 5 failed to produce a structured appeal draft"
+        )
+    
     return resp.parsed_output
 
 def render_appeal(draft: AppealDraft, case_info: DenialInfo) -> str:
