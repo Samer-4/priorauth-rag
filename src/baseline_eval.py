@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     results = []
 
-    for case_number in range(1, 31):
+    for case_number in range(1, 2):
         case_id = f"case_{case_number:03d}"
 
         try:

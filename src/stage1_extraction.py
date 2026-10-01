@@ -1,11 +1,12 @@
-import anthropic
+from google import genai
+from google.genai import types
 from pydantic import BaseModel, Field
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Literal
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = genai.Client()
 
 class MemberClinicalProfile(BaseModel):
     patient_name: str | None = None
@@ -33,13 +34,19 @@ class DenialInfo(BaseModel):
   prescriber: PrescriberInfo
 
 def extract_denial_info(text_data: str) -> DenialInfo:
-    resp = client.messages.parse(
-        model = "claude-sonnet-5",
-        max_tokens = 3000,
-        messages = [{"role": "user", "content": f"Take the input text: {text_data} and extract the necessary fields required as per DenialInfo model. For denial_reason: Return a concise 2-5 word category-style phrase. Prioritize an explicitly stated denial determination, decision, heading, or primary denial reason. Do not replace an explicit determination with a more specific supporting clinical rationale. Only infer the denial reason from detailed rationale if no explicit determination is present. Only extract member and prescriber information explicitly stated in the input text. If a field is not present, return null."}],
-        output_format = DenialInfo,
+    prompt = f"Take the input text: {text_data} and extract the necessary fields required as per DenialInfo model. For denial_reason: Return a concise 2-5 word category-style phrase. Prioritize an explicitly stated denial determination, decision, heading, or primary denial reason. Do not replace an explicit determination with a more specific supporting clinical rationale. Only infer the denial reason from detailed rationale if no explicit determination is present. Only extract member and prescriber information explicitly stated in the input text. If a field is not present, return null."
+
+    resp = client.models.generate_content(
+        model="gemini-3.8-flash",
+        contents=prompt,
+        config=types.GenerateContentConfig(
+            response_mime_type="application/json",
+            response_schema=DenialInfo,
+            max_output_tokens=3000,
+        ),
     )
-    return resp.parsed_output
+
+    return resp.parsed
 
 if __name__ == "__main__":
     BASE_DIR = Path(__file__).resolve().parent.parent

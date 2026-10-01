@@ -1,13 +1,14 @@
 from stage1_extraction import extract_denial_info
 from stage2_lookup import extract_criteria, Criterion, policy_files
-import anthropic
+from google import genai
+from google.genai import types
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from pathlib import Path
 import re
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = genai.Client()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -92,54 +93,54 @@ def notes_extraction(notes: str, criteria: list[Criterion]) -> list[CriterionEvi
         if not criterion.criterion_name or not criterion.requirement:
             raise ValueError(f"Criterion object is missing required fields: {criterion}")
         
-        resp = client.messages.parse(
-            model="claude-sonnet-5",
-            max_tokens=8000,
-            messages=[{
-                "role": "user",
-                "content": f"""
-                Clinical notes:
-                {notes}
+        resp = client.models.generate_content(
+            model="gemini-3.8-flash",
+            contents=f"""
+            Clinical notes:
+            {notes}
 
-                Coverage criterion:
-                {criterion}
+            Coverage criterion:
+            {criterion}
 
-                Extract all text from the clinical notes that is directly relevant to the supplied coverage criterion.
+            Extract all text from the clinical notes that is directly relevant to the supplied coverage criterion.
 
-                Rules:
-                - Group consecutive relevant lines into a single NoteEvidence object when they form one coherent piece of evidence about the same topic or clinical fact.
-                - If the meaning or topic changes, return the text as a separate NoteEvidence object, even if the lines are consecutive.
-                - If relevant evidence appears in separate locations in the clinical notes, return each location as a separate NoteEvidence object.
-                - Do not split a continuous passage into separate NoteEvidence objects merely because it spans multiple lines.
-                - For note_text, copy the relevant text exactly as it appears in the clinical notes.
-                - Preserve the original spacing, punctuation, and line breaks exactly as they appear in the clinical notes.
-                - Do not join separate lines together or split a line into multiple lines.
-                - Evidence must preserve complete source lines.
-                - If any portion of a source line is relevant, include that entire source line in note_text.
-                - Never return only part of a source line.
-                - Do not reformat or normalize whitespace in note_text.
-                - Do not paraphrase, summarize, rewrite, or modify the text.
-                - Only return evidence explicitly present in the clinical notes.
-                - Do not infer or assume any clinical fact that is not explicitly stated.
-                - Do not calculate or derive new information from dates, measurements, or other values.
-                - Do not determine whether the evidence satisfies, fails, supports, or refutes the coverage criterion.
-                - Include explicit negative statements when they are relevant, such as documentation that a treatment, medication, diagnosis, or event did not occur.
-                - Do not infer absence from missing information. Something is absent only when the clinical notes explicitly state that it is absent.
-                - The coverage criterion is provided only to determine which parts of the clinical notes are relevant.
-                - If no relevant evidence is explicitly present in the clinical notes, return an empty list [].
-                - Never invent evidence in order to avoid returning an empty list.
-                """
-            }],
-            output_format=list[NoteEvidence],
+            Rules:
+            - Group consecutive relevant lines into a single NoteEvidence object when they form one coherent piece of evidence about the same topic or clinical fact.
+            - If the meaning or topic changes, return the text as a separate NoteEvidence object, even if the lines are consecutive.
+            - If relevant evidence appears in separate locations in the clinical notes, return each location as a separate NoteEvidence object.
+            - Do not split a continuous passage into separate NoteEvidence objects merely because it spans multiple lines.
+            - For note_text, copy the relevant text exactly as it appears in the clinical notes.
+            - Preserve the original spacing, punctuation, and line breaks exactly as they appear in the clinical notes.
+            - Do not join separate lines together or split a line into multiple lines.
+            - Evidence must preserve complete source lines.
+            - If any portion of a source line is relevant, include that entire source line in note_text.
+            - Never return only part of a source line.
+            - Do not reformat or normalize whitespace in note_text.
+            - Do not paraphrase, summarize, rewrite, or modify the text.
+            - Only return evidence explicitly present in the clinical notes.
+            - Do not infer or assume any clinical fact that is not explicitly stated.
+            - Do not calculate or derive new information from dates, measurements, or other values.
+            - Do not determine whether the evidence satisfies, fails, supports, or refutes the coverage criterion.
+            - Include explicit negative statements when they are relevant, such as documentation that a treatment, medication, diagnosis, or event did not occur.
+            - Do not infer absence from missing information. Something is absent only when the clinical notes explicitly state that it is absent.
+            - The coverage criterion is provided only to determine which parts of the clinical notes are relevant.
+            - If no relevant evidence is explicitly present in the clinical notes, return an empty list [].
+            - Never invent evidence in order to avoid returning an empty list.
+            """,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=list[NoteEvidence],
+                max_output_tokens=8000,
+            ),
         )
 
-        if resp.parsed_output is None:
+        if resp.parsed is None:
             raise RuntimeError(
                 f"Stage 3 failed to produce structured output for "
                 f"criterion: {criterion.criterion_name}"
             )
 
-        for evidence in resp.parsed_output:
+        for evidence in resp.parsed:
             line_start, line_end = find_quote_lines(notes, evidence.note_text)
 
             evidence.line_start = line_start
@@ -168,7 +169,7 @@ def notes_extraction(notes: str, criteria: list[Criterion]) -> list[CriterionEvi
         result.append(CriterionEvidence(
             criterion_name=criterion.criterion_name,
             requirement=criterion.requirement,
-            evidence=resp.parsed_output
+            evidence=resp.parsed
         ))
 
     return result

@@ -4,13 +4,14 @@ from stage2_lookup import extract_criteria, policy_files
 from stage3_evidence_extraction import NoteEvidence, notes_extraction, verify_quote_lines
 from stage4_sufficiency_judgement import SufficiencyJudgment, sufficiency_judgment
 from stage5_generation import AppealDraft, generate_appeal
-import anthropic
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 from pathlib import Path
 import re
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = genai.Client()
 
 class VerificationFinding(BaseModel):
     check_name: str
@@ -20,45 +21,38 @@ class VerificationFinding(BaseModel):
 
 def classify_numeric_value(sentence: str, value: str):
 
-    resp = client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=200,
-        messages=[
-            {
-                "role": "user",
-                "content": f"""
-                    Classify the role of the value "{value}" in the sentence below.
+    resp = client.models.generate_content(
+        model="gemini-3.8-flash",
+        contents=f"""
+        Classify the role of the value "{value}" in the sentence below.
 
-                    Return EXACTLY one of:
-                    raw_clinical
-                    computed
-                    policy
+        Return EXACTLY one of:
+        raw_clinical
+        computed
+        policy
 
-                    raw_clinical = a patient-specific value directly documented as that exact value
-                    in the clinical record, such as BMI, weight, age, date of birth, dose, or visit date.
+        raw_clinical = a patient-specific value directly documented as that exact value
+        in the clinical record, such as BMI, weight, age, date of birth, dose, or visit date.
 
-                    computed = a patient-specific value that represents a calculation or derivation
-                    from other clinical facts, even if the sentence states the result directly.
-                    Examples include duration of participation calculated from start/end dates,
-                    change in weight, percentage change, or other derived quantities.
+        computed = a patient-specific value that represents a calculation or derivation
+        from other clinical facts, even if the sentence states the result directly.
+        Examples include duration of participation calculated from start/end dates,
+        change in weight, percentage change, or other derived quantities.
 
-                    policy = a value describing an insurance policy requirement or threshold.
+        policy = a value describing an insurance policy requirement or threshold.
 
-                    Do not determine whether the value is correct.
-                    Only classify its role.
+        Do not determine whether the value is correct.
+        Only classify its role.
 
-                    Sentence:
-                    {sentence}
-                    """
-            }
-        ]
+        Sentence:
+        {sentence}
+        """,
+        config=types.GenerateContentConfig(
+            max_output_tokens=200,
+        ),
     )
-    
-    result = next(
-        block.text.strip()
-        for block in resp.content
-        if block.type == "text"
-    )
+
+    result = resp.text.strip()
 
     if result not in {"raw_clinical", "computed", "policy"}:
         raise RuntimeError(
@@ -171,13 +165,9 @@ def check_computed_value(value: str, computed_span_months: int, sentence: str, c
 
 
 def check_stage4_consistency(clinical_policy_support: str, criterion_name: str, requirement: str, status: str, reasoning: str, missing: str):
-    resp = client.messages.create(
-    model="claude-sonnet-5",
-    max_tokens=300,
-    messages=[
-        {
-        "role": "user",
-        "content": f"""
+    resp = client.models.generate_content(
+        model="gemini-3.8-flash",
+        contents=f"""
         You are verifying whether an appeal accurately represents
         a prior sufficiency judgment.
 
@@ -215,12 +205,13 @@ def check_stage4_consistency(clinical_policy_support: str, criterion_name: str, 
         Do not independently judge the clinical evidence.
         Do not determine whether Stage 4 was correct.
         Only compare Stage 5 against the Stage 4 judgment.
-        """
-        }
-        ]
+        """,
+        config=types.GenerateContentConfig(
+            max_output_tokens=300,
+        ),
     )
 
-    result = next(block.text.strip() for block in resp.content if block.type == "text")
+    result = resp.text.strip()
 
     if result not in {"consistent", "contradiction"}:
         raise RuntimeError(f"Unexpected Stage 4 consistency result: {result}")
@@ -248,49 +239,42 @@ def check_semantic_support(
     claim: str,
     cited_evidence: dict[str, str]
 ):
-    resp = client.messages.create(
-        model="claude-sonnet-5",
-        max_tokens=1000,
-        messages=[
-            {
-                "role": "user",
-                "content": f"""
-                You are verifying whether the cited clinical evidence
-                supports a claim made in a prior authorization appeal.
+    resp = client.models.generate_content(
+        model="gemini-3.8-flash",
+        contents=f"""
+        You are verifying whether the cited clinical evidence
+        supports a claim made in a prior authorization appeal.
 
-                CLAIM:
-                {claim}
+        CLAIM:
+        {claim}
 
-                CITED EVIDENCE:
-                {cited_evidence}
+        CITED EVIDENCE:
+        {cited_evidence}
 
-                Determine whether the cited evidence supports the claim.
+        Determine whether the cited evidence supports the claim.
 
-                Return EXACTLY one of:
-                supported
-                unsupported
+        Return EXACTLY one of:
+        supported
+        unsupported
 
-                supported = the cited evidence provides sufficient support
-                for the clinical claim.
+        supported = the cited evidence provides sufficient support
+        for the clinical claim.
 
-                unsupported = the cited evidence does not support the claim,
-                or the claim says more than the cited evidence establishes.
+        unsupported = the cited evidence does not support the claim,
+        or the claim says more than the cited evidence establishes.
 
-                Only use the cited evidence provided above.
-                Do not assume facts that are not present.
-                Do not use outside medical knowledge.
-                Do not determine whether the insurance policy is satisfied.
-                Only determine whether the cited evidence supports the claim.
-                """
-            }
-        ]
+        Only use the cited evidence provided above.
+        Do not assume facts that are not present.
+        Do not use outside medical knowledge.
+        Do not determine whether the insurance policy is satisfied.
+        Only determine whether the cited evidence supports the claim.
+        """,
+        config=types.GenerateContentConfig(
+            max_output_tokens=1000,
+        ),
     )
 
-    result = next(
-        block.text.strip()
-        for block in resp.content
-        if block.type == "text"
-    )
+    result = resp.text.strip()
 
     if result not in {"supported", "unsupported"}:
         raise RuntimeError(
