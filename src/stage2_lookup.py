@@ -1,11 +1,11 @@
 from stage1_extraction import extract_denial_info, DenialInfo
-import anthropic
+from llm_client import get_client
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from pathlib import Path
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

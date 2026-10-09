@@ -5,6 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bitsandbytes>=0.45",
+    "accelerate>=1.0",
+    "transformers>=4.51.0,<5",
+    "torch>=2.5",
     "anthropic>=0.120.2",
     "pydantic>=2.13.4",
     "pymupdf>=1.28.0",

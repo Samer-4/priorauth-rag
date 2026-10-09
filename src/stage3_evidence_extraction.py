@@ -1,13 +1,13 @@
 from stage1_extraction import extract_denial_info
 from stage2_lookup import extract_criteria, Criterion, policy_files
-import anthropic
+from llm_client import get_client
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from pathlib import Path
 import re
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

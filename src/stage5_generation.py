@@ -2,14 +2,14 @@ from stage1_extraction import extract_denial_info, DenialInfo
 from stage2_lookup import extract_criteria, policy_files
 from stage3_evidence_extraction import notes_extraction
 from stage4_sufficiency_judgement import sufficiency_judgment, SufficiencyJudgment
-import anthropic
+from llm_client import get_client
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from pathlib import Path  
 from datetime import date
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 

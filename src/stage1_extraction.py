@@ -1,11 +1,11 @@
-import anthropic
+from llm_client import get_client
 from pydantic import BaseModel, Field
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Literal
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 class MemberClinicalProfile(BaseModel):
     patient_name: str | None = None

@@ -4,13 +4,13 @@ from stage2_lookup import extract_criteria, policy_files
 from stage3_evidence_extraction import NoteEvidence, notes_extraction, verify_quote_lines
 from stage4_sufficiency_judgement import SufficiencyJudgment, sufficiency_judgment
 from stage5_generation import AppealDraft, generate_appeal
-import anthropic
+from llm_client import get_client
 from dotenv import load_dotenv
 from pathlib import Path
 import re
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 class VerificationFinding(BaseModel):
     check_name: str

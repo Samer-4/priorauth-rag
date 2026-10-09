@@ -1,9 +1,9 @@
 import os
-import anthropic
+from src.llm_client import get_client
 from dotenv import load_dotenv
 
 load_dotenv()
-client = anthropic.Anthropic()
+client = get_client()
 
 resp = client.messages.create(
     model = "claude-sonnet-5",
