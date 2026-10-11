@@ -66,7 +66,16 @@ class QwenClient:
         from pydantic import TypeAdapter
 
         text = self._generate(messages, max_tokens, output_format)
-        parsed = TypeAdapter(output_format).validate_json(text)
+        payload = json.loads(text)
+
+        if (
+            isinstance(payload, dict)
+            and isinstance(payload.get("items"), list)
+            and TypeAdapter(output_format).json_schema().get("type") == "array"
+        ):
+            payload = payload["items"]
+
+        parsed = TypeAdapter(output_format).validate_python(payload)
         return SimpleNamespace(parsed_output=parsed)
 
     def create(self, *, model=None, max_tokens, messages, **kwargs):

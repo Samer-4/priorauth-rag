@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from stage1_extraction import extract_denial_info
-from stage2_lookup import extract_criteria, policy_files
+from stage2_rag_adapter import extract_criteria_with_rag
 from stage3_evidence_extraction import NoteEvidence, notes_extraction, verify_quote_lines
 from stage4_sufficiency_judgement import SufficiencyJudgment, sufficiency_judgment
 from stage5_generation import AppealDraft, generate_appeal
@@ -24,20 +24,17 @@ def run_case(case_id: str) -> CaseResult:
         denial_text = f.read()
     denial_info = extract_denial_info(denial_text)
     
-    # Load policy text
-    payer = denial_info.payer.lower()
-    policy_file_path = policy_files.get(payer)
-    if policy_file_path:
-        with open(policy_file_path, "r", encoding="utf-8") as f:
-            policy_text = f.read()
-    else:
-        raise ValueError(
-            f"No policy file found for payer: {denial_info.payer}"
-        )
-    
-    # Extract criteria
-    criteria = extract_criteria(policy_text, denial_info)
-    
+    # RAG-powered Stage 2: initial integration test for Case 001
+    if case_id != "case_001":
+        raise ValueError("RAG routing for this case is not yet configured.")
+
+    criteria = extract_criteria_with_rag(
+        denial_info,
+        medication="Wegovy",
+        indication="Chronic Weight Management (Adult)",
+        pathway="initial",
+    )
+
     # Load clinical notes
     notes_file_path = case_dir / "notes" / f"{case_id}_note.txt"
     with open(notes_file_path, "r", encoding="utf-8") as f:
