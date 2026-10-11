@@ -126,7 +126,14 @@ Numbered clinical notes:
 {numbered_notes}
 
 Instructions:
-- Return relevant source line ranges only.
+- Return only source line ranges directly relevant to the criterion.
+- Evidence must address the same clinical subject, treatment, condition,
+  or activity as the criterion.
+- Generic similarities such as program, treatment, or participation
+  are not sufficient to establish relevance.
+- If the clinical note does not address the required subject,
+  return an empty ranges list.
+- Never select unrelated evidence just to provide an answer.
 - Include evidence that supports or contradicts the criterion.
 - Include relevant dates, measurements, medication history, and
   explicit negative statements.
@@ -162,7 +169,7 @@ Instructions:
                     f"criterion: {criterion.criterion_name}"
                 )
 
-            note_text = "\\n".join(lines[line_start - 1:line_end])
+            note_text = "\n".join(lines[line_start - 1:line_end])
 
             evidence = NoteEvidence(
                 note_text=note_text,
