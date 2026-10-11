@@ -30,6 +30,7 @@ class SufficiencyJudgment(BaseModel):
     computed_span_months: float | None = None
 
 class JudgmentResult(BaseModel):
+    relevant_evidence_ids: list[str]
     status: Literal["satisfied", "partial", "not_satisfied"]
     components: list[ComponentJudgment]
     reasoning: str
@@ -69,7 +70,26 @@ def sufficiency_judgment(evidence_results: list[CriterionEvidence]) -> list[Suff
                 EXTRACTED CLINICAL EVIDENCE:
                 {evidence_result.evidence}
 
-                Determine whether the provided evidence satisfies the policy requirement.
+                First identify which evidence passages directly address the
+                specific clinical subject of the policy requirement.
+
+                Return the IDs of those passages in relevant_evidence_ids.
+
+                Relevance rules:
+                - A passage must address the same clinical subject,
+                  treatment, condition, or activity as the requirement.
+                - Generic similarities such as "program" or
+                  "participation" are not enough.
+                - Supporting, insufficient, and contradictory evidence
+                  can all be relevant.
+                - Exclude evidence about unrelated clinical subjects.
+                - If no passage is relevant, return an empty ID list
+                  and mark the requirement not_satisfied.
+                - Judge sufficiency using ONLY the relevant passages.
+                - Do not invent evidence IDs.
+
+                Determine whether the relevant evidence satisfies
+                the policy requirement.
 
                 Rules:
                 - Judge ONLY from the extracted clinical evidence provided above.
@@ -103,8 +123,50 @@ def sufficiency_judgment(evidence_results: list[CriterionEvidence]) -> list[Suff
             output_format=JudgmentResult,
         )
 
-        date_start = resp.parsed_output.date_start
-        date_end = resp.parsed_output.date_end
+        judgment = resp.parsed_output
+
+        if judgment is None:
+            raise RuntimeError(
+                f"Stage 4 returned no structured judgment for "
+                f"{evidence_result.criterion_name}"
+            )
+
+        supplied_ids = {
+            e.evidence_id for e in evidence_result.evidence
+        }
+        accepted_ids = judgment.relevant_evidence_ids
+
+        if len(accepted_ids) != len(set(accepted_ids)):
+            raise RuntimeError(
+                "Stage 4 returned duplicate relevant evidence IDs"
+            )
+
+        unknown_ids = set(accepted_ids) - supplied_ids
+        if unknown_ids:
+            raise RuntimeError(
+                f"Stage 4 returned unknown evidence IDs: {unknown_ids}"
+            )
+
+        accepted_evidence = [
+            e for e in evidence_result.evidence
+            if e.evidence_id in set(accepted_ids)
+        ]
+
+        # Fail closed when no relevant evidence was accepted.
+        if not accepted_evidence:
+            sufficiency_results.append(SufficiencyJudgment(
+                criterion_name=evidence_result.criterion_name,
+                requirement=evidence_result.requirement,
+                evidence=[],
+                status="not_satisfied",
+                components=[],
+                reasoning="No relevant evidence supports this requirement.",
+                missing=[evidence_result.requirement],
+            ))
+            continue
+
+        date_start = judgment.date_start
+        date_end = judgment.date_end
 
         computed_span_months = None
 
@@ -117,8 +179,8 @@ def sufficiency_judgment(evidence_results: list[CriterionEvidence]) -> list[Suff
         sufficiency_results.append(SufficiencyJudgment(
             criterion_name=evidence_result.criterion_name,
             requirement=evidence_result.requirement,
-            evidence=evidence_result.evidence,
-            status=resp.parsed_output.status,
+            evidence=accepted_evidence,
+            status=judgment.status,
             components=resp.parsed_output.components,
             reasoning=resp.parsed_output.reasoning,
             missing=resp.parsed_output.missing,

@@ -97,7 +97,7 @@ def notes_extraction(notes: str, criteria: list[Criterion]) -> list[CriterionEvi
     evidence_counter = 1
 
     lines = notes.splitlines()
-    numbered_notes = "\\n".join(
+    numbered_notes = "\n".join(
         f"[{i}] {line}"
         for i, line in enumerate(lines, start=1)
     )
