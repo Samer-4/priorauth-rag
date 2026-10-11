@@ -9,7 +9,7 @@ from typing import Literal
 from datetime import datetime
 
 load_dotenv()
-client = get_client()
+client = get_client("Qwen/Qwen3.5-9B")
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
