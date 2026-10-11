@@ -24,15 +24,22 @@ def run_case(case_id: str) -> CaseResult:
         denial_text = f.read()
     denial_info = extract_denial_info(denial_text)
     
-    # RAG-powered Stage 2: initial integration test for Case 001
-    if case_id != "case_001":
-        raise ValueError("RAG routing for this case is not yet configured.")
+    # Stage 2 receives policy parameters extracted by Stage 1.
+    # No case-number-specific routing or guessed policy fallback.
+    medication = denial_info.policy_medication or denial_info.drug
+
+    if not denial_info.indication:
+        raise ValueError("Stage 1 did not identify the policy indication.")
+
+    if not denial_info.pathway:
+        raise ValueError("Stage 1 did not identify the authorization pathway.")
 
     criteria = extract_criteria_with_rag(
         denial_info,
-        medication="Wegovy",
-        indication="Chronic Weight Management (Adult)",
-        pathway="initial",
+        medication=medication,
+        indication=denial_info.indication,
+        pathway=denial_info.pathway,
+        scope=denial_info.scope,
     )
 
     # Load clinical notes
