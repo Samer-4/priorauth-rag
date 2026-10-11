@@ -1,5 +1,5 @@
 from llm_client import get_client
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from pathlib import Path
 from dotenv import load_dotenv
 from typing import Literal
@@ -19,6 +19,13 @@ class PrescriberInfo(BaseModel):
     credentials: str | None = None
     
 class DenialInfo(BaseModel):
+  @field_validator("payer", mode="before")
+  @classmethod
+  def normalize_payer(cls, value):
+      if isinstance(value, str):
+          return value.strip().casefold()
+      return value
+
   payer: Literal["cigna", "aetna", "unitedhealthcare"]
   drug: str
   denial_reason : str = Field(

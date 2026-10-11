@@ -96,7 +96,42 @@ class QwenClient:
         ):
             payload = payload["items"]
 
-        parsed = TypeAdapter(output_format).validate_python(payload)
+        adapter = TypeAdapter(output_format)
+
+        try:
+            parsed = adapter.validate_python(payload)
+        except Exception as first_error:
+            correction = (
+                "Your previous response failed structured-output validation. "
+                "Return the COMPLETE requested result as valid JSON, "
+                "matching the schema exactly. "
+                "If the schema requires an array, return an array containing "
+                "ALL applicable items, not a single object. "
+                "Do not invent missing information. "
+                "Previous response: " + text[:6000] +
+                "\\nValidation error: " + str(first_error)[:1500]
+            )
+
+            retry_messages = list(messages) + [
+                {"role": "assistant", "content": text},
+                {"role": "user", "content": correction},
+            ]
+
+            retry_text = self._generate(
+                retry_messages, max_tokens, output_format
+            )
+
+            retry_payload = json.loads(retry_text)
+
+            if (
+                isinstance(retry_payload, dict)
+                and isinstance(retry_payload.get("items"), list)
+                and adapter.json_schema().get("type") == "array"
+            ):
+                retry_payload = retry_payload["items"]
+
+            parsed = adapter.validate_python(retry_payload)
+
         return SimpleNamespace(parsed_output=parsed)
 
     def create(self, *, model=None, max_tokens, messages, **kwargs):
