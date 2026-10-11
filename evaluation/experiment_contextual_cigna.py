@@ -26,8 +26,9 @@ def add_context(chunks: list[Document]) -> list[Document]:
 
     contextual_chunks = []
 
-    for chunk in chunks:
+    for source_index, chunk in enumerate(chunks):
         metadata = chunk.metadata.copy()
+        metadata["source_chunk_index"] = source_index
 
         original_text = chunk.page_content
 

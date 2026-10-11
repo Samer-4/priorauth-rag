@@ -235,15 +235,25 @@ def retrieve_policy_context(
             key=lambda item: item[0].get("chunk_number", 0)
         )
     else:
-        # Chroma IDs are not dependable source-order keys.
-        # Existing V2 indexes do not store explicit sequence numbers.
-        # For Aetna/Cigna, reject a pathway split across multiple chunks
-        # until source-order metadata or parent-section assembly is added.
+        # Single-chunk pathways do not require reconstruction.
+        # For multiple chunks, use verified source-order metadata.
         if len(matches) > 1:
-            raise PolicyRetrievalError(
-                f"{payer} pathway matches {len(matches)} chunks, "
-                "but source order is not verified. "
-                "Refusing to concatenate potentially unordered criteria."
+            positions = [
+                item[0].get("source_chunk_index")
+                for item in matches
+            ]
+
+            if (
+                any(type(pos) is not int or pos < 0 for pos in positions)
+                or len(set(positions)) != len(positions)
+            ):
+                raise PolicyRetrievalError(
+                    f"{payer} pathway matches {len(matches)} chunks, "
+                    "but verified source order is unavailable."
+                )
+
+            matches.sort(
+                key=lambda item: item[0]["source_chunk_index"]
             )
 
     passages = tuple(item[1] for item in matches)
