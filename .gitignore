@@ -12,3 +12,11 @@ wheels/
 # Secrets
 .env
 .DS_Store
+
+data/chroma_db/
+*.bak
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example

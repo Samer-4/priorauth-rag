@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.2, pytest-9.1.1, pluggy-1.6.0 -- /Users/samerahmed/Prior-Auth-Appeals/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/samerahmed/Prior-Auth-Appeals
+configfile: pytest.ini
+plugins: langsmith-0.14.7, anyio-4.14.2
+collecting ... collected 14 items
+
+tests/test_chunking.py::test_chunks_respect_size_limit PASSED            [  7%]
+tests/test_chunking.py::test_section_metadata PASSED                     [ 14%]
+tests/test_chunking.py::test_separate_authorization_sections PASSED      [ 21%]
+tests/test_chunking.py::test_roman_numeral_heading PASSED                [ 28%]
+tests/test_embeddings.py::test_ingestion_stores_all_chunks PASSED        [ 35%]
+tests/test_embeddings.py::test_repeated_ingestion_does_not_duplicate PASSED [ 42%]
+tests/test_evaluation.py::test_retrieval_dataset_has_unique_queries PASSED [ 50%]
+tests/test_evaluation.py::test_retrieval_dataset_has_required_fields PASSED [ 57%]
+tests/test_evaluation.py::test_metadata_matching PASSED                  [ 64%]
+tests/test_evaluation.py::test_history_not_relevant PASSED               [ 71%]
+tests/test_evaluation.py::test_evaluation_report_integrity PASSED        [ 78%]
+tests/test_retrieval.py::test_metadata_filter_excludes_wrong_pathways PASSED [ 85%]
+tests/test_retrieval.py::test_history_excluded_by_default PASSED         [ 92%]
+tests/test_retrieval.py::test_real_aetna_retrieval SKIPPED (Set RUN_...) [100%]
+
+- generated xml file: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/retrieval_pytest.xml -
+======================== 13 passed, 1 skipped in 0.71s =========================

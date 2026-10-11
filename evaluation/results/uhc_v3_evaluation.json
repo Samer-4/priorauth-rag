@@ -1,0 +1,118 @@
+{
+  "experiment": "UHC V3 coverage-scope parsing",
+  "collection": "unitedhealthcare_policy_context_v3",
+  "total_chunks": 8,
+  "section_counts": {
+    "general/Initial Authorization": 3,
+    "general/Reauthorization": 2,
+    "north_dakota/Initial Authorization": 2,
+    "north_dakota/Reauthorization": 1
+  },
+  "note": "This evaluates scope/pathway correctness using parser labels. It does not independently verify all clinical requirements.",
+  "queries": [
+    {
+      "id": "UHC-01",
+      "query": "UnitedHealthcare North Dakota weight loss Wegovy initial authorization requirements",
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 2,
+      "hit_at_5": true,
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.4,
+      "mrr_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4757,
+          "relevant": true,
+          "scope": "north_dakota",
+          "pathway": "Initial Authorization",
+          "text_preview": "A. Initial Authorization  \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on all of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Treatment is being requested for ap"
+        },
+        {
+          "rank": 2,
+          "distance": 0.5346,
+          "relevant": false,
+          "scope": "north_dakota",
+          "pathway": "Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weig"
+        },
+        {
+          "rank": 3,
+          "distance": 0.556,
+          "relevant": true,
+          "scope": "north_dakota",
+          "pathway": "Initial Authorization",
+          "text_preview": "-OR- \n \n \n© 2026 UnitedHealthcare Services Inc. \n6 \n \n \n(2) Wegovy injection is being requested for treatment of MASHb \n \nWegovy injection or tablet: Authorization will be issued for 5 months. \n \nZepb"
+        },
+        {
+          "rank": 4,
+          "distance": 0.6057,
+          "relevant": false,
+          "scope": "general",
+          "pathway": "Initial Authorization",
+          "text_preview": "A. Initial Authorization  \n \n1. benzphetamine, Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection, Wegovy tablet, Xenical or Zepbound (Includes both \n \n© 2026 U"
+        },
+        {
+          "rank": 5,
+          "distance": 0.631,
+          "relevant": false,
+          "scope": "general",
+          "pathway": "Initial Authorization",
+          "text_preview": "-AND- \n \nc. Used as an adjunct to lifestyle modification (e.g., dietary or caloric restriction, \nexercise, behavioral support, community-based program) \n \n-AND- \n  \nd. One of the following: \n \n(1) Bod"
+        }
+      ]
+    },
+    {
+      "id": "UHC-02",
+      "query": "UnitedHealthcare North Dakota weight loss reauthorization continuation requirements",
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "hit_at_5": true,
+      "recall_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6326,
+          "relevant": true,
+          "scope": "north_dakota",
+          "pathway": "Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weig"
+        },
+        {
+          "rank": 2,
+          "distance": 0.7325,
+          "relevant": false,
+          "scope": "general",
+          "pathway": "Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. benzphetamine  Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection or tablet, Xenical or Zepbound (Includes both brand \nand generic vers"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7687,
+          "relevant": false,
+          "scope": "general",
+          "pathway": "Reauthorization",
+          "text_preview": "Authorization for benzphetamine, diethylpropion, phentermine or phendimetrazine \nor will be issued for 6 months.   \n \n2. Imcivree will be approved based on one of the following criteria: \n \na. If on t"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7763,
+          "relevant": false,
+          "scope": "north_dakota",
+          "pathway": "Initial Authorization",
+          "text_preview": "A. Initial Authorization  \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on all of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Treatment is being requested for ap"
+        },
+        {
+          "rank": 5,
+          "distance": 0.8003,
+          "relevant": false,
+          "scope": "general",
+          "pathway": "Initial Authorization",
+          "text_preview": "-AND- \n \nb. One of the following: \n \n(1) Adult patient with BMI ≥ 30 kg/m2  \n \n-OR- \n \n(2) Pediatric patient with weight >95th percentile for age on growth chart assessment \n \n-AND- \n \nc. Patient is c"
+        }
+      ]
+    }
+  ]
+}

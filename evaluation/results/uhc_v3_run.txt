@@ -1,0 +1,28 @@
+Parsing UHC coverage sections...
+
+SECTION COUNTS
+general | Initial Authorization: 3 chunks
+general | Reauthorization: 2 chunks
+north_dakota | Initial Authorization: 2 chunks
+north_dakota | Reauthorization: 1 chunks
+
+Total active chunks: 8
+Stored 8 chunks in unitedhealthcare_policy_context_v3
+
+UHC V3 RETRIEVAL TEST
+UHC-01 Rank 1: north_dakota | Initial Authorization | distance=0.4757 | correct=True
+UHC-01 Rank 2: north_dakota | Reauthorization | distance=0.5346 | correct=False
+UHC-01 Rank 3: north_dakota | Initial Authorization | distance=0.5560 | correct=True
+UHC-01 Rank 4: general | Initial Authorization | distance=0.6057 | correct=False
+UHC-01 Rank 5: general | Initial Authorization | distance=0.6310 | correct=False
+UHC-02 Rank 1: north_dakota | Reauthorization | distance=0.6326 | correct=True
+UHC-02 Rank 2: general | Reauthorization | distance=0.7325 | correct=False
+UHC-02 Rank 3: general | Reauthorization | distance=0.7687 | correct=False
+UHC-02 Rank 4: north_dakota | Initial Authorization | distance=0.7763 | correct=False
+UHC-02 Rank 5: general | Initial Authorization | distance=0.8003 | correct=False
+
+SUMMARY
+UHC-01: Hit@5=True | Recall@5=100.00% | MRR@5=1.00
+UHC-02: Hit@5=True | Recall@5=100.00% | MRR@5=1.00
+
+Saved evaluation: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/uhc_v3_evaluation.json

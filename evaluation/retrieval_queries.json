@@ -1,0 +1,97 @@
+[
+  {
+    "id": "AETNA-01",
+    "payer": "aetna",
+    "query": "Wegovy adult chronic weight management initial authorization BMI 35 and six month lifestyle program",
+    "expected": {
+      "section": "COVERAGE CRITERIA",
+      "indication_contains": "Chronic Weight Management (Adult)"
+    }
+  },
+  {
+    "id": "AETNA-02",
+    "payer": "aetna",
+    "query": "Aetna Wegovy adult continuation of therapy requirements",
+    "expected": {
+      "section": "CONTINUATION OF THERAPY",
+      "indication_contains": "Chronic Weight Management (Adult)"
+    }
+  },
+  {
+    "id": "AETNA-03",
+    "payer": "aetna",
+    "query": "Aetna Wegovy pediatric initial authorization age 12 to 17 and BMI eligibility",
+    "expected": {
+      "section": "COVERAGE CRITERIA",
+      "indication_contains": "Chronic Weight Management (Pediatric)"
+    }
+  },
+  {
+    "id": "CIGNA-01",
+    "payer": "cigna",
+    "query": "Cigna Wegovy injection adult weight loss initial therapy BMI and behavioral modification",
+    "expected": {
+      "medication": "Wegovy injection",
+      "indication_contains": "Weight Loss in an Adult",
+      "pathway_contains": "Initial Therapy"
+    }
+  },
+  {
+    "id": "CIGNA-02",
+    "payer": "cigna",
+    "query": "Cigna Wegovy injection adult weight loss continuation therapy requirements",
+    "expected": {
+      "medication": "Wegovy injection",
+      "indication_contains": "Weight Loss in an Adult",
+      "pathway_contains": "Patient is Currently Receiving"
+    }
+  },
+  {
+    "id": "CIGNA-03",
+    "payer": "cigna",
+    "query": "Cigna Wegovy tablet adult weight loss initial authorization requirements",
+    "expected": {
+      "medication": "Wegovy tablet",
+      "indication_contains": "Weight Loss in an Adult",
+      "pathway_contains": "Initial Therapy"
+    }
+  },
+  {
+    "id": "CIGNA-04",
+    "payer": "cigna",
+    "query": "Cigna Zepbound adult obesity weight loss initial therapy BMI and dietary restriction",
+    "expected": {
+      "medication": "Zepbound",
+      "indication_contains": "Weight Loss in an Adult",
+      "pathway_contains": "Initial Therapy"
+    }
+  },
+  {
+    "id": "CIGNA-05",
+    "payer": "cigna",
+    "query": "Cigna liraglutide Saxenda pediatric obesity initial therapy requirements",
+    "expected": {
+      "medication": "Liraglutide",
+      "indication_contains": "Weight Loss in a Pediatric",
+      "pathway_contains": "Initial Therapy"
+    }
+  },
+  {
+    "id": "UHC-01",
+    "payer": "unitedhealthcare",
+    "query": "UnitedHealthcare North Dakota weight loss Wegovy initial authorization requirements",
+    "expected": {
+      "section_contains": "North Dakota",
+      "pathway_contains": "Initial Authorization"
+    }
+  },
+  {
+    "id": "UHC-02",
+    "payer": "unitedhealthcare",
+    "query": "UnitedHealthcare North Dakota weight loss reauthorization continuation requirements",
+    "expected": {
+      "section_contains": "North Dakota",
+      "pathway_contains": "Reauthorization"
+    }
+  }
+]

@@ -1,0 +1,79 @@
+RAG RETRIEVAL EVALUATION
+Embedding model: ethanteh/bge-finetuned-insurance-matryoshka
+Queries: 10
+Hit Rate@5: 80.00%
+Mean Precision@5: 26.00%
+Mean Recall@5: 56.00%
+
+These metrics use metadata-based pathway relevance labels.
+They do not measure clinical requirement completeness.
+
+AETNA-01 | Hit@5=True | Precision@5=0.20 | Recall@5=1.00
+  Rank 1: distance=0.6449 | relevant=True | COVERAGE CRITERIA |  | Chronic Weight Management (Adult) | 
+  Rank 2: distance=0.6820 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Adult) | 
+  Rank 3: distance=0.7156 | relevant=False | COVERAGE CRITERIA |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 4: distance=0.8261 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 5: distance=0.8513 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+
+AETNA-02 | Hit@5=True | Precision@5=0.20 | Recall@5=0.50
+  Rank 1: distance=0.4679 | relevant=False | CONTINUATION OF THERAPY |  |  | 
+  Rank 2: distance=0.8147 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 3: distance=0.8766 | relevant=False | DURATION OF APPROVAL (DOA) |  |  | 
+  Rank 4: distance=0.8827 | relevant=True | CONTINUATION OF THERAPY |  | Chronic Weight Management (Adult) | 
+  Rank 5: distance=0.8852 | relevant=False | COVERAGE CRITERIA |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+
+AETNA-03 | Hit@5=True | Precision@5=0.20 | Recall@5=1.00
+  Rank 1: distance=0.6899 | relevant=True | COVERAGE CRITERIA |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 2: distance=0.8622 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 3: distance=0.8758 | relevant=False | CONTINUATION OF THERAPY |  | Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY | 
+  Rank 4: distance=0.8859 | relevant=False | COVERAGE CRITERIA |  | Chronic Weight Management (Adult) | 
+  Rank 5: distance=0.9476 | relevant=False | Policy Introduction |  |  | 
+
+CIGNA-01 | Hit@5=False | Precision@5=0.00 | Recall@5=0.00
+  Rank 1: distance=0.6824 | relevant=False | III. | Wegovy injection | 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+  Rank 2: distance=0.6843 | relevant=False | I. | Liraglutide | 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration | A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the
+  Rank 3: distance=0.7109 | relevant=False | OVERVIEW |  |  | 
+  Rank 4: distance=0.7159 | relevant=False | I. | Liraglutide | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the
+  Rank 5: distance=0.7159 | relevant=False | II. | Foundayo | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+
+CIGNA-02 | Hit@5=True | Precision@5=0.20 | Recall@5=0.50
+  Rank 1: distance=0.6682 | relevant=False | OVERVIEW |  |  | 
+  Rank 2: distance=0.6743 | relevant=False | OVERVIEW |  |  | 
+  Rank 3: distance=0.6859 | relevant=True | III. | Wegovy injection | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or
+  Rank 4: distance=0.6880 | relevant=False | OVERVIEW |  |  | 
+  Rank 5: distance=0.7178 | relevant=False | OVERVIEW |  |  | 
+
+CIGNA-03 | Hit@5=False | Precision@5=0.00 | Recall@5=0.00
+  Rank 1: distance=0.6682 | relevant=False | POLICY STATEMENT |  |  | 
+  Rank 2: distance=0.6844 | relevant=False | Policy Introduction |  |  | 
+  Rank 3: distance=0.7081 | relevant=False | OVERVIEW |  |  | 
+  Rank 4: distance=0.7470 | relevant=False | III. | Wegovy injection | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or
+  Rank 5: distance=0.7830 | relevant=False | OVERVIEW |  |  | 
+
+CIGNA-04 | Hit@5=True | Precision@5=0.20 | Recall@5=0.50
+  Rank 1: distance=0.6230 | relevant=False | IV. | Wegovy tablet | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+  Rank 2: distance=0.6257 | relevant=False | I. | Liraglutide | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the
+  Rank 3: distance=0.6261 | relevant=False | II. | Foundayo | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+  Rank 4: distance=0.6261 | relevant=False | III. | Wegovy injection | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+  Rank 5: distance=0.6261 | relevant=True | V. | Zepbound | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+
+CIGNA-05 | Hit@5=True | Precision@5=0.20 | Recall@5=1.00
+  Rank 1: distance=0.4876 | relevant=False | I. | Liraglutide | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1
+  Rank 2: distance=0.4895 | relevant=False | III. | Wegovy injection | 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration | A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the
+  Rank 3: distance=0.4896 | relevant=True | I. | Liraglutide | 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration | A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the
+  Rank 4: distance=0.4945 | relevant=False | I. | Liraglutide | 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration | B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1
+  Rank 5: distance=0.5259 | relevant=False | I. | Liraglutide | 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the | A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the
+
+UHC-01 | Hit@5=True | Precision@5=0.60 | Recall@5=0.60
+  Rank 1: distance=0.7397 | relevant=True | Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | A. Initial Authorization
+  Rank 2: distance=0.7916 | relevant=True | Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | A. Initial Authorization
+  Rank 3: distance=0.7937 | relevant=False | Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | B. Reauthorization
+  Rank 4: distance=0.8144 | relevant=True | Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | A. Initial Authorization
+  Rank 5: distance=0.8424 | relevant=False | Policy Introduction |  |  | 
+
+UHC-02 | Hit@5=True | Precision@5=0.80 | Recall@5=0.50
+  Rank 1: distance=0.8587 | relevant=False | Policy Introduction |  |  | 
+  Rank 2: distance=0.8838 | relevant=True | Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | B. Reauthorization
+  Rank 3: distance=0.9174 | relevant=True | Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | B. Reauthorization
+  Rank 4: distance=0.9275 | relevant=True | Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | B. Reauthorization
+  Rank 5: distance=0.9443 | relevant=True | Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual) |  |  | B. Reauthorization

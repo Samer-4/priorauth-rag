@@ -1,0 +1,690 @@
+{
+  "timestamp_utc": "2026-10-10T16:29:40.689008+00:00",
+  "embedding_model": "ethanteh/bge-finetuned-insurance-matryoshka",
+  "k": 5,
+  "evaluation_type": "metadata_labeled_pathway_retrieval",
+  "note": "Relevance labels are derived from existing section metadata. They are not independently verified clinical gold labels. Requirement completeness is not measured.",
+  "summary": {
+    "queries": 10,
+    "hit_rate_at_5": 0.8,
+    "mean_precision_at_5": 0.26,
+    "mean_recall_at_5": 0.56
+  },
+  "queries": [
+    {
+      "id": "AETNA-01",
+      "payer": "aetna",
+      "query": "Wegovy adult chronic weight management initial authorization BMI 35 and six month lifestyle program",
+      "expected": {
+        "section": "COVERAGE CRITERIA",
+        "indication_contains": "Chronic Weight Management (Adult)"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6449,
+          "relevant": true,
+          "section": "COVERAGE CRITERIA",
+          "medication": "",
+          "indication": "Chronic Weight Management (Adult)",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+        },
+        {
+          "rank": 2,
+          "distance": 0.682,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Adult)",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7156,
+          "relevant": false,
+          "section": "COVERAGE CRITERIA",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+        },
+        {
+          "rank": 4,
+          "distance": 0.8261,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+        },
+        {
+          "rank": 5,
+          "distance": 0.8513,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\n6/4/26, 8:17 PM\nWeight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024 - Pharmacy"
+        }
+      ]
+    },
+    {
+      "id": "AETNA-02",
+      "payer": "aetna",
+      "query": "Aetna Wegovy adult continuation of therapy requirements",
+      "expected": {
+        "section": "CONTINUATION OF THERAPY",
+        "indication_contains": "Chronic Weight Management (Adult)"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4679,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "CONTINUATION OF THERAPY"
+        },
+        {
+          "rank": 2,
+          "distance": 0.8147,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+        },
+        {
+          "rank": 3,
+          "distance": 0.8766,
+          "relevant": false,
+          "section": "DURATION OF APPROVAL (DOA)",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "DURATION OF APPROVAL (DOA)\n          •6450-C:\n°Saxenda:\n•Adults: Initial therapy DOA: 4 months; Continuation of therapy DOA: 12 months\n•Pediatrics: Initial therapy DOA: 5 months; Continuation of therapy DOA: 12 months\n°Wegovy: Initial therapy DOA: 7 "
+        },
+        {
+          "rank": 4,
+          "distance": 0.8827,
+          "relevant": true,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Adult)",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+        },
+        {
+          "rank": 5,
+          "distance": 0.8852,
+          "relevant": false,
+          "section": "COVERAGE CRITERIA",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+        }
+      ]
+    },
+    {
+      "id": "AETNA-03",
+      "payer": "aetna",
+      "query": "Aetna Wegovy pediatric initial authorization age 12 to 17 and BMI eligibility",
+      "expected": {
+        "section": "COVERAGE CRITERIA",
+        "indication_contains": "Chronic Weight Management (Pediatric)"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6899,
+          "relevant": true,
+          "section": "COVERAGE CRITERIA",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+        },
+        {
+          "rank": 2,
+          "distance": 0.8622,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\n6/4/26, 8:17 PM\nWeight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024 - Pharmacy"
+        },
+        {
+          "rank": 3,
+          "distance": 0.8758,
+          "relevant": false,
+          "section": "CONTINUATION OF THERAPY",
+          "medication": "",
+          "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+          "pathway": "",
+          "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+        },
+        {
+          "rank": 4,
+          "distance": 0.8859,
+          "relevant": false,
+          "section": "COVERAGE CRITERIA",
+          "medication": "",
+          "indication": "Chronic Weight Management (Adult)",
+          "pathway": "",
+          "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+        },
+        {
+          "rank": 5,
+          "distance": 0.9476,
+          "relevant": false,
+          "section": "Policy Introduction",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "FDA-APPROVED INDICATIONS\nSaxenda\nSaxenda is indicated as an adjunct to a reduced-calorie diet and increased physical\nactivity for chronic weight management in:\n     •   Adult patients with an initial body mass index (BMI) of:\n          °   30 kg/m2 o"
+        }
+      ]
+    },
+    {
+      "id": "CIGNA-01",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss initial therapy BMI and behavioral modification",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 0,
+      "retrieved_count": 5,
+      "hit_at_5": false,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6824,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6843,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7109,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Results.  At the interim analysis (the first 800 patients enrolled in the trial), the \nbetween-group differences for both primary endpoints were significant for Wegovy \ninjection vs. placebo.20  Wegovy injection demonstrated a significant improvement"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7159,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7159,
+          "relevant": false,
+          "section": "II.",
+          "medication": "Foundayo",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ]
+    },
+    {
+      "id": "CIGNA-02",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss continuation therapy requirements",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Patient is Currently Receiving"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6682,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Results.  At the interim analysis (the first 800 patients enrolled in the trial), the \nbetween-group differences for both primary endpoints were significant for Wegovy \ninjection vs. placebo.20  Wegovy injection demonstrated a significant improvement"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6743,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Wegovy SC injection. \n \nAdults taking Wegovy 2.4 mg SC injection for CV risk reduction or weight reduction \nmay switch to Wegovy 25 mg tablets.1  One week after discontinuing Wegovy 2.4 \nmg SC injection, initiate 25 mg of Wegovy tablets orally QD.  A"
+        },
+        {
+          "rank": 3,
+          "distance": 0.6859,
+          "relevant": true,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or \nWegovy tablet.  Approve for 1 year if the patient meets ALL of the following \n(i, ii, iii, and iv): \nNote:  For a patient who has not completed 8 months of initial therapy w"
+        },
+        {
+          "rank": 4,
+          "distance": 0.688,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "escalation schedule of 16 weeks is outlined (the 2.4 mg dose would be reached at \nthe start of Week 17).1  Consider the treatment response and tolerability when \nselecting the maintenance dose.  For weight loss in an adult who tolerates 2.4 mg \n33 Pa"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7178,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "• \nTo reduce the risk of major adverse cardiovascular (CV) events \n(MACE) [CV death, non-fatal myocardial infarction {MI}, or non-fatal stroke] \nin adults with established CV disease and either obesity or overweight.1,5 \n \nWegovy injection is indicat"
+        }
+      ]
+    },
+    {
+      "id": "CIGNA-03",
+      "payer": "cigna",
+      "query": "Cigna Wegovy tablet adult weight loss initial authorization requirements",
+      "expected": {
+        "medication": "Wegovy tablet",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 0,
+      "retrieved_count": 5,
+      "hit_at_5": false,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6682,
+          "relevant": false,
+          "section": "POLICY STATEMENT",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "where the approval is authorized in months, 1 month is equal to 30 days. \n \nDocumentation:  Documentation is required for use of Wegovy injection/Wegovy \nHD injection for MASH/NASH as noted in the criteria as [documentation \nrequired].  Documentation"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6844,
+          "relevant": false,
+          "section": "Policy Introduction",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Page 1 of 33 - Cigna National Formulary Coverage  - Policy: \nWeight Loss – Glucagon-Like Peptide-1 Agonists Prior \nAuthorization Policy \n \nPRIOR AUTHORIZATION POLICY \n \nPOLICY: \nWeight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization \nPoli"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7081,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "escalation schedule of 16 weeks is outlined (the 2.4 mg dose would be reached at \nthe start of Week 17).1  Consider the treatment response and tolerability when \nselecting the maintenance dose.  For weight loss in an adult who tolerates 2.4 mg \n33 Pa"
+        },
+        {
+          "rank": 4,
+          "distance": 0.747,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or \nWegovy tablet.  Approve for 1 year if the patient meets ALL of the following \n(i, ii, iii, and iv): \nNote:  For a patient who has not completed 8 months of initial therapy w"
+        },
+        {
+          "rank": 5,
+          "distance": 0.783,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Wegovy SC injection. \n \nAdults taking Wegovy 2.4 mg SC injection for CV risk reduction or weight reduction \nmay switch to Wegovy 25 mg tablets.1  One week after discontinuing Wegovy 2.4 \nmg SC injection, initiate 25 mg of Wegovy tablets orally QD.  A"
+        }
+      ]
+    },
+    {
+      "id": "CIGNA-04",
+      "payer": "cigna",
+      "query": "Cigna Zepbound adult obesity weight loss initial therapy BMI and dietary restriction",
+      "expected": {
+        "medication": "Zepbound",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.623,
+          "relevant": false,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6257,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 3,
+          "distance": 0.6261,
+          "relevant": false,
+          "section": "II.",
+          "medication": "Foundayo",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 4,
+          "distance": 0.6261,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 5,
+          "distance": 0.6261,
+          "relevant": true,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ]
+    },
+    {
+      "id": "CIGNA-05",
+      "payer": "cigna",
+      "query": "Cigna liraglutide Saxenda pediatric obesity initial therapy requirements",
+      "expected": {
+        "medication": "Liraglutide",
+        "indication_contains": "Weight Loss in a Pediatric",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4876,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 \nyear if the patient meets ALL of the following (i, ii, iii, and iv): \nNote:  For a patient who has not completed 4 months of initial therapy, refer \nto Initial Therapy "
+        },
+        {
+          "rank": 2,
+          "distance": 0.4895,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4896,
+          "relevant": true,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4945,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 \nyear if the patient meets ALL of the following (i, ii, iii, and iv): \nNote:  For a patient who has not completed 4 months of initial therapy, refer \nto Initial Therapy "
+        },
+        {
+          "rank": 5,
+          "distance": 0.5259,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ]
+    },
+    {
+      "id": "UHC-01",
+      "payer": "unitedhealthcare",
+      "query": "UnitedHealthcare North Dakota weight loss Wegovy initial authorization requirements",
+      "expected": {
+        "section_contains": "North Dakota",
+        "pathway_contains": "Initial Authorization"
+      },
+      "relevant_chunks_in_index": 5,
+      "relevant_retrieved": 3,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.6,
+      "recall_at_5": 0.6,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.7397,
+          "relevant": true,
+          "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "A. Initial Authorization",
+          "text_preview": "A. Initial Authorization  \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on all of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Treatment is being requested for appetite suppression or weight loss \n(2)  Wegovy inj"
+        },
+        {
+          "rank": 2,
+          "distance": 0.7916,
+          "relevant": true,
+          "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "A. Initial Authorization",
+          "text_preview": "-OR- \n \n \n© 2026 UnitedHealthcare Services Inc. \n6 \n \n \n(2) Wegovy injection is being requested for treatment of MASHb \n \nWegovy injection or tablet: Authorization will be issued for 5 months. \n \nZepbound: Authorization will be issued for 6 months."
+        },
+        {
+          "rank": 3,
+          "distance": 0.7937,
+          "relevant": false,
+          "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "B. Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weight for Zepbound \n \n-OR- \n \n(2) One of the followin"
+        },
+        {
+          "rank": 4,
+          "distance": 0.8144,
+          "relevant": true,
+          "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "A. Initial Authorization",
+          "text_preview": "A. Initial Authorization  \n \n1. benzphetamine, Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection, Wegovy tablet, Xenical or Zepbound (Includes both \n \n© 2026 UnitedHealthcare Services Inc. \n2 \n \n \nbrand and ge"
+        },
+        {
+          "rank": 5,
+          "distance": 0.8424,
+          "relevant": false,
+          "section": "Policy Introduction",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "© 2026 UnitedHealthcare Services Inc. \n1 \n \n \nUnitedHealthcare Pharmacy \nClinical Pharmacy Programs \n \nProgram Number \n2026 P 1114-20 \nProgram \nPrior Authorization/Notification - Plans with Weight Loss/Appetite \nSuppression Medication Coverage  \nMedi"
+        }
+      ]
+    },
+    {
+      "id": "UHC-02",
+      "payer": "unitedhealthcare",
+      "query": "UnitedHealthcare North Dakota weight loss reauthorization continuation requirements",
+      "expected": {
+        "section_contains": "North Dakota",
+        "pathway_contains": "Reauthorization"
+      },
+      "relevant_chunks_in_index": 8,
+      "relevant_retrieved": 4,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.8,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.8587,
+          "relevant": false,
+          "section": "Policy Introduction",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "© 2026 UnitedHealthcare Services Inc. \n1 \n \n \nUnitedHealthcare Pharmacy \nClinical Pharmacy Programs \n \nProgram Number \n2026 P 1114-20 \nProgram \nPrior Authorization/Notification - Plans with Weight Loss/Appetite \nSuppression Medication Coverage  \nMedi"
+        },
+        {
+          "rank": 2,
+          "distance": 0.8838,
+          "relevant": true,
+          "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "B. Reauthorization",
+          "text_preview": "Change Control \nDate \nChange \n11/2013 \nReformatted to standard and updated references.  Clarified risk factors \nrequired in addition to BMI of 27-29.  Removed criteria that coverage \nwould not be provided if used in combination with other weight loss"
+        },
+        {
+          "rank": 3,
+          "distance": 0.9174,
+          "relevant": true,
+          "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "B. Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weight for Zepbound \n \n-OR- \n \n(2) One of the followin"
+        },
+        {
+          "rank": 4,
+          "distance": 0.9275,
+          "relevant": true,
+          "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "B. Reauthorization",
+          "text_preview": "Authorization for benzphetamine, diethylpropion, phentermine or phendimetrazine \nor will be issued for 6 months.   \n \n2. Imcivree will be approved based on one of the following criteria: \n \na. If on therapy for less than 12 months, documentation of a"
+        },
+        {
+          "rank": 5,
+          "distance": 0.9443,
+          "relevant": true,
+          "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+          "medication": "",
+          "indication": "",
+          "pathway": "B. Reauthorization",
+          "text_preview": "B. Reauthorization \n \n1. benzphetamine  Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection or tablet, Xenical or Zepbound (Includes both brand \nand generic versions and all formulations of the listed products u"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.2, pytest-9.1.1, pluggy-1.6.0 -- /Users/samerahmed/Prior-Auth-Appeals/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/samerahmed/Prior-Auth-Appeals
+configfile: pytest.ini
+plugins: langsmith-0.14.7, anyio-4.14.2
+collecting ... collected 3 items
+
+tests/test_retrieval.py::test_metadata_filter_excludes_wrong_pathways PASSED [ 33%]
+tests/test_retrieval.py::test_history_excluded_by_default PASSED         [ 66%]
+tests/test_retrieval.py::test_real_aetna_retrieval PASSED                [100%]
+
+- generated xml file: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/aetna_integration.xml -
+============================== 3 passed in 12.71s ==============================

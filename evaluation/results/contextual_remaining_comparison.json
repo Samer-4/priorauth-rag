@@ -1,0 +1,767 @@
+{
+  "timestamp_utc": "2026-10-10T16:49:48.742863+00:00",
+  "embedding_model": "ethanteh/bge-finetuned-insurance-matryoshka",
+  "experiment": "Contextual Embeddings V2 - Aetna and UHC",
+  "k": 5,
+  "note": "Relevance labels are based on the existing section metadata. This benchmark does not independently verify clinical criteria completeness or metadata correctness.",
+  "comparisons": {
+    "aetna": {
+      "baseline": {
+        "queries": 3,
+        "hit_rate_at_5": 1.0,
+        "mean_precision_at_5": 0.2,
+        "mean_recall_at_5": 0.8333,
+        "mrr_at_5": 0.75,
+        "map_at_5": 0.7083
+      },
+      "contextual_v2": {
+        "queries": 3,
+        "hit_rate_at_5": 1.0,
+        "mean_precision_at_5": 0.2667,
+        "mean_recall_at_5": 1.0,
+        "mrr_at_5": 0.7778,
+        "map_at_5": 0.8056
+      },
+      "baseline_queries": [
+        {
+          "id": "AETNA-01",
+          "payer": "aetna",
+          "query": "Wegovy adult chronic weight management initial authorization BMI 35 and six month lifestyle program",
+          "expected": {
+            "section": "COVERAGE CRITERIA",
+            "indication_contains": "Chronic Weight Management (Adult)"
+          },
+          "relevant_chunks_in_index": 1,
+          "relevant_retrieved": 1,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.6449,
+              "relevant": true,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+            },
+            {
+              "rank": 2,
+              "distance": 0.682,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+            },
+            {
+              "rank": 3,
+              "distance": 0.7156,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+            },
+            {
+              "rank": 4,
+              "distance": 0.8261,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+            },
+            {
+              "rank": 5,
+              "distance": 0.8513,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\n6/4/26, 8:17 PM\nWeight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024 - Pharmacy"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 1.0
+          }
+        },
+        {
+          "id": "AETNA-02",
+          "payer": "aetna",
+          "query": "Aetna Wegovy adult continuation of therapy requirements",
+          "expected": {
+            "section": "CONTINUATION OF THERAPY",
+            "indication_contains": "Chronic Weight Management (Adult)"
+          },
+          "relevant_chunks_in_index": 2,
+          "relevant_retrieved": 1,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.2,
+          "recall_at_5": 0.5,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.4679,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "CONTINUATION OF THERAPY"
+            },
+            {
+              "rank": 2,
+              "distance": 0.8147,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+            },
+            {
+              "rank": 3,
+              "distance": 0.8766,
+              "relevant": false,
+              "section": "DURATION OF APPROVAL (DOA)",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "DURATION OF APPROVAL (DOA)\n          •6450-C:\n°Saxenda:\n•Adults: Initial therapy DOA: 4 months; Continuation of therapy DOA: 12 months\n•Pediatrics: Initial therapy DOA: 5 months; Continuation of therapy DOA: 12 months\n°Wegovy: Initial therapy DOA: 7 "
+            },
+            {
+              "rank": 4,
+              "distance": 0.8827,
+              "relevant": true,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+            },
+            {
+              "rank": 5,
+              "distance": 0.8852,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 0.25,
+            "ap_at_5": 0.125
+          }
+        },
+        {
+          "id": "AETNA-03",
+          "payer": "aetna",
+          "query": "Aetna Wegovy pediatric initial authorization age 12 to 17 and BMI eligibility",
+          "expected": {
+            "section": "COVERAGE CRITERIA",
+            "indication_contains": "Chronic Weight Management (Pediatric)"
+          },
+          "relevant_chunks_in_index": 1,
+          "relevant_retrieved": 1,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.6899,
+              "relevant": true,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following crit"
+            },
+            {
+              "rank": 2,
+              "distance": 0.8622,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may be granted when the requested drug will be used with a reduced\n6/4/26, 8:17 PM\nWeight Loss (BMI 35) GIP-GLP-1 GLP-1 Agonists PA with Limit 6450-C UDR 05-2024 - Pharmacy"
+            },
+            {
+              "rank": 3,
+              "distance": 0.8758,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "patient has\n                    continued to maintain their initial 1 percent reduction in BMI from baseline\n[ACTION\n                    REQUIRED: Documentation is required for approval.]\n     •   If the request is for Wegovy (semaglutide), then ALL "
+            },
+            {
+              "rank": 4,
+              "distance": 0.8859,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Chronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduced\ncalorie diet and increased physical activity for chronic weight management when ALL of\nthe following criteria are met:\n     •   The pat"
+            },
+            {
+              "rank": 5,
+              "distance": 0.9476,
+              "relevant": false,
+              "section": "Policy Introduction",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "FDA-APPROVED INDICATIONS\nSaxenda\nSaxenda is indicated as an adjunct to a reduced-calorie diet and increased physical\nactivity for chronic weight management in:\n     •   Adult patients with an initial body mass index (BMI) of:\n          °   30 kg/m2 o"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 1.0
+          }
+        }
+      ],
+      "experiment_queries": [
+        {
+          "id": "AETNA-01",
+          "payer": "aetna",
+          "query": "Wegovy adult chronic weight management initial authorization BMI 35 and six month lifestyle program",
+          "expected": {
+            "section": "COVERAGE CRITERIA",
+            "indication_contains": "Chronic Weight Management (Adult)"
+          },
+          "relevant_chunks_in_index": 1,
+          "relevant_retrieved": 1,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.689,
+              "relevant": true,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: COVERAGE CRITERIA\nMedication: \nIndication: Chronic Weight Management (Adult)\nAuthorization pathway: \n\nChronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduce"
+            },
+            {
+              "rank": 2,
+              "distance": 0.7189,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Adult)\nAuthorization pathway: \n\nChronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a "
+            },
+            {
+              "rank": 3,
+              "distance": 0.8206,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: COVERAGE CRITERIA\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\nChronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may b"
+            },
+            {
+              "rank": 4,
+              "distance": 0.8643,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\npatient has\n                    continued to maintain their initial 1 percent"
+            },
+            {
+              "rank": 5,
+              "distance": 0.8945,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\nChronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 1.0
+          }
+        },
+        {
+          "id": "AETNA-02",
+          "payer": "aetna",
+          "query": "Aetna Wegovy adult continuation of therapy requirements",
+          "expected": {
+            "section": "CONTINUATION OF THERAPY",
+            "indication_contains": "Chronic Weight Management (Adult)"
+          },
+          "relevant_chunks_in_index": 2,
+          "relevant_retrieved": 2,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.4,
+          "recall_at_5": 1.0,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.5415,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\npatient has\n                    continued to maintain their initial 1 percent"
+            },
+            {
+              "rank": 2,
+              "distance": 0.6099,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: \nAuthorization pathway: \n\nCONTINUATION OF THERAPY"
+            },
+            {
+              "rank": 3,
+              "distance": 0.6227,
+              "relevant": true,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Adult)\nAuthorization pathway: \n\nChronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a "
+            },
+            {
+              "rank": 4,
+              "distance": 0.657,
+              "relevant": true,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Adult)\nAuthorization pathway: \n\nhas\n                    continued to maintain their initial 5 percent weight loss [ACTION REQUIRED:\n       "
+            },
+            {
+              "rank": 5,
+              "distance": 0.6881,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\nChronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 0.3333,
+            "ap_at_5": 0.4167
+          }
+        },
+        {
+          "id": "AETNA-03",
+          "payer": "aetna",
+          "query": "Aetna Wegovy pediatric initial authorization age 12 to 17 and BMI eligibility",
+          "expected": {
+            "section": "COVERAGE CRITERIA",
+            "indication_contains": "Chronic Weight Management (Pediatric)"
+          },
+          "relevant_chunks_in_index": 1,
+          "relevant_retrieved": 1,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.2,
+          "recall_at_5": 1.0,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.64,
+              "relevant": true,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: COVERAGE CRITERIA\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\nChronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization may b"
+            },
+            {
+              "rank": 2,
+              "distance": 0.7739,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Chronic Weight Management (Adult)",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: COVERAGE CRITERIA\nMedication: \nIndication: Chronic Weight Management (Adult)\nAuthorization pathway: \n\nChronic Weight Management (Adult)\nAuthorization may be granted when the requested drug will be used with a reduce"
+            },
+            {
+              "rank": 3,
+              "distance": 0.785,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\nChronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization"
+            },
+            {
+              "rank": 4,
+              "distance": 0.7897,
+              "relevant": false,
+              "section": "CONTINUATION OF THERAPY",
+              "medication": "",
+              "indication": "Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: CONTINUATION OF THERAPY\nMedication: \nIndication: Chronic Weight Management (Pediatric) – Saxenda and Wegovy ONLY\nAuthorization pathway: \n\npatient has\n                    continued to maintain their initial 1 percent"
+            },
+            {
+              "rank": 5,
+              "distance": 0.882,
+              "relevant": false,
+              "section": "COVERAGE CRITERIA",
+              "medication": "",
+              "indication": "Risk Reduction of Major Adverse Cardiovascular Events (Adult) – Wegovy ONLY",
+              "pathway": "",
+              "text_preview": "Insurance provider: aetna\nSection: COVERAGE CRITERIA\nMedication: \nIndication: Risk Reduction of Major Adverse Cardiovascular Events (Adult) – Wegovy ONLY\nAuthorization pathway: \n\nRisk Reduction of Major Adverse Cardiovascular Events (Adult) – Wegovy "
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 1.0
+          }
+        }
+      ],
+      "collection": "aetna_policy_context_v2",
+      "stored_chunks": 20
+    },
+    "unitedhealthcare": {
+      "baseline": {
+        "queries": 2,
+        "hit_rate_at_5": 1.0,
+        "mean_precision_at_5": 0.7,
+        "mean_recall_at_5": 0.55,
+        "mrr_at_5": 0.75,
+        "map_at_5": 0.5467
+      },
+      "contextual_v2": {
+        "queries": 2,
+        "hit_rate_at_5": 1.0,
+        "mean_precision_at_5": 0.8,
+        "mean_recall_at_5": 0.6125,
+        "mrr_at_5": 0.75,
+        "map_at_5": 0.6916
+      },
+      "baseline_queries": [
+        {
+          "id": "UHC-01",
+          "payer": "unitedhealthcare",
+          "query": "UnitedHealthcare North Dakota weight loss Wegovy initial authorization requirements",
+          "expected": {
+            "section_contains": "North Dakota",
+            "pathway_contains": "Initial Authorization"
+          },
+          "relevant_chunks_in_index": 5,
+          "relevant_retrieved": 3,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.6,
+          "recall_at_5": 0.6,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.7397,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "A. Initial Authorization  \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on all of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Treatment is being requested for appetite suppression or weight loss \n(2)  Wegovy inj"
+            },
+            {
+              "rank": 2,
+              "distance": 0.7916,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "-OR- \n \n \n© 2026 UnitedHealthcare Services Inc. \n6 \n \n \n(2) Wegovy injection is being requested for treatment of MASHb \n \nWegovy injection or tablet: Authorization will be issued for 5 months. \n \nZepbound: Authorization will be issued for 6 months."
+            },
+            {
+              "rank": 3,
+              "distance": 0.7937,
+              "relevant": false,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weight for Zepbound \n \n-OR- \n \n(2) One of the followin"
+            },
+            {
+              "rank": 4,
+              "distance": 0.8144,
+              "relevant": true,
+              "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "A. Initial Authorization  \n \n1. benzphetamine, Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection, Wegovy tablet, Xenical or Zepbound (Includes both \n \n© 2026 UnitedHealthcare Services Inc. \n2 \n \n \nbrand and ge"
+            },
+            {
+              "rank": 5,
+              "distance": 0.8424,
+              "relevant": false,
+              "section": "Policy Introduction",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "© 2026 UnitedHealthcare Services Inc. \n1 \n \n \nUnitedHealthcare Pharmacy \nClinical Pharmacy Programs \n \nProgram Number \n2026 P 1114-20 \nProgram \nPrior Authorization/Notification - Plans with Weight Loss/Appetite \nSuppression Medication Coverage  \nMedi"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 0.55
+          }
+        },
+        {
+          "id": "UHC-02",
+          "payer": "unitedhealthcare",
+          "query": "UnitedHealthcare North Dakota weight loss reauthorization continuation requirements",
+          "expected": {
+            "section_contains": "North Dakota",
+            "pathway_contains": "Reauthorization"
+          },
+          "relevant_chunks_in_index": 8,
+          "relevant_retrieved": 4,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.8,
+          "recall_at_5": 0.5,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.8587,
+              "relevant": false,
+              "section": "Policy Introduction",
+              "medication": "",
+              "indication": "",
+              "pathway": "",
+              "text_preview": "© 2026 UnitedHealthcare Services Inc. \n1 \n \n \nUnitedHealthcare Pharmacy \nClinical Pharmacy Programs \n \nProgram Number \n2026 P 1114-20 \nProgram \nPrior Authorization/Notification - Plans with Weight Loss/Appetite \nSuppression Medication Coverage  \nMedi"
+            },
+            {
+              "rank": 2,
+              "distance": 0.8838,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Change Control \nDate \nChange \n11/2013 \nReformatted to standard and updated references.  Clarified risk factors \nrequired in addition to BMI of 27-29.  Removed criteria that coverage \nwould not be provided if used in combination with other weight loss"
+            },
+            {
+              "rank": 3,
+              "distance": 0.9174,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "B. Reauthorization \n \n1. Wegovy injection or tablet, or Zepbound will be approved based on both of the \nfollowing criteria: \n \na. One of the following: \n \n(1) Weight loss of ≥ 5% of baseline body weight for Zepbound \n \n-OR- \n \n(2) One of the followin"
+            },
+            {
+              "rank": 4,
+              "distance": 0.9275,
+              "relevant": true,
+              "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Authorization for benzphetamine, diethylpropion, phentermine or phendimetrazine \nor will be issued for 6 months.   \n \n2. Imcivree will be approved based on one of the following criteria: \n \na. If on therapy for less than 12 months, documentation of a"
+            },
+            {
+              "rank": 5,
+              "distance": 0.9443,
+              "relevant": true,
+              "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "B. Reauthorization \n \n1. benzphetamine  Contrave, diethylpropion, phentermine, phendimetrazine, Qsymia, \nSaxenda, Wegovy injection or tablet, Xenical or Zepbound (Includes both brand \nand generic versions and all formulations of the listed products u"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 0.5,
+            "ap_at_5": 0.5433
+          }
+        }
+      ],
+      "experiment_queries": [
+        {
+          "id": "UHC-01",
+          "payer": "unitedhealthcare",
+          "query": "UnitedHealthcare North Dakota weight loss Wegovy initial authorization requirements",
+          "expected": {
+            "section_contains": "North Dakota",
+            "pathway_contains": "Initial Authorization"
+          },
+          "relevant_chunks_in_index": 5,
+          "relevant_retrieved": 3,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 0.6,
+          "recall_at_5": 0.6,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.5105,
+              "relevant": false,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nreferences. Formatting changes. \n9/2021 \nAdded Wegovy"
+            },
+            {
+              "rank": 2,
+              "distance": 0.5326,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: A. Initial Authorization\n\nA. Initial Authorization  \n \n1. Wegovy injectio"
+            },
+            {
+              "rank": 3,
+              "distance": 0.5599,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: A. Initial Authorization\n\n-OR- \n \n \n© 2026 UnitedHealthcare Services Inc."
+            },
+            {
+              "rank": 4,
+              "distance": 0.5627,
+              "relevant": true,
+              "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "A. Initial Authorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: A. Initial Authorization\n\n-AND- \n \nc. Used as an adjunct to l"
+            },
+            {
+              "rank": 5,
+              "distance": 0.5777,
+              "relevant": false,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nB. Reauthorization \n \n1. Wegovy injection or tablet, "
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 0.5,
+            "ap_at_5": 0.3833
+          }
+        },
+        {
+          "id": "UHC-02",
+          "payer": "unitedhealthcare",
+          "query": "UnitedHealthcare North Dakota weight loss reauthorization continuation requirements",
+          "expected": {
+            "section_contains": "North Dakota",
+            "pathway_contains": "Reauthorization"
+          },
+          "relevant_chunks_in_index": 8,
+          "relevant_retrieved": 5,
+          "retrieved_count": 5,
+          "hit_at_5": true,
+          "precision_at_5": 1.0,
+          "recall_at_5": 0.625,
+          "results": [
+            {
+              "rank": 1,
+              "distance": 0.5095,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nChange Control \nDate \nChange \n11/2013 \nReformatted to"
+            },
+            {
+              "rank": 2,
+              "distance": 0.6217,
+              "relevant": true,
+              "section": "Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Section 3:  Coverage criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nAuthorization for benzphetamine, diethylp"
+            },
+            {
+              "rank": 3,
+              "distance": 0.6231,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nreferences. Formatting changes. \n9/2021 \nAdded Wegovy"
+            },
+            {
+              "rank": 4,
+              "distance": 0.645,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nObesity Society.  Circulation. 2014; 129:S102-138 \n12"
+            },
+            {
+              "rank": 5,
+              "distance": 0.6705,
+              "relevant": true,
+              "section": "Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)",
+              "medication": "",
+              "indication": "",
+              "pathway": "B. Reauthorization",
+              "text_preview": "Insurance provider: unitedhealthcare\nSection: Coverage Criteria for North Dakota Fully Insured EHB (Small Group and Individual)\nMedication: \nIndication: \nAuthorization pathway: B. Reauthorization\n\nEndocrinology Comprehensive Clinical Practice Guideli"
+            }
+          ],
+          "ranking": {
+            "mrr_at_5": 1.0,
+            "ap_at_5": 1.0
+          }
+        }
+      ],
+      "collection": "unitedhealthcare_policy_context_v2",
+      "stored_chunks": 18
+    }
+  }
+}

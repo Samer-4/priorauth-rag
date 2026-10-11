@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.2, pytest-9.1.1, pluggy-1.6.0 -- /Users/samerahmed/Prior-Auth-Appeals/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/samerahmed/Prior-Auth-Appeals
+configfile: pytest.ini
+plugins: langsmith-0.14.7, anyio-4.14.2
+collecting ... collected 9 items
+
+tests/test_chunking.py::test_chunks_respect_size_limit PASSED            [ 11%]
+tests/test_chunking.py::test_section_metadata PASSED                     [ 22%]
+tests/test_chunking.py::test_separate_authorization_sections PASSED      [ 33%]
+tests/test_chunking.py::test_roman_numeral_heading PASSED                [ 44%]
+tests/test_embeddings.py::test_ingestion_stores_all_chunks PASSED        [ 55%]
+tests/test_embeddings.py::test_repeated_ingestion_does_not_duplicate PASSED [ 66%]
+tests/test_retrieval.py::test_metadata_filter_excludes_wrong_pathways PASSED [ 77%]
+tests/test_retrieval.py::test_history_excluded_by_default PASSED         [ 88%]
+tests/test_retrieval.py::test_real_aetna_retrieval SKIPPED (Set RUN_...) [100%]
+
+- generated xml file: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/pytest_results.xml -
+========================= 8 passed, 1 skipped in 0.93s =========================

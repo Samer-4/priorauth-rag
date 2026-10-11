@@ -1,0 +1,41 @@
+
+============================================================
+PROCESSING AETNA
+============================================================
+Collection: aetna_policy_context_v2
+Expected chunks: 20
+Stored chunks: 20
+AETNA-01: Hit@5=True | Recall@5=1.00 | MRR@5=1.00
+AETNA-02: Hit@5=True | Recall@5=1.00 | MRR@5=0.33
+AETNA-03: Hit@5=True | Recall@5=1.00 | MRR@5=1.00
+
+AETNA — V1 VS V2
+Metric                           V1           V2
+Hit Rate@5                  100.00%      100.00%
+Precision@5                  20.00%       26.67%
+Recall@5                     83.33%      100.00%
+MRR@5                        75.00%       77.78%
+MAP@5                        70.83%       80.56%
+
+============================================================
+PROCESSING UNITEDHEALTHCARE
+============================================================
+Collection: unitedhealthcare_policy_context_v2
+Expected chunks: 18
+Stored chunks: 18
+UHC-01: Hit@5=True | Recall@5=0.60 | MRR@5=0.50
+UHC-02: Hit@5=True | Recall@5=0.62 | MRR@5=1.00
+
+UNITEDHEALTHCARE — V1 VS V2
+Metric                           V1           V2
+Hit Rate@5                  100.00%      100.00%
+Precision@5                  70.00%       80.00%
+Recall@5                     55.00%       61.25%
+MRR@5                        75.00%       75.00%
+MAP@5                        54.67%       69.16%
+
+============================================================
+EXPERIMENT COMPLETE
+============================================================
+Saved results: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/contextual_remaining_comparison.json
+Original payer collections remain unchanged.

@@ -1,0 +1,13 @@
+AETNA-01: 5 chunks retrieved from aetna_policy_context_v2
+AETNA-02: 5 chunks retrieved from aetna_policy_context_v2
+AETNA-03: 5 chunks retrieved from aetna_policy_context_v2
+CIGNA-01: 5 chunks retrieved from cigna_policy_context_v2
+CIGNA-02: 5 chunks retrieved from cigna_policy_context_v2
+CIGNA-03: 5 chunks retrieved from cigna_policy_context_v2
+CIGNA-04: 5 chunks retrieved from cigna_policy_context_v2
+CIGNA-05: 5 chunks retrieved from cigna_policy_context_v2
+UHC-01: 5 chunks retrieved from unitedhealthcare_policy_context_v2
+UHC-02: 5 chunks retrieved from unitedhealthcare_policy_context_v2
+
+Saved review worksheet: /Users/samerahmed/Prior-Auth-Appeals/evaluation/results/requirement_review.md
+Queries prepared for review: 10

@@ -1,0 +1,749 @@
+{
+  "timestamp_utc": "2026-10-10T16:46:20.523348+00:00",
+  "experiment": "Cigna contextual embeddings V2",
+  "embedding_model": "ethanteh/bge-finetuned-insurance-matryoshka",
+  "baseline_collection": "cigna_policy",
+  "experiment_collection": "cigna_policy_context_v2",
+  "description": "Same chunker, embedding model, queries, and K=5. V2 prefixes medication, indication, section, and pathway context to the embedded text.",
+  "limitations": "Relevance labels are based on existing chunk metadata, not independently validated clinical requirements. Metadata errors and incomplete criteria remain possible.",
+  "baseline": {
+    "queries": 5,
+    "hit_rate_at_5": 0.6,
+    "mean_precision_at_5": 0.12,
+    "mean_recall_at_5": 0.4,
+    "mrr_at_5": 0.1733,
+    "map_at_5": 0.12
+  },
+  "contextual_v2": {
+    "queries": 5,
+    "hit_rate_at_5": 1.0,
+    "mean_precision_at_5": 0.32,
+    "mean_recall_at_5": 1.0,
+    "mrr_at_5": 0.7667,
+    "map_at_5": 0.8
+  },
+  "baseline_queries": [
+    {
+      "id": "CIGNA-01",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss initial therapy BMI and behavioral modification",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 0,
+      "retrieved_count": 5,
+      "hit_at_5": false,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6824,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6843,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7109,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Results.  At the interim analysis (the first 800 patients enrolled in the trial), the \nbetween-group differences for both primary endpoints were significant for Wegovy \ninjection vs. placebo.20  Wegovy injection demonstrated a significant improvement"
+        },
+        {
+          "rank": 4,
+          "distance": 0.7159,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7159,
+          "relevant": false,
+          "section": "II.",
+          "medication": "Foundayo",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.0,
+        "ap_at_5": 0.0
+      }
+    },
+    {
+      "id": "CIGNA-02",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss continuation therapy requirements",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Patient is Currently Receiving"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6682,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Results.  At the interim analysis (the first 800 patients enrolled in the trial), the \nbetween-group differences for both primary endpoints were significant for Wegovy \ninjection vs. placebo.20  Wegovy injection demonstrated a significant improvement"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6743,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Wegovy SC injection. \n \nAdults taking Wegovy 2.4 mg SC injection for CV risk reduction or weight reduction \nmay switch to Wegovy 25 mg tablets.1  One week after discontinuing Wegovy 2.4 \nmg SC injection, initiate 25 mg of Wegovy tablets orally QD.  A"
+        },
+        {
+          "rank": 3,
+          "distance": 0.6859,
+          "relevant": true,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or \nWegovy tablet.  Approve for 1 year if the patient meets ALL of the following \n(i, ii, iii, and iv): \nNote:  For a patient who has not completed 8 months of initial therapy w"
+        },
+        {
+          "rank": 4,
+          "distance": 0.688,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "escalation schedule of 16 weeks is outlined (the 2.4 mg dose would be reached at \nthe start of Week 17).1  Consider the treatment response and tolerability when \nselecting the maintenance dose.  For weight loss in an adult who tolerates 2.4 mg \n33 Pa"
+        },
+        {
+          "rank": 5,
+          "distance": 0.7178,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "• \nTo reduce the risk of major adverse cardiovascular (CV) events \n(MACE) [CV death, non-fatal myocardial infarction {MI}, or non-fatal stroke] \nin adults with established CV disease and either obesity or overweight.1,5 \n \nWegovy injection is indicat"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.3333,
+        "ap_at_5": 0.1667
+      }
+    },
+    {
+      "id": "CIGNA-03",
+      "payer": "cigna",
+      "query": "Cigna Wegovy tablet adult weight loss initial authorization requirements",
+      "expected": {
+        "medication": "Wegovy tablet",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 0,
+      "retrieved_count": 5,
+      "hit_at_5": false,
+      "precision_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.6682,
+          "relevant": false,
+          "section": "POLICY STATEMENT",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "where the approval is authorized in months, 1 month is equal to 30 days. \n \nDocumentation:  Documentation is required for use of Wegovy injection/Wegovy \nHD injection for MASH/NASH as noted in the criteria as [documentation \nrequired].  Documentation"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6844,
+          "relevant": false,
+          "section": "Policy Introduction",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Page 1 of 33 - Cigna National Formulary Coverage  - Policy: \nWeight Loss – Glucagon-Like Peptide-1 Agonists Prior \nAuthorization Policy \n \nPRIOR AUTHORIZATION POLICY \n \nPOLICY: \nWeight Loss – Glucagon-Like Peptide-1 Agonists Prior Authorization \nPoli"
+        },
+        {
+          "rank": 3,
+          "distance": 0.7081,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "escalation schedule of 16 weeks is outlined (the 2.4 mg dose would be reached at \nthe start of Week 17).1  Consider the treatment response and tolerability when \nselecting the maintenance dose.  For weight loss in an adult who tolerates 2.4 mg \n33 Pa"
+        },
+        {
+          "rank": 4,
+          "distance": 0.747,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or \nWegovy tablet.  Approve for 1 year if the patient meets ALL of the following \n(i, ii, iii, and iv): \nNote:  For a patient who has not completed 8 months of initial therapy w"
+        },
+        {
+          "rank": 5,
+          "distance": 0.783,
+          "relevant": false,
+          "section": "OVERVIEW",
+          "medication": "",
+          "indication": "",
+          "pathway": "",
+          "text_preview": "Wegovy SC injection. \n \nAdults taking Wegovy 2.4 mg SC injection for CV risk reduction or weight reduction \nmay switch to Wegovy 25 mg tablets.1  One week after discontinuing Wegovy 2.4 \nmg SC injection, initiate 25 mg of Wegovy tablets orally QD.  A"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.0,
+        "ap_at_5": 0.0
+      }
+    },
+    {
+      "id": "CIGNA-04",
+      "payer": "cigna",
+      "query": "Cigna Zepbound adult obesity weight loss initial therapy BMI and dietary restriction",
+      "expected": {
+        "medication": "Zepbound",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 0.5,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.623,
+          "relevant": false,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 2,
+          "distance": 0.6257,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 3,
+          "distance": 0.6261,
+          "relevant": false,
+          "section": "II.",
+          "medication": "Foundayo",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 4,
+          "distance": 0.6261,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        },
+        {
+          "rank": 5,
+          "distance": 0.6261,
+          "relevant": true,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.2,
+        "ap_at_5": 0.1
+      }
+    },
+    {
+      "id": "CIGNA-05",
+      "payer": "cigna",
+      "query": "Cigna liraglutide Saxenda pediatric obesity initial therapy requirements",
+      "expected": {
+        "medication": "Liraglutide",
+        "indication_contains": "Weight Loss in a Pediatric",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4876,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 \nyear if the patient meets ALL of the following (i, ii, iii, and iv): \nNote:  For a patient who has not completed 4 months of initial therapy, refer \nto Initial Therapy "
+        },
+        {
+          "rank": 2,
+          "distance": 0.4895,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4896,
+          "relevant": true,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 12 years of age and < 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestric"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4945,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1 \nyear if the patient meets ALL of the following (i, ii, iii, and iv): \nNote:  For a patient who has not completed 4 months of initial therapy, refer \nto Initial Therapy "
+        },
+        {
+          "rank": 5,
+          "distance": 0.5259,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the \nfollowing (i, ii, iii, and iv): \ni. Patient is ≥ 18 years of age; AND \nii. Patient has engaged in a trial of behavioral modification and dietary \nrestriction for at least 3 mo"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.3333,
+        "ap_at_5": 0.3333
+      }
+    }
+  ],
+  "experiment_queries": [
+    {
+      "id": "CIGNA-01",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss initial therapy BMI and behavioral modification",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4097,
+          "relevant": true,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n"
+        },
+        {
+          "rank": 2,
+          "distance": 0.4182,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: \n\n1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the "
+        },
+        {
+          "rank": 3,
+          "distance": 0.4549,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, o"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4771,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, o"
+        },
+        {
+          "rank": 5,
+          "distance": 0.5304,
+          "relevant": false,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: IV.\nMedication: Wegovy tablet\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n\nA) "
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 1.0,
+        "ap_at_5": 1.0
+      }
+    },
+    {
+      "id": "CIGNA-02",
+      "payer": "cigna",
+      "query": "Cigna Wegovy injection adult weight loss continuation therapy requirements",
+      "expected": {
+        "medication": "Wegovy injection",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Patient is Currently Receiving"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 2,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4107,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: \n\n1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the "
+        },
+        {
+          "rank": 2,
+          "distance": 0.4245,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4535,
+          "relevant": true,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, o"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4949,
+          "relevant": true,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, o"
+        },
+        {
+          "rank": 5,
+          "distance": 0.5247,
+          "relevant": false,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy tablet, Wegovy injection, or Wegovy",
+          "text_preview": "Insurance provider: Cigna\nSection: IV.\nMedication: Wegovy tablet\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy tablet, Wegovy injection, or Wegovy\n\n"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.3333,
+        "ap_at_5": 0.4167
+      }
+    },
+    {
+      "id": "CIGNA-03",
+      "payer": "cigna",
+      "query": "Cigna Wegovy tablet adult weight loss initial authorization requirements",
+      "expected": {
+        "medication": "Wegovy tablet",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 2,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.405,
+          "relevant": false,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: IV.\nMedication: Wegovy tablet\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: \n\n1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the \ndur"
+        },
+        {
+          "rank": 2,
+          "distance": 0.4314,
+          "relevant": true,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: IV.\nMedication: Wegovy tablet\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n\n1/g"
+        },
+        {
+          "rank": 3,
+          "distance": 0.4563,
+          "relevant": true,
+          "section": "IV.",
+          "medication": "Wegovy tablet",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: IV.\nMedication: Wegovy tablet\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n\nA) "
+        },
+        {
+          "rank": 4,
+          "distance": 0.4787,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, or",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Wegovy injection, Wegovy HD injection, o"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4809,
+          "relevant": false,
+          "section": "III.",
+          "medication": "Wegovy injection",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: III.\nMedication: Wegovy injection\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: \n\n1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the "
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 0.5,
+        "ap_at_5": 0.5833
+      }
+    },
+    {
+      "id": "CIGNA-04",
+      "payer": "cigna",
+      "query": "Cigna Zepbound adult obesity weight loss initial therapy BMI and dietary restriction",
+      "expected": {
+        "medication": "Zepbound",
+        "indication_contains": "Weight Loss in an Adult",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 2,
+      "relevant_retrieved": 2,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.4,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.4116,
+          "relevant": true,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: V.\nMedication: Zepbound\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n\nA) Initia"
+        },
+        {
+          "rank": 2,
+          "distance": 0.4358,
+          "relevant": true,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: V.\nMedication: Zepbound\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 8 months if the patient meets ALL of the\n\n1/glucose"
+        },
+        {
+          "rank": 3,
+          "distance": 0.447,
+          "relevant": false,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: V.\nMedication: Zepbound\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: \n\n1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the \nduration "
+        },
+        {
+          "rank": 4,
+          "distance": 0.4603,
+          "relevant": false,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Zepbound.  Approve for 1 year if the patient",
+          "text_preview": "Insurance provider: Cigna\nSection: V.\nMedication: Zepbound\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Zepbound.  Approve for 1 year if the patient\n\nB) P"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4903,
+          "relevant": false,
+          "section": "V.",
+          "medication": "Zepbound",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving Zepbound.  Approve for 1 year if the patient",
+          "text_preview": "Insurance provider: Cigna\nSection: V.\nMedication: Zepbound\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving Zepbound.  Approve for 1 year if the patient\n\n1/gl"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 1.0,
+        "ap_at_5": 1.0
+      }
+    },
+    {
+      "id": "CIGNA-05",
+      "payer": "cigna",
+      "query": "Cigna liraglutide Saxenda pediatric obesity initial therapy requirements",
+      "expected": {
+        "medication": "Liraglutide",
+        "indication_contains": "Weight Loss in a Pediatric",
+        "pathway_contains": "Initial Therapy"
+      },
+      "relevant_chunks_in_index": 1,
+      "relevant_retrieved": 1,
+      "retrieved_count": 5,
+      "hit_at_5": true,
+      "precision_at_5": 0.2,
+      "recall_at_5": 1.0,
+      "results": [
+        {
+          "rank": 1,
+          "distance": 0.335,
+          "relevant": true,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: I.\nMedication: Liraglutide\nIndication: 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration\nAuthorization pathway: A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the\n\n"
+        },
+        {
+          "rank": 2,
+          "distance": 0.3455,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "Insurance provider: Cigna\nSection: I.\nMedication: Liraglutide\nIndication: 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration\nAuthorization pathway: B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve "
+        },
+        {
+          "rank": 3,
+          "distance": 0.3983,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration",
+          "pathway": "",
+          "text_preview": "Insurance provider: Cigna\nSection: I.\nMedication: Liraglutide\nIndication: 2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the duration\nAuthorization pathway: \n\n2. Weight Loss in a Pediatric Patient with Obesity.  Approve for the dura"
+        },
+        {
+          "rank": 4,
+          "distance": 0.4798,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1",
+          "text_preview": "Insurance provider: Cigna\nSection: I.\nMedication: Liraglutide\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: B) Patient is Currently Receiving liraglutide (Saxenda, generic).  Approve for 1\n"
+        },
+        {
+          "rank": 5,
+          "distance": 0.4813,
+          "relevant": false,
+          "section": "I.",
+          "medication": "Liraglutide",
+          "indication": "1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the",
+          "pathway": "A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the",
+          "text_preview": "Insurance provider: Cigna\nSection: I.\nMedication: Liraglutide\nIndication: 1. Weight Loss in an Adult with Overweight or Obesity.  Approve for the\nAuthorization pathway: A) Initial Therapy.  Approve for 4 months if the patient meets ALL of the\n\nA) Ini"
+        }
+      ],
+      "ranking": {
+        "mrr_at_5": 1.0,
+        "ap_at_5": 1.0
+      }
+    }
+  ]
+}
