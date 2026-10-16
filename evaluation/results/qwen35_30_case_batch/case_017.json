@@ -1,0 +1,41 @@
+{
+  "case_id": "case_017",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "citation_coverage",
+      "claim": "There is no evidence to support that the medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient's age is 31, which satisfies the requirement for being \u2265 18 years of age [E1]. The patient has engaged in dietary restriction, as she has been working with a dietitian since January and has maintained her weight loss [E2]. However, there is no evidence to confirm engagement in behavioral modification [E2]. The patient's BMI is not explicitly documented in the evidence, and therefore, the baseline BMI requirement of \u2265 30 kg/m2 cannot be confirmed [E2]. There is no evidence to support that the medication will be used concomitantly with behavioral modification and a reduced-calorie diet.",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E2",
+        "E2"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Concomitant Behavioral Modification and Diet'."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "However, there is no evidence to confirm engagement in behavioral modification [E2]",
+      "evidence_ids": [
+        "E2"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "The patient's BMI is not explicitly documented in the evidence, and therefore, the baseline BMI requirement of \u2265 30 kg/m2 cannot be confirmed [E2]",
+      "evidence_ids": [
+        "E2"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 299.62
+}

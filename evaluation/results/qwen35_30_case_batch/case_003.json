@@ -1,0 +1,25 @@
+{
+  "case_id": "case_003",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "numbers_and_dates",
+      "claim": "The patient's BMI is 33.7 kg/m\u00b2, which satisfies the BMI \u2265 30 kg/m2 criterion [E6]",
+      "evidence_ids": [
+        "E6"
+      ],
+      "reason": "Clinical value '30' does not appear in the cited evidence."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "However, the evidence does not support the use of Wegovy for treatment of MASH, which is not required for this case [E6] [E7].",
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 369.56
+}

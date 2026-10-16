@@ -1,0 +1,28 @@
+{
+  "case_id": "case_022",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "numbers_and_dates",
+      "claim": "The patient is \u2265 12 years old [E4], and there is no evidence of a contradiction in the medication request, as the evidence confirms the request for Wegovy for obesity [E3].",
+      "evidence_ids": [
+        "E4",
+        "E3"
+      ],
+      "reason": "Clinical value '12' does not appear in the cited evidence."
+    },
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient's BMI is documented as 34.8 kg/m\u00b2 [E7], which satisfies the requirement for BMI \u2265 30 kg/m\u00b2. The medication is requested for weight loss, and the patient is using Wegovy as an adjunct to lifestyle modifications, including dietary changes, exercise, and participation in a workplace walking group [E8]. The patient is \u2265 12 years old [E4], and there is no evidence of a contradiction in the medication request, as the evidence confirms the request for Wegovy for obesity [E3].",
+      "evidence_ids": [
+        "E7",
+        "E8",
+        "E4",
+        "E3"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Appropriate Medication Requested'."
+    }
+  ],
+  "elapsed_seconds": 353.65
+}

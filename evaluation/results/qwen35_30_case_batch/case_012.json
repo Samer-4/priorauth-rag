@@ -1,0 +1,7 @@
+{
+  "case_id": "case_012",
+  "completed": false,
+  "error": "PolicyRetrievalError: Aetna adapter currently supports reviewed adult pathways only.",
+  "findings": [],
+  "elapsed_seconds": 32.34
+}

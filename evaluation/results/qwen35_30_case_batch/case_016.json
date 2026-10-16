@@ -1,0 +1,7 @@
+{
+  "case_id": "case_016",
+  "completed": false,
+  "error": "PolicyRetrievalError: No chunks matched the requested policy pathway. Review metadata and coverage details; no fallback was used.",
+  "findings": [],
+  "elapsed_seconds": 34.8
+}

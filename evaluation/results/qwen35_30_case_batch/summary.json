@@ -1,0 +1,219 @@
+{
+  "tested": 30,
+  "completed": 14,
+  "failed": 16,
+  "completed_without_findings": 3,
+  "total_findings": 32,
+  "results": [
+    {
+      "case": "case_001",
+      "completed": true,
+      "findings": 3,
+      "error": null,
+      "seconds": 413.38
+    },
+    {
+      "case": "case_002",
+      "completed": true,
+      "findings": 3,
+      "error": null,
+      "seconds": 429.54
+    },
+    {
+      "case": "case_003",
+      "completed": true,
+      "findings": 2,
+      "error": null,
+      "seconds": 369.56
+    },
+    {
+      "case": "case_004",
+      "completed": true,
+      "findings": 3,
+      "error": null,
+      "seconds": 309.7
+    },
+    {
+      "case": "case_005",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: aetna pathway matches 2 chunks, but verified source order is unavailable.",
+      "seconds": 32.19
+    },
+    {
+      "case": "case_006",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Aetna adapter currently supports reviewed adult pathways only.",
+      "seconds": 29.28
+    },
+    {
+      "case": "case_007",
+      "completed": true,
+      "findings": 1,
+      "error": null,
+      "seconds": 360.89
+    },
+    {
+      "case": "case_008",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: aetna pathway matches 2 chunks, but verified source order is unavailable.",
+      "seconds": 31.96
+    },
+    {
+      "case": "case_009",
+      "completed": true,
+      "findings": 0,
+      "error": null,
+      "seconds": 322.57
+    },
+    {
+      "case": "case_010",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Aetna adapter currently supports reviewed adult pathways only.",
+      "seconds": 32.16
+    },
+    {
+      "case": "case_011",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Aetna adapter currently supports reviewed adult pathways only.",
+      "seconds": 35.42
+    },
+    {
+      "case": "case_012",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Aetna adapter currently supports reviewed adult pathways only.",
+      "seconds": 32.34
+    },
+    {
+      "case": "case_013",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Cigna adapter currently supports reviewed adult pathways only.",
+      "seconds": 35.2
+    },
+    {
+      "case": "case_014",
+      "completed": true,
+      "findings": 3,
+      "error": null,
+      "seconds": 317.3
+    },
+    {
+      "case": "case_015",
+      "completed": true,
+      "findings": 1,
+      "error": null,
+      "seconds": 356.36
+    },
+    {
+      "case": "case_016",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: No chunks matched the requested policy pathway. Review metadata and coverage details; no fallback was used.",
+      "seconds": 34.8
+    },
+    {
+      "case": "case_017",
+      "completed": true,
+      "findings": 4,
+      "error": null,
+      "seconds": 299.62
+    },
+    {
+      "case": "case_018",
+      "completed": false,
+      "findings": 0,
+      "error": "ValidationError: 1 validation error for list[Criterion]\n3.criterion_name\n  Field required [type=missing, input_value={'criterion Name': 'Conco...n Policy,' section III\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+      "seconds": 68.22
+    },
+    {
+      "case": "case_019",
+      "completed": true,
+      "findings": 4,
+      "error": null,
+      "seconds": 381.99
+    },
+    {
+      "case": "case_020",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: No chunks matched the requested policy pathway. Review metadata and coverage details; no fallback was used.",
+      "seconds": 30.26
+    },
+    {
+      "case": "case_021",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: Cigna adapter currently supports reviewed adult pathways only.",
+      "seconds": 28.58
+    },
+    {
+      "case": "case_022",
+      "completed": true,
+      "findings": 2,
+      "error": null,
+      "seconds": 353.65
+    },
+    {
+      "case": "case_023",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: UHC medication has not been validated for this adapter.",
+      "seconds": 24.64
+    },
+    {
+      "case": "case_024",
+      "completed": true,
+      "findings": 0,
+      "error": null,
+      "seconds": 219.03
+    },
+    {
+      "case": "case_025",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: UHC medication has not been validated for this adapter.",
+      "seconds": 27.91
+    },
+    {
+      "case": "case_026",
+      "completed": true,
+      "findings": 0,
+      "error": null,
+      "seconds": 334.11
+    },
+    {
+      "case": "case_027",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: UHC medication has not been validated for this adapter.",
+      "seconds": 27.36
+    },
+    {
+      "case": "case_028",
+      "completed": true,
+      "findings": 6,
+      "error": null,
+      "seconds": 340.75
+    },
+    {
+      "case": "case_029",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: UHC medication has not been validated for this adapter.",
+      "seconds": 25.8
+    },
+    {
+      "case": "case_030",
+      "completed": false,
+      "findings": 0,
+      "error": "PolicyRetrievalError: UHC medication has not been validated for this adapter.",
+      "seconds": 27.86
+    }
+  ]
+}

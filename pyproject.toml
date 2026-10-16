@@ -18,9 +18,24 @@ dependencies = [
     "langchain-text-splitters>=1.1.3",
     "langchain-huggingface>=1.2.3",
     "langchain-chroma>=1.1.0",
+    "fastapi[standard]>=0.143.0",
+    "uvicorn>=0.54.0",
 ]
 
 [dependency-groups]
 dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
+# Minimal runtime for the saved-results API (Docker image).
+# Installed with --only-group, which skips the inference dependencies above.
+api = [
+    "fastapi>=0.143.0",
+    "uvicorn>=0.54.0",
+]
+# API runtime plus test tooling for CI.
+api-test = [
+    { include-group = "api" },
+    "httpx>=0.28.1",
     "pytest>=9.1.1",
 ]

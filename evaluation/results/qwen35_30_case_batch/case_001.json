@@ -1,0 +1,38 @@
+{
+  "case_id": "case_001",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient has participated in a comprehensive weight management program that includes behavioral modification, reduced calorie diet, and increased physical activity [E2] [E3]. However, the requirement for 'continuing follow-up for at least 6 months prior to using drug therapy' is not fully satisfied due to missing documentation for sessions after April 2026 [E4] and the patient's weight has plateaued [E5]. The patient's baseline BMI is not explicitly documented in the provided evidence [E7]. The patient's age is satisfied as she is 52 years old [E1].",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E7",
+        "E1"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Comprehensive Weight Management Program'."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "However, the requirement for 'continuing follow-up for at least 6 months prior to using drug therapy' is not fully satisfied due to missing documentation for sessions after April 2026 [E4] and the patient's weight has plateaued [E5]",
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "The patient's baseline BMI is not explicitly documented in the provided evidence [E7]",
+      "evidence_ids": [
+        "E7"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 413.38
+}

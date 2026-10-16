@@ -1,0 +1,20 @@
+# Ignore everything by default
+**
+
+# Include dependency manifests (installed from uv.lock)
+!pyproject.toml
+!uv.lock
+
+# Include API source
+!src/
+!src/api.py
+
+# Include saved synthetic benchmark results (top-level JSON only;
+# previous_failed_runs/ stays excluded)
+!evaluation/
+!evaluation/results/
+!evaluation/results/qwen35_30_case_batch/
+!evaluation/results/qwen35_30_case_batch/*.json
+
+# Include Dockerfile
+!Dockerfile

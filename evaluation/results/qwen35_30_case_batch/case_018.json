@@ -1,0 +1,7 @@
+{
+  "case_id": "case_018",
+  "completed": false,
+  "error": "ValidationError: 1 validation error for list[Criterion]\n3.criterion_name\n  Field required [type=missing, input_value={'criterion Name': 'Conco...n Policy,' section III\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+  "findings": [],
+  "elapsed_seconds": 68.22
+}

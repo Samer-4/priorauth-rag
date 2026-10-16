@@ -1,0 +1,35 @@
+{
+  "case_id": "case_004",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient's baseline BMI is 34.6 kg/m\u00b2, which does not meet the policy requirement of a BMI greater than or equal to 35 kg/m\u00b2 [E8]. The patient has participated in a structured weight management program involving behavioral modification, diet, and increased physical activity for approximately 6 months prior to the initiation of drug therapy [E2] [E3]. However, the policy requires at least 6 months of program participation prior to using drug therapy, and the duration of the program is not explicitly documented as meeting this requirement [E3].",
+      "evidence_ids": [
+        "E8",
+        "E2",
+        "E3",
+        "E3"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Weight Management Program Participation'."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "The patient's baseline BMI is 34.6 kg/m\u00b2, which does not meet the policy requirement of a BMI greater than or equal to 35 kg/m\u00b2 [E8]",
+      "evidence_ids": [
+        "E8"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "However, the policy requires at least 6 months of program participation prior to using drug therapy, and the duration of the program is not explicitly documented as meeting this requirement [E3].",
+      "evidence_ids": [
+        "E3"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 309.7
+}

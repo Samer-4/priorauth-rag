@@ -1,0 +1,30 @@
+{
+  "case_id": "case_014",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "citation_coverage",
+      "claim": "The evidence supports that the patient has lost \u2265 5% of baseline body weight",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "numbers_and_dates",
+      "claim": "Additionally, the patient meets the age requirement of being \u2265 18 years old, as she is 36 years old [E1]",
+      "evidence_ids": [
+        "E1"
+      ],
+      "reason": "Clinical value '18' does not appear in the cited evidence."
+    },
+    {
+      "check_name": "numbers_and_dates",
+      "claim": "The patient also meets the baseline BMI requirement of \u2265 30 kg/m2, with a recorded BMI of 31.4 [E2]",
+      "evidence_ids": [
+        "E2"
+      ],
+      "reason": "Clinical value '30' does not appear in the cited evidence."
+    }
+  ],
+  "elapsed_seconds": 317.3
+}

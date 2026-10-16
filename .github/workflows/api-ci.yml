@@ -1,0 +1,65 @@
+# CI for the read-only saved-results API.
+# Uses saved benchmark JSON only: no live Qwen inference, GPU, secrets, or deployment.
+name: API CI
+
+on:
+  push:
+    branches:
+      - main
+      - feature/api-docker-ci
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  api-tests:
+    name: API tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.11.18"
+          python-version: "3.12"
+          enable-cache: true
+
+      # Installs only the api-test group from uv.lock; skips torch, CUDA, and
+      # the RAG/inference stack. --locked fails if uv.lock is stale.
+      - name: Install API test dependencies
+        run: uv sync --locked --only-group api-test
+
+      # --noconftest: tests/conftest.py imports langchain_core for RAG test
+      # fixtures, which the API tests do not use.
+      - name: Run API tests
+        run: uv run --no-sync python -m pytest tests/test_api.py -v --noconftest
+
+  docker:
+    name: Docker build and smoke test
+    runs-on: ubuntu-latest
+    needs: api-tests
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Build image
+        run: docker build -t priorauth-api .
+
+      - name: Run HTTP smoke tests
+        run: scripts/docker_smoke_test.sh priorauth-api 8000

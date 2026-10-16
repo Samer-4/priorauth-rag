@@ -1,0 +1,7 @@
+{
+  "case_id": "case_005",
+  "completed": false,
+  "error": "PolicyRetrievalError: aetna pathway matches 2 chunks, but verified source order is unavailable.",
+  "findings": [],
+  "elapsed_seconds": 32.19
+}

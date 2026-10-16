@@ -1,0 +1,46 @@
+{
+  "case_id": "case_002",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "citation_coverage",
+      "claim": "However, the evidence does not explicitly confirm a structured trial of behavioral modification and dietary restriction for at least 3 months",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient's age is 41, which satisfies the requirement that the patient is \u2265 18 years of age [E1]. The patient has been working with a nutritionist since March and is logging food most days, walking the dog most evenings, and has been to the gym 'maybe once a week, some weeks' [E2]. However, the evidence does not explicitly confirm a structured trial of behavioral modification and dietary restriction for at least 3 months. The patient's BMI is 31.5, which satisfies the baseline BMI requirement of \u2265 30 kg/m\u00b2 [E3]. The patient has dyslipidemia, which is a weight-related comorbidity, but there is no explicit documentation of baseline BMI \u2265 27 kg/m\u00b2 or baseline comorbidities [E5] [E6] [E7] [E8]. The patient is currently on a reduced-calorie diet and engaging in behavioral modification, which satisfies the requirement for concomitant use with behavioral modification and a reduced-calorie diet [E9] [E10].",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Behavioral Modification Trial'."
+    },
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient's age is 41, which satisfies the requirement that the patient is \u2265 18 years of age [E1]. The patient has been working with a nutritionist since March and is logging food most days, walking the dog most evenings, and has been to the gym 'maybe once a week, some weeks' [E2]. However, the evidence does not explicitly confirm a structured trial of behavioral modification and dietary restriction for at least 3 months. The patient's BMI is 31.5, which satisfies the baseline BMI requirement of \u2265 30 kg/m\u00b2 [E3]. The patient has dyslipidemia, which is a weight-related comorbidity, but there is no explicit documentation of baseline BMI \u2265 27 kg/m\u00b2 or baseline comorbidities [E5] [E6] [E7] [E8]. The patient is currently on a reduced-calorie diet and engaging in behavioral modification, which satisfies the requirement for concomitant use with behavioral modification and a reduced-calorie diet [E9] [E10].",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Comorbidity and BMI Requirement'."
+    }
+  ],
+  "elapsed_seconds": 429.54
+}

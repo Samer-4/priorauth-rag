@@ -1,0 +1,52 @@
+{
+  "case_id": "case_028",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "citation_coverage",
+      "claim": "The indication for Wegovy is weight loss, but the policy does not support this indication without meeting the BMI requirement or having MASH",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "citation_coverage",
+      "claim": "The evidence does not support the use of Wegovy for MASH",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "citation_coverage",
+      "claim": "The patient's BMI does not meet the requirement, and there is no evidence of MASH",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "citation_coverage",
+      "claim": "The evidence supports the use of Wegovy as an adjunct to lifestyle modification, which is one of the policy criteria, but the BMI requirement remains unmet.",
+      "evidence_ids": [],
+      "reason": "Clinical policy support sentence is missing an evidence citation."
+    },
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The policy requires a BMI \u2265 40 kg/m\u00b2 or Wegovy for MASH, but the patient's BMI is 36.3 kg/m\u00b2 [E6], which does not meet the threshold. However, the patient is using Wegovy as an adjunct to lifestyle modification, which includes dietary changes, exercise, and behavioral support [E3], [E4], [E5]. The patient's age is 46 years, which satisfies the age requirement for Wegovy injection [E2]. The indication for Wegovy is weight loss, but the policy does not support this indication without meeting the BMI requirement or having MASH. The evidence does not support the use of Wegovy for MASH. The patient's BMI does not meet the requirement, and there is no evidence of MASH. The evidence supports the use of Wegovy as an adjunct to lifestyle modification, which is one of the policy criteria, but the BMI requirement remains unmet.",
+      "evidence_ids": [
+        "E6",
+        "E3",
+        "E4",
+        "E5",
+        "E2"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Indication for Wegovy Injection or Tablet'."
+    },
+    {
+      "check_name": "semantic_support",
+      "claim": "The policy requires a BMI \u2265 40 kg/m\u00b2 or Wegovy for MASH, but the patient's BMI is 36.3 kg/m\u00b2 [E6], which does not meet the threshold",
+      "evidence_ids": [
+        "E6"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 340.75
+}

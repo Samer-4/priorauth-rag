@@ -1,0 +1,20 @@
+{
+  "case_id": "case_007",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "stage4_consistency",
+      "claim": "The patient meets the age requirement, as she is 55 years old [E1]. She has participated in a comprehensive weight management program that includes behavioral modification, reduced calorie diet, and increased physical activity for at least 6 months prior to the request for medication [E2] [E3]. The patient's baseline BMI is 36.4 kg/m\u00b2, which satisfies the requirement for a BMI greater than or equal to 35 kg/m\u00b2 [E4]. However, the requirement for documented trial and failure of at least two preferred anti-obesity agents (phentermine and naltrexone/bupropion) was not satisfied, as the evidence indicates no prescription weight-loss medication has been used [E5].",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "reason": "Stage 5 contradicts or overstates the Stage 4 judgment for criterion 'Documentation of Preferred Agents Trial'."
+    }
+  ],
+  "elapsed_seconds": 360.89
+}

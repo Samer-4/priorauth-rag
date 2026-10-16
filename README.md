@@ -52,6 +52,35 @@ The following pipeline stages have been implemented:
 
 The pipeline uses structured data models to pass information between stages, separating extraction, policy interpretation, evidence assessment, and generation.
 
+## Saved-Results API, Docker, and CI
+
+A read-only FastAPI service (`src/api.py`) serves saved benchmark results from `evaluation/results/qwen35_30_case_batch/`. It does not run the pipeline or any model inference. The benchmark cases are synthetic test data.
+
+| Endpoint | Returns |
+|---|---|
+| `GET /health` | Service status |
+| `GET /cases` | Summary results for all 30 benchmark cases |
+| `GET /cases/{case_id}` | One case summary (`001` or `case_001`) |
+| `GET /cases/{case_id}/findings` | Stage 6 verification findings for one case |
+
+Run the API tests locally:
+
+    uv run python -m pytest tests/test_api.py -v
+
+Build and smoke-test the container:
+
+    docker build -t priorauth-api .
+    scripts/docker_smoke_test.sh priorauth-api 8000
+
+The image installs only the `api` dependency group at the versions pinned in `uv.lock`, on digest-pinned base images. It does not include PyTorch, CUDA, or the RAG stack.
+
+The GitHub Actions workflow (`.github/workflows/api-ci.yml`) runs on pushes to `main` and `feature/api-docker-ci`, on pull requests to `main`, and on manual dispatch. It:
+
+1. Installs the lightweight `api-test` dependency group from `uv.lock` (`uv sync --locked --only-group api-test`) and runs `tests/test_api.py`.
+2. Builds the Docker image and runs HTTP smoke tests against the running container.
+
+CI uses no secrets, GPU, live inference, or deployment.
+
 ## Technology Stack
 
 ### Currently Implemented
@@ -210,7 +239,9 @@ Acceptance criteria will determine whether the system returns a draft, retries a
 
 ### Phase 6: Containerization and Deployment
 
-**Status: Planned**
+**Status: In Progress**
+
+Implemented so far: a read-only FastAPI service for saved benchmark results, a Docker image for that API, pytest API regression tests, and GitHub Actions CI (tests, image build, container smoke tests). The items below that are not in this list, including case submission and cloud deployment, are still planned.
 
 Package the application into a reproducible, testable environment.
 
@@ -265,7 +296,7 @@ The emphasis is on modular AI engineering, retrieval quality, controlled agentic
 - The current policy lookup implementation is not yet a full RAG system.
 - LangChain and LangGraph integrations are planned.
 - Automated verification and systematic end-to-end evaluation are not yet complete.
-- Containerization and deployment infrastructure are planned.
+- The Docker image and CI cover only the read-only saved-results API, not the inference pipeline. Cloud deployment is planned.
 - Generated appeals require human review before use.
 
 This is an educational and applied AI engineering prototype. It is not a clinically validated system and should not be used for autonomous medical, insurance, or coverage decisions.

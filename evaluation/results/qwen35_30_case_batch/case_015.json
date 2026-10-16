@@ -1,0 +1,17 @@
+{
+  "case_id": "case_015",
+  "completed": true,
+  "error": null,
+  "findings": [
+    {
+      "check_name": "semantic_support",
+      "claim": "However, the requirement for concomitant behavioral modification and a reduced-calorie diet is only partially satisfied, as the evidence confirms the patient is engaged in daily walking but does not explicitly state that the diet is 'reduced-calorie' [E4] [E9].",
+      "evidence_ids": [
+        "E4",
+        "E9"
+      ],
+      "reason": "The cited evidence does not support the clinical claim."
+    }
+  ],
+  "elapsed_seconds": 356.36
+}
